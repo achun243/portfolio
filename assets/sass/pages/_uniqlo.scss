@@ -1,0 +1,407 @@
+@charset "utf-8";
+@use "sass:math";
+
+.uniqlo {
+
+    .visual {
+        background: url(../image/bgsub7.png) repeat 0 0 / auto;
+        color: $color-white;
+    }
+
+    .overview {
+        .logo {
+            max-width: rem(120px);
+            width: 100%;
+            aspect-ratio: 1 / 1;
+
+            @include media-max(xl) {
+                max-width: 10%;
+            }
+
+            @include media-max(lg) {
+                max-width: 14%;
+            }
+
+            @include media-max(md) {
+                max-width: 18%;
+            }
+
+            @include media-max(xsm) {
+                max-width: 20%;
+            }
+        }
+    }
+
+    .intro {
+        background: url(../image/sub07/sec2-img.jpg) no-repeat center center / cover;
+
+        .img-wrp {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            aspect-ratio: 128 / 35;
+            gap: rem(18px);
+
+            @include media-max(xl) {
+                padding: rem(120px) 0;
+                gap: rem(8px);
+            }
+
+            @include media-max(sm) {
+                padding: rem(72px) 0;
+            }
+
+            .font-uq-bd {
+                font-size: rem(56px);
+
+                @include media-max(xl) {
+                    font-size: rem(40px);
+                }
+
+                @include media-max(sm) {
+                    font-size: rem(28px);
+                }
+            }
+
+            p {
+                @include media-max(xl) {
+                    font-size: rem(14px);
+                }
+
+                @include media-max(sm) {
+                    font-size: rem(12px);
+                }
+            }
+        }
+    }
+
+    .siteview {
+
+        .wrp {
+            display: flex;
+            flex-direction: column;
+            row-gap: rem(200px);
+
+            @include media-max(lg) {
+                row-gap: rem(160px);
+            }
+
+            @include media-max(sm) {
+                row-gap: rem(120px);
+            }
+        }
+
+        .site-box {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            column-gap: rem(56px);
+
+            @include media-max(xl) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: rem(180px);
+
+                @include media-max(sm) {
+                    height: rem(100px);
+                }
+            }
+
+            .site-list {
+                flex: 1;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: rem(8px);
+                max-width: rem(1054px);
+                width: 100%;
+
+                @include media-max(md) {
+                    grid-template-columns: repeat(1, 1fr);
+                    max-width: unset;
+                }
+
+                .site-wrp {
+                    max-width: rem(523px);
+                    aspect-ratio: 523/ 180;
+
+                    &:hover .site, &.active .site {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+
+                    @include media-max(md) {
+                        aspect-ratio: 2 / 1;
+                        max-width: unset;
+                    }
+                }
+
+                &.jamsil {
+                    .site-wrp {
+                        &-1 {
+                            background: url(../image/sub07/jamsil-archive.png) no-repeat center center / cover;
+                        }
+
+                        &-2 {
+                            background: url(../image/sub07/jamsil-pg.png) no-repeat center 33% / cover;
+                        }
+
+                        &-3 {
+                            background: url(../image/sub07/jamsil-history.png) no-repeat center center / cover;
+                        }
+
+                        &-4 {
+                            background: url(../image/sub07/jamsil-store.png) no-repeat center 0 / cover;
+                        }
+
+                        &-5 {
+                            background: url(../image/sub07/jamsil-UTme.png) no-repeat center 0 / cover;
+                        }
+                    }
+                }
+
+                &.deagu {
+                    .site-wrp {
+                        &-1 {
+                            background: url(../image/sub07/deagu-people.png) no-repeat center center / cover;
+                        }
+
+                        &-2 {
+                            background: url(../image/sub07/deagu-lifewear.png) no-repeat center 0 / cover;
+                        }
+
+                        &-3 {
+                            background: url(../image/sub07/deagu-essay.png) no-repeat center 0 / cover;
+                        }
+
+                        &-4 {
+                            background: url(../image/sub07/deagu-news.png) no-repeat center center / cover;
+                        }
+
+                        &-5 {
+                            background: url(../image/sub07/deagu-utme.png) no-repeat center center / cover;
+                        }
+                    }
+                }
+
+                &.jeju {
+                    .site-wrp {
+                        &-1 {
+                            background: url(../image/sub07/jeju-people.png) no-repeat center center / cover;
+                        }
+
+                        &-2 {
+                            background: url(../image/sub07/jeju-taste.png) no-repeat center center / cover;
+                        }
+
+                        &-3 {
+                            background: url(../image/sub07/jeju-staff.png) no-repeat center 40% / cover;
+                        }
+
+                        &-4 {
+                            background: url(../image/sub07/jeju-utme.png) no-repeat center center / cover;
+                        }
+
+                    }
+                }
+
+                .site {
+                    display: flex;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all .2s ease-in-out;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    gap: rem(24px);
+                    color: $color-white;
+                    background-color: rgba(0, 0, 0, .5);
+
+                    @include media-max(md) {
+                        padding: rem(48px);
+                        gap: rem(48px);
+                    }
+
+                    @include media-max(sm) {
+                        gap: rem(32px);
+                    }
+                }
+
+                .font-uq-bd {
+                    font-size: rem(32px);
+
+                    @include media-max(md) {
+                        font-size: rem(28px);
+                    }
+
+                    @include media-max(sm) {
+                        font-size: rem(24px);
+                    }
+                }
+
+                .site-btn-wht {
+
+                    @include media-max(md) {
+                        gap: rem(14px);
+                    }
+
+                    color: rgba(255, 255, 255, 1);
+
+                    .ico-plus-sm {
+                        background-color: rgba(255, 255, 255, 1);
+                    }
+                }
+            }
+
+        }
+    }
+
+    .workflow {
+        .desc {
+            max-width: rem(940px);
+            width: 100%;
+        }
+
+        .layout-wrp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: rem(72px);
+            font-size: rem(20px);
+
+                @include media-max(md) {
+                    row-gap: rem(48px);
+                }
+
+                @include media-max(sm) {
+                    row-gap: rem(32px);
+                }
+
+            .ico-plus {
+                width: rem(40px);
+                height: rem(40px);
+                background-image: url(../image/sub07/ico-uq-multi.svg);
+
+                @include media-max(md) {
+                    width: rem(32px);
+                    height: rem(32px);
+                }
+
+                @include media-max(sm) {
+                    width: rem(24px);
+                    height: rem(24px);
+                }
+            }
+
+            .ico-star {
+                width: rem(50px);
+                height: rem(50px);
+                background-image: url(../image/sub07/ico-uq-star.svg);
+
+                @include media-max(md) {
+                    width: rem(40px);
+                    height: rem(40px);
+                }
+
+                @include media-max(sm) {
+                    width: rem(32px);
+                    height: rem(32px);
+                }
+            }
+        }
+
+        .circle-wrp {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            column-gap: rem(32px);
+            width: 100%;
+
+            @include media-max(sm) {
+                flex-direction: column;
+                gap: rem(18px);
+            }
+        }
+
+        .circle {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: rem(280px);
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            text-align: center;
+            border: 1px solid #990D0D;
+            border-radius: 999em;
+
+            &-red {
+                background: #990D0D;
+                color: $color-white;
+            }
+
+            @include media-max(lg) {
+                max-width: rem(220px);
+            }
+        }
+
+        .box-wrp {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: rem(32px);
+            max-width: rem(320px);
+            width: 100%;
+            text-align: center;
+
+            .box {
+                display: inline-block;
+                background: #fff;
+                padding: rem(28px) 0;
+                border-radius: rem(28px);
+                width: 100%;
+            }
+
+            @include media-max(lg) {
+                max-width: rem(280px);
+                gap: rem(18px);
+
+                .box {
+                    padding: rem(20px) 0;
+                }
+            }
+        }
+
+        .box-red {
+            padding: rem(32px);
+            max-width: rem(680px);
+            width: 100%;
+            text-align: center;
+            background: #ED1D24;
+            border-radius: rem(28px);
+            color: $color-white;
+            font-weight: 500;
+            font-size: rem(20px);
+            word-break: keep-all;
+        }
+
+    }
+
+}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+@use "sass:math";
+
+.soso {
+
+    .visual {
+        background: url(../image/bgsub9.png) repeat 0 0 / auto;
+        color: $color-white;
+    }
+
+    .overview {
+        .logo {
+            max-width: rem(200px);
+            width: 100%;
+            aspect-ratio: 20 / 13;
+
+            @include media-max(xl) {
+                max-width: 20%;
+            }
+
+            @include media-max(md) {
+                max-width: 30%;
+            }
+        }
+    }
+
+    .bubble-box {
+        display: flex;
+        flex-direction: column;
+        gap: rem(36px);
+
+        .bubble-wrp {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .bubble {
+                position: relative;
+                max-width: rem(840px);
+                padding: rem(24px) rem(32px);
+                background: #fff;
+                border-radius: rem(20px);
+                line-height: 1.5;
+                z-index: 2;
+            }
+
+            &::before {
+                content: "";
+                position: relative;
+                display: inline-block;
+                width: rem(28px);
+                height: rem(28px);
+                background: url(../image/sub09/bubble-tail.svg) no-repeat center center / contain;
+                margin-right: rem(-8px);
+                z-index: 1;
+            }
+
+            &-ylw {
+                justify-content: flex-end;
+
+                .bubble {
+                    background: #FFED2C;
+                }
+
+                &::before {
+                    display: none;
+                }
+
+                &::after {
+                    content: "";
+                    position: relative;
+                    display: inline-block;
+                    width: rem(28px);
+                    height: rem(28px);
+                    background: url(../image/sub09/bubble-tail-ylw.svg) no-repeat center center / contain;
+                    margin-left: rem(-8px);
+                    z-index: 1;
+                }
+            }
+        }
+
+        @include media-max(xl) {
+            .bubble-wrp {
+                .bubble {
+                    max-width: 80%;
+                }
+            }
+        }
+
+        @include media-max(sm) {
+            gap: rem(28px);
+
+            .bubble-wrp {
+                .bubble {
+                    padding: rem(16) rem(20px);
+                    font-size: rem(14px);
+                }
+
+                &::before {
+                    width: rem(18px);
+                    height: rem(18px);
+                }
+
+                &-ylw {
+                    &::after {
+                        width: rem(18px);
+                        height: rem(18px);
+                    }
+                }
+            }
+        }
+    }
+
+    .symbol-wrp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: rem(56px);
+
+        .symbol {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: rem(24px);
+            white-space: nowrap;
+
+            .img-wrp {
+                height: rem(120px);
+                padding: rem(20px);
+            }
+        }
+
+        @include media-max(lg) {
+            gap: rem(32px);
+
+            .symbol {
+                gap: rem(16px);
+            }
+        }
+
+        @include media-max(md) {
+            gap: rem(24px);
+
+            .symbol {
+                font-size: rem(12px);
+                gap: rem(12px);
+
+                .img-wrp {
+                    height: rem(50px);
+                    padding: rem(4px);
+                }
+            }
+        }
+
+        @include media-max(xsm) {
+            gap: rem(12px);
+
+            .symbol {
+                font-size: rem(8px);
+
+                .img-wrp {
+                    height: rem(36px);
+                    padding: rem(2px);
+                }
+            }
+        }
+
+        .ico-plus-sm {
+            background: #17191B;
+
+            @include media-max(lg) {
+                width: rem(18px);
+                height: rem(18px);
+            }
+
+            @include media-max(sm) {
+                width: rem(12px);
+                height: rem(12px);
+            }
+        }
+    }
+
+    .brand-logo {
+        .flex-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: rem(32px);
+
+            @include media-max(md) {
+                gap: rem(16px);
+            }
+        }
+
+        .img-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: rem(8px);
+
+            @include media-max(md) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .design-prev {
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(8px);
+
+        .img-wrp {
+            aspect-ratio: 2 / 1;
+            width: 100%;
+        }
+
+        .flex-box {
+            display: flex;
+            gap: rem(8px);
+
+            .img-wrp {
+                flex: 1;
+                aspect-ratio: 1 / 1;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,375 @@
+@charset "utf-8";
+@use "sass:math";
+
+body {
+    &::before {
+        content: "";
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: url(../image/bgmain.png) repeat 0 0 / auto;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    main {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    border-bottom: 1px solid $color-primary;
+    text-shadow: 1px 1px 0px #FF2045, 1px 1px 0px #291CDB;
+    top: 0;
+    z-index: 100;
+
+    .top-bar {
+        position: relative;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        .btn-close {
+            position: absolute;
+            padding: 0;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+    }
+
+    @include media-max(lg) {
+        font-size: 16px;
+    }
+
+    @include media-max(sm) {
+        .top-bar {
+            padding-top: rem(6px);
+            padding-bottom: rem(6px);
+        }
+    }
+}
+
+.wrp {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-wrp {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sec {
+    z-index: 1;
+}
+
+.desc {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.ico {
+
+    &-plus {
+        display: inline-block;
+        width: rem(50px);
+        height: rem(50px);
+        background: url(../image/ico-plus.svg) no-repeat left center / contain;
+        vertical-align: top;
+
+        &-wht {
+            background: url(../image/ico-plus-wht.svg) no-repeat left center / contain;
+        }
+
+        &-2 {
+            background: url(../image/ico-plus-sub2.svg) no-repeat left center / contain;
+        }
+
+        &-4 {
+            background: url(../image/ico-plus-sub4.svg) no-repeat left center / contain;
+        }
+
+        &-6 {
+            background: url(../image/ico-plus-sub6.svg) no-repeat left center / contain;
+        }
+
+        &-sm {
+            width: rem(14px);
+            height: rem(14px);
+            mask: url(../image/ico-plus-sm.svg) no-repeat center / contain;
+            -webkit-mask: url(../image/ico-plus-sm.svg) no-repeat center / contain;
+        }
+
+        @include media-max(lg) {
+            width: rem(36px);
+            height: rem(36px);
+        }
+
+        @include media-max(xsm) {
+            width: rem(24px);
+            height: rem(24px);
+        }
+    }
+
+    &-obj {
+        display: inline-block;
+        width: rem(50px);
+        height: rem(50px);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        background-image: url(../image/ico-obj-wht.svg);
+        vertical-align: top;
+
+        &-1 {
+            background-image: url(../image/ico-obj-sub1.svg);
+        }
+
+        &-2 {
+            background-image: url(../image/ico-obj-sub2.svg);
+        }
+
+        &-3 {
+            background-image: url(../image/ico-obj-sub3.svg);
+        }
+
+        &-4 {
+            background-image: url(../image/ico-obj-sub4.svg);
+        }
+
+        &-5 {
+            background-image: url(../image/ico-obj-sub5.svg);
+        }
+
+        &-6 {
+            background-image: url(../image/ico-obj-sub6.svg);
+        }
+
+        &-7 {
+            background-image: url(../image/ico-obj-sub7.svg);
+        }
+
+        &-8 {
+            background-image: url(../image/ico-obj-sub8.svg);
+        }
+
+        &-9 {
+            background-image: url(../image/ico-obj-sub9.svg);
+        }
+
+        @include media-max(lg) {
+            width: rem(40px);
+            height: rem(40px);
+        }
+
+        @include media-max(xsm) {
+            width: rem(32px);
+            height: rem(32px);
+        }
+    }
+
+}
+
+.none {
+    display: none;
+
+    @include media-max(md) {
+        display: block;
+    }
+}
+
+@keyframes cloud-move {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(15px); }
+    100% { transform: translateY(-10px); }
+}
+
+.cloud {
+    animation: cloud-move 3s ease-in-out infinite;
+}
+
+.btn-wrp {
+    display: block;
+    text-align: center;
+}
+
+.view-btn {
+    font-size: rem(20px);
+    position: relative;
+    display: inline-block;
+    color: $color-white-40;
+    transition: all .3s ease-in-out;
+
+    &::before {
+        content: "";
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        width: 20px;
+        height: 20px;
+        background: url(../image/ico-obj-wht.svg) no-repeat center center / contain;
+        pointer-events: none;
+        left: -60px;
+        top: -1px;
+        transition: all .3s ease-in-out;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        width: 20px;
+        height: 20px;
+        background: url(../image/ico-obj-wht.svg) no-repeat center center / contain;
+        pointer-events: none;
+        right: -60px;
+        top: -1px;
+        transition: all .3s ease-in-out;
+    }
+
+    &:hover, &:focus {
+        color: $color-white;
+        &::before { content: ""; opacity: 1; visibility: visible; }
+        &::after { content: ""; opacity: 1; visibility: visible; }
+    }
+
+    @include media-max(lg) {
+        font-size: rem(18px);
+
+        &::before, &::after {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    @include media-max(sm) {
+        font-size: rem(16px);
+
+        &::before, &::after {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+}
+
+.site-btn {
+    font-size: rem(20px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: rem(16px);
+    color: rgba($color-primary, .6);
+    transition: all .1s ease-in-out;
+
+    .ico-plus-sm {
+        display: inline-block;
+        width: rem(20px);
+        height: rem(20px);
+        background-color: rgba($color-primary, .6);
+        mask: url(../image/ico-plus-sm.svg) no-repeat center / contain;
+        -webkit-mask: url(../image/ico-plus-sm.svg) no-repeat center / contain;
+    }
+
+    &:hover, &:focus {
+        color: rgba($color-primary, 1);
+
+        .ico-plus-sm {
+            background-color: rgba($color-primary, 1);
+        }
+    }
+
+    @include media-max(lg) {
+        font-size: rem(18px);
+
+        .ico-plus-sm {
+            width: rem(16px);
+            height: rem(16px);
+        }
+    }
+
+    @include media-max(sm) {
+        font-size: rem(16px);
+
+        .ico-plus-sm {
+            width: rem(14px);
+            height: rem(14px);
+        }
+    }
+
+
+    &-wht {
+        color: rgba($color-white, .6);
+
+        .ico-plus-sm {
+            background-color: rgba($color-white, .6);
+            mask: url(../image/ico-plus-sm-wht.svg) no-repeat center / contain;
+            -webkit-mask: url(../image/ico-plus-sm-wht.svg) no-repeat center / contain;
+        }
+
+        &:hover, &:focus {
+            color: rgba($color-white, 1);
+
+            .ico-plus-sm {
+                background-color: rgba($color-white, 1);
+            }
+        }
+        
+    }
+}
+
+.ft-bar {
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    bottom: 0;
+    z-index: 100;
+    background: transparent;
+
+    .border-wrp {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 0 4px;
+        font-size: 14px;
+        line-height: 1.2;
+        color: $color-primary-40;
+        border-top: 1px solid $color-primary;
+        vertical-align: middle;
+    }
+
+    @include media-max(lg) {
+        padding: 0 12px;
+    }
+
+    @include media-max(sm) {
+        padding: 0 4px;
+
+        .border-wrp {
+            font-size: 10px;
+            flex-direction: column;
+            line-height: 1.3;
+        }
+    }
+
+}

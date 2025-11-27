@@ -1,0 +1,17 @@
+@use "sass:math";
+
+@mixin media-min($breakpoints) {
+    $min: map-get($grid-breakpoints, $breakpoints);
+
+    @media (min-width: $min) {
+        @content;
+    }
+}
+
+@mixin media-max($breakpoints) {
+    $max: map-get($grid-breakpoints, $breakpoints);
+
+    @media (max-width: $max) {
+        @content;
+    }
+}
