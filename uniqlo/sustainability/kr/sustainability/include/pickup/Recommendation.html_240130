@@ -1,0 +1,65 @@
+<section class="pickupContents">
+    <h2 class="pickupContents_ttl u-align-center">Recommended Contents</h2>
+    <ul class="pickupList">
+      <li class="pickupList_item">
+        <a class="pickupList_itemInner track_click ga_cat-sustainability ga_act-Newest-recycle_pet-230301" href="/kr/sustainability/planet/products/material/recycle">
+          <img class="pickupList_itemImg" src="/kr/sustainability/cmn/img/Commonlyseen/made_from_recycles_materials.jpg" alt="페트병을 재활용한 옷">
+          <div class="pickupList_itemTxt">
+            <div>
+              <h3 class="pickup_ttl">리사이클 소재를 사용한 옷</h3>
+              <p class="pickup_txt">리사이클 기술의 발전과 함께 리사이클 소재의 활용도 확장되고 있습니다. 유니클로 제품 라인업에서 리사이클 소재가 활용된 옷 관련한 자세한 사항은 제품의 가격 태그, 패키지, 케어라벨을 통해 확인하십시오.</p>
+            </div>
+            <div class="pickup_link u-align-right">
+              <p class="pickup_linkInner">Read More
+              </p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="pickupList_item">
+        <a class="pickupList_itemInner track_click ga_cat-sustainability ga_act-Recommendation-bluecyclejeans-220209" href="/kr/sustainability/planet/products/bluecyclejeans/">
+          <img class="pickupList_itemImg" src="/jp/en/contents/sustainability/cmn/img/Recommendation/bluecyclejeans.png" alt="BLUE CYCLE JEANS">
+          <div class="pickupList_itemTxt">
+            <div>
+              <h3 class="pickup_ttl">BLUE CYCLE JEANS </h3>
+              <p class="pickup_txt">유니클로는 지구의 미래를 위해 지속가능한 진을 만듭니다.</p>
+            </div>
+            <div class="pickup_link u-align-right">
+              <p class="pickup_linkInner">Read More
+              </p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="pickupList_item">
+        <a class="pickupList_itemInner track_click ga_cat-sustainability ga_act-Recommendation-gender-220209" href="/kr/sustainability/people/diversity/gender/">
+          <img class="pickupList_itemImg" src="/jp/en/contents/sustainability/cmn/img/Recommendation/article_gender.jpg" alt="GENDER">
+          <div class="pickupList_itemTxt">
+            <div>
+              <h3 class="pickup_ttl">여성 활약 지원</h3>
+              <p class="pickup_txt">모든 여성들은 자유롭게 꿈꾸며 새로운 내일을 만들어 갈 수 있어야 합니다.</p>
+            </div>
+            <div class="pickup_link u-align-right">
+              <p class="pickup_linkInner">Read More
+              </p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="pickupList_item">
+        <a class="pickupList_itemInner track_click ga_cat-sustainability ga_act-Recommendation-re-uniqlo-220209" href="/kr/sustainability/planet/clothes_recycling/re-uniqlo/">
+          <img class="pickupList_itemImg" src="/jp/en/contents/sustainability/cmn/img/Recommendation/article_reuniqlo.jpg" alt="RE.UNIQLO">
+          <div class="pickupList_itemTxt">
+            <div>
+              <h3 class="pickup_ttl">RE.UNIQLO</h3>
+              <p class="pickup_txt">오래된 옷으로 더 나은 미래를 만들 수 있을까요? 유니클로는 옷을 통해 더 행복한 미래를 만들 수 있다는 믿음으로 모든 유니클로 제품에 대해 'RE.UNIQLO' 프로그램을 진행하고 있습니다.</p>
+            </div>
+            <div class="pickup_link u-align-right">
+              <p class="pickup_linkInner">Read More
+              </p>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>

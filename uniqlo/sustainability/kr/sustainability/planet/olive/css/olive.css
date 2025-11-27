@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#wrapper{
+    background-color: #f2f2f2;
+}
+
+@media (min-width: 813px){
+#wrapper .container .mainContents {
+    max-width: 1176px;
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 813px) and (max-width: 1370px){
+#wrapper .container .mainContents {
+    margin: 0 0 0 0;
+    }
+}
+
+@media (min-width: 813px){
+.mainContents.layer3 .main .slideHeader {
+    width: 536px;
+    }
+}
+
+@media (min-width: 813px){
+#main_visual {
+    max-width: 1176px;
+    width: 100%;
+}
+}
+

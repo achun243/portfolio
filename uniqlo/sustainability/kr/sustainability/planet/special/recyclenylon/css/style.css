@@ -1,0 +1,223 @@
+@charset 'utf-8';
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#recyclenylon .section{
+    margin-top: 90px;
+}
+#recyclenylon .inlineblock{
+    display: inline-block;
+}
+.shareIcons a img{
+    transition: .3s linear;
+}
+#recyclenylon a.hover_link:hover,
+#recyclenylon a.hover_link:hover > *,.shareIcons a img:hover{
+    opacity: 0.7;
+    transition: .3s linear;
+}
+.dotsFrame:hover svg rect, .pagetop:hover svg rect, a:hover svg rect{
+    stroke: #ccc;
+}
+#recyclenylon .text_left{
+    text-align-last: left;
+}
+#recyclenylon .text_right{
+    text-align: right;
+}
+#recyclenylon .text_center{
+    text-align: center;
+}
+#recyclenylon .block_center{
+    display: block;
+    margin: auto;
+}
+#recyclenylon .note_text{
+    font-size: 80%;
+    color: #9b9b9b;
+    margin-top: 30px;
+}
+
+/* cover */
+
+#recyclenylon .cover .cover_img{
+    position: relative;
+    width: 960px;
+    height: 480px;
+}
+
+
+/* flow */
+
+#recyclenylon .flow .flow_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin-top: 55px;
+}
+
+/* use-rate */
+#recyclenylon .use-rate {
+    border: solid 5px #009b46;
+    margin-top: 100px;
+    text-align: center;
+    padding: 0 130px 30px;
+    margin-bottom: 100px;
+}
+#recyclenylon .use-rate .title_2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin-top: -27px;
+}
+#recyclenylon .use-rate .title_2 span{
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+}
+#recyclenylon .use-rate h3{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin: 30px 0 25px;
+    transition: .3s linear;
+}
+#recyclenylon  a:hover .use-rate{
+    opacity: 0.7;
+    transition: .3s linear;
+}
+#recyclenylon .use-rate h3::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    background: #009b46;
+}
+#recyclenylon .use-rate h3 span{
+    font-size: 70%;
+    position: absolute;
+    right: 0;
+    bottom: -27px;
+}
+#recyclenylon .use-rate .item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#recyclenylon .use-rate .item img{
+    max-width: 220px;
+}
+#recyclenylon .use-rate .item p{
+    margin-top: 15px;
+}
+
+
+@media (min-width: 768px){
+    #recyclenylon .sp_display{
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    #recyclenylon .pc_display{
+        display: none;
+    }
+    #recyclenylon .section{
+        margin-top: 45px;
+        width: 94vw;
+    }
+
+    #recyclenylon .section img{
+        width: 100%;
+    }
+    #recyclenylon .pd_text{
+        margin-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* cover */
+
+    #recyclenylon .cover{
+        width: 94vw;
+    }
+    #recyclenylon .cover .cover_img, #recyclenylon .cover .cover_img img{
+        width: 100%;
+        height: auto;
+    }
+    #recyclenylon .cover .lead{
+        color: #6a6a6a;
+        letter-spacing: 2;
+        line-height: 1.6;
+        padding-top: 30px;
+    }
+
+    #recyclenylon .flow{
+        margin-top: 60px;
+    }
+    #recyclenylon .flow .flow_text{
+        text-align: left;
+        margin-top: 45px;
+        font-size: 17px;
+    }
+
+    #recyclenylon .use-rate{
+        padding: 30px 10px;
+        margin-top: 120px;
+        margin-bottom: 88px;
+    }
+    #recyclenylon .use-rate .title_2{
+        font-size: 22px;
+        margin-top: -52px;
+        margin-bottom: 20px;
+    }
+
+    #recyclenylon .use-rate h3{
+        font-size: 17px;
+    }
+    #recyclenylon .use-rate .item{
+        display: block;
+    }
+    #recyclenylon .use-rate .item div{
+        margin-bottom: 40px;
+    }
+    #recyclenylon .use-rate h3{
+        margin: 30px 0 60px;
+    }
+
+}
+
+@media (max-width: 364px){
+    #recyclenylon .use-rate .title_2 span{
+        font-size: 6vw;
+        padding: 0 1vw;
+    }
+}
+
+
+.shareIcons{
+    text-align: right;
+}
+.shareIcons li{
+    display: inline-block;
+    padding: 10px 5px !important;
+}

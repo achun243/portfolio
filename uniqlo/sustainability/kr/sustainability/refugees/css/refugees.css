@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+body {
+	font-family: "Uniqlo Pro bold", Helvetica, Arial, "A-OTF 新ゴ R", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+}
+
+#mainCont .unchrArea {
+	width: 720px;
+	height: 140px;
+	margin-bottom: 40px;
+	padding: 10px 9px;
+	background-color: #ececec;
+	box-sizing: border-box;
+}
+
+#mainCont .logoArea, .textLeft {
+	float: left;
+	padding-left: 10px;
+}
+
+#mainCont .unchrArea .textRight span {
+	margin-left: -8px;
+}
+
+#mainCont p.refugees_comment {
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+/*---------------- bannerArea ----------------*/
+#mainCont .performance_wrapper {
+	margin-top: 29px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mainCont .performance_wrapper .contAbove {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#mainCont .performance_wrapper .contBelow {
+	overflow: hidden;
+}
+
+#mainCont p.performance_title {
+	font-size: 20px;
+	border-bottom: 1px solid #000;
+	width: 311px;
+	line-height: 1.2;
+	padding-bottom: 4px;
+}
+
+#mainCont p.performance_number {
+	font-size: 60px;
+	font-family: "Uniqlo Pro Regular", sans-serif;
+	color: #7f7f7f;
+	margin-top: -18px;
+}
+
+#mainCont p.performance_number span {
+	font-size: 30px;
+	font-family: "A-OTF 新ゴ Pro", sans-serif;
+	margin-left: 4px;
+}
+
+#mainCont .performance_comment {
+	margin-top: -20px;
+	letter-spacing: -0.04em;
+}
+#mainCont .performance_comment2 {
+	margin-top: -26px;
+	letter-spacing: -0.04em;
+}
+
+#mainCont .contBelow .contL .performance_number {
+	color: #c00000;
+}
+
+#mainCont .contBelow .contR .performance_number {
+	color: #0070c0;
+}
+
+/*---------------- unchrArea ----------------*/
+#mainCont .unchrArea p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mainCont .unchrArea .textLeft p img {
+	position: relative;
+	top: 4px;
+	margin-right: 7px;
+}
+
+#mainCont .unchrArea p a {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+#mainCont .textLeft {
+	margin-left: 9px;
+}
+
+#mainCont .textRight {
+	float: right;
+	margin-right: 35px;
+}
+
+#mainCont .textRight img {
+	position: relative;
+	left: 0;
+	top: 4px;
+}
+
+#mainCont .unchrArea .textRight p:nth-child(1) {
+	font-size: 16px;
+}
+
+#mainCont .unchrArea .textRight a {
+	color: #000;
+	font-weight: bold;
+}
+
+#mainCont .unchrArea .textRight_img_02 {
+	margin-right: 8px;
+}
+
+/*---------------- refugeesArea ----------------*/
+
+#top #mainCont .contR {
+	width: 337px;
+}
+
+#top #mainCont .section h3 {
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+#mainCont .refugees_wrapper {
+	overflow: hidden;
+}
+
+#mainCont .refugees_wrapper .cont_title {
+	font-weight: bold;
+	letter-spacing: -0.04em;
+}
+
+#mainCont .refugees_wrapper .cont_title span {
+	font-size: 27px;
+}
+
+#mainCont .activity_comment {
+	margin-bottom: 10px;
+}
+
+#mainCont .activity_report a {
+	color: #333;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#mainCont .activity_report a:hover {
+	text-decoration: none;
+}
+
+#mainCont .textArea {
+	width: 349px;
+	height: 73px;
+	background-color: #ececec;
+	font-weight: bold;
+}
+
+#mainCont .refugeesArea .textLeft {
+	margin-top: 6px;
+	margin-left: 16px;
+}
+
+#mainCont .refugeesArea .textRight {
+	margin-top: 6px;
+	position: relative;
+	right: 100px;
+}
+/*---------------- overseas_refugeesArea ----------------*/
+
+#mainCont .overseas_refugeesArea p a img {
+	position: relative;
+	left: 0;
+	top: 4px;
+	margin-right: 5px;
+}
+
+#mainCont .overseas_refugeesArea p a {
+	color: #000;
+}
+
+#mainCont .overseas_refugees_wrapper {
+	overflow: hidden;
+}
+
+#mainCont .overseas_refugees_wrapper p a {
+	color: #f00;
+}
+
+#mainCont .overseas_refugees_wrapper .cont_title {
+	font-weight: bold;
+	letter-spacing: -0.04em;
+}
+
+#mainCont .overseas_refugees_wrapper .cont_title span {
+	font-size: 27px;
+}
+
+#mainCont .inner .pgh img {
+	margin-bottom: 30px;
+}
+.text_indent{
+    padding-left: 22px;
+    text-indent: -22px;
+    }

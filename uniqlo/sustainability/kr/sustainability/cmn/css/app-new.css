@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* 기존 css */
+@import url("/kr/sustainability/cmn/css/app.css");
+/* new  */
+@import url("/kr/sustainability/cmn/css/header_footer.css"); /* 글로벌에서 추출  */
+
+
+/* 기존 css 수정  */
+body{background-color: #fff}
+#wrapper {display: block;overflow: hidden;padding-top: 67px;width: 100%}
+#wrapper .container{min-width: auto; margin:0 auto;padding: 0 4vw}
+#wrapper .container *{box-sizing: border-box}
+#menu, footer.footer, header.header{min-width: 100vw}
+.header{border-bottom: 1px solid #dadada} 
+footer.footer .inner{flex-wrap: wrap}
+footer.footer .pagetop .icon{background-color: #fff}
+.pc-only {display: none}
+.sp-only {display: block}
+.home .container {padding: 0 25px ; min-width: none; max-width: 1226px ; margin: 0 auto}
+@media screen and (max-width: 1150px) { .br-wide{display: none}footer.footer{padding-top: 1em;padding-bottom: 1em}footer.footer,footer.footer .inner {height: auto}footer.footer .inner>*{width: 100%;text-align: center} footer.footer .toUniqlo{position: static;transform: none;margin:1em 0}footer.footer .footerLinks{justify-content: center}}
+
+
+/* =================== 글로벌에만 있는 소스 추가 ================ */
+/* pagetop */
+#pageTop {position: fixed;right: 4vw;left: 4vw;height: 0;bottom: 0}
+#pageTop .pageTop_inner{width: 100%;bottom: calc(((60/750)*100vw));position: absolute;right: 0px;display: flex;justify-content: flex-end}
+#pageTop .oneTop{justify-content: flex-end}
+#pageTop a {width: calc((60/750)*100vw);height: calc((61/750)*100vw);opacity: 0;transition: 0.5s;display: block}
+#pageTop img {background: #fff;width: 100%;height: 100%}
+#pageTop.fixd {position: relative !important;bottom: calc((-150/750)*100vw);width: 100%;margin: 0;right: 4vw;left: 0}
+#pageTop .re_uniqlo_top {display: block;width: auto;height: 30px;margin-right: 30px;background: #fff;border: solid 2px #379e49;overflow: hidden}
+#pageTop .re_uniqlo_top img {display: block;line-height: 0;width: auto;height: 100%}
+  
+/*contentsUnder*/
+.tagSearch {margin-top: calc((120/750)*(100vw));border-top: 1px solid #E4E3E3;margin-bottom: 0}
+.tagSearch_ttl{color: #7d7d7d;line-height: 1;margin-top: calc((80/750)*(100vw));font-size: calc((28/750)*100vw);letter-spacing: 0.07em;font-weight: bold}
+.tagSearch_content {margin: 0 auto}
+.tagSearch_list {display: flex;flex-wrap: wrap;justify-content: center;margin-top: calc((60/750)*(100vw))}
+.tagSearch_listItem {display: block;padding: 3px 15px;margin-right: 10px;margin-bottom: 10px;background-color: #f2f2f2;font-size: calc((26/750)*(100vw));letter-spacing: 0.135em;font-weight: 500}
+.tagSearch_listItem a {color: #999}
+.tagSearch_listItem.is-hidden {display: none}
+
+  /* bread */
+.breadcrumbs {width: calc(((100% - 40px)*90) / 100);height: auto;-ms-overflow-style: none;scrollbar-width: none;font-size: 9px;padding-top: calc((22/750)*100vw)}
+.breadcrumbs::-webkit-scrollbar {display:none}
+.breadcrumbs_inner {height: auto;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;padding: 0;margin-bottom: -8px}
+.breadcrumbs_item{display: flex;align-items: center;overflow: hidden;flex-shrink: 0;font-weight: bold;margin-bottom: 8px;letter-spacing: 0.03em}
+.breadcrumbs_item:first-child a{width: calc((31/750)*100vw);height: calc((36/750)*100vw);background: url(/kr/sustainability/cmn/img/bread_icn_home.svg) no-repeat center center;background-size: contain}
+_:-ms-input-placeholder, :root .breadcrumbs_item a{font-family: Meiryo, sans-serif}
+.breadcrumbs_item:before {content: '';background: none;width: calc((10/750)*100vw);height: calc((10/750)*100vw);border-top: 1px solid #000;border-right: 1px solid #000;transform: rotate(45deg);margin-right:calc((11/750)*100vw);margin-left:calc((5/750)*100vw)}
+.breadcrumbs_item:first-child:before {content: none}
+.breadcrumbs_item:first-child:after {display: none}
+.breadcrumbs_itemHome{display: none}
+.breadcrumbs_item a {font-size: calc((16/750)*100vw);color: #000;line-height: calc((22/750)*100vw);text-decoration: none}
+.breadcrumbs_item:last-child a{pointer-events: none}
+.icon_box{width: auto;float: right}
+.icon_box img{width: 100%;height: auto}
+.category_icon_society{width: calc((70/750)*100vw);margin-top: calc((20/750)*100vw)}
+.category_icon_people{width: calc((45/750)*100vw);margin-top: calc((20/750)*100vw)}
+.category_icon_planet{width: calc((65/750)*100vw);margin-top: calc((30/750)*100vw)}
+.pickupContents {margin-top: calc((80/750)*(100vw));border-top: 1px solid #E4E3E3}
+.pickupContents_ttl{color: #666;line-height: 1;margin-top: calc((80/750)*(100vw));font-size: calc((28/750)*100vw);letter-spacing: 0.07em;font-weight: bold}
+.pickupList{margin-top: calc((60/750)*(100vw))}
+.pickupList_item{width: 100%;margin-bottom: calc((50/750)*100vw)}
+.pickupList_itemInner{display: flex}
+.pickupList_itemInner:hover .pickup_ttl{opacity: .8}
+.pickupList_itemImg{width: calc((161/750)*100vw);height: calc((161/750)*100vw);margin-right: 13px}
+
+.pickup_ttl{font-size: calc((22/750)*100vw);letter-spacing: 0.06em;font-weight: bold;margin-top: 0}
+.pickup_txt {font-size: calc((18/750)*100vw);line-height: calc((30/750)*100vw);letter-spacing: 0.06em;margin-top: calc((14/750)*100vw);text-align: justify}
+.pickup_link {margin-top: calc((20/750)*100vw)}
+.pickup_linkInner {font-size: calc((20/750)*100vw);font-weight: 700;letter-spacing: 0.06em;text-decoration: underline}
+.u-align-center {text-align: center}
+
+
+/* society 탭 '우리 아이 행복한 밥상 썸네일 이미지 크기 맞춤 */
+.home #society .campaign-box .flexContainer_innerBox {height: 100%}
+.home #society .campaign-box img {height: 100%; object-fit: cover}
+
+/* cover */
+.coverImg_wrap .coverTxt {position: absolute; top: 36%; left: 6%; color: #fff; font-size: 20px; line-height: 2;}
+
+/* update trail css 추가 */
+
+.updated_trail_relative{
+  padding-top: 90px;
+}
+.updated_trail{
+  display: inline;
+  width: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  border: 1px solid;
+  letter-spacing: 0.04em;
+  padding: 0px 6px;
+  top: 98px;
+}
+
+.updated_trail.color_blue{
+  font-size: 14px;
+}
+
+.color_box .container_inner .updated_trail_relative{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.color_box .container_inner .updated_trail{
+  top: 61px;
+}
+
+@media screen and (max-width: 812px){
+    .tagSearch_listItem{padding-top: calc((6/750)*100vw);padding-bottom: calc((6/750)*100vw);padding-right: calc((30/750)*100vw);padding-left: calc((30/750)*100vw);margin-right: calc((18/750)*100vw);margin-bottom: calc((19/750)*100vw)}
+    .pickupList_itemInner{justify-content: space-between}
+}
+
+@media screen and (min-width: 813px){
+  .pc-only {display: block}
+  .sp-only {display: none}
+
+  #wrapper {padding-top: 81px}
+
+  /* container */
+  #wrapper .container {padding: 0 25px;max-width: 1226px;margin: 0 auto}
+  /* pagetop */
+  #pageTop {width: 1176px;margin-left: 50%;left: -588px}
+  #pageTop a{width: 30px;height: 30px}
+  #pageTop .pageTop_inner{bottom: 130px;justify-content: flex-end}
+  #pageTop.fixd {position: relative;bottom: -120px;left: 0}
+  #pageTop.fixd .pageTop_inner {bottom:0;padding: 0}
+  /*contentsUnder*/
+  .tagSearch {margin-top: 120px;margin-bottom: 0}
+  .tagSearch_list {margin-top: 40px}
+  .tagSearch_ttl{margin-top: 60px;font-size: 20px}
+  .tagSearch_listItem{font-size: 14px}
+  /*bread*/
+  .breadcrumbs {width: auto;margin: 0;display: flex;justify-content: space-between;padding-top: 22px}
+  .breadcrumbs_inner {max-width: calc(100% - 100px);padding: 0;height: auto;margin: 0 0 -8px 0}
+  .breadcrumbs_item {font-size: 12px;height: auto}
+  .breadcrumbs_item:first-child a{width: 16px;height: 19px}
+  .breadcrumbs .breadcrumbs_item:before {margin: 0 10px 0 5px;width: 7px;height: 7px}
+  .breadcrumbs_item a {color: #000;line-height: 19px;font-size: 12px}
+  .icon_box{width: auto;float: right;margin-left: 55px}
+  .icon_box img{width: 100%;height: auto}
+  .category_icon_society{width: 60px;margin-top: 11px}
+  .category_icon_people{width: 31px;margin-top: 20px}
+  .category_icon_planet{width: 48px;margin-top: 20px}
+  .pickupContents {margin-top: 60px}
+  .pickupContents_ttl{margin-top: 60px;font-size: 20px}
+  .pickupList {margin-top: 40px;display: flex;flex-wrap: wrap}
+  .pickupList_item{width: calc(50% - 30px);margin-bottom: 40px}
+  .pickupList_item:nth-child(2n+1){margin-right: 60px}
+  .pickupList_itemInner{display: flex;justify-content: space-between}
+  .pickupList_itemImg{width: 120px;height: 120px;margin-right: 20px}
+  .pickup_ttl{font-size: 18px;margin-top: 0}
+  .pickup_txt {font-size: 14px;line-height: 23px;margin-top: 11px}
+  .pickup_link{margin-top: 15px}
+  .pickup_linkInner {font-size: 14px}
+  .pickupList_itemTxt{width: calc(100% - 140px)}
+  .more_btnInner {font-size: 13px}
+}
+
+@media (max-width:767px) {
+  .mainContents.layer3 .main .shareIcons {top:87.13333vw}
+
+  /* cover */
+  .coverImg_wrap .coverTxt {top: 26%; left: 4%; font-size: 12px;}
+}

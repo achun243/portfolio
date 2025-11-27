@@ -1,0 +1,34 @@
+.slide_wrap {
+	padding-bottom: 14px;
+	height: 470px;
+}
+.bx-pager {
+	height: 115px;
+	width: 960px;
+}
+
+.bx-pager a {
+	margin-right: 15px;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.bx-pager .bx-pager-last {
+	margin-right: 0;
+	margin-left: -1px;
+}
+
+.bx-pager a span.bx-pager-item {
+	display: none;
+}
+
+.bx-pager a.active span.bx-pager-item {
+	display: inherit;
+	height: 19px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: -10px;
+}
+

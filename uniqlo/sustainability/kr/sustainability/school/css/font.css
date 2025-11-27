@@ -1,0 +1,9 @@
+@charset "utf-8";
+.bold {
+  font-weight: bold;
+}
+.imgLink_text {
+  font-size: 22px;
+  color: #ffa10e;
+  margin-bottom: -20px;
+}

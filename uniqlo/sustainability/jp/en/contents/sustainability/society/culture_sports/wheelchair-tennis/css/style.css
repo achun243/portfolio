@@ -1,0 +1,30 @@
+.rightImg_container{
+    width: 75%;
+    margin-top: calc((50/750)*100vw);
+}
+.rightImg{
+    width: 100%;
+}
+
+@media screen and (min-width:813px) {
+    .imgflex{
+        display: flex;
+    }
+    .mainImg_container{
+        width: calc((576/1176)*100%);
+    }
+    .mainImg_container .mainImg{
+        width: 100%;
+    }
+    .rightImg_container{
+        width: calc((600/1176)*100%);
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightImg{
+        width: 356px;
+        height: auto;
+    }
+}

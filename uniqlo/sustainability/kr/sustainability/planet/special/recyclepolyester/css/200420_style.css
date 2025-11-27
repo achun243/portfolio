@@ -1,0 +1,415 @@
+@charset 'utf-8';
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#recyclepolyester *{
+    transition: opacity .3s linear;
+}
+#recyclepolyester .section{
+    margin-top: 90px;
+}
+#recyclepolyester .inlineblock{
+    display: inline-block;
+}
+.shareIcons a img{
+    transition: .3s linear;
+}
+#recyclepolyester a.hover_link:hover,
+#recyclepolyester a.hover_link:hover > *,.shareIcons a img:hover{
+    opacity: 0.7;
+    transition: .3s linear;
+}
+.dotsFrame:hover svg rect, .pagetop:hover svg rect, a:hover svg rect{
+    stroke: #ccc;
+}
+#recyclepolyester .text_left{
+    text-align-last: left;
+}
+#recyclepolyester .text_right{
+    text-align: right;
+}
+#recyclepolyester .text_center{
+    text-align: center;
+}
+#recyclepolyester .block_center{
+    display: block;
+    margin: auto;
+}
+#recyclepolyester .note_text{
+    font-size: 80%;
+    color: #9b9b9b;
+    margin-top: 30px;
+}
+
+/* cover */
+
+#recyclepolyester .cover .cover_img{
+    position: relative;
+    width: 960px;
+    height: 480px;
+}
+
+
+/* flow */
+
+#recyclepolyester .flow .flow_text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin-top: 55px;
+}
+
+/* use-rate */
+#recyclepolyester .use-rate {
+    border: solid 5px #009b46;
+    margin-top: 180px;
+    text-align: center;
+    padding: 0 40px 30px;
+    margin-bottom: 100px;
+}
+#recyclepolyester .use-rate .title_2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin-top: -72px;
+}
+#recyclepolyester .use-rate .title_2 span{
+    display: inline-block;
+    background: #fff;
+    padding: 0 10px;
+}
+#recyclepolyester .use-rate h3{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin: 60px 0;
+    transition: .3s linear;
+}
+#recyclepolyester .use-rate h3:hover{
+    opacity: 0.7;
+    transition: .3s linear;
+}
+#recyclepolyester .use-rate h3::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    background: #009b46;
+}
+#recyclepolyester .use-rate h3 span{
+    font-size: 70%;
+    position: absolute;
+    right: 0;
+    bottom: -27px;
+}
+#recyclepolyester .use-rate .item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+#recyclepolyester .use-rate .item p{
+    margin-top: 15px;
+}
+
+#recyclepolyester .ambassador{
+    text-align: center;
+}
+#recyclepolyester .ambassador h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+#recyclepolyester .ambassador .green-text{
+    color: #00a53d;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top:30px;
+    line-height: 1.6;
+}
+
+
+
+
+.section .linkBtn {
+    width: 780px;
+    margin: 30px auto;
+    padding: 0;
+    clear: both;
+}
+
+.section .linkBtn a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    color: #1B1B1B;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    border: #ababab 1px solid;
+    background-color: #ffffff;
+}
+
+.section .linkBtn a:hover {
+	opacity: 0.6;
+}
+.section .linkBtn a span{
+    display: inline-block;
+}
+
+.section .linkBtn a > span {
+    background-image: url(../img/200420_icon-arrow-right_pc-sp.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 8px;
+    padding: 0 20px 0 0;
+    text-align: left;
+}
+
+.section .linkBtn.green{
+    margin-top:60px;
+}
+
+.section .linkBtn.green a {
+    background-color: #00a53d;
+    border: none;
+    color: #fff;
+}
+.section .linkBtn.green a > span{
+    background-image: url(../img/200420_icon-arrow-right_white_pc-sp.png);
+}
+
+#recyclepolyester .section.detail{
+    max-width: 700px;
+    width: 95%;
+    margin: 60px auto 120px;
+}
+
+#recyclepolyester .section.detail .use_rate{
+    width: 3.5em;
+}
+
+.section.detail h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto 30px;
+    line-height:2;
+}
+
+.section.detail .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.section.detail .tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+
+.section.detail .tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    font-weight: bold;
+    background-color: #efefef;
+    color: #333333;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top;
+}
+.section .movie_area:hover{
+    opacity: 0.7;
+}
+
+@media (min-width: 768px){
+    #recyclepolyester .sp_display{
+        display: none;
+    }
+
+
+    .section .movie_area{
+        position: relative;
+        margin: auto;
+        width: 700px;
+        height: 394px;
+        display: block;
+        margin-bottom: 60px;
+    }
+    .section .movie_area .thumb{
+        width: 100%;
+    }
+    .movie{
+        position: absolute;
+        height: 60px;
+        width: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto !important;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    #recyclepolyester .pc_display{
+        display: none;
+    }
+    #recyclepolyester .section{
+        margin-top: 45px;
+        width: 94vw;
+    }
+
+    #recyclepolyester .section img{
+        width: 100%;
+    }
+    #recyclepolyester .pd_text{
+        margin-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* cover */
+
+    #recyclepolyester .cover{
+        width: 94vw;
+    }
+    #recyclepolyester .cover .cover_img, #recyclepolyester .cover .cover_img img{
+        width: 100%;
+        height: auto;
+    }
+    #recyclepolyester .cover .lead{
+        color: #6a6a6a;
+        letter-spacing: 2;
+        line-height: 1.6;
+        padding-top: 30px;
+    }
+
+    #recyclepolyester .flow{
+        margin-top: 60px;
+    }
+    #recyclepolyester .flow .flow_text{
+        text-align: left;
+        margin-top: 45px;
+        font-size: 17px;
+    }
+
+    #recyclepolyester .use-rate{
+        padding: 30px 10px;
+        margin-top: 120px;
+        margin-bottom: 88px;
+    }
+    #recyclepolyester .use-rate .title_2{
+        font-size: 22px;
+        margin-top: -88px;
+        margin-bottom: 20px;
+    }
+
+    #recyclepolyester .use-rate h3{
+        font-size: 17px;
+    }
+    #recyclepolyester .use-rate .item{
+        display: block;
+    }
+    #recyclepolyester .use-rate .item div{
+        margin-bottom: 40px;
+    }
+    #recyclepolyester .use-rate h3{
+        margin: 30px 0 60px;
+    }
+    #recyclepolyester .ambassador h2{
+        font-size: 5vw;
+    }
+    #recyclepolyester .ambassador .green-text{
+        font-size: 17px;
+    }
+
+    #recyclepolyester .section .movie_area{
+        position: relative;
+        margin: auto;
+        width: 94vw;
+        height: 52.875vw;
+        display: block;
+        margin-bottom: 60px;
+    }
+    #recyclepolyester .section .movie_area .thumb{
+        width: 100%;
+    }
+    #recyclepolyester .section img.movie{
+        position: absolute;
+        height: 24px;
+        width: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto !important;
+    }
+	#recyclepolyester .section .linkBtn {
+	    width: 100%;
+	    margin: 40px auto;
+	    padding: 0;
+	    clear: both;
+        line-height:1.4;
+	}
+    #recyclepolyester .section.detail h2{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 60px auto 30px;
+    }
+
+}
+
+@media (max-width: 364px){
+    #recyclepolyester .use-rate .title_2 span{
+        font-size: 6vw;
+        padding: 0 1vw;
+    }
+}
+
+
+.shareIcons{
+    text-align: right;
+}
+.shareIcons li{
+    display: inline-block;
+    padding: 10px 5px !important;
+}

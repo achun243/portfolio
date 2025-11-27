@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+h2 {margin:0; padding:0;}
+p {margin:0; padding:0;}
+
+/* recycle
+--------------------------------------------------*/
+#recycle .section {
+	margin: 0 0 50px 0;
+	overflow:hidden;
+}
+
+#recycle .attakai h2 {
+	padding: 2px 0 20px 0;
+	margin: 0;
+}
+
+#recycle .attakai p.bottom40 {
+	padding: 0 0 40px 0;
+	margin: 0;
+}
+
+#recycle .attakai p.bottom20 {
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+
+#recycle .attakai .main {
+	padding: 25px 0 0 173px;
+	margin: 0;
+	width: 713px;
+	height: 434px;
+	background: url(../img/150804-main.gif) 0 2px no-repeat;
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#recycle .attakai #slidePics {
+	width: 340px;
+	height: 340px;
+}
+
+
+
+
+
+
+
+#loopslider {
+	margin: 20px 0 0 -173px;
+	width: 713px;
+	height: 51px;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#loopslider ul {
+/*	width: 100%;*/
+	height: 51px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+#loopslider ul li {
+	height: 51px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+
+/* =======================================
+	ClearFixElements
+======================================= */
+#loopslider ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#loopslider ul {
+	display: inline-block;
+	overflow: hidden;
+}

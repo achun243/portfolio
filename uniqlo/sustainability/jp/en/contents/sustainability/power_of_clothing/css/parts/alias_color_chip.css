@@ -1,0 +1,470 @@
+@charset "utf-8";
+
+/* Color Chip
+=================================== */
+@font-face {
+  font-family: 'Uniqlo';
+  src: url("/jp/fonts/uniqloproregular-webfont.eot");
+  src: url("/jp/fonts/uniqloproregular-webfont.eot?#iefix") format("embedded-opentype"), url("/jp/fonts/uniqloproregular-webfont.woff") format("woff"), url("/jp/fonts/uniqloproregular-webfont.ttf") format("truetype"), url("/jp/fonts/uniqloproregular-webfont.svg#uniqlo_proregular") format("svg");
+  font-weight: normal;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  padding: 3px 11px 0px 7px;
+  background-color: #FFF;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list {
+  position: absolute;
+  z-index: 99;
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list.colorchip_creating {
+  display: none;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li {
+  display: block;
+  float: left;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li {
+  position: absolute;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a {
+  margin: auto;
+  padding: 0;
+  display: block;
+  width: 24px;
+  height: 14px;
+  padding: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  outline: none;
+  -webkit-transition:all 100ms linear;
+  -moz-transition:all 100ms linear;
+  -ms-transition:all 100ms linear;
+  transition:all 100ms linear;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:hover {
+  height: 12px;
+}
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:before,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:before,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:before,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a:before {
+  display: none;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a {
+  height: 12px;
+  width: 100%;
+  background-image: url(http://im.uniqlo.com/images/jp/pc/img/feature/uq/material/160229_l3_colorchip_anchor.png);
+  background-position: 5px 1px;
+  background-repeat: no-repeat;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 85%;
+  line-height: 100%;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection {
+  position: absolute;
+  right: 10px;
+}
+div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a {
+  outline: none;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection,
+div.blkItemList div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection {
+  top: 240px;
+}
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection,
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection {
+  top: 295px;
+}
+
+div.unit.l3_alias_color_chip_group p.colo_chip_in_size {
+  font-family: 'Uniqlo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  position: absolute;
+  left: 10px;
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #808080;
+}
+div.unit.l3_alias_color_chip_group p.colo_chip_in_size >span {
+  font-size: 10px;
+  vertical-align: 1px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.colo_chip_in_size,
+div.blkItemList div.unit.l3_alias_color_chip_group p.colo_chip_in_size {
+  top: 240px;
+}
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group p.colo_chip_in_size,
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group p.colo_chip_in_size {
+  top: 295px;
+}
+
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:hover {
+  height: 12px;
+}
+
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:before,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:before,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:before,
+div.blkItemList div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a:before {
+  display: none;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a,
+div.blkItemList div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a {
+  display: block;
+  height: 12px;
+  background-image: url(http://im.uniqlo.com/images/jp/pc/img/feature/uq/material/160229_l3_colorchip_anchor.png);
+  background-position: 5px 1px;
+  background-repeat: no-repeat;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 85%;
+  line-height: 100%;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a.l3_alias_colorchip_open,
+div.blkItemList div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a.l3_alias_colorchip_open {
+  background-position: 5px -11px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a.l3_alias_colorchip_open,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a.l3_alias_colorchip_open {
+  background-position: 5px -11px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover {
+  height: 24px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover img,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover img {
+  height: 22px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.l3_colorchip_active:before,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.l3_colorchip_active:before,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.l3_colorchip_active:before,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.l3_colorchip_active:before {
+  content: "";
+  border: 1px solid #F00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  display: inline-block;
+  line-height: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition:all 100ms linear;
+  -moz-transition:all 100ms linear;
+  -ms-transition:all 100ms linear;
+  transition:all 100ms linear;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a img,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 22px;
+  height: 12px;
+  -webkit-transition:all 100ms linear;
+  -moz-transition:all 100ms linear;
+  -ms-transition:all 100ms linear;
+  transition:all 100ms linear;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group dl,
+div.blkUnitSize03 div.unit.l3_alias_color_chip_group dl {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group dt.name,
+div.blkUnitSize03 div.unit.l3_alias_color_chip_group dt.name {
+  top: 260px;
+  width: 160px;
+  bottom: auto;
+}
+div.blkUnitSize04 div.blkUnitSize01 div.unit.l3_alias_color_chip_group dt.name,
+div.blkUnitSize03 div.blkUnitSize01 div.unit.l3_alias_color_chip_group dt.name {
+  top: 260px;
+}
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group dt.name,
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group dt.name {
+  top: 318px;
+  width: 208px;
+  bottom: auto;
+}
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group dd.quickview.color_chip_modal_opend,
+div.blkUnitSize03 div.unit.l3_alias_color_chip_group dd.quickview.color_chip_modal_opend,
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group dd.quickview.color_chip_modal_opend {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/* modal background */
+div.blkItemList div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg {
+  width: 100%;
+  height: 211px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition:all 150ms ease-in;
+  -moz-transition:all 150ms ease-in;
+  -ms-transition:all 150ms ease-in;
+  transition:all 150ms ease-in;
+}
+div.blkItemList div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg.l3_color_chip_modal_show {
+  z-index: 99;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* hide old price */
+div.blkItemList div.unit.l3_alias_color_chip_group dl.info dd.oldprice {
+  display: none;
+}
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group dd.price,
+div.blkUnitSize03 div.unit.l3_alias_color_chip_group dd.price,
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group dd.price {
+  font-family: 'Uniqlo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+div.blkUnitSize04 div.unit.l3_alias_color_chip_group dd.price,
+div.blkUnitSize01 div.unit.l3_alias_color_chip_group dd.price {
+  bottom: 7px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group dd.price,
+div.blkUnitSize03 div.unit.l3_alias_color_chip_group dd.price {
+  bottom: 4px;
+}
+
+/* wishlist */
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group .wishlist_heart_icon,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group .wishlist_heart_icon {
+  bottom: auto !important;
+  top: 235px !important;
+  z-index: 98;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group .wishlist_heart_icon,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group .wishlist_heart_icon {
+  bottom: auto !important;
+  top: 183px !important;
+  z-index: 50;
+}
+
+/* 4column */
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group {
+  height: 384px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list {
+  height: 30px;
+  top: 263px;
+  padding: 4px 11px 0 7px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg {
+  height: 267px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal {
+  padding: 3px 11px 0px 7px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li {
+  height: 26px;
+  width: 26px;
+  margin: 0px 0 -4px 4px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a {
+  height: 16px;
+  width: 26px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a img,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a img {
+  height: 14px;
+  width: 24px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover {
+  height: 26px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover img,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a:hover img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a:hover img {
+  height: 24px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection {
+  width: 85px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection a {
+  width: 100%;
+  height: 12px;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group p.l3_show_colorchip_collection a {
+  height: 12px;
+}
+
+/* 5column */
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group {
+  height: 320px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list {
+  top: 210px;
+  padding: 4px 11px 0 7px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group div.l3_alias_color_chip_modal_bg {
+  height: 214px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li {
+  margin: 0px 0 -5px 3px;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection,
+div.blkItemList.blkUnitSize03 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li.l3_show_colorchip_collection {
+  width: 77px;
+}
+dl.info .wishlist_heart_icon {
+  display: none;
+}
+dl.info .wishlist_heart_icon[code*="-"] {
+  display: block;
+}
+div.unit.l3_alias_color_chip_group.hide dl.info .wishlist_heart_icon {
+  display: none;
+}
+
+/* comingsoon */
+div.unit.l3_alias_color_chip_group.comingsoon dl.info dd.quickview {
+  display: none !important;
+}
+div.unit.l3_alias_color_chip_group.comingsoon .soon {
+  display: inline-block;
+  width: 100%;
+  color: #808080;
+}
+div.unit.l3_alias_color_chip_group.comingsoon .thumb a {
+  cursor: default;
+}
+/* image load error */
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss {
+  cursor: default;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover {
+  height: 14px;
+  cursor: default;
+}
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover img,
+div.column-5 div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover img,
+div.blkItemList div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover img {
+  height: 12px;
+  cursor: default;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss {
+  cursor: default;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover {
+  height: 16px;
+  cursor: default;
+}
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover img,
+div.blkItemList.blkUnitSize04 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_modal li a.miss:hover img,
+div.blkItemList.blkUnitSize01 div.unit.l3_alias_color_chip_group ul.l3_alias_color_chip_list li a.miss:hover img {
+  height: 14px;
+  cursor: default;
+}

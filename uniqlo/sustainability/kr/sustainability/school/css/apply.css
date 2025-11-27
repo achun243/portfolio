@@ -1,0 +1,75 @@
+.topMainImg{
+	width: 663px;
+	padding: 30px 0 20px 0px;
+}
+
+.clrfix{
+	clear:both;
+}
+
+.floatl{
+	float:left;
+}
+
+.floatr{
+	float:right;
+}
+
+.center{
+	text-align:center;
+}
+
+.inner ul li{
+	list-style:none;
+	float:left;
+}
+
+.detail{
+	background-image:url("/jp/sustainability/kyouikukikan/img/kyouikukikan_bnr_bg_01.jpg");
+}
+
+.detail img{
+	margin:10px 20px 10px 10px;
+}
+
+.inner h2 img{
+	margin-bottom:10px;
+}
+
+.box01{
+	padding:10px 0px 20px 0px;
+}
+
+.box01 ul li{
+	padding-bottom:20px;
+}
+
+.box02 img{
+	margin:10px 20px 10px 10px;
+}
+
+.box03{
+	padding:10px 10px 10px 10px;
+	margin-bottom:20px;
+	height:171px;
+}
+
+.box04{
+	margin-bottom:20px;
+}
+
+*:first-child+html #div.inner_last{
+	padding-bottom:0px; !important
+} 
+
+.box04 img{
+	margin-right:60px;
+}
+
+.lh150{
+	line-height:150%;
+}
+
+.fcgreen{
+	color:#07913a;
+}

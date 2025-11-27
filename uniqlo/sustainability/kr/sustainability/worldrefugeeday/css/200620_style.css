@@ -1,0 +1,826 @@
+@charset 'utf-8';
+
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#worldrefugeeday .cover {
+  background-image: url("../img/PC_Feature_sustainability_cover_200619.jpg");
+  position: relative;
+  width: 960px;
+  height: 470px;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+}
+
+#worldrefugeeday .cover a {
+  position: absolute;
+  width: 960px;
+  height: 470px;
+  margin: 0;
+}
+
+#worldrefugeeday div.lead {
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#worldrefugeeday div.bg_area {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+#worldrefugeeday div.bg_area p {
+  padding: 20px 30px 10px 30px;
+}
+
+#worldrefugeeday div.bg_area h3 {
+  margin-bottom: 0;
+}
+
+#worldrefugeeday .bg-radius {
+  padding: 40px 30px 30px;
+  border-radius: 30px;
+  background-color: #f4f4f4;
+}
+
+#worldrefugeeday h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#worldrefugeeday .bg-radius h3 {
+  text-align: center;
+}
+
+#worldrefugeeday .bg-radius h3:before {
+  content: "";
+  display: block;
+  height: 38px;
+  background: url(../img/200620_L3_sustainability_icon_arrow_02.png) no-repeat center top;
+  margin-bottom: 30px;
+}
+
+#worldrefugeeday #section_02 .bg-radius h3:before {
+  background: url(../img/200620_L3_sustainability_icon_arrow_04.png) no-repeat center top;
+}
+
+#worldrefugeeday #section_03 .bg-radius {
+  padding-top: 60px;
+  background-image: url(../img/200620_L3_sustainability_icon_arrow_03.png);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+
+#worldrefugeeday .bg-radius .col2_area h3:before {
+  display: none;
+  background: none;
+  margin-bottom: 0;
+}
+
+#worldrefugeeday div.Annotation {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: right;
+}
+
+#worldrefugeeday .lead_main p {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#worldrefugeeday .h2_img {
+  margin-right: 20px;
+}
+
+#worldrefugeeday .h2_txt {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#worldrefugeeday .h2_ttl {
+  display: -webkit-flex;
+  display: flex;
+}
+
+#worldrefugeeday .h2_number {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2eb6aa;
+  font-size: 60px;
+  color: #fff;
+  float: left;
+  margin-right: 15px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#worldrefugeeday #section_02 .h2_number {
+  background-color: #4db56a;
+}
+
+#worldrefugeeday #section_03 .h2_number {
+  background-color: #0077c0;
+}
+
+#worldrefugeeday h2#section_ttl {
+  color: #2eb6aa;
+  margin: 15px 0 0;
+}
+
+#worldrefugeeday section {
+  margin-bottom: 120px;
+}
+
+#worldrefugeeday section p {
+  padding: 30px;
+  line-height: 1.5
+}
+
+#worldrefugeeday section p .sec3-bold{
+  font-weight: bold;
+}
+
+#worldrefugeeday .col2_area a {
+  color: #006699;
+  text-decoration: none;
+}
+
+#worldrefugeeday .col2_area_img {
+  margin-bottom: 20px;
+}
+
+#worldrefugeeday h2#section_ttl+p {
+  padding: 0 0;
+  text-align: left;
+}
+
+#worldrefugeeday .col2_area h3+p {
+  padding-top: 0;
+  text-align: left;
+}
+
+#worldrefugeeday .text-left {
+  text-align: left;
+}
+
+#worldrefugeeday section hr {
+  border: none;
+  height: 1px;
+}
+
+#worldrefugeeday section#section_01 hr {
+  background-color: #2eb6aa;
+    margin-bottom: 30px;
+}
+
+#worldrefugeeday section#section_02 hr {
+  background-color: #4db56a;
+}
+
+#worldrefugeeday section#section_03 hr {
+  background-color: #0077c0;
+  margin-bottom: 30px;
+}
+
+#worldrefugeeday .unhcr_area {
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#worldrefugeeday .unhcr_area:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#worldrefugeeday img.logo_unhcr {
+  float: left;
+  width: 74px;
+  height: 81px;
+  padding: 0px 30px;
+}
+
+#worldrefugeeday .unhcr_area a {
+  color: #1b1b1b;
+}
+
+#worldrefugeeday .unhcr_text {
+  float: right;
+  width: 780px;
+  padding: 0 30px 0 0;
+  text-align: left;
+}
+
+#worldrefugeeday .btn_area {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#worldrefugeeday .btn {
+  color: #1b1b1b;
+  margin: 10px auto 0;
+  padding: 15px 70px;
+  display: block;
+  text-decoration: none;
+}
+
+#worldrefugeeday #section_01 .btn {
+  background-color: #2eb6aa;
+  color: #fff;
+}
+
+#worldrefugeeday #section_02 .btn {
+  background-color: #4db56a;
+  color: #fff;
+}
+
+#worldrefugeeday #section_03 .btn {
+  background-color: #0077c0;
+  color: #fff;
+}
+
+#worldrefugeeday .link_btn {
+  color: #1b1b1b;
+  padding: 15px 15px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ababab;
+}
+
+#worldrefugeeday .btn:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#worldrefugeeday .link_btn:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
+  border-top: 1px solid #ababab;
+  border-right: 1px solid #ababab;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#worldrefugeeday .movie_area {
+  position: relative;
+  overflow: hidden;
+}
+
+#worldrefugeeday a .movie {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  left: 50%;
+  margin: -31px 0 0 -28px;
+}
+
+#worldrefugeeday .companyList {
+  text-align: center;
+}
+
+#worldrefugeeday .companyList a {
+  vertical-align: middle;
+  margin-right: 44px;
+}
+
+#worldrefugeeday .companyList img {
+  margin-bottom: 10px;
+}
+
+#worldrefugeeday .sankaku {
+  width: 0;
+  height: 0;
+  border: 36px solid transparent;
+  border-top: 30px solid #f4f4f4;
+  margin: 0 auto;
+}
+
+#worldrefugeeday #section_02 h2 {
+  color: #4db56a;
+  overflow: hidden;
+}
+#worldrefugeeday #section_01 h2 {
+  color: #2eb6aa;
+}
+
+#worldrefugeeday #section_txt {
+  margin-top: 0px;
+}
+
+#worldrefugeeday #section_03 h2 {
+  color: #0077c0;
+}
+
+#worldrefugeeday .link-area h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#worldrefugeeday .linkSection {
+  margin-bottom: 60px;
+}
+
+#worldrefugeeday .message_area {
+  line-height: 1.5;
+}
+
+#worldrefugeeday .message_area .message_area_img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ----------------------------------------
+ * anchor
+ * ---------------------------------------- */
+#worldrefugeeday .fr-anchorButton {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px #1b1b1b;
+  border-right: none;
+  list-style: none;
+}
+
+#worldrefugeeday .fr-anchorButton_item.-oneThird {
+  width: 33.33333%;
+  cursor: pointer;
+}
+
+#worldrefugeeday .fr-anchorButton_itemInner {
+  display: flex;
+}
+
+#worldrefugeeday .fr-anchorButton_itemLink {
+  padding: 0;
+  min-height: 80px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 23.8px;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  box-sizing: border-box;
+  border-right: solid 1px #1b1b1b;
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+/* ----sns---- */
+#worldrefugeeday .sns_txt {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#worldrefugeeday .sns_link {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#worldrefugeeday .sns_child {
+  margin-right: 25px;
+}
+
+#worldrefugeeday .sns_child:last-child {
+  margin-right: 0px;
+}
+
+.col2_area_img {
+  text-align: center;
+}
+
+/* ADD CSS */
+html {
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+}
+
+.mainContents.layer3 .main .recycle_bnr{
+  margin: 120px auto 0;
+  display: block;
+  max-width: 715px;
+}
+
+@media screen and (min-width:768px) {
+  #worldrefugeeday .movie_area:hover {
+    transition: all 0.2s ease;
+    opacity: 0.8;
+  }
+
+  #worldrefugeeday .bg-radius {
+      margin-top: -60px;
+  }
+
+  #worldrefugeeday .bg-radius_01 {
+      margin-top: -30px;
+  }
+
+  #worldrefugeeday .bg-radius .btn {
+    width: 640px;
+  }
+
+  #worldrefugeeday .h2_ttl {
+    padding: 0 20px;
+  }
+
+  #worldrefugeeday .section_ttl-txt {
+      padding: 0;
+      overflow: hidden;
+  }
+
+  #worldrefugeeday .h2_img {
+    max-height: 200px;
+  }
+
+  #worldrefugeeday .bg-radius .col2_area {
+    margin-top: 50px;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #worldrefugeeday .bg-radius .col2_area>.col2_area_child {
+    width: 440px;
+  }
+
+  #worldrefugeeday .sp_br {
+    display: none;
+  }
+
+  #worldrefugeeday .pc_br {
+    display: block;
+  }
+
+  #worldrefugeeday .unhcr_area a:hover {
+    transition: all 0.2s ease;
+    color: #2eb6aa;
+  }
+
+  #worldrefugeeday .col2_area_child a:hover,
+  #worldrefugeeday .btn_area a:hover {
+    transition: all 0.2s ease;
+    opacity: 0.6;
+  }
+
+  #worldrefugeeday .link_btn:hover {
+    transition: all 0.2s ease;
+    opacity: 0.6;
+  }
+
+  #worldrefugeeday .companyList img:hover {
+    transition: all 0.2s ease;
+    opacity: 0.6;
+  }
+
+  .message_area>p {
+    font-size: 29px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+    .txt_s{
+        font-size: 0.8em;
+    }
+    #worldrefugeeday .col2_area_child p{
+        padding: 22px;
+    }
+    .word_brk{
+        word-break: break-all;
+    }
+
+  /* ADD CSS */
+  .mainContents .section.recommended .recommendedItems .recommendedItem a.no_click {
+    cursor: default;
+  }
+
+  .mainContents .section.recommended .recommendedItems .recommendedItem a.no_click:hover img,.mainContents .section.recommended .recommendedItems .recommendedItem a.no_click:hover .text {
+    opacity: 1;
+  }
+
+  .mainContents .section.recommended .recommendedItems .recommendedItem a.no_click .dotsFrame:hover svg rect,.mainContents .section.recommended .recommendedItems .recommendedItem a.no_click:hover svg rect {
+    stroke: #ababab;
+  }
+
+  .mainContents.layer3 .main .subSectionTitle {
+    padding: 20px 30px;
+  }
+}
+
+/*SP*/
+@media (max-width: 767px) {
+  #worldrefugeeday .cover {
+    background-image: url("../img/SP_Feature_sustainability_cover_200619.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 134%;
+    height: 0;
+  }
+
+  #worldrefugeeday .cover a {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    padding-top: 134%;
+    height: 0;
+    top: 0;
+  }
+
+  #worldrefugeeday .sp_br {
+    display: block;
+  }
+
+  #worldrefugeeday .pc_br {
+    display: none;
+  }
+
+  #worldrefugeeday div.lead {
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+
+  #worldrefugeeday div.bg_area {
+    text-align: center;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    width: 86.66667vw;
+  }
+
+  #worldrefugeeday .lead p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  #worldrefugeeday .lead_main p {
+    text-align: center;
+  }
+
+  #worldrefugeeday h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+  }
+
+  #worldrefugeeday h3 span {
+    display: none;
+  }
+
+  #worldrefugeeday div.Annotation p {
+    margin-top: 5px;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  #worldrefugeeday .sankaku {
+    width: 0;
+    height: 0;
+    border: 28px solid transparent;
+    border-top: 22px solid #f4f4f4;
+    margin: 0 auto;
+  }
+
+  #worldrefugeeday .h2_ttl {
+    margin-bottom: 20px;
+  }
+
+  #worldrefugeeday .h2_number {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-right: 2vw;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #worldrefugeeday h2#section_ttl {
+    font-size: 18px;
+    margin: 3px 0px 10px;
+    min-height: 15vw;
+    line-height: 1.5;
+  }
+
+  #worldrefugeeday #section_03 h2#section_ttl {
+    line-height: 15vw;
+  }
+
+  #worldrefugeeday section {
+    margin-bottom: 60px;
+  }
+
+  #worldrefugeeday section p {
+    font-size: 13px;
+    padding: 15px 0;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    overflow: hidden;
+  }
+
+  #worldrefugeeday .h2_ttl img {
+    width: 100%;
+  }
+
+  #worldrefugeeday #section_03 .bg-radius {
+    padding-top: 110px;
+  }
+
+  #worldrefugeeday .bg-radius .col2_area {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #worldrefugeeday .unhcr_area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #worldrefugeeday img.logo_unhcr {
+    float: left;
+    width: 74px;
+    height: 81px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+  }
+
+  #worldrefugeeday .unhcr_text {
+    float: right;
+    padding: 0px 15px 0px 15px;
+  }
+
+  #worldrefugeeday .btn_area {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  #worldrefugeeday .btn {
+    color: #1b1b1b;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 15px 15px;
+    display: block;
+    text-decoration: none;
+  }
+
+  #worldrefugeeday .link_btn {
+    color: #1b1b1b;
+    font-size: 14px;
+    padding: 15px 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ababab;
+  }
+
+  #worldrefugeeday .btn:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #worldrefugeeday .link_btn:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    border-top: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #worldrefugeeday .link-area h2 {
+    margin-bottom: 18px;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  #worldrefugeeday .companyList {
+    text-align: center;
+  }
+
+  #worldrefugeeday .companyList a {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  #worldrefugeeday a .movie {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50%;
+    left: 50%;
+    margin: -22px 0 0 -14px;
+  }
+
+  #worldrefugeeday .contents_img img {
+    width: 100%;
+  }
+
+  #worldrefugeeday .message_area {
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  #worldrefugeeday .message_area img {
+      width: 80%;
+  }
+
+  .message_area > p {
+      font-size: 6.5vw;
+      line-height: 1.6;
+      font-weight: bold;
+      text-align: center;
+  }
+    .txt_s{
+        font-size: 0.8em;
+    }
+    .word_brk{
+        word-break: break-all;
+    }
+  /* ----------------------------------------
+   * anchor
+   * ---------------------------------------- */
+  #worldrefugeeday .fr-anchorButton_itemLink {
+    min-height: 85px;
+    font-size: 15px;
+  }
+
+  /* ADD CSS */
+  #menu .menuContainer footer.footer .footerLinks .item a, footer.footer .footerLinks .item a {
+    padding: 0 2vw;
+  }
+
+  .mainContents.layer3 .main .subSectionTitle {
+    padding: 1.66667vw 4vw;
+  }
+
+  .mainContents.layer3 .main .recycle_bnr {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 329px) {
+  #worldrefugeeday #section_03 h2#section_ttl {
+    line-height: 1.5;
+  }
+}

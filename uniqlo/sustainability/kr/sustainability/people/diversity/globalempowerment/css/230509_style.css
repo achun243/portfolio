@@ -1,0 +1,132 @@
+div.body .empower-cover {
+  margin-bottom: 4vh;
+}
+
+div.body .empower-cover__mainTtl {
+  font-size: 8.533333333333333vw;
+  text-align: center;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin-bottom: 2vh;
+}
+
+div.body .empower-cover__leadTxt {
+  font-size: 4.4vw;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 8.666666666666666vh;
+}
+
+div.body .empower-cover__imgContainer {
+  width: 100%;
+}
+
+div.body .empower-cover__img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+div.body .areaList__item:not(:last-child) {
+  margin-bottom: 8vh;
+}
+
+div.body .area__containerThumb {
+  min-width: initial;
+  max-width: 6.666666666666667vw;
+  margin: 0 auto;
+}
+
+div.body .area__thumb {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2vh;
+}
+
+div.body .area__title {
+  font-size: 4.4vw;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 2vh;
+}
+
+div.body .area__title a {
+  text-decoration: underline;
+}
+
+div.body .area__dl {
+  line-height: 1.7;
+}
+
+div.body .area__dt {
+  float: left;
+  width: 17vw;
+  position: relative;
+}
+
+div.body .area__dt::after {
+  display: block;
+  content: "：";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+div.body .area__dd {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 18vw;
+}
+
+@media (min-width:768px) { /* PC VIEW */
+  div.body .empower-cover__mainTtl {
+    font-size: 64px;
+    margin-bottom: 15px;
+  }
+
+  div.body .empower-cover__leadTxt {
+    font-size: 24px;
+    margin-bottom: 65px;
+  }
+
+  div.body .areaList__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  div.body .area {
+    display: flex;
+  }
+
+  div.body .area__containerThumb {
+    min-width: 80px;
+    max-width: initial;
+    margin: 0;
+  }
+
+  div.body .area__thumb {
+    max-width: initial;
+    width: 50px;
+    height: auto;
+  }
+
+  div.body .area__containerBody {
+    flex-grow: 1;
+  }
+
+  div.body .area__title {
+    font-size: 18px;
+  }
+
+  div.body .area__dl {
+    font-size: 14px;
+  }
+
+  div.body .area__dt {
+    width: 65px;
+  }
+
+  div.body .area__dd {
+    padding-left: 70px;
+  }
+}

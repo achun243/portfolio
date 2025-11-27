@@ -1,0 +1,1136 @@
+@charset 'utf-8';
+/* CSS Document */
+
+#wrapper{
+  overflow-x: initial;
+  background: inherit;
+}
+
+header.header .menuTrigger {
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .toen{
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .breads {
+        margin-bottom: 0;
+    }
+    #wrapper .container .toen+#re-uniqlo_l2{
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 767px){
+    .breads {
+        height: 8.33333vw;
+        overflow: hidden;
+    }
+    .toen {
+        font-size: 2.4vw;
+        font-family: 'UniqloProRegular','ヒラギノ角ゴPro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+        margin: 0;
+        padding: 9px 4px 7px;
+    }
+}
+
+
+@media screen and (max-width: 1370px) and (min-width: 768px){
+  #wrapper .container .mainContents{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1240px){
+  #wrapper .container .mainContents{
+    width: 100%;
+    max-width: 1240px;
+    /*padding-bottom: 120px;*/
+  }
+}
+
+@media screen and (max-width: 1239px) and (min-width: 768px){
+  #wrapper .container .mainContents{
+    padding: 0 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #wrapper .container .mainContents{
+    padding-bottom: 8vw;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #wrapper .container{
+    max-width: 1240px;
+    min-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.color_green{
+  color: #379d49 !important;
+}
+
+.responsive_img{
+  width: 100%;
+}
+
+.breads{
+  margin-bottom: 0;
+}
+
+.breads ul .item a{
+  font-weight: bold;
+  font-family: "UniqloProRegular", -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+}
+
+.breads ul .item.noHomeIcon a{
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.breads ul .item.noHomeIcon a span{
+  display: block;
+}
+
+#re-uniqlo div.section.update *{
+    transition: none;
+}
+#re-uniqlo div.section{
+    margin-top: 90px;
+}
+#re-uniqlo .inlineblock{
+    display: inline-block;
+}
+.shareIcons a img{
+    transition: .3s linear;
+}
+
+#re-uniqlo .text_left{
+    text-align-last: left;
+}
+#re-uniqlo .text_right{
+    text-align: right;
+}
+#re-uniqlo .text_center{
+    text-align: center;
+}
+#re-uniqlo .block_center{
+    display: block;
+    margin: auto;
+}
+#re-uniqlo .note_text{
+    font-size: 80%;
+    color: #9b9b9b;
+    margin-top: 30px;
+}
+#re-uniqlo .linkBtn {
+    width: 100%;
+    margin: 15px auto 0;
+    padding: 0;
+    clear: both;
+}
+#re-uniqlo .linkBtn a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    color: #1B1B1B;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    border: #ababab 1px solid;
+    background-color: #ffffff;
+}
+
+#re-uniqlo .note{
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+#re-uniqlo .linkBtn a:hover {
+	opacity: 0.6;
+}
+#re-uniqlo .linkBtn a span{
+    display: inline-block;
+}
+#re-uniqlo .iconlink {
+  display: inline-block;
+  position: relative;
+}
+#re-uniqlo .iconlink::after,
+#re-uniqlo .linkBtn a > span::after {
+  content: "";
+  position: relative;
+  margin-left: 0.5em;
+  display: inline-block;
+  height: 1em;
+  width: 0.8em;
+  background: url(../img/btn_arrow_black.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 70% 70%;
+}
+#re-uniqlo .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+#re-uniqlo .tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
+#re-uniqlo .tg th {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+    font-weight: bold;
+    background-color: #efefef;
+    color: #333333;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top;
+}
+#re-uniqlo .movie_area:hover{
+    opacity: 0.7;
+}
+
+/* cover */
+
+
+
+@media (min-width: 768px){
+    #re-uniqlo a.hover_link:hover,
+    #re-uniqlo a.hover_link:hover > *,.shareIcons a img:hover{
+      opacity: 0.7;
+      transition: .3s linear;
+    }
+    #re-uniqlo .sp_display{
+        display: none;
+    }
+
+    #re-uniqlo .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    #re-uniqlo .flex--reverse {
+      flex-direction: row-reverse;
+    }
+    #re-uniqlo .flex--aligncenter {
+      align-items: center;
+    }
+    #re-uniqlo .flex--alignend {
+      align-items: end;
+    }
+    #re-uniqlo .flex--contentcenter {
+      justify-content: center;
+    }
+    #re-uniqlo .flex--contentstart {
+      justify-content: flex-start;
+    }
+    #re-uniqlo .flex--wrap {
+      flex-wrap: wrap;
+    }
+
+    .breads ul .item a{
+      font-size: 14px;
+    }
+
+    .breads ul .item::before{
+      background: none;
+      margin-left: 5px;
+      width: 8px;
+      height: 8px;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      transform: rotate(45deg);
+    }
+
+    /* cover */
+    #re-uniqlo .cover{
+      padding-top: 0;
+    }
+
+    #re-uniqlo .cover__mainTtl {
+      font-size: 56px;
+      margin-bottom: 32px;
+    }
+    #re-uniqlo .cover__leadTxt {
+      font-size: 24px;
+      margin-bottom: 65px;
+    }
+    .mainContents.layer3 .main .floatImg .img{
+      width: 192px;
+    }
+    .mainContents.layer3 .main .floatImg .img img{
+      width: 100%;
+      height: auto;
+    }
+    .mainContents.layer3 .main .floatImg .text{
+      width: 720px!important;
+      text-align: justify;
+    }
+
+
+    #re-uniqlo .cover {
+      margin-bottom: 92px;
+    }
+
+    #re-uniqlo .cover .cover__img{
+      margin-bottom: 70px;
+
+      width: 110%;
+      margin-left: -5%;
+    }
+
+    #re-uniqlo .category,
+    #re-uniqlo .flow,
+    #re-uniqlo .partnership{
+      margin-bottom: 80px;
+    }
+
+    #re-uniqlo .category .category__head{
+      margin-right: -36px;
+      margin-bottom: 60px;
+      margin-left: -36px;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+
+      overflow: hidden;
+    }
+
+    #re-uniqlo .category .category__head .category__item{
+      padding: 0 36px;
+    }
+
+    #re-uniqlo .category .category__body{
+      overflow: hidden;
+      margin-right: -10px;
+      margin-left: -10px;
+    }
+
+    #re-uniqlo .category__body .category__item{
+      width: 25%;
+      height: 25%;
+      float: left;
+      padding: 0 10px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    #re-uniqlo .category__body .category__item.-half{
+      width: 50%;
+      height: 50%;
+      margin-bottom: 19px;
+    }
+
+    #re-uniqlo .category__body .category__item a{
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+
+    #re-uniqlo .category__body .category__item .over{
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(55,158,73,0.6);
+      padding: 15px;
+    }
+
+    #re-uniqlo .category__body .category__item:hover .over{
+      display: block;
+    }
+
+    #re-uniqlo .category__body .category__item .over-inner {
+        position: relative;
+        border: 2px solid #fff;
+        height: 100%;
+        color: #fff;
+        padding: 15px 20px;
+        font-family: UniqloProRegular;
+    }
+
+    #re-uniqlo .category__body .category__item .over-inner::after{
+      content: "";
+      width: 16.72131147540984%;
+      height: 16.72131147540984%;
+      background: url("/re-uniqlo/img/icon-re-uniqlo.svg") no-repeat;
+      background-size: contain;
+      display: inline-block;
+      position: absolute;
+      bottom: 4%;
+      left: 6%;
+    }
+
+    #re-uniqlo .category__body .category__item .over__subttl-en{
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      font-family: "UniqloProRegular", -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+    }
+
+    #re-uniqlo .category__body .category__item .over__ttl-en{
+      font-size: 29px;
+      font-weight: bold;
+      line-height: 1.1;
+      letter-spacing: 0.05em;
+      margin-bottom: 2%;
+    }
+
+    #re-uniqlo .category__body .category__item .over__ttl-jp{
+      font-size: 13px;
+      letter-spacing: 0.2em;
+      line-height: 1.5;
+    }
+
+    #re-uniqlo .category__body .category__item .over__tag{
+      display: inline-block;
+      border: 1px solid #fff;
+      position: absolute;
+      right: 6%;
+      bottom: 6%;
+      font-size: 14px;
+      font-weight: normal;
+      width: 80px;
+      text-align: center;
+    }
+
+    #re-uniqlo .category__body .category__item.-half .over{
+      padding: 30px;
+    }
+
+    #re-uniqlo .category__body .category__item.-half .over-inner{
+      border: 4px solid #fff;
+      padding: 30px 35px;
+    }
+
+    #re-uniqlo .category__body .category__item.-half .over__ttl-en{
+      font-size: 52px;
+      margin-bottom: 3%;
+    }
+
+    #re-uniqlo .category__body .category__item.-half .over__ttl-jp{
+      font-size: 23px;
+    }
+
+    #re-uniqlo .category__body .category__item.-half .over__tag{
+      font-size: 28px;
+      padding: 2% 0;
+      width: 160px;
+      border: 2px solid #fff;
+    }
+
+    #re-uniqlo .flow .flow__head .flow__ttl{
+      max-width: 937px;
+      margin-bottom: 56px;
+    }
+
+    #re-uniqlo .flow .flow__lead-txt{
+      color: #379e49;
+      font-size: 17px;
+      line-height: 1.6;
+      letter-spacing: 0.15em;
+    }
+
+    #re-uniqlo .flow .flow__body{
+      padding: 0 78px;
+    }
+
+    #re-uniqlo .flow .flow__lists,
+    #re-uniqlo .flow .flow__list.-column2{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      flex-wrap: wrap;
+    }
+
+    #re-uniqlo .flow .flow__list{
+      margin-top: 60px;
+    }
+
+    #re-uniqlo .flow .flow__list-inner,
+    #re-uniqlo .flow .flow__list{
+      width: 100%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__list-inner,
+    #re-uniqlo .flow .flow__list.-half{
+      width: 50%;
+    }
+
+    #re-uniqlo .flow .flow__list-inner{
+      position: relative;
+    }
+
+    #re-uniqlo .flow .flow__num{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 13.95793499043977%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__num,
+    #re-uniqlo .flow .flow__list.-half .flow__num{
+      width: 26.54545454545455%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-01{
+      width: 66.54545454545455%;
+    }
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-02{
+      width: 100%;
+      text-align: center;
+      top: 10px;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-02 img{
+      max-width: 177px;
+    }
+
+    #re-uniqlo .flow .flow__img{
+      margin-right: auto;
+      margin-bottom: 30px;
+      margin-left: auto;
+    }
+    #re-uniqlo .flow .flow__img.-img-01{
+      padding-top: 70px;
+      width: 191px;
+    }
+    #re-uniqlo .flow .flow__img.-img-02{
+      padding-top: 67px;
+      width: 285px;
+    }
+    #re-uniqlo .flow .flow__img.-img-03{
+      padding-top: 70px;
+      width: 303px;
+    }
+    #re-uniqlo .flow .flow__img.-img-04{
+      padding-top: 66px;
+      width: 172px;
+    }
+    #re-uniqlo .flow .flow__img.-img-05{
+      padding-top: 43px;
+      width: 653px;
+    }
+
+    #re-uniqlo .flow .flow__list-ttl{
+      font-size: 35px;
+      line-height: 1;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 0.15em;
+      color: #379e49;
+      margin-bottom: 20px;
+    }
+
+    #re-uniqlo .flow .flow__list-ttl span{
+      font-size: 50%;
+      line-height: 35px;
+    }
+
+    #re-uniqlo .flow .flow__txt{
+      margin: 0 auto;
+      padding: 0 40px;
+      max-width: 710px;
+      color: #379e49;
+      font-size: 17px;
+      line-height: 1.6;
+      letter-spacing: 0.15em;
+/*
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+      align-items: center;*/
+    }
+
+    #re-uniqlo .flow .flow__txt sub{
+      vertical-align: baseline;
+      font-size: 70%;
+    }
+
+    #re-uniqlo .flow .flow__note{
+      font-size: 11px;
+      font-family: "UniqloProRegular", -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+    }
+
+    #re-uniqlo .partnership .partnership__ttl,
+    #re-uniqlo .attention .attention__ttl{
+      color: #379e49;
+      font-size: 23px;
+      line-height: 1;
+      letter-spacing: 0.15em;
+
+      margin-bottom: 20px;
+    }
+
+    #re-uniqlo .partnership .partnership__lists{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      align-items: center;
+
+      margin-right: -30px;
+      margin-left: : -30px;
+      overflow: hidden;
+    }
+
+    #re-uniqlo .partnership .partnership__list{
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    #re-uniqlo .partnership .partnership__list img{
+      vertical-align: middle;
+    }
+
+    #re-uniqlo .attention .attention__body{
+      color: #379e49;
+      font-size: 17px;
+      line-height: 1.6;
+      letter-spacing: 0.15em;
+    }
+
+    #re-uniqlo .attention .attention__list::before{
+      content: "-";
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+}
+
+@media (max-width: 767px){
+
+    #wrapper .container .mainContents .cover{
+      width: 94vw;
+      padding-right: 3vw;
+      padding-left: 3vw;
+    }
+    #re-uniqlo .pc_display{
+        display: none;
+    }
+    #re-uniqlo div.section{
+        margin-top: 45px;
+        width: 94vw;
+    }
+    #re-uniqlo div.section img{
+        width: 100%;
+    }
+    #re-uniqlo .pd_text{
+        margin-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #re-uniqlo div.section .linkBtn {
+        width: 100%;
+        margin: 15px auto 1px;
+        padding: 0;
+        clear: both;
+        line-height:1.4;
+    }
+    #re-uniqlo .flex--sp.flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    #re-uniqlo .flex--sp.flex--reverse {
+      flex-direction: row-reverse;
+    }
+    #re-uniqlo .flex--sp.flex--aligncenter {
+      align-items: center;
+    }
+    #re-uniqlo .flex--sp.flex--alignend {
+      align-items: end;
+    }
+    #re-uniqlo .flex--sp.flex--contentcenter {
+      justify-content: center;
+    }
+    #re-uniqlo .flex--sp.flex--contentstart {
+      justify-content: flex-start;
+    }
+    #re-uniqlo .flex--sp.flex--wrap {
+      flex-wrap: wrap;
+    }
+
+    .breads ul .item a{
+      font-size: 2.4vw;
+    }
+
+    .breads ul .item::before{
+      background: none;
+      margin-left: 0;
+      margin-right: 2.5vw;
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      transform: rotate(45deg);
+    }
+
+    #re-uniqlo .cover {
+      margin-bottom: 6vw;
+      padding-top: 0;
+    }
+
+    #re-uniqlo .cover .cover__img{
+      margin-bottom: 7vw;
+
+      width: 110%;
+      margin-left: -5%;
+    }
+
+    #re-uniqlo .category,
+    #re-uniqlo .flow,
+    #re-uniqlo .partnership{
+      margin-bottom: 6vw;
+    }
+
+    #re-uniqlo .category .category__head{
+      margin-bottom: 4vw;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    #re-uniqlo .category .category__head .category__item{
+      padding: 0 2vw;
+    }
+
+    #re-uniqlo .category .category__body{
+      overflow: hidden;
+      margin-right: -1.5vw;
+      margin-left: -1.5vw;
+    }
+
+    #re-uniqlo .category__body .category__item{
+      width: 50%;
+      height: 50%;
+      float: left;
+      padding: 0 1.5vw;
+      margin-bottom: 3vw;
+      overflow: hidden;
+    }
+
+    #re-uniqlo .category__body .category__item.-half{
+      width: 100%;
+    }
+
+    #re-uniqlo .category__body .category__item a{
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+
+    #re-uniqlo .category__body .category__item .over{
+      display: none;
+    }
+
+    #re-uniqlo .flow .flow__head{
+      padding: 0 3vw;
+    }
+
+    #re-uniqlo .flow .flow__head .flow__ttl{
+      width: 80%;
+      margin-bottom: 5vw;
+    }
+
+    #re-uniqlo .flow .flow__lead-txt{
+      color: #379e49;
+      font-size: 10px;
+      line-height: 1.6;
+      letter-spacing: 0.05em;
+    }
+
+    #re-uniqlo .flow .flow__body{
+      padding: 0 4vw;
+    }
+
+    #re-uniqlo .flow .flow__lists,
+    #re-uniqlo .flow .flow__list.-column2{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      flex-wrap: wrap;
+    }
+
+    #re-uniqlo .flow .flow__list{
+      margin-top: 4vw;
+    }
+
+    #re-uniqlo .flow .flow__list-inner,
+    #re-uniqlo .flow .flow__list{
+      width: 100%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__list-inner,
+    #re-uniqlo .flow .flow__list.-half{
+      width: 50%;
+    }
+
+    #re-uniqlo .flow .flow__list-inner{
+      position: relative;
+    }
+
+    #re-uniqlo .flow .flow__num{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 14.11411411411411%;
+    }
+
+    #re-uniqlo .flow .flow__list.-half .flow__num,
+    #re-uniqlo .flow .flow__list.-column2 .flow__num{
+      width: 28.31325301204819%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-01{
+      width: 70.29411764705882%;
+    }
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-02{
+      width: 100%;
+      text-align: center;
+      top: 1%;
+    }
+
+    #re-uniqlo .flow .flow__list.-column2 .flow__num.-num-03-02 img{
+      max-width: 46.47058823529412%;
+    }
+
+    #re-uniqlo .flow .flow__img{
+      margin-right: auto;
+      margin-bottom: 4vw;
+      margin-left: auto;
+    }
+    #re-uniqlo .flow .flow__img.-img-01{
+      padding-top: 11.73333333333333%;
+      width: 36.74698795180723%;
+    }
+    #re-uniqlo .flow .flow__img.-img-02{
+      padding-top: 11.73333333333333%;
+      width: 55.42168674698795%;
+    }
+    #re-uniqlo .flow .flow__img.-img-03{
+      padding-top: 11.73333333333333%;
+      width: 59.03614457831325%;
+    }
+    #re-uniqlo .flow .flow__img.-img-04{
+      padding-top: 11.73333333333333%;
+      width: 33.13253012048193%;
+    }
+    #re-uniqlo .flow .flow__img.-img-05{
+      padding-top: 4.2042042042042%;
+      width: 55.73333333333333%;
+    }
+
+    #re-uniqlo .flow .flow__list-ttl{
+      font-size: 14px;
+      line-height: 1;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 0.15em;
+      color: #379e49;
+      margin-bottom: 2vw;
+    }
+
+    #re-uniqlo .flow .flow__list-ttl span{
+      font-size: 50%;
+      line-height: 17px;
+      letter-spacing: 0.1em;
+    }
+
+    #re-uniqlo .flow .flow__txt{
+      margin: 0 auto;
+      padding: 0 2vw;
+      color: #379e49;
+      font-size: 10px;
+      line-height: 1.6;
+      letter-spacing: 0.09em;
+
+      /*display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+      align-items: center;*/
+    }
+
+    #re-uniqlo .flow .flow__txt sub{
+      vertical-align: baseline;
+      font-size: 70%;
+    }
+
+    #re-uniqlo .flow .flow__list:last-child .flow__txt{
+      max-width: 70%;
+    }
+
+    #re-uniqlo .flow .flow__note{
+      font-size: 10px;
+      font-family: "UniqloProRegular", -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+    }
+
+    #re-uniqlo .partnership,
+    #re-uniqlo .attention{
+      padding: 0 3vw;
+    }
+
+    #re-uniqlo .partnership .partnership__ttl,
+    #re-uniqlo .attention .attention__ttl{
+      color: #379e49;
+      font-size: 10px;
+      line-height: 1;
+      letter-spacing: 0.15em;
+      margin-bottom: 3vw;
+    }
+
+    #re-uniqlo .partnership .partnership__lists{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      align-items: center;
+
+      margin-right: -3vw;
+      margin-left: -3vw;
+      overflow: hidden;
+    }
+
+    #re-uniqlo .partnership .partnership__list{
+      padding-right: 3vw;
+      padding-left: 3vw;
+    }
+
+    #re-uniqlo .partnership .partnership__list img{
+      vertical-align: middle;
+    }
+
+    #re-uniqlo .attention .attention__body{
+      color: #379e49;
+      font-size: 10px;
+      line-height: 1.6;
+      letter-spacing: 0.09em;
+    }
+
+    #re-uniqlo .attention .attention__lists{
+      padding-left: 0.6em;
+    }
+    #re-uniqlo .attention .attention__list{
+      margin-left: 0.6em;
+      text-indent: -0.6em;
+    }
+
+    #re-uniqlo .attention .attention__list::before{
+      content: "-";
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+    .breads ul .item a {
+        letter-spacing: 0.5px;
+        /* SP全ページ共通で */
+    }
+    #re-uniqlo .partnership {
+        margin-bottom: 10vw;
+    }
+}
+
+@media (max-width: 364px){
+
+}
+
+
+@media (min-width: 767px) {
+
+  #re-uniqlo .category__body .category__item .over-inner {
+    padding: 13px 15px;
+  }
+
+  #re-uniqlo .category__body .category__item .over__ttl-en {
+    font-size: 22px;
+    word-break: break-word;
+  }
+
+  #re-uniqlo .category__body .category__item .over__ttl-jp {
+    font-size: 9px;
+  }
+
+  #re-uniqlo .flow .flow__lead-txt {
+    font-size: 16px;
+  }
+
+}
+
+footer.footer .pagetop{
+  display: none;
+}
+
+#page_top {
+  position: fixed;
+  width: 1072px;
+  margin-left: 50%;
+  height: 0;
+  bottom: 0;
+  left: -530px;
+}
+
+#page_top a {
+  opacity: 0;
+  transition: 0.5s;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+#page_top img {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+#page_top .page_top_inner {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+#page_top.fixd {
+  width: 100%;
+  margin: 0;
+  left: 0;
+  position: relative;
+}
+
+#page_top.fixd .page_top_inner {
+  bottom: -60px;
+}
+
+#page_top .re_uniqlo_top{
+  display: block;
+  width: 109px;
+  height: 30px;
+  margin-right: 30px;
+  background: #fff;
+  border: solid 2px #379e49;
+  overflow: hidden;
+}
+
+#page_top .re_uniqlo_top img{
+  display: block;
+  line-height: 0;
+  width: auto;
+  height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1167px) {
+  #page_top {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #page_top {
+    left: -3vw;
+    right: -3vw;
+    margin-left: 6vw;
+    width: 94%;
+  }
+  #page_top .page_top_inner{
+    width: 100%;
+    /*justify-content: space-between;*/
+    justify-content: flex-end;
+  }
+  #page_top a {
+    width: 8.4vw;
+    height: 8.4vw;
+  }
+  #page_top.fixd {
+    position: absolute;
+    bottom: -13.6vw;
+    margin-bottom: 60px;
+  }
+  #page_top.fixd .page_top_inner{
+    /* bottom: 0; */
+  }
+
+  #re_uniqlo_top{
+    width: 33.6vw;
+    height: 8.4vw;
+    bottom: -13.6vw;
+    right: auto;
+    left: 0;
+  }
+
+  #re_uniqlo_top a img{
+    border: solid 2px #379e49;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #wrapper .container {
+    padding: 0 78px 120px;
+  }
+
+  #re-uniqlo_l2 .re-wrap section {
+    padding: 90px 88px;
+  }
+
+}
+footer.footer .inner .item a,
+footer.footer .inner .copyright small{
+    word-break: keep-all;
+}

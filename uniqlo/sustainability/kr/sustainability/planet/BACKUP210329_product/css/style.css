@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.mainContents .contentsHead {
+    margin-top: 0;
+}
+.dots.sp.hidden {
+    visibility: hidden;
+}
+
+.mainContents.layer3 a.link {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1px;
+    font-weight: normal;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+.mainContents.layer3 a.link:hover {
+    opacity: 0.7;
+}
+
+.mainContents.layer3 .main .subSection dl.material dd .title {
+    font-weight: bold;
+}
+
+.mainContents.layer3 .main .subSection dl.material .lead .small {
+    font-size: 12px;
+}
+
+.mainContents.layer3 .section .recycle {
+    margin-left: 215px;
+    display: flex;
+    align-items: center;
+}
+
+.mainContents.layer3 .section .recycle .recycleCopy {
+    vertical-align: middle;
+    margin-left: 23px;
+}
+
+@media(min-width: 768px) {
+.mainContents.layer3 .main .body .flowchart {
+    margin: 50px auto 0;
+}
+
+.mainContents.layer3 .main .subSection ul.materialList {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainContents.layer3 .main .subSection ul.materialList li {
+    margin: 34px 7.8% 0 0;
+    padding: 0;
+    width: 28%;
+}
+
+.mainContents.layer3 .main .subSection ul.materialList li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.mainContents.layer3 .main .subSection dl.material {
+    position: relative;
+}
+
+.mainContents.layer3 .main .subSection dl.material dt {
+    padding: 0;
+    position: relative;
+}
+}
+
+@media(max-width: 767px) {
+.mainContents.layer3 .main .body .flowchart {
+    text-align: center;
+    margin: 30px auto 0;
+}
+.mainContents .contentsHead {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.mainContents.layer3 .main .subSection ul.materialList {
+    margin: 8vw auto 0;
+}
+
+.mainContents.layer3 .main .subSection dl.material dt {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.mainContents.layer3 .main .subSection dl.material .lead .small {
+    font-size: 2.8vw;
+}
+
+.mainContents.layer3 .main .subSection dl.material dt img {
+    width: 37.5vw;
+}
+
+.mainContents.layer3 .main .subSection ul.materialList li {
+    margin-top: 34px;
+}
+
+.mainContents.layer3 .section .recycle {
+    margin-left: 0;
+}
+
+.mainContents.layer3 .section .recycle .recycleImg img {
+    width: 28.8vw;
+}
+
+}

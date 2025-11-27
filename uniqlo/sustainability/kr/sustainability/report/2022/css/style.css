@@ -1,0 +1,572 @@
+body {
+    font-family: UniqloProRegular, -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+}
+
+body #wrapper {
+    overflow-x: auto;
+}
+
+a.hover_link:hover,
+#sustainability-report a.hover_link:hover > *,
+.shareIcons a img:hover {
+    opacity: 0.7;
+    transition: .3s linear;
+}
+
+.color_green {
+    color: #379e49 !important;
+}
+
+#wrapper .container .mainContents {
+    margin: 0 auto;
+    font-family: UniqloProRegular, -apple-system,  BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo,   sans-serif;
+}
+
+#sustainability-report .report-wrap {
+    margin-bottom: 30px;
+}
+
+#sustainability-report .report-wrap section {
+    font-size: 17.5px;
+    letter-spacing: 0.13em;
+}
+
+#sustainability-report .report-wrap section a {
+    color: #379e49;
+}
+
+/* #sustainability-report .report-wrap section:last-child {
+    padding-bottom: 40px;
+} */
+
+
+/*20220302 css 추가*/
+.red {color:#ff0000 ;}
+
+.breads {
+    overflow: unset;
+    font-weight: 700;
+    font-family: UniqloProRegular, -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+    width: 100%;
+}
+.breads, .breads ul .item a {
+    font-size: 14px;
+}
+
+.breads ul,
+.breads ul .item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.breads ul .item {
+    width: auto;
+    max-width: 1500px;
+}
+
+.breads ul .item a {
+    width: auto;
+}
+
+.breads ul .item:first-child,
+.breads ul .item:nth-last-child(2) {
+    max-width: 1500px;
+}
+
+.breads ul .item.noHomeIcon a {
+    width: 100%;
+    height: auto;
+    background: none;
+}
+
+.breads ul .item.noHomeIcon a span {
+    display: block;
+    width: 100%;
+}
+
+#sustainability-report .report-wrap section .cover_img {
+    margin-top: 40px;
+}
+
+.cover_img img{
+    width: 100%;
+}
+
+#sustainability-report .title_h1 {
+    font-family: 'UniqloProRegular';
+    font-size: 57px;
+    line-height: 1.1;
+    margin-top: 16px;
+    font-weight: normal;
+}
+
+#sustainability-report .report-wrap .title_01 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 16px;
+}
+
+#sustainability-report .report-wrap .h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+#sustainability-report .report-wrap .lead {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-top: 16px;
+}
+
+#sustainability-report .report-wrap .caption {
+    font-family: 'UniqloProRegular';
+    font-size: 10px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+footer.footer .pagetop {
+    display: none;
+}
+
+#page_top {
+    position: fixed;
+    width: 1072px;
+    margin-left: 50%;
+    height: 0;
+    bottom: 0;
+    left: -480px;
+}
+
+#page_top a {
+    opacity: 0;
+    transition: 0.5s;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+#page_top img {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+#page_top .page_top_inner {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#page_top.fixd {
+    width: 100%;
+    margin: 0;
+    left: 0;
+    position: relative;
+}
+
+#page_top.fixd .page_top_inner {
+    bottom: -60px;
+}
+
+#page_top .report_top {
+    display: block;
+    width: auto;
+    height: 30px;
+    margin-right: 30px;
+    background: #fff;
+    border: solid 2px #379e49;
+    overflow: hidden;
+}
+
+#page_top .report_top img {
+    display: block;
+    line-height: 0;
+    width: auto;
+    height: 100%;
+}
+
+#sustainability-report .contents_wrap .col_wrap ,
+#sustainability-report .contents_wrap .contents_wrap_text {
+    margin-top: 32px;
+}
+
+#sustainability-report .contents_wrap .contents_wrap_text {
+    color: #000000;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    line-height: 2.1;
+}
+
+#sustainability-report .contents_wrap:last-child .article_block.article_block_main .article_bottom,
+#sustainability-report .contents_wrap:last-child .col_wrap .article_block .article_bottom {
+    position: relative;
+}
+
+#sustainability-report .contents_wrap .article_block .article_bottom.external_link::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-image: url(/en/sustainability/report/img/external_link_green.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 7%;
+    width: 5%;
+    top: 4%;
+    right: 2%;
+}
+
+#sustainability-report .contents_wrap:last-child .article_block.article_block_main .article_bottom {
+    background-size: 20px;
+    background-position: top 20px right 20px;
+}
+
+#sustainability-report .contents_wrap:last-child .col_wrap .article_block .article_bottom {
+    background-size: 10px;
+    background-position: top 12px right 12px;
+}
+
+footer.footer .inner .item a,
+footer.footer .inner .copyright small{
+    word-break: keep-all;
+}
+
+.sp-only {
+    display: block;
+}
+
+.pc-only {
+    display: none;
+}
+
+
+/* migration_lead */
+
+.mainContents.layer3 .migration_lead{
+    margin-top: 100px;
+}
+.mainContents.layer3 .migration_lead_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 50px;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+}
+.mainContents.layer3 .booklet_banner{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #dddddd;
+    margin-top: 30px;
+}
+.mainContents.layer3 .migration_lead_list_item,.mainContents.layer3 .booklet_banner_item{
+    display: block;
+    width: calc(50% - 16px);
+    margin-right: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 0.05em;
+}
+.mainContents.layer3#sustainability-report .report-wrap section .migration_lead_list_item a,
+.mainContents.layer3#sustainability-report .report-wrap section .booklet_banner_item a{
+    display: flex;
+    width: 100%;
+    color: #1b1b1b;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    position: relative;
+}
+.mainContents.layer3#sustainability-report .report-wrap section .booklet_banner_item a{
+    align-items: center;
+}
+.mainContents.layer3#sustainability-report .report-wrap section .migration_lead_list_item a:hover,
+.mainContents.layer3#sustainability-report .report-wrap section .booklet_banner_item a:hover{
+    opacity: 0.8;
+}
+.mainContents.layer3 .migration_lead_list_item img,.mainContents.layer3 .booklet_banner_item img{
+    width: 120px;
+    height: 120px;
+    margin-right: 13px;
+}
+.mainContents.layer3 .migration_lead_list_item a.external::after,.mainContents.layer3 .booklet_banner_item a.external::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-image: url(/en/sustainability/report/img/external_link.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    top: 4px;
+    left: 101px;
+}
+.mainContents.layer3 .migration_lead_list_item a.external.gray::after,
+.mainContents.layer3 .booklet_banner_item a.external.gray::after{
+    background-image: url(/en/sustainability/report/img/external_link_gray.svg);
+}
+.mainContents.layer3 .migration_lead_list_item h4,.mainContents.layer3 .booklet_banner_item h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.toen {
+    padding: 0;
+}
+
+.toen a {
+    font-family: UniqloProLight, -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+}
+
+
+
+
+#sustainability-report .title_h1_article {
+    font-family: 'UniqloProRegular';
+    font-size: 37px;
+    line-height: 1.1;
+    margin-top: 16px;
+    font-weight: normal;
+}
+
+
+/*20220302 css 추가 end*/
+
+@media (min-width: 768px) {
+    .sp-only {
+        display: none;
+    }
+
+    .pc-only {
+        display: block;
+    }
+
+    #wrapper .container {
+        max-width: 1226px!important;
+        margin: 0 auto;
+        padding: 0 25px;
+        padding-bottom: 120px;
+    }
+
+    #wrapper .container .mainContents {
+        width: 100%;
+        max-width: 1240px;
+    }
+
+    #sustainability-report .report-wrap section a {
+        color: #379e49;
+    }
+
+    /* パンくずリスト */
+    .breads ul .item:after{
+        content: none;
+    }
+
+    .breads ul .item::before{
+      background: none;
+      margin-left: 5px;
+      width: 8px;
+      height: 8px;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      transform: rotate(45deg);
+    }
+
+    #sustainability-report .report-wrap section .cover_img {
+        margin-top: 80px;
+    }
+
+    #sustainability-report .report-wrap section .cover_img img {
+        width: 60%;
+    }
+
+    #sustainability-report .title_h1 {
+        font-size: 114px;
+        line-height: 1.1;
+        margin-top: 32px;
+    }
+
+    #sustainability-report .report-wrap .title_01 {
+        font-size: 34px;
+        margin-top: 32px;
+    }
+
+    #sustainability-report .report-wrap .h3 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-top: 80px;
+    }
+
+    #sustainability-report .report-wrap .lead {
+        font-size: 20px;
+        margin-top: 26px;
+    }
+
+    #sustainability-report .report-wrap .caption {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    footer.footer .footerLinks {
+        width: 33%;
+    }
+
+    footer.footer .footerLinks .item {
+        width: auto;
+    }
+
+    footer.footer .footerLinks .item a {
+        width: auto;
+    }
+
+    footer.footer .copyright {
+        width: 25%;
+    }
+
+    /*20220303 css 추가*/
+    #sustainability-report .title_h1_article {
+        font-size: 82px;
+        line-height: 1.1;
+        margin-top: 32px;
+    }
+    /*end*/
+
+}
+
+@media (max-width: 767px) {
+    #wrapper .container {
+        /* width: 92vw; */
+        width: unset;
+    }
+
+    #sustainability-report div.section {
+        margin-top: 45px;
+        width: 94vw;
+    }
+    .breads, .breads ul .item a {
+        font-size: 2.4vw;
+    }
+    #sustainability-report .report-wrap section:last-child{
+        padding-bottom: 0;
+    }
+
+    #sustainability-report div.section img {
+        width: 100%;
+    }
+
+    /* パンくずリスト */
+    .breads ul {
+        padding: 20px 3.66667vw 0px;
+        height: auto;
+    }
+
+    .breads ul .item {
+        font-size: 2.4vw;
+    }
+
+    /* sustainability report トップ */
+    #sustainability＿report_top.fixd {
+        bottom: 30px;
+    }
+
+    #sustainability＿report_top img {
+        border: solid 2px #379e49;
+    }
+
+    #sustainability-report .contents_wrap .contents_wrap_text{
+        font-size: 11px;
+        line-height: 2.1;
+        letter-spacing: 1px;
+        margin-top: 32px;
+    }
+
+    #sustainability-report .contents_wrap:last-child .article_block.article_block_main .article_bottom {
+        background-size: 16px;
+        background-position: top 15px right 17px;
+    }
+
+    #sustainability-report .contents_wrap:last-child .col_wrap .article_block .article_bottom {
+        background-size: 8px;
+        background-position: top 9px right 8px;
+    }
+
+    /* ページトップ */
+    #page_top {
+        left: -3vw;
+        right: -3vw;
+        margin-left: 6vw;
+        width: 94%;
+    }
+
+    #page_top.fixd {
+        position: absolute;
+        bottom: -17vw;
+        margin-bottom: 60px;
+    }
+
+    #page_top .page_top_inner {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #page_top a {
+        width: 8.4vw;
+        height: 8.4vw;
+    }
+
+    #sustainability-report .contents_wrap .article_block .article_bottom.external_link::before {
+        height: 10%;
+        width: 4%;
+    }
+
+    /* migration_lead */
+    .mainContents.layer3 .migration_lead{
+        margin-top:56px
+    }
+    .mainContents.layer3 .migration_lead_list{
+        padding: 48px 0 32px;
+    }
+    .mainContents.layer3 .booklet_banner{
+        margin-top: 24px;
+        padding-bottom: 8px;
+    }
+    .mainContents.layer3 .migration_lead_list_item,.mainContents.layer3 .booklet_banner_item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .mainContents.layer3#sustainability-report .report-wrap section .migration_lead_list_item a,
+    .mainContents.layer3#sustainability-report .report-wrap section .booklet_banner_item a{
+        font-size: 12px;
+    }
+    .mainContents.layer3 .migration_lead_list_item img,.mainContents.layer3 .booklet_banner_item img{
+        width: 18%;
+        height: 18%;
+    }
+    .mainContents.layer3 .migration_lead_list_item a.external::after,
+    .mainContents.layer3 .booklet_banner_item a.external::after{
+        height: 13%;
+        width: 3%;
+        top: 4%;
+        left: 15%;
+    }
+    .mainContents.layer3 .migration_lead_list_item h4,.mainContents.layer3 .booklet_banner_item h4{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+}
+
+@media (max-width: 1167px) and (min-width: 768px) {
+    #page_top {
+        right: 0;
+        left: auto;
+    }
+
+}

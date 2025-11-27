@@ -1,0 +1,394 @@
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#responsibledownstandard .section {
+  margin-top: 90px;
+}
+
+#responsibledownstandard .inlineblock {
+  display: inline-block;
+}
+
+.shareIcons a img {
+  transition: .3s linear;
+}
+
+#responsibledownstandard a.hover_link:hover,
+#responsibledownstandard a.hover_link:hover > *, .shareIcons a img:hover {
+  opacity: 0.7;
+  transition: .3s linear;
+}
+
+#responsibledownstandard .text_left {
+  text-align-last: left;
+}
+
+#responsibledownstandard .text_right {
+  text-align: right;
+}
+
+#responsibledownstandard .text_center {
+  text-align: center;
+}
+
+#responsibledownstandard .block_center {
+  display: block;
+  margin: auto;
+}
+
+/* cover */
+#responsibledownstandard .cover .cover_img {
+  position: relative;
+  width: 960px;
+  height: 480px;
+  margin: auto;
+}
+
+#responsibledownstandard {
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: bold;
+  /* lead */
+}
+
+#responsibledownstandard a.link {
+  color: #0DA43B;
+  margin-top: 11px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: solid 1px #0DA43B;
+}
+
+#responsibledownstandard a.link::after {
+  content: "";
+  display: inline-block;
+  background-image: url(.././img/arrow.svg);
+  width: 13px;
+  height: 13px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: rotate(-90deg);
+  margin-left: 10px;
+}
+
+#responsibledownstandard h2 {
+  font-size: 32px;
+  color: #0DA43B;
+  line-height: 39px;
+}
+
+#responsibledownstandard img {
+  max-width: 100%;
+}
+
+#responsibledownstandard .lead {
+  width: 660px;
+  margin: auto;
+  margin-top: 76px;
+  text-align: center;
+}
+
+#responsibledownstandard .lead .note {
+  margin-top: 9px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #676767;
+}
+
+#responsibledownstandard .rds {
+  margin: 160px auto 0;
+  display: flex;
+  align-items: center;
+}
+
+#responsibledownstandard .rds .text, #responsibledownstandard .rds .img {
+  width: 50%;
+}
+
+#responsibledownstandard .rds .text {
+  padding-right: 16px;
+  padding-left: 6px;
+}
+
+#responsibledownstandard .rds .text h2 {
+  margin: 10px 0 52px;
+}
+
+#responsibledownstandard .rds .img {
+  position: relative;
+  padding-left: 10px;
+}
+
+#responsibledownstandard .rds .img::after {
+  content: "";
+  display: block;
+  width: 231px;
+  height: 231px;
+  background: url(.././img/rds_icon.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: -117px;
+  left: -40px;
+}
+
+#responsibledownstandard .points {
+  margin-top: 250px;
+  background: #F4F4F4;
+  border-radius: 48px;
+  padding: 74px 61px;
+}
+
+#responsibledownstandard .points h2 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 107px;
+}
+
+#responsibledownstandard .points h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(.././img/arrow.svg);
+  left: 50%;
+  height: 14px;
+  width: 26px;
+  background-size: contain;
+  background-position: center;
+  margin-left: -13px;
+  background-repeat: no-repeat;
+  top: 66px;
+}
+
+#responsibledownstandard .points .points_flow {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#responsibledownstandard .points .points_flow .item {
+  position: inherit;
+  background: #fff;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  #responsibledownstandard .sp_display {
+    display: none;
+  }
+  #wrapper .container .mainContents {
+    width: 1082px;
+  }
+
+  #responsibledownstandard .shareIcons{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #responsibledownstandard .rds {
+    width: 970px;
+  }
+  #responsibledownstandard .points .points_flow .item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 39%;
+    max-height: 248px;
+    font-size: 18px;
+    text-align: right;
+    margin: -65px  0 185px;
+    position: relative;
+  }
+  #responsibledownstandard .points .points_flow .item:first-child {
+    margin-top: 0;
+  }
+  #responsibledownstandard .points .points_flow .item .icon {
+    width: 132px;
+    height: 132px;
+    margin: 58px -66px 58px 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  #responsibledownstandard .points .points_flow .item p {
+    padding: 10px 30px 10px 20px;
+    line-height: 24px;
+  }
+  #responsibledownstandard .points .points_flow .item::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 185px;
+    background: #707070;
+    position: absolute;
+    left: 127.7%;
+    top: 50%;
+  }
+  #responsibledownstandard .points .points_flow .item:last-child::before {
+    display: none;
+  }
+  #responsibledownstandard .points .points_flow .item::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #0DA43B;
+    border-radius: 50%;
+    position: absolute;
+    left: 127.7%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(even) {
+    text-align: left;
+    flex-direction: row-reverse;
+    margin: 120px 0 0;
+    justify-content: flex-end;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(even) .icon {
+    margin: 58px 0 58px -66px;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(even) p {
+    padding: 10px 10px 10px 30px;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(even)::before {
+    left: -28.5%;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(even)::after {
+    left: -28.5%;
+  }
+  #responsibledownstandard .points .points_flow .item:nth-child(2) {
+    margin-top: 185px;
+  }
+}
+
+@media (max-width: 767px) {
+  #responsibledownstandard .pc_display {
+    display: none;
+  }
+  #responsibledownstandard .section {
+    margin-top: 45px;
+    width: 94vw;
+  }
+  #responsibledownstandard .section img {
+    width: 100%;
+  }
+  /* cover */
+  #responsibledownstandard .cover {
+    width: 94vw;
+  }
+  #responsibledownstandard .cover .cover_img, #responsibledownstandard .cover .cover_img img {
+    width: 100%;
+    height: auto;
+  }
+  #responsibledownstandard {
+    /* lead */
+  }
+  #responsibledownstandard h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+  #responsibledownstandard .lead {
+    width: 100%;
+  }
+  #responsibledownstandard .lead .note {
+    margin-top: 21px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #responsibledownstandard .rds {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+    text-align: center;
+  }
+  #responsibledownstandard .rds .text, #responsibledownstandard .rds .img {
+    width: 100%;
+  }
+  #responsibledownstandard .rds .text {
+    padding: 0;
+  }
+  #responsibledownstandard .rds .text h2 {
+    margin-bottom: 27px;
+  }
+  #responsibledownstandard .rds .text p {
+    margin-top: 25px;
+  }
+  #responsibledownstandard .rds .img::after {
+    display: none;
+  }
+  #responsibledownstandard .points {
+    margin-top: 67.5px;
+    border-radius: 25px;
+    padding: 50px 15px 30px;
+  }
+  #responsibledownstandard .points h2::before {
+    top: auto;
+    bottom: -30px;
+  }
+  #responsibledownstandard .points .points_flow {
+    display: block;
+  }
+  #responsibledownstandard .points .points_flow .item {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 27px;
+    margin-bottom: 42px;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #responsibledownstandard .points .points_flow .item .icon {
+    width: 132px;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+  #responsibledownstandard .points .points_flow .item p {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #responsibledownstandard .points .points_flow .item::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #0DA43B;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    top: -12px;
+  }
+}
+@media screen and (max-width: 1370px) and (min-width: 768px){
+  #wrapper .container .mainContents {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 390px) {
+  #responsibledownstandard h2{
+    font-size: 7vw;
+  }
+}
+
+.shareIcons {
+  text-align: right;
+}
+
+.shareIcons li {
+  display: inline-block;
+  padding: 10px 5px !important;
+}

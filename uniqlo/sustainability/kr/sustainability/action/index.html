@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+  <script>
+    function redirect() {
+      var h = window.location.search.replace("?", "");
+      console.log(h);
+      switch (h) {
+        case "recycle":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        case "refugee":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        case "kids":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        case "sports":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        case "social":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        case "disaster":
+          location.href = "/kr/sustainability/society/?" + h;
+          break;
+        default:
+          location.href = "/kr/sustainability/society/";
+          break;
+      }
+    }
+    redirect();
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>

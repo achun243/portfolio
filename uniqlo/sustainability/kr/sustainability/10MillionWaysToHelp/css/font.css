@@ -1,0 +1,30 @@
+/*
+# font.css
+
+
+- UNIQLO
+ - Light
+ - Regular
+
+ - UniqloIcon
+
+*/
+@font-face {
+  font-family: 'Uniqlo';
+  src: url("../fonts/UniqloProLight.eot");
+  src: url("../fonts/UniqloProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/UniqloProLight.woff2") format("woff2"), url("../fonts/UniqloProLight.woff") format("woff"), url("../fonts/UniqloProLight.ttf") format("truetype"), url("../fonts/UniqloProLight.svg#uniqlo_prolight") format("svg");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Uniqlo';
+  src: url("../fonts/UniqloProRegular.eot");
+  src: url("../fonts/UniqloProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/UniqloProRegular.woff2") format("woff2"), url("../fonts/UniqloProRegular.woff") format("woff"), url("../fonts/UniqloProRegular.ttf") format("truetype"), url("../fonts/UniqloProRegular.svg#uniqlo_proregular") format("svg");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'UniqloIcon';
+  src: url("../fonts/uniqloIcons.eot?kmf3uc");
+  src: url("../fonts/uniqloIcons.eot?#iefixkmf3uc") format("embedded-opentype"), url("../fonts/uniqloIcons.woff?kmf3uc") format("woff"), url("../fonts/uniqloIcons.ttf?kmf3uc") format("truetype"), url("../fonts/uniqloIcons.svg?kmf3uc#uniqloIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

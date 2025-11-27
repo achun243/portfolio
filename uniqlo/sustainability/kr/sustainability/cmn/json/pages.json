@@ -1,0 +1,314 @@
+[
+  {
+    "url": "/kr/sustainability/planet/supply_chain/cdp/",
+    "tag": ["17"],
+    "image_path": "/kr/sustainability/keyword/img/cdp.jpg",
+    "article_title": "OUR INITIATIVES FOR <br>THE ENVIRONMENT",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/planet/supply_chain/cdp/climate/",
+    "tag": ["05"],
+    "image_path": "/kr/sustainability/keyword/img/cdp_climate.jpg",
+    "article_title": "ADDRESSING <br>CLIMATE CHANGE",
+    "article_desc": ""
+  }, {
+    "url": "/kr/sustainability/planet/clothes_recycling/re-uniqlo/studio/",
+    "tag": ["04", "07","17"],
+    "image_path": "/kr/sustainability/keyword/img/studio.jpg",
+    "article_title": "RE.UNIQLO STUDIO",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/products/material/recycle_pet/",
+    "tag": ["04", "07","17"],
+    "image_path": "/kr/sustainability/keyword/img/recyclepolyester.jpg",
+    "article_title": "CLOTHING MADE FROM PET BOTTLES",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/products/material/responsibly_down_feathers/",
+    "tag": ["04", "07","17"],
+    "image_path": "/kr/sustainability/keyword/img/responsibledownstandard.jpg",
+    "article_title": "RESPONSIBLY SOURCED DOWN AND FEATHERS",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/society/refugees/",
+    "tag": ["10", "18", "08", "14"],
+    "image_path": "/kr/sustainability/keyword/img/refugees.jpg",
+    "article_title": "UNIQLO’S SUPPORT TO REFUGEES AND OTHERS FORCED FROM HOME",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/production/",
+    "tag": ["10", "09"],
+    "image_path": "/kr/sustainability/keyword/img/production.jpg",
+    "article_title": "THE PEOPLE BEHIND OUR CLOTHES",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/gender/",
+    "tag": ["02"],
+    "image_path": "/kr/sustainability/keyword/img/gender.jpg",
+    "article_title": "GENDER",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/gender/covid19womensupport/",
+    "tag": ["02", "16", "08"],
+    "image_path": "/kr/sustainability/keyword/img/covid19womensupport.jpg",
+    "article_title": "SUPPORTING WOMEN IN COVID-19",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/gender/bangradeshproject/",
+    "tag": ["09", "16", "11","10"],
+    "image_path": "/kr/sustainability/keyword/img/bangradeshproject.jpg",
+    "article_title": "CAREER BUILDING TRAINING FOR WOMEN",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/gender/globalempowerment/",
+    "tag": ["12", "02"],
+    "image_path": "/kr/sustainability/keyword/img/globalempowerment.jpg",
+    "article_title": "GLOBAL WOMEN'S EMPOWERMENT PROGRAM",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/employment/",
+    "tag": ["18", "09", "16", "11"],
+    "image_path": "/jp/ja/contents/sustainability/people/img/contents_diversity_02.jpg",
+    "article_title": "GLOBAL ONE TEAM",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/pwd/",
+    "tag": ["09", "02", "13", "16", "11"],
+    "image_path": "/kr/sustainability/keyword/img/pwd.jpg",
+    "article_title": "DISABILITIES",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/people/diversity/lgbtq/",
+    "tag": ["02", "16", "11"],
+    "image_path": "/kr/sustainability/keyword/img/lgbtq.jpg",
+    "article_title": "LGBTQ+",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/clothes_recycling/re-uniqlo/",
+    "tag": ["04", "10"],
+    "image_path": "/kr/sustainability/keyword/img/re-uniqlo.jpg",
+    "article_title": "RE.UNIQLO",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/clothes_recycling/re-uniqlo/product/",
+    "tag": ["04", "05"],
+    "image_path": "/kr/sustainability/keyword/img/down-recycle.jpg",
+    "article_title": "UNIQLO DOWN RECYCLE",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/clothes_recycling/re-uniqlo/support/",
+    "tag": ["10", "18", "08"],
+    "image_path": "/kr/sustainability/keyword/img/re-uniqlo_support.jpg",
+    "article_title": "CLOTHING SUPPORT",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/clothes_recycling/re-uniqlo/material/",
+    "tag": ["04", "05"],
+    "image_path": "/kr/sustainability/keyword/img/material.jpg",
+    "article_title": "CLOTHING TO FUEL",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/sustainable_action/special/plastic/",
+    "tag": ["17", "05"],
+    "image_path": "/kr/sustainability/keyword/img/plastic.jpg",
+    "article_title": "COMMITMENT TO REDUCING SINGLE-USE PLASTIC",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/sustainable_action/productcare/01/",
+    "tag": ["17"],
+    "image_path": "/kr/sustainability/keyword/img/productcare_01.jpg",
+    "article_title": "MAKING CLOTHES LAST LONGER",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/products/bluecyclejeans/",
+    "tag": ["17", "07", "11"],
+    "image_path": "/kr/sustainability/keyword/img/bluecyclejeans.jpg",
+    "article_title": "BLUE CYCLE JEANS",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/planet/olive/",
+    "tag": ["17", "03"],
+    "image_path": "/kr/sustainability/keyword/img/olive.jpg",
+    "article_title": "THE SETOUCHI OLIVE FOUNDATION",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/society/refugees/unhcr_globalpartnership/",
+    "tag": ["10"],
+    "image_path": "/kr/sustainability/keyword/img/unhcr_globalpartnership.jpg",
+    "article_title": "GLOBAL PARTNERSHIP",
+    "article_desc": ""
+  },
+  {
+    "url": "/kr/sustainability/society/refugees/uniqlo_stores_employment/",
+    "tag": ["18", "09", "16"],
+    "image_path": "/kr/sustainability/keyword/img/uniqlo_stores_employment.jpg",
+    "article_title": "EMPLOYMENT OF REFUGEES",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/refugees/selfaliance/",
+    "tag": ["18", "16"],
+    "image_path": "/kr/sustainability/keyword/img/selfaliance.jpg",
+    "article_title": "REFUGEE EMPOWERMENT PROJECT",
+    "article_desc": ""
+  },{
+    "url": "/kr/sustainability/society/refugees/clothing_support/",
+    "tag": ["18", "04", "06", "08"],
+    "image_path": "/kr/sustainability/keyword/img/clothing_support.jpg",
+    "article_title": "CLOTHING SUPPORT THROUGH RE.UNIQLO",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/refugees/globalproject/",
+    "tag": ["06", "18", "08"],
+    "image_path": "/kr/sustainability/keyword/img/globalproject.jpg",
+    "article_title": "GLOBAL REFUGEE SUPPORT EFFORTS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/youth/school/",
+    "tag": ["19"],
+    "image_path": "/kr/sustainability/keyword/img/school.jpg",
+    "article_title": "MAKING THE WORLD BETTER FOR FUTURE GENERATIONS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/youth/school/JFAsoccer/",
+    "tag": ["01"],
+    "image_path": "/kr/sustainability/keyword/img/JFAsoccer.jpg",
+    "article_title": "JFA UNIQLO SOCCER KIDS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/youth/school/project/",
+    "tag": ["06", "13"],
+    "image_path": "/kr/sustainability/keyword/img/youth_school_project.jpg",
+    "article_title": "SUPPORTING NEXT GENERATION LEADERS AROUND THE WORLD",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/youth/childrenshospice/",
+    "tag": ["06"],
+    "image_path": "/kr/sustainability/keyword/img/childrenshospice.jpg",
+    "article_title": "TSURUMI CHILDREN'S HOSPICE",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/culture_sports/specialolympics/",
+    "tag": ["13", "16", "01"],
+    "image_path": "/kr/sustainability/keyword/img/specialolympics.jpg",
+    "article_title": "SPECIAL OLIMPICS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/emergency_support/disaster_prevention/",
+    "tag": ["15"],
+    "image_path": "/kr/sustainability/keyword/img/disaster_prevention.jpg",
+    "article_title": "PREPARING CLOTHES FOR AN EMERGENCY DISASTER",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/culture_sports/streetsoccer/",
+    "tag": ["09", "01"],
+    "image_path": "/kr/sustainability/keyword/img/streetsoccer.jpg",
+    "article_title": "STREET SOCCER USA",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/culture_sports/artmuseum/",
+    "tag": ["06"],
+    "image_path": "/kr/sustainability/keyword/img/artmuseum.jpg",
+    "article_title": "NEW YORK MUSEUM OF MODERN ART(MoMA) PARTNERSHIP(U.S.)",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/culture_sports/wheelchair-tennis/",
+    "tag": ["01","13","16"],
+    "image_path": "/kr/sustainability/keyword/img/wheelchair-tennis.jpg",
+    "article_title": "UNIQLO WHEELCHAIR TENNIS TOUR",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/socialbusiness/grameenuniqlo/",
+    "tag": ["09", "12"],
+    "image_path": "/kr/sustainability/keyword/img/grameenuniqlo.jpg",
+    "article_title": "GRAMEEN UNIQLO(Bangladesh)",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/emergency_support/archive/aid/",
+    "tag": ["09", "12", "15", "08"],
+    "image_path": "/kr/sustainability/keyword/img/archive_aid.jpg",
+    "article_title": "UNIQLO RECOVERY ASSISTANCE PROJECT",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/emergency_support/archive/aid/NGO/",
+    "tag": ["09", "12", "15", "03"],
+    "image_path": "/kr/sustainability/keyword/img/NGO.jpg",
+    "article_title": "ASSISTING RECOVERY IN COOPERATION WITH NGOs",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/society/emergency_support/covid-19response/",
+    "tag": ["14", "08", "06"],
+    "image_path": "/kr/sustainability/keyword/img/covid-19response.jpg",
+    "article_title": "UNIQLO INITIATIVES TO HELP COMBAT COVID-19",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/",
+    "tag": ["17", "20", "14", "05", "07", "10"],
+    "image_path": "/kr/sustainability/keyword/img/report_interview.jpg",
+    "article_title": "SUSTAINABILITY REPORT 2021",
+    "article_desc": ""
+  }, {
+    "url": "/kr/sustainability/report/history/",
+    "tag": ["10", "17", "02", "13", "18", "04"],
+    "image_path": "/kr/sustainability/keyword/img/report_history.jpg",
+    "article_title": "20 YEARS OF SUSTAINABILITY PROGRESS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/generation/",
+    "tag": ["17"],
+    "image_path": "/kr/sustainability/keyword/img/report_generation.jpg",
+    "article_title": "GEN Z:CHANGING THE WORLD",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/planet/",
+    "tag": ["17", "05"],
+    "image_path": "/kr/sustainability/keyword/img/report_planet.jpg",
+    "article_title": "CARING FOR THE ENVIRONMENT",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/reuniqlo/",
+    "tag": ["07"],
+    "image_path": "/kr/sustainability/keyword/img/report_reuniqlo.jpg",
+    "article_title": "PRODUCT INNOVATIONS",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/refugees/",
+    "tag": ["10", "18", "12", "09", "16"],
+    "image_path": "/kr/sustainability/keyword/img/report_refugees.jpg",
+    "article_title": "HELPING REFUGREES FLOURISH",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/report/people/",
+    "tag": ["16", "02"],
+    "image_path": "/kr/sustainability/keyword/img/sustainability_report_people.jpg",
+    "article_title": "PUTTING PEOPLE FIRST",
+    "article_desc": ""
+  },  {
+    "url": "/kr/sustainability/power_of_clothing/",
+    "tag": ["19", "13", "18", "04", "17", "03"],
+    "image_path": "/kr/sustainability/keyword/img/sustainability_report_power.jpg",
+    "article_title": "THE POWER OF CLOTHING BOOKLET SERIES ARCHIVE",
+    "article_desc": ""
+  }
+
+
+]

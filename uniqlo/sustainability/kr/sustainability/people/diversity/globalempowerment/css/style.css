@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@media screen and (max-width: 812px){
+}
+/* L4_cover */
+/* .L4_cover {
+  margin-top: calc((50/750)*100vw);
+}
+.L4_cover .cover_subTtl {
+  margin-top: calc((50/750)*100vw);
+} */
+/* local-container */
+/* .local_container {
+  margin-top: calc((80/750)*100vw);
+} */
+/* empower_cover */
+.empower_cover {
+  width: 100%;
+}
+.empower_coverImg {
+  width: 100%;
+}
+/* areaList */
+.areaList {
+  margin-top: calc((80/750)*100vw);
+}
+.areaList_item {
+  margin-top: calc((40/750)*100vw);
+}
+.areaList_item:first-of-type {
+  margin-top: 0;
+}
+.area {
+  display: flex;
+}
+.area_containerIcon {
+  width: calc((56/750)*100vw);
+  margin-right: calc((36/750)*100vw);
+}
+.area_containerIconImg {
+  width: 100%;;
+}
+.area_containerBody {
+  flex: 1;
+}
+.area_title {
+  font-size: calc((24/750)*100vw);
+  font-weight: bold;
+  line-height: calc((38/750)*100vw);
+  letter-spacing: .063em;
+}
+.area_dl {
+  margin-top: calc((34/750)*100vw);
+}
+.area_dlInner {
+  display: flex;
+  margin-top: calc((22/750)*100vw);
+}
+.area_dlInner:first-of-type {
+  margin-top: 0;
+}
+.area_dt {
+  width: calc((86/750)*100vw);
+  font-size: calc((22/750)*100vw);
+  font-weight: bold;
+  line-height: calc((36/750)*100vw);
+}
+.area_dd {
+  flex: 1;
+  font-size: calc((22/750)*100vw);
+  line-height: calc((36/750)*100vw);
+}
+.area_copy {
+  font-size: calc((22/750)*100vw);
+  line-height: calc((36/750)*100vw);
+}
+a.area_title:hover{
+  text-decoration: underline;
+}
+@media screen and (min-width: 813px){
+  /* .local_container {
+    margin-top: 64px;
+  } */
+  /* areaList */
+  .areaList {
+    margin: 110px 0 0;
+  }
+  /* area */
+  .areaList_item {
+    margin-top: 64px;
+  }
+  .area_containerIcon {
+    width: calc((56/888)*100%);
+    margin-right: calc((38/888)*100%);
+  }
+  .area_dl {
+    margin-top: 41px;
+  }
+  .area_dlInner {
+    margin-top: 30px;
+  }
+  .area_title {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: .07em;
+  }
+  .area_dt {
+    width: calc((84/794)*100%);
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .area_dd {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .area_copy {
+    font-size: 18px;
+    line-height: 30px;
+  } 
+}

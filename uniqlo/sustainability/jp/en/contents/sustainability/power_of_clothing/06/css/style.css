@@ -1,0 +1,141 @@
+.archive_number{
+  color: #ed1c24;
+  font-size: calc((23/750)*100vw);
+  line-height: calc((23/750)*100vw);
+  letter-spacing: 0.072em;
+}
+
+.L3_cover .cover_subTtl{
+  font-size: calc((36/750)*100vw);
+  margin-top: calc((34/750)*100vw);
+  line-height: calc((50/750)*100vw);
+}
+
+.archive_subTtl{
+  font-weight: bold;
+  font-size: calc((22/750)*100vw);
+  margin-top: calc((22/750)*100vw);
+  line-height: calc((36/750)*100vw);
+}
+
+.container_area{
+  margin-top: calc((80/750)*100vw);
+}
+
+.bold_text{
+  font-weight: bold;
+  margin-top: calc((50/750)*100vw);
+  font-size: calc((24/750)*100vw);
+  line-height: calc((42/750)*100vw);
+  letter-spacing: 0.07em;
+}
+
+.text_area{
+  margin-top: calc((50/750)*100vw);
+}
+
+.nomal_text{
+  margin-top: calc((30/750)*100vw);
+  font-size: calc((22/750)*100vw);
+  line-height: calc((40/750)*100vw);
+  letter-spacing: 0.110em;
+}
+
+.name-area{
+  display: flex;
+  font-weight: bold;
+}
+
+.okurigana{
+  font-weight: bold;
+}
+
+.kinds{
+  width: 100%;
+  margin-top: calc((80/750)*100vw) ;
+}
+
+.transition{
+  width: calc((690/750)*100vw) ;
+  margin-top: calc((50/750)*100vw) ;
+}
+
+img{
+  width: 100%;
+}
+
+@media screen and (min-width: 813px) {
+  .archive_number{
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .L3_cover .cover_subTtl{
+    margin-top: 47px;
+    font-size: 52px;
+    line-height: 75px;
+    letter-spacing: 0.138em;
+  }
+
+  .L3_cover .cover_lead{
+    margin-top: 64px;
+  }
+
+  .archive_subTtl{
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.125em;
+    margin-top: 29px;
+  }
+
+  .container_area{
+    margin-top: 110px;
+  }
+
+  .bold_text{
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.125em;
+    margin-top: 64px;
+  }
+
+  .text_area{
+    margin-top: 64px;
+  }
+
+  .nomal_text{
+    margin-top: 29px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16em;
+  }
+
+  .okurigana{
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.398em;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+
+  .name{
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 0.140em;
+    width: 230px;
+  }
+
+  .store{
+    font-size: 18px;
+    line-height: 42px;
+    letter-spacing: 0.125em;
+  }
+
+  .profile{
+    margin-top: 29px;
+  }
+
+  .graph_area{
+    margin-top: 64px;
+  }
+}

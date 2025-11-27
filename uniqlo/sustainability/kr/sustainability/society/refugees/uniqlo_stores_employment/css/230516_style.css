@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.text_small {
+    font-size: calc((22/750)*100vw);
+    line-height: calc((50/750)*100vw);
+    letter-spacing: .063em;
+}
+.company_container {
+    margin-top: calc((50/750)*100vw);
+}
+.company_List {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.company_List:first-child {
+    margin-bottom: calc((30/750)*100vw);
+}
+.company_container .company_wrap {
+    margin-right: calc((58/750)*100vw);
+    display: flex;
+    align-items: center;
+}
+.company_container .company_wrap:nth-child(-n+3) {
+    margin-top: 0;
+}
+.company_container .company_wrap:nth-child(3) {
+    margin-right: 0;
+}
+.company_wrap.rhq,
+.company_wrap.iss {
+    max-width: calc((190/750)*100vw);
+}
+.company_wrap.support {
+    max-width: calc((243/750)*100vw);
+}
+.company_wrap.ajalt {
+    max-width: calc((141/750)*100vw);
+}
+.company_wrap.refugee {
+    max-width: calc((276/750)*100vw);
+}
+.company_wrap.door-to-asylum {
+    max-width: calc((94/750)*100vw);
+}
+.company_container .company_logo:nth-child(4) {
+    margin-top: calc((20/750)*100vw);
+}
+.company_container .company_logo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.subImg_container_large .subImg_ttl{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 813px) {
+    .company_container {
+        margin-top: 64px;
+        display: flex;
+    }
+    .text_small {
+        font-size: 23px;
+        line-height: 75px;
+        letter-spacing: .138em;
+    }
+    .company_List {
+        flex-wrap: nowrap;
+    }
+    .company_List:first-child {
+        margin-bottom: 0;
+    }
+    .company_container .company_wrap {
+        max-width: 38%;
+        margin-right: 50px;
+    }
+    .company_container .company_wrap:nth-child(3) {
+        margin-right: 50px;
+    }
+    .company_container .company_wrap.door-to-asylum {
+        margin-right: 0;
+    }
+}
+@media all and (-ms-high-contrast: none) and (min-width:813px){
+    .company_List:first-child{
+        width: calc((514/967)*100vw);
+        max-width: 514px;
+    }
+    .company_List:nth-child(2){
+        width: calc((453/967)*100vw);
+        max-width: 453px;
+    }
+}

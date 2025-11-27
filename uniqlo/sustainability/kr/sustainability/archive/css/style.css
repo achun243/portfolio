@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* 共通 */
+#archive {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-feature-settings: "palt" 1;
+  font-feature-settings: "palt" 1;
+  font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+  letter-spacing: .08em;
+}
+#archive > section {
+  margin: 0 0 50px 0;
+}
+#archive > section > h1 {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+#archive > section > p {
+  margin: 0 0 50px 0;
+}
+#archive > section > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#archive > section > ul > li {
+  margin: 0 4% 0 0;
+  padding: 0;
+  width: 22%;
+  float: left;
+  height: 240px;
+}
+#archive > section > ul > li:nth-child(4n) {
+  margin: 0 0 0 0;
+}
+#archive > section > ul > li > a {
+  font-weight: normal;
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+#archive > section > ul > li > a > dl {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#archive > section > ul > li > a > dl > dt {
+  margin: 0 0 5px 0;
+  padding: 0;
+  position: relative;
+  line-height: 0;
+}
+#archive > section > ul > li > a > dl > dt > img {
+  width: 100%;
+}
+#archive > section > ul > li > a > dl > dd {
+  margin: 0;
+  padding: 0;
+}
+/* photoarchive */
+#archive > section.photoarchive > ul > li > a > dl > dt > span {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: normal;
+  line-height: 15px;
+  margin: 0 0 0 0px;
+  padding: 0 4px 0 4px;
+  width: auto;
+  background-color: rgba(255,255,255,0.75);
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+#archive > section.photoarchive > ul > li > a > dl > dd {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+#archive > section.photoarchive > ul > li > a > dl > dd > span {
+  font-size: 20px;
+  display: block;
+  line-height: 20px;
+  font-family: UniqloProRegular;
+}
+#archive > section.photoarchive > ul > li > a > dl > dd:last-child {
+  color: rgb(255,0,0);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* moviearchive */
+#archive > section.moviearchive > ul > li > a > dl > dt > img + img {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+}
+#archive > section.moviearchive > ul > li > a > dl > dd {
+  font-size: 13px;
+  line-height: 18px;
+  /* height: 54px; */
+}
+
+@media (max-width: 767px) {
+#archive {
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+}
+#archive > section {
+  margin: 4vw 0 50px 0;
+}
+#archive > section > h1 {
+  font-weight: 700;
+  font-size: 4.26667vw;
+  line-height: 6.4vw;
+  margin-bottom: 3.2vw;
+  text-align: left;
+}
+#archive > section > p {
+  margin: 0 0 5vw 0;
+}
+#archive > section > ul {
+}
+#archive > section > ul > li {
+  width: 100%;
+  margin: 0 0 6vw 0;
+  padding: 0;
+  height: auto;
+}
+#archive > section > ul > li:nth-child(4n) {margin: 0 0 6vw 0;}
+#archive > section > ul > li > a {
+}
+#archive > section > ul > li > a > dl {
+}
+#archive > section > ul > li > a > dl > dt {
+}
+#archive > section > ul > li > a > dl > dt > img {
+}
+#archive > section > ul > li > a > dl > dd {
+}
+/* photoarchive */
+#archive > section.photoarchive > ul > li > a > dl > dt > span {
+}
+#archive > section.photoarchive > ul > li > a > dl > dd {
+  font-size: 3.2vw;
+  line-height: 4.8vw;
+}
+#archive > section.photoarchive > ul > li > a > dl > dd > span {
+  font-size: 6vw;
+  line-height: 7vw;
+}
+#archive > section.photoarchive > ul > li > a > dl > dd:last-child {
+}
+/* moviearchive */
+#archive > section.moviearchive > ul > li > a > dl > dt > img + img {
+}
+#archive > section.moviearchive > ul > li > a > dl > dd {
+}
+}
+
+/*============== logoArea =======================*/
+
+#wrapper > div.container > div.logoArea {
+  position: absolute;
+  top: 168px;
+  right: 96px;
+}
+
+#wrapper > div.container > div.logoArea > ul {
+  padding: 0;
+}
+
+#wrapper > div.container > div.logoArea > ul > li {
+  display:  inline-block;
+  list-style: none;
+}
+
+#wrapper > div.container > div.logoArea > ul > li > a > {
+  display: block;
+}
+
+#wrapper > div.container > div.logoArea > ul > li > a > img {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  #wrapper > div.container > div.logoArea {
+    position: absolute;
+    top: 90px;
+    right: 24px;
+  }
+
+  #wrapper > div.container > div.logoArea > ul > li > a > img {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+  }
+}

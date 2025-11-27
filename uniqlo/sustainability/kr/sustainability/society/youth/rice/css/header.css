@@ -1,0 +1,137 @@
+@charset "utf-8";
+#header {
+    height: 150px;
+    position: fixed;
+    background-color: #FFF;
+}
+
+#header img {
+    padding-top: 10px;
+}
+
+#header .left {
+    float: left;
+}
+
+#header .right {
+    float: right;
+}
+
+#header .right img{
+    width: 75%;
+}
+
+.uni_logo{
+	float: left;
+}
+
+.gu_logo{
+	float: left;
+}
+
+#dropmenu{
+  clear: both;
+  width: 100%;
+  max-width: 960px;
+  margin-top: 80px;
+}
+
+#dropmenu li{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+#dropmenu li a{
+  display: block;
+  color: #FFF;
+}
+
+#dropmenu li{
+  position: relative;
+}
+
+#dropmenu .parent ul.child{
+  position: absolute;
+  width: 100%;
+  background: #FFF;
+  display: none;
+}
+
+#dropmenu .parent ul.child li{
+  display: block;
+  width: 100%;
+  color: #fff;
+}
+
+#dropmenu .parent ul.child li a{
+  display: block;
+  width: 100%;
+  color: #333;
+  padding: 8px 0;
+  border-right: none;
+}
+
+#dropmenu .parent ul.child li a:hover{
+  display: block;
+  width: 100%;
+  color: #FFF;
+  padding: 8px 0;
+  border-right: none;
+  background: #f00;
+}
+
+#dropmenu li a span{
+	opacity:0;
+}
+
+#dropmenu li {
+    float: left;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 13px;
+}
+
+#dropmenu li:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 619px) {
+#header {
+	position: fixed;
+  height: 50px;
+}
+
+#header .left{
+	margin-right: -70px;
+}
+
+#header .fr_logo {
+  padding-left: 10px;
+}
+
+#header .fr_logo img {
+  width: 50%;
+}
+
+#header .right {
+    margin-top: 10px;
+    position: absolute;
+    right: 10%;
+}
+
+#header .right img {
+    width: 40%;
+    padding-top: 0px;
+}
+
+#header .right .gu_logo {
+    margin-left: -30px;
+}
+}
+
+@media (max-width: 768px){
+  #dropmenu li{
+    margin-right: 13px;
+  }
+}

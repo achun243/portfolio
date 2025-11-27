@@ -1,0 +1,293 @@
+/* CSS Document */
+
+.mainContents{
+    padding-top: 5px !important;
+}
+
+#sustainability-report .report-wrap section .border_h3 span {
+    display: inline;
+    position: relative;
+    border-bottom: solid 3px #379e49;
+}
+
+#sustainability-report .report-wrap .caption{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#wrapper .container .mainContents{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#wrapper .container .mainContents sup{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+#sustainability-report .report-wrap .title_01 {
+    color: #379e49;
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+
+#sustainability-report .report-wrap .lead{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+
+#sustainability-report .report-wrap .h3 {
+    color: #379e49;
+}
+
+#sustainability-report .report-wrap .h4 {
+    color: #379e49;
+    margin-top: 11px;
+    font-size: 12px;
+}
+
+#sustainability-report .report-wrap .h4 span {
+    border-bottom: solid 1px #379e49;
+}
+
+#sustainability-report .report-wrap .title-wrap {
+    margin-top: 25px;
+    display: block;
+}
+
+#sustainability-report .report-wrap .title-wrap .title-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+#sustainability-report .report-wrap .title-wrap .title-logo img {
+    margin-right: 15px;
+}
+#sustainability-report .report-wrap .title-wrap .title-logo img:last-child {
+    margin-right: 0;
+}
+
+#sustainability-report .report-wrap .title-wrap h3 {
+    margin-top: 0;
+}
+
+#sustainability-report .contents_wrap {
+    margin-top: 25px;
+}
+
+#sustainability-report .contents_text {
+    font-size: 11px;
+    line-height: 2.1;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+#sustainability-report .contents_text.achievement {
+    margin-top: 6px;
+}
+
+#sustainability-report .report-wrap section .cover_img img {
+    width: 100%;
+}
+
+#sustainability-report .report-wrap .details-lead {
+    margin-top: 40px;
+}
+#sustainability-report .report-wrap .details-lead img {
+    max-width: 100%;
+}
+
+#sustainability-report .contents_wrap .FilippoGrandi{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 32px;
+}
+
+#sustainability-report .contents_wrap .FilippoGrandi .img{
+    width: 271px;
+    height: 271px;
+}
+
+#sustainability-report .contents_wrap .FilippoGrandi .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.mainContents.layer3 .contentsLink_red {
+    width: 100%;
+    height: 53px;
+    margin-top: 35px;
+    background-color: #ff0000;
+}
+.mainContents.layer3 .contentsLink_green {
+    width: 100%;
+    height: 53px;
+    margin-top: 35px;
+    background-color: #379e49;
+}
+#sustainability-report .report-wrap section a {
+    color: #379e49;
+}
+.mainContents.layer3 .contentsLink_red .contentsLink_btn,
+.mainContents.layer3 .contentsLink_green .contentsLink_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.mainContents.layer3 .contentsLink_red .contentsLink_txt:first-child,
+.mainContents.layer3 .contentsLink_green .contentsLink_txt:first-child {
+    margin-left: -2px;
+}
+.mainContents.layer3 .contentsLink_red .contentsLink_txt,
+.mainContents.layer3 .contentsLink_green .contentsLink_txt {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: .110em;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0;
+}
+.mainContents.layer3 .contentsLink_red .arrow_transition,
+.mainContents.layer3 .contentsLink_green .arrow_transition {
+    width: 13px;
+    margin: auto 0;
+    margin-left: 8px;
+}
+
+.mainContents.layer3 .contentsLink_green .arrow_right::after {
+    content: "";
+    position: absolute;
+    left: calc(68% + 25px);
+    width: 16px;
+    height: 16px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+}
+.contentsLink_txt .arrow_right {
+    position: relative;
+}
+.mainContents.layer3 .contentsLink_green .arrow_right::after {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+#sustainability-report .contents_wrap .FilippoGrandi .name{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#sustainability-report .contents_wrap .FilippoGrandi .description{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.09em;
+    margin-top: 15px;
+}
+.contentsLink_txt.arrow_right {
+    position: relative;
+}
+@media (min-width: 813px) {
+    .contentsLink_txt.arrow_right {
+        position: relative;
+    }
+    #sustainability-report .contents_text {
+        font-size: 16px;
+        margin-top: 41px;
+    }
+
+    #sustainability-report .contents_text.achievement {
+        margin-top: 29px;
+    }
+
+    #sustainability-report .report-wrap .h4 {
+        margin-top: 41px;
+        font-size: 20px;
+    }
+
+    #sustainability-report .contents_wrap {
+        margin-top: 41px;
+    }
+
+    #sustainability-report .report-wrap .details-lead {
+        margin-top: 80px;
+        width: 561px;
+    }
+
+    #sustainability-report .report-wrap section .cover_img img {
+        width: 60%;
+    }
+
+    .mainContents.layer3 .contentsLink_green {
+        margin-top: 70px;
+        max-width: 588px;
+        height: 50px;
+    }
+    #sustainability-report .report-wrap section a {
+        color: #379e49;
+    }
+    .mainContents.layer3 .contentsLink_green .contentsLink_txt:first-child {
+        margin-left: -3px;
+    }
+    .mainContents.layer3 .contentsLink_green .contentsLink_txt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mainContents.layer3 .contentsLink_green .arrow_transition {
+        width: 24px;
+        margin-left: 15px;
+    }
+
+    .mainContents.layer3 .contentsLink_green .arrow_right::after {
+        left: calc(30% + 280px);
+        width: 16px;
+        height: 16px;
+        top: 20%;
+    }
+}
+
+@media (max-width: 812px) {
+    #sustainability-report .report-wrap section::before {
+        height: 2px;
+        width: 91%;
+    }
+
+    #sustainability-report .report-wrap .img_wrap {
+        margin-top: 24px;
+    }
+
+    #sustainability-report .report-wrap .h4:first-of-type {
+        margin-top: 25px;
+    }
+
+    #sustainability-report .contents_wrap .FilippoGrandi{
+        display: block;
+    }
+
+    #sustainability-report .contents_wrap .FilippoGrandi .img{
+        width: 50vw;
+        height: auto;
+    }
+
+    #sustainability-report .contents_wrap .FilippoGrandi .text{
+        margin-left: 0;
+        margin-top: 5vw;
+        width: 100%;
+    }
+
+    #sustainability-report .contents_wrap .FilippoGrandi .name{
+        margin-bottom: 3vw;
+        font-size: 9px;
+        text-align: left;
+    }
+
+    #sustainability-report .contents_wrap .FilippoGrandi .description{
+        font-size: 9px;
+        margin-top: 0;
+    }
+}

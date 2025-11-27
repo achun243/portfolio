@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+/*
+Theme Name: UNIQLO Sustainability
+Theme URI: 
+Description: UNIQLO Sustainability
+Version: 1
+*/
+
+/*
+---------------------------------------------------------------------
+	recyclePR.css [june.2011] 
+---------------------------------------------------------------------
+*/
+
+#recyclePR #subCont #reportList {
+	margin-bottom: -11px;
+	padding-bottom: 0;
+}
+#recyclePR #subCont #reportList .imgLink {margin-bottom: 30px; }
+
+#recyclePR #contTitle {
+	display: block;
+	width: 691px;
+	height: 70px;
+	margin: 0;
+	padding: 0 19px;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 1.5;
+}
+
+#recyclePR #contTitle h1 {
+	display: table-cell;
+	width: 215px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	letter-spacing: -1px;
+	vertical-align: middle;
+}
+#recyclePR #contTitle p {
+	display: table-cell;
+	width: 476px;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 92%;
+	font-weight: normal;
+	color: #333;
+	text-align: left;
+	vertical-align: middle;
+}
+
+* html #recyclePR #contTitle h1 {
+	display: inline;
+	zoom: 1;
+	font-size: 14px;
+	line-height: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+* html #recyclePR #contTitle p {
+	display: inline;
+	zoom: 1;
+	height: 3em;
+	margin: auto 0;
+	font-size: 11px;
+	overflow: hidden;
+}
+
+*:first-child+html #recyclePR #contTitle h1 {
+	display: inline;
+	zoom: 1;
+	font-size: 14px;
+	line-height: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+*:first-child+html #recyclePR #contTitle p {
+	display: inline;
+	zoom: 1;
+	height: 3em;
+	margin: auto 0;
+	font-size: 11px;
+	overflow: hidden;
+}
+
+#recyclePR #contHead { margin: 16px 19px 35px; }
+#recyclePR #contHead h2 { text-align: center; }
+#recyclePR #contHead .img { margin: 15px 0 25px; }
+#recyclePR #contHead .txt { color:#00913a; }
+
+#recyclePR #mainCont .inner {
+	margin: 0;
+	padding: 30px 19px;
+}
+
+#recyclePR #mainCont #index { background: url(../img/index_bg.gif) no-repeat left top; }
+
+#recyclePR #mainCont .section { margin-top: 40px; }
+#recyclePR #mainCont .topSection { margin: 0; }
+#recyclePR #mainCont #index .topSection {
+	margin: 0;
+	margin-bottom: -20px;
+}
+
+#recyclePR #mainCont #index #clip {
+	position: relative;
+	left: 96px;
+	width: 190px;
+	height: 190px;
+	padding: 54px 22px 17px 16px;
+	overflow: hidden;
+	background: url(../img/index_clip_bg.png) no-repeat left top;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+#recyclePR #mainCont #index #clip dt {
+	line-height: 1.1;
+	font-size: 108%;
+	color: #c66;
+}
+#recyclePR #mainCont #index #clip dd {
+	line-height: 1.8;
+	font-size: 85%;
+	color: #666;
+}
+
+#recyclePR #mainCont #index #clip .name {
+	margin: 20px 0 10px;
+	line-height: 1.1;
+	font-size: 93%;
+	color: #333;
+}
+
+#recyclePR #mainCont #index #clip .name span { font-size: 116%; }
+
+#recyclePR #mainCont .section .num {
+	line-height: 1.1;
+	font-size: 30px;
+	font-family: 'Lucida Grande','Lucida Console';
+	color: #00913a;
+}
+
+#recyclePR #mainCont .section li { display: block; }
+
+#recyclePR #mainCont .h { width: 656px; }
+#recyclePR #mainCont .h .img { margin-bottom: 15px; }
+#recyclePR #mainCont .h .num {
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+
+#recyclePR #mainCont .h .txt {
+	position: relative;
+	top: 10px;
+	float: right;
+	width: 580px;
+	padding-bottom: 10px;
+}
+
+#recyclePR #mainCont .vl,
+#recyclePR #mainCont .vr {
+	width: 666px;
+	margin-left: 20px;
+}
+
+#recyclePR #mainCont .vl .img,
+#recyclePR #mainCont .vr .img { width: 400px; }
+#recyclePR #mainCont .vl .img { float: left; }
+#recyclePR #mainCont .vr .img { float: right; }
+#recyclePR #mainCont .vl .num,
+#recyclePR #mainCont .vr .num,
+#recyclePR #mainCont .vl .txt,
+#recyclePR #mainCont .vr .txt { width: 220px; }
+#recyclePR #mainCont .vl .num,
+#recyclePR #mainCont .vl .txt {
+	float: right;
+	padding: 0 20px 0 25px;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+}
+#recyclePR #mainCont .vr .num,
+#recyclePR #mainCont .vr .txt {
+	float: left;
+	padding: 0 25px 0 20px;
+}
+#recyclePR #mainCont .vl .num,
+#recyclePR #mainCont .vr .num { margin: 40px 0 30px; }
+
+
+#recyclePR #mainCont #pageNav {
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#recyclePR #mainCont #pageNav li {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#recyclePR #mainCont #pageNav li a {
+	display: block;
+	width: 98px;
+	overflow: hidden;
+	padding: 13px 0;
+	border: 1px solid #00913a;
+	line-height: 12px;
+	font-family: 'Lucida Grande','Lucida Console';
+	font-size: 131%;
+	color: #00913a;
+	-webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#recyclePR #mainCont #pageNav li a:hover,
+#recyclePR #mainCont #pageNav li.current a {
+	color: #fff;
+	background:  #00913a;
+}
+
+* html #recyclePR #mainCont #pageNav li {
+	display: inline;
+	zoom: 1;
+	margin: 0 3px;
+}
+
+*:first-child+html #recyclePR #mainCont #pageNav li {
+	display: inline;
+	zoom: 1;
+	margin: 0 3px;
+}
+
+#recyclePR #mainCont #pageNav .next,
+#recyclePR #mainCont #pageNav .prev {
+	width: 40px;
+}
+#recyclePR #mainCont #pageNav .next a,
+#recyclePR #mainCont #pageNav .prev a {
+	width: 38px;
+	font-size: 100%;
+}
+
+#recyclePR #mainCont .contNav {
+	margin-top: 60px;
+	border-color: #f00;
+}
+
+#recyclePR #mainCont .Return {
+	margin-top: 60px;
+	margin: 10px 0 0;
+	overflow: hidden;
+	padding: 15px 19px 0 19px;
+}
+
+#mainCont .Return li {
+	float: left;
+	line-height: 14px;
+	margin: 0 30px 0 0;
+	padding: 4px 0;
+}
+
+#mainCont .Return li a {
+	background: url("/jp/sustainability/cmn/img/anchor_right.gif") no-repeat scroll left top transparent;
+	display: block;
+	padding: 0 0 0 20px;
+	white-space: nowrap;
+}
+
+/* -:ClearFix
+--------------------------------------------------*/
+#nav:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+ 
+#nav {
+	zoom:1;
+}

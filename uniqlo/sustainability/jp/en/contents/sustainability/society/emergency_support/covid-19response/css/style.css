@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+.container_inner {
+    margin-top: calc((50/750)*100vw);
+}
+.main_video{
+    width: 100%;
+}
+.thin_wrap {
+    width: 100%;
+    padding-right: calc((27/750)*100vw);
+    padding-left: calc((27/750)*100vw);
+    padding-bottom: calc((50/750)*100vw);
+}
+.color_box_yellow {
+    border: 3px solid #0076c0;
+}
+.inner_ttl {
+    margin-top: calc((50/750)*100vw);
+    font-size: calc((30/750)*100vw);
+    line-height: calc((48/750)*100vw);
+    letter-spacing: .03em;
+}
+.inner_lead {
+    margin-top: calc((22/750)*100vw);
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    font-weight: 500;
+}
+.inner_img {
+    width: 100%;
+    margin-top: calc((30/750)*100vw);
+}
+.inner_img.-bottom {
+    margin-top: calc((50/750)*100vw);
+}
+.inner_attention {
+    font-size: calc((18/750)*100vw);
+    line-height: calc((28/750)*100vw);
+    letter-spacing: .046em;
+}
+.inner_attentions {
+    margin-top: calc((15/750)*100vw);
+}
+.subImg_container_small {
+    margin-top: calc((50/750)*100vw);
+}
+
+.subImg_container_small.subImg_container--society {
+    margin-top: calc((80/750)*100vw);
+}
+
+
+/* accordion */
+.accordion_wrap .contents_title span {
+    vertical-align: middle;
+}
+.accordion_button-area{
+    max-width: calc((332/750)*100vw);
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    margin-top: calc((50/750)*100vw);
+    margin-right: auto;
+    margin-left: auto;
+    line-height: calc((21/750)*100vw);
+    cursor: pointer;
+    padding-top: calc((16/750)*100vw);
+    padding-bottom: calc((15/750)*100vw);
+    padding-left: calc((10/750)*100vw);
+    position: relative;
+}
+.contents_title {
+    color: #fff;
+    font-size: calc((22/750)*100vw);
+    letter-spacing: .110em;
+    font-weight: bold;
+    line-height: calc((30/750)*100vw);
+    margin: auto 0;
+}
+.accordion_contents {
+    display: none;
+}
+.accordion_button-area {
+    cursor: pointer;
+}
+.accordion_list {
+    margin-top: calc((50/750)*100vw);
+}
+.accordion_country {
+    color: #0076c0;
+    font-size: calc((20/750)*100vw);
+    line-height: calc((28/750)*100vw);
+    letter-spacing: .046em;
+    font-weight: bold;
+}
+
+.accordion_country {
+  margin-top: calc((18/750)*100vw);
+}
+
+.accordion_dis {
+    font-size: calc((18/750)*100vw);
+    line-height: calc((28/750)*100vw);
+    letter-spacing: .046em;
+}
+/*toggle*/
+.toggle_button {
+    border: 1px solid #fff;
+    position: absolute;
+    top: 50%;
+    right: calc((25/750)*100vw);
+    width: calc((32/750)*100vw);
+    height: calc((32/750)*100vw);
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+.toggle_button:focus {
+    outline: 0;
+}
+.toggle_button span {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle_button span::before,
+.toggle_button span::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 1px;
+    background: #fff;
+}
+.toggle_button span::before {
+    position: relative;
+    top: 1px;
+}
+.toggle_button span::after {
+    background: #fff;
+    transform: translateY(0) rotate(90deg);
+    transition: 0.5s;
+}
+.toggle_button span.active::after {
+    transform: rotate(0);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.local_container {
+  margin-top: calc((80/750)*100vw);
+}
+
+.L3_cover .cover_lead {
+  margin-top: calc((50/750)*100vw);
+}
+
+@media screen and (min-width: 813px) {
+    .L3_cover .cover_subTtl {
+      margin-top: 90px;
+    }
+
+    .local_container,
+    .L3_cover .cover_lead,
+    .subImg_container_small {
+        margin-top: 64px;
+    }
+
+    .subImg_container_small.subImg_container--society {
+        margin-top: 110px;
+    }
+
+    .contentsLink.textinner {
+    width: calc((484/751)*100%);
+    }
+    .contentsLink.textwrap .contentsLink_txt {
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: .038em;
+        text-align: left;
+    }
+
+    .contentsLink .arrow_right::after {
+      max-width: 13px;
+      max-height: 13px;
+    }
+
+    .contentsLink.textwrap .arrow_right::after {
+        top: 60%;
+    }
+    .container_inner {
+        margin-top: 64px;
+    }
+    .inner_img {
+        margin-top: 41px;;
+    }
+    .inner_img.-bottom {
+        margin-top: 0;
+    }
+    .thin_wrap {
+        width: 100%;
+        padding-right: calc((56/1176)*100%);
+        padding-left: calc((56/1176)*100%);
+        padding-bottom: 64px;
+    }
+    .inner_ttl {
+        margin-top: 64px;
+        font-size: 37px;
+        line-height: 60px;
+        letter-spacing: .118em;
+    }
+    .inner_lead {
+        margin-top: 29px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: .140em;
+    font-weight: 500;
+    }
+    .inner_attention {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: .140em;
+    }
+    .inner_attentions {
+        margin-top: 15px;
+    }
+    .accordion_button-area{
+        max-width: 486px;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 64px;
+        padding: 12px 0px 12px;
+    }
+    .contents_title {
+      font-size: 18px;
+      line-height: 19px;
+      letter-spacing: .068em;
+      font-weight: 600;
+      margin: auto 0;
+    }
+    .accordion_list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 41px;
+    }
+
+    .accordion_list > div:not(:first-child) {
+      margin-left: 48px;
+    }
+
+    .accordion_country {
+        color: #0076c0;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: .150em;
+    }
+
+    .accordion_country {
+      margin-top: 18px;
+    }
+
+    .accordion_dis {
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .066em;
+    }
+     /* toggle button */
+     .toggle_button {
+        width: 24px;
+        height: 24px;
+        right: 110px;
+        border: 1px solid #fff;
+    }
+    .toggle_button span::before,
+    .toggle_button span::after {
+        width: 14px;
+    }
+
+    .contentsLink {
+      height: auto;
+      max-height: 100px;
+    }
+
+    .contentsLink .arrow_transition {
+      margin-left: 10px;
+      margin-top: 0;
+    }
+
+    .contentsLink .arrow_transition {
+      width: 14px;
+      height: 14px;
+    }
+
+    .contentsLink .contentsLink_txt {
+      font-size: 18px;
+      line-height: 19px;
+      letter-spacing: .038em;
+      margin-top: 0;
+    }
+
+    .contentsLink .contentsLink_btn {
+      padding: 15px 16px;
+    }
+}

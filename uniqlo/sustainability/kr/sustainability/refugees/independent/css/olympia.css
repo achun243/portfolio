@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------------------
+	olympia.css [Apr.2016] 
+---------------------------------------------------------------------
+*/
+
+.olympiaTexta{
+	width: 460px !important;
+}
+
+.olympiaText{
+	width: 495px !important;
+}
+
+.olympiaImga{
+
+	float: right;
+}
+.olympiaImg{
+	width: 200px;
+	float: right;
+}
+.japan{
+	margin-bottom: 0px !important;
+}
+.store{
+	list-style-type:disc;
+	padding-left:1em;
+	font-size:110%;
+}
+.olympiaNote{
+	padding-left: 1.5em;
+	line-height: 150%;
+}
+.olympiaKome{
+	margin-left: -1.5em;
+	margin-right: 0.5em;
+}
+
+/*
+---------------------------------------------------------------------
+	add 2018/06/12
+---------------------------------------------------------------------
+*/
+
+#mainCont h1 {
+	margin: 20px 0 15px 0;
+}
+
+#mainCont p.activity_report {
+	line-height: 1.5;
+}
+
+#mainCont .activity_report a {
+	color: #333;
+	font-weight: bold;
+}
+
+#mainCont .activity_report a:hover {
+	text-decoration: none;
+}
+
+#mainCont table {
+	border: 1px solid #000;
+}
+
+#mainCont table th {
+	width: 715px;
+	padding: 11px;
+	background: #fff;
+	border-right: 1px solid #000;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#mainCont table td {
+	padding: 11px;
+	text-align: center;
+	border: 1px solid #000;
+	font-size: 14px;
+	font-weight: bold;
+}

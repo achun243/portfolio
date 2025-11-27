@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.L3_cover .cover_subTtl {
+    line-height: calc((62/750)*100vw);
+}
+span.small-title {
+    font-size: calc((38/750)*100vw);
+    line-height: calc((62/750)*100vw);
+    letter-spacing: 0.07em;
+}
+.L3_cover .cover_lead {
+    margin-top: calc((80/750)*100vw);
+}
+.local_container {
+    width: 100%;
+    margin-top: calc((50/750)*100vw);
+}
+
+@media screen and (min-width: 813px){
+.L3_cover .cover_subTtl {
+    font-size: 57px;
+    margin-top: 64px;
+    line-height: 83px;
+    letter-spacing: .045em;
+    }
+span.small-title {
+    font-size: 38px;
+    line-height: 83px;
+    letter-spacing: 0.045em;
+}
+.L3_cover .cover_lead {
+    margin-top: 90px;
+}
+.local_container {
+    width: 100%;
+    margin-top: 64px;
+    }
+}

@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+/*SPとcommon*/
+/* ページ上部のL3ページ風のところ */
+.L3_cover{
+  margin-top: calc((63/750)*100vw);
+}
+
+.L3_cover.under_enButton{
+  margin-top: calc((23/750)*100vw);
+}
+
+.L3_cover .cover_mainTtl{
+  font-size: calc((108/750)*100vw);
+  line-height: calc((110/750)*100vw);
+  font-weight: 500;
+  letter-spacing: .02em;
+  margin-bottom: calc((-17/750)*100vw);
+}
+
+.L3_cover .cover_subTtl{
+  font-size: calc((56/750)*100vw);
+  margin-top: calc((50/750)*100vw);
+  line-height: calc((82/750)*100vw);
+  letter-spacing: .07em;
+}
+
+.L3_cover .cover_logo_wrapper{
+  display: flex;
+  align-items: flex-end;
+  margin-top: calc((50/750)*100vw);
+}
+
+.L3_cover .cover_logo_inner{
+  height: calc((50/750)*100vw);
+  margin-left: calc((40/750)*100vw);
+}
+
+.L3_cover .cover_logo_uniqlo img{
+  width: calc((50/750)*100vw);
+}
+
+.L3_cover .cover_ogo_gu img{
+  width: calc((50/750)*100vw);
+  margin-left: calc((14/750)*100vw);
+}
+
+.cover_logo_wrapper .cover_subTtl{
+  margin-top: 0;
+}
+
+.L3_cover .cover_lead{
+  font-size: calc((29/750)*100vw);
+  font-weight: 700;
+  letter-spacing: .184em;
+  margin-top: calc((80/750)*100vw);
+  line-height: calc((48/750)*100vw);
+  text-align: justify;
+}
+
+/*Lead*/
+.L3_cover .cover_lead{
+  font-size: calc((29/750)*100vw);
+  font-weight: 700;
+  letter-spacing: .184em;
+  margin-top: calc((80/750)*100vw);
+  line-height: calc((48/750)*100vw);
+  text-align: justify;
+
+  /*l2 style 打ち消し*/
+  position: static;
+  color: black;
+}
+
+/*movie*/
+.section_movie{
+    margin-top: calc((50/750)*100vw);
+    width: 100%;
+    cursor: pointer;
+}
+
+.section_movie:hover{
+    opacity: 0.7;
+}
+/*Fast Facts*/
+.fastFacts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.L3_cover .fastFacts .left{
+  display: none;
+}
+.fastFacts .right{
+  width: 100%;
+  max-width: 378px;
+}
+.fastFacts .right img{
+  width: 100%;
+}
+.hukidashi{
+  display:flex;
+  justify-content: center;
+}
+.hukidashi_inner{
+  padding: 15px 40px 15px 40px;
+  min-height: 100px;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(/jp/en/contents/sustainability/doraemon/img/doraemon-04.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*.hukidashi_inner p{
+  margin-top: calc((15/750)*100vw);
+  margin-left: -10%;
+}*/
+.hukidashi_inner > div{
+  /*padding-bottom: 10px;*/
+  margin-top: calc((15/750)*100vw);
+  margin-left: -10%;
+}
+
+/*font-size marginなど*/
+.fz23{
+  font-size: calc((31/750)*100vw);
+  line-height:  calc((41/750)*100vw);
+}
+.fz12{
+  font-size: calc((16/750)*100vw);
+  line-height:  calc((26/750)*100vw);
+}
+.mt64{
+  margin-top: calc((64/750)*100vw);
+}
+.mt110{
+  margin-top: calc((110/750)*100vw);
+}
+.mt_pc-64_sp-50__mb_pc-90_sp-80{
+  margin-top: calc((50/750)*100vw);
+  margin-bottom: calc((80/750)*100vw);
+}
+.mt41_sp-50{
+  margin-top: calc((50/750)*100vw);
+}
+.lh17{
+  line-height: 17px;
+}
+.chuushaku{
+  font-size: calc((14/750)*100vw);
+  text-align: right;
+}
+.ls2{
+  letter-spacing: 2px;
+}
+
+.sp_only{
+  display: inline;
+}
+.sp_only_for_flex{
+  display: flex;
+}
+.pc_only{
+  display: none;
+}
+
+/*video*/
+.videoArea{
+  width: 100%;
+}
+.videoArea video{
+  width: 100%;
+}
+
+/*見出しや文章の設定*/
+.doraemon_title{
+  font-size: calc((52/750)*100vw);
+  line-height: calc((60/750)*100vw);
+}
+.doraemon_text{
+  font-size: calc((23/750)*100vw);
+  line-height: calc((45/750)*100vw);
+}
+
+
+@media screen and (min-width:813px){/*PCレイアウト*/
+  /* ページ上部のL3ページ風のところ */
+  .L3_cover{
+    margin-top: 69px;
+  }
+  .L3_cover.under_enButton{
+    margin-top: 69px;
+  }
+  .L3_cover .cover_mainTtl{
+    display: block;
+    font-size: 130px;
+    line-height: 133px;
+    letter-spacing: .021em;
+    margin-bottom: -21px;
+  }
+
+  .L3_cover .cover_subTtl{
+    font-size: 65px;
+    margin-top: 64px;
+    line-height: 83px;
+    letter-spacing: .045em;
+  }
+
+  .L3_cover .cover_logo_wrapper{
+    margin-top: 64px;
+    align-items: flex-end;
+  }
+
+  .L3_cover .cover_logo_inner{
+    height: 70px;
+    margin-top: -15px;
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  .L3_cover .cover_logo_uniqlo img{
+    width: 70px;
+  }
+
+  .L3_cover .cover_ogo_gu img{
+    width:70px;
+    margin-left: 26.26px;
+  }
+
+  .cover_logo_wrapper .cover_subTtl{
+    margin-top: 0;
+  }
+
+  .L3_cover .cover_lead{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin-top: 90px;
+    line-height: 55px;
+  }
+
+  /*lead*/
+  .L3_cover .cover_lead{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin-top: 90px;
+    line-height: 55px;
+  }
+
+  /*movie*/
+  .section_movie{
+      margin-top: 0;
+      width: calc((355/1056)*100%);
+      margin-right: calc((52/1056)*100%);
+  }
+  .section_movie .fr-video{
+      margin: 0;
+  }
+
+  /*Fast Facts*/
+  .fastFacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .L3_cover .fastFacts .left{
+    width: 441px;
+    height: 157px;
+    margin-top: 45px;/*吹き出し上下位置調整*/
+
+    background-image: url(/jp/en/contents/sustainability/doraemon/img/doraemon-03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fastFacts .left p{
+    padding-right: 35px;
+    padding-bottom: 10px;
+  }
+  .fastFacts .right{
+    width: 50%;
+    max-width: 378px;
+  }
+  .hukidashi{
+    display:none;
+  }
+  .hukidashi_inner p{
+    padding-bottom: 0;
+  }
+
+  /*font-size marginなど*/
+  .fz23{
+    font-size: 23px;
+    line-height: normal;
+  }
+  .fz12{
+    font-size: 12px;
+    line-height: normal;
+  }
+  .mt64{
+    margin-top: 64px;
+  }
+  .mt110{
+    margin-top: 110px;
+  }
+  .mt_pc-64_sp-50__mb_pc-90_sp-80{
+    margin-top: 64px;
+    margin-bottom: 90px;
+  }
+  .mt41_sp-50{
+    margin-top: 41px;
+  }
+  .chuushaku{
+    font-size: 14px;
+  }
+  .ls3{
+    letter-spacing: 3px;
+  }
+  .lh50{
+    line-height: 50px;
+  }
+
+  .sp_only{
+    display: none;
+  }
+  .sp_only_for_flex{
+    display: none;
+  }
+  .pc_only{
+    display: inline;
+  }
+
+  /*video*/
+  .videoArea{
+    width: 60%;
+  }
+
+  /*見出しや文章の設定*/
+  .doraemon_title{
+    font-size: 52px;
+  }
+  .doraemon_title_EN-add{/*EN original*//
+    font-weight: normal;
+    letter-spacing: 7px;
+  }
+  .doraemon_text{
+    font-size: 23px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (min-width:1226px){
+
+}

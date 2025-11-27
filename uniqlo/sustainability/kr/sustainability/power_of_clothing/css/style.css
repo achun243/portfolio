@@ -1,0 +1,97 @@
+.color_red {
+  color: #ff0000;
+}
+.local_container {
+  margin-top: calc((80/750)*100vw);
+}
+.article_wrap {
+  padding-top: calc((50/750)*100vw);
+  padding-bottom: calc((50/750)*100vw);
+  background-image: url(/kr/sustainability/power_of_clothing/img/contents_bg_sp.jpg);
+  background-size: cover;
+}
+.article_block {
+  margin-top: calc((50/750)*100vw);
+}
+.article_block img {
+  width: 100%;
+}
+.col_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin-top: calc((50/750)*100vw);
+}
+.block01 {
+  margin-top: 0;
+}
+.block02 {
+  width: 100%;
+  margin-top: calc((50/750)*100vw);
+}
+.block03 {
+  width: 100%;
+  margin-top: calc((50/750)*100vw);
+}
+
+@media screen and (max-width: 812px) {
+  .local_container{
+    width: 100vw;
+  }
+  .article_wrap{
+    margin-left: -4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 813px) {
+  .local_container {
+    margin-top: 110px;
+  }
+  .article_wrap {
+    padding: 54px;
+    background-image: url(/kr/sustainability/power_of_clothing/img/contents_bg_pc.jpg);
+  }
+  .pc-only_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+  }
+  .col_wrap {
+    margin-top: 0;
+  }
+  .article_block {
+    margin-top: 54px;
+  }
+  .blocksWrap01 {
+    width: 56.1%;
+  }
+  .blocksWrap02 {
+    width: 40.6%;
+  }
+  .block01 {
+    margin-top: 0;
+    width: 41.6%;
+  }
+  .block02 {
+    margin-top: 0;
+    width: 100%;
+  }
+  .block03 {
+    margin-top: 45px;
+    width: 100%;
+  }
+  .block05 {
+    width: 51.8%;
+  }
+  .block06 {
+    width: 43.1%;
+  }
+  .block09 {
+    width: 54.3%;
+  }
+}

@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------------------
+	style.css [September.2012] 
+---------------------------------------------------------------------
+*/
+
+
+/*#reportList #contTitle h1 {
+	margin: 0;
+	padding: 0;
+}*/
+
+#reportList #contTitle p {
+	border: medium none;
+	color: #333333;
+	display: table-cell;
+	font-size: 92%;
+	font-weight: normal;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+	width: 456px;
+}
+
+
+
+* html #reportList #contTitle h1 {
+	display: inline;
+	font-size: 14px;
+	line-height: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+* html #reportList #contTitle p {
+	display: inline;
+	font-size: 11px;
+	height: 3em;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+:first-child + html #reportList #contTitle h1 {
+	display: inline;
+	font-size: 14px;
+	line-height: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+:first-child + html #reportList #contTitle p {
+	display: inline;
+	font-size: 11px;
+	height: 3em;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+div .bannerTit {
+	border-bottom: 1px solid #DCDCDC;
+	width: 729px;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+div .reportList .listArea {
+	float: left;
+	margin-right: 15px;
+	width: 357px;
+}
+
+div .reportList .repolistArea ul li{
+	float:left;
+	margin:0 0 15px 0;
+	padding:0;
+	width: 357px;
+	list-style:none;
+}
+
+div .reportList .repolistArea .Le15{
+	margin:0 0 15px 15px;
+	padding:0;
+	width: 357px;
+	list-style:none;
+}
+
+
+a:hover img {
+	opacity: 0.5;
+	filter: alpha(opacity=50) !important;/*IE*/
+}
+
+#reportList .section{
+	margin: 15px 15px 0 0;
+	overflow: hidden;
+}
+
+#mainCont .imgL{
+	float: left;
+	width: 190px;
+}
+
+#mainCont .textR {
+float: left;
+width: 120px;
+margin-left: 15px;
+}
+
+#reportList #mainCont h2 {
+	margin: 0 0 3px 0;
+	font-weight: bold;
+	font-size: 130%;
+	line-height: 120%;
+}
+
+#reportList .listarea {
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+#reportList .listarea:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    font-size:0;    
+    clear: both; 
+    visibility:hidden;
+}
+
+#reportList .listarea .section {
+	float: left;
+	width: 356px;
+	margin: 0 0 15px 0;
+}
+
+#mainCont .textR  a {
+padding: 1px 0 1px 20px;
+background: url(../../../cmn/img/anchor_right.gif) no-repeat left 42%;
+}

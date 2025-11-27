@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.subImg_container_large .subImg_ttl {
+    font-size: calc((30/750)*100vw);
+    line-height: calc((48/750)*100vw);
+    letter-spacing: .03em;
+    font-weight: bold;
+}
+.cnt_link {
+    margin-top: calc((22/750)*100vw);
+}
+.cnt_link a {
+    font-size: calc((18/750)*100vw);
+    line-height: calc((18/750)*100vw);
+    letter-spacing: .078em;
+}
+.underline{
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 813px) {
+    .subImg_container_large .subImg_lead {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: .078em;
+        margin-top: 29px;
+    }
+    .L3_cover .cover_lead {
+        letter-spacing: .153em;
+    }
+    .subImg_container_large .subImg_ttl {
+        font-size: 37px;
+        line-height: 60px;
+        letter-spacing: .118em;
+    }
+    .cnt_link {
+        margin-top: 13px;
+    }
+    .cnt_link a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

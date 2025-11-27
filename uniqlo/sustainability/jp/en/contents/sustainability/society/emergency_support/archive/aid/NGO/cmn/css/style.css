@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------------------
+	aid NGO style.css [January.2013]
+---------------------------------------------------------------------
+*/
+/*common*/
+.mb30{
+	margin-bottom: 30px;
+}
+.mt12{
+	margin-top: 12px;
+}
+
+/* --NGO 一覧ページ-- */
+
+div#mainCont div.linkNgo{
+	width: 663px;
+	height: 15px;
+	margin-top: 15px;
+}
+
+div#mainCont div.linkNgo p{
+	text-align: right;
+}
+
+/* --NGO 詳細ページ-- */
+
+div#mainCont .mainArea {
+	margin-bottom: 30px;
+}
+
+div#mainCont .mainArea .mainImg {
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	width: 100%;
+	max-width: 300px;
+}
+div#mainCont .mainArea .mainImg img{
+	width: 100%;
+}
+
+div#mainCont .mainArea .leadText {
+	float: left;
+	margin-top: -5px;
+}
+
+div#mainCont .inner dl dt{
+	position: absolute;
+}
+
+div#mainCont .inner dl dd{
+	padding-left: 1em;
+}
+
+div#mainCont .inner dl dd p{
+	padding-top: 15px;
+}
+
+div#mainCont .photoReport {
+	padding-bottom: 20px;
+}
+
+div#mainCont .photoReport h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div#mainCont .photoReport ul li {
+	float: left;
+	width: 140px;
+	margin: 0 20px 20px 0;
+}
+
+div#mainCont .photoReport ul.last li {
+	float: left;
+	width: 140px;
+	margin-right: 20px !important;
+	margin-bottom: 0 !important;
+}
+@media screen and (max-width: 400px/*magic number*/) {
+  div#mainCont .inner.photoReport ul li {
+		width: 50%;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	div#mainCont .inner.photoReport ul li img{
+		max-width: 100%
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2013 NGO */
+
+
+div#mainCont .mainArea .mainImg2013 {
+	margin-bottom: 20px;
+
+	width: 100%;
+	max-width: 663px;
+}
+div#mainCont .mainArea .mainImg2013 img{
+	width: 100%;
+}
+
+div#mainCont .mainArea .leadText2013 {
+	margin-top: 0px;
+}
+
+div#mainCont h1 img{
+	width: 100%;
+	max-width: 683px;
+}
+
+div#mainCont h2.NGO2013ttl, div#mainCont h2.NGO2012ttl {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 160%;
+}
+
+div#mainCont .inner.photoReport2013 {
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+div#mainCont .inner.photoReport2013 h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div#mainCont .inner.photoReport2013 ul li {
+	float: left;
+	width: 150px;
+	margin: 0 20px 20px 0;
+}
+
+div#mainCont .inner.photoReport2013 ul.last li {
+	float: left;
+	width: 150px;
+	margin-right: 20px !important;
+	margin-bottom: 0 !important;
+}
+
+div#mainCont .inner.photoReport2013 ul li.last,
+div#mainCont .inner.photoReport2013 ul.last li.last {
+	float: left;
+	width: 150px;
+	margin: 0px !important;
+}
+
+@media screen and (max-width: 400px/*magic number*/) {
+  div#mainCont .inner.photoReport2013 ul li {
+		width: 50%;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+		margin: 0;
+	}
+	div#mainCont .inner.photoReport2013 ul li img{
+		max-width: 100%
+	}
+}
+
+div#mainCont .inner .NGO2013, div#mainCont .inner .NGO2012 {
+	margin: 10px 0 0 0;
+}
+
+div#mainCont .inner.backnumber {
+	margin-bottom: 0px;
+	text-align:right;
+	background: none;
+}
+
+div#mainCont .inner dl dd.num{
+	padding-left: 3em;
+}
+
+div#mainCont .inner dl dt.num2{
+	padding-left: 3em;
+}
+
+div#mainCont .inner dl dd.num2{
+	padding-left: 4em;
+}
+
+div#mainCont .inner dl dd.num3{
+	padding-left: 7em;
+}

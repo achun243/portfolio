@@ -1,0 +1,308 @@
+img {
+  width: 100%;
+}
+.sp_only {
+  display: block!important;
+}
+.pc_only {
+  display: none!important;
+}
+.table_wrap {
+  border: 3px solid #0076c0;
+  color: #0076c0;
+}
+.table_titleWrap {
+  padding: calc((34/750)*100vw) calc((24/750)*100vw);
+  border-bottom: 3px solid #0076c0;
+}
+.table_title{
+  font-size: calc((66/750)*100vw);
+  line-height: calc((60/750)*100vw);
+  font-weight: normal;
+  margin-bottom: calc((30/750)*100vw);
+  white-space: nowrap;
+}
+.table_subTitle{
+  font-size: calc((30/750)*100vw);
+  line-height: calc((40/750)*100vw);
+  font-weight: normal;
+  margin-bottom: calc((22/750)*100vw);
+}
+.table_lead {
+  font-size: calc((24/750)*100vw);
+  line-height: calc((36/750)*100vw);
+  font-weight: normal;
+  text-align: justify;
+}
+.table_header {
+  border-bottom: 3px solid #0076c0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: calc((130/750)*100vw) calc((230/750)*100vw) calc((220/750)*100vw) 1fr;
+  /*font-weight: bold;*/
+}
+.table_header li {
+  font-size: calc((20/750)*100vw);
+  line-height: calc((29/750)*100vw);
+  padding: calc((13/750)*100vw) 0 calc((10/750)*100vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table_header li:nth-child(-n+3) {
+  border-right: 3px solid #0076c0;
+}
+.table_listWrap {
+  text-align: center;
+  display: grid;
+  grid-template-columns: calc((130/750)*100vw) calc((230/750)*100vw) calc((220/750)*100vw) 1fr;
+}
+.table_listWrap:not(:last-child) {
+  border-bottom: 3px solid #0076c0;
+}
+.table_listWrap li {
+  font-size: calc((20/750)*100vw);
+  line-height: calc((29/750)*100vw);
+  display: flex;
+  align-items: center;
+}
+.table_listWrap .table_category {
+  padding: calc((35/750)*100vw) 0 calc((30/750)*100vw);
+  border-right: 3px solid #0076c0;
+  grid-row: 1/4;
+  grid-column: 1/2;
+  flex-direction: column;
+  justify-content: center;
+}
+.table_categoryImg {
+  margin-bottom: calc((25/750)*100vw);
+}
+.underwear .table_categoryImg {
+  width: 75%;
+}
+.mask .table_categoryImg {
+  width: 80%;
+}
+.roomshoes .table_categoryImg {
+  width: 75%;
+}
+.bag .table_categoryImg {
+  width: 85%;
+}
+.table_category span{
+  font-weight: bold;
+}
+.table_listWrap .table_description {
+  padding: calc((18/750)*100vw);
+  border-right: 3px solid #0076c0;
+  text-align: left;
+  grid-row: 1/4;
+  grid-column: 2/3;
+}
+.table_listWrap .table_product {
+  padding: calc((20/750)*100vw) calc((16/750)*100vw);
+  border-right: 3px solid #0076c0;
+  text-align: left;
+  grid-row: 1/4;
+  grid-column: 3/4;
+  font-weight: bold;
+}
+.table_productText li:not(:last-child) {
+  margin-bottom: calc((10/750)*100vw);
+}
+.table_productText li {
+  line-height: calc((26/750)*100vw);
+}
+.table_listWrap .table_points {
+  padding: calc((20/750)*100vw) 0;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  border-bottom: 3px solid #0076c0;
+  justify-content: center;
+}
+.table_points span {
+  font-size: calc((28/750)*100vw);
+  line-height: calc((45/750)*100vw);
+  margin-right: calc((3/750)*100vw);
+}
+.table_listWrap .table_check {
+  padding: calc((22/750)*100vw) 0;
+  background-color: #ffed00;
+  border-bottom: 3px solid #0076c0;
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+.table_listWrap .table_mark {
+  grid-row: 3/4;
+  grid-column: 4/5;
+  line-height: 0;
+  height: calc((98/750)*100vw);
+}
+.table_listWrap .table_mark {
+  cursor: pointer;
+}
+.table_markImg {
+  width: 100%;
+  height: calc((90/750)*100vw) ;
+  display: none;
+  transition: all .4s ease-in-out;
+  background-position: center;
+  cursor: pointer;
+  background: url(/jp/ja/contents/sustainability/society/emergency_support/disaster_prevention/checklist/img/check.jpg) no-repeat center;
+  background-size: 100%;
+}
+.table_markImg.on  {
+  display: block;
+}
+
+@media screen and (min-width: 813px) {
+  .sp_only {
+    display: none!important;
+  }
+  .pc_only {
+    display: block!important;
+  }
+  .table_wrap {
+    border: 5px solid #0076c0;
+  }
+  .table_titleWrap {
+    padding: 41px 30px;
+    border-bottom: 5px solid #0076c0;
+  }
+  .table_title{
+    font-size: calc((100/1226)*100vw);
+    white-space: nowrap;
+    line-height: 124px;
+    margin-bottom: 15px; /*EN original*/
+
+    letter-spacing: 3px; /*EN original*/
+  }
+  .table_subTitle{
+    font-size: 37px;
+    line-height: 54px;
+    margin-bottom: 18px;
+  }
+  .table_lead {
+    font-size: 28px; /*EN original*/
+    line-height: 35px; /*EN original*/
+    letter-spacing: 4px; /*EN original*/
+  }
+  .table_header {
+    border-bottom: 5px solid #0076c0;
+    grid-template-columns: 20% 28.5% 27.5% 10.5% 1fr;
+  }
+  .table_header li {
+    font-size: 24px; /*EN original*/
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  .table_header li:not(:last-child) {
+    border-right: 5px solid #0076c0;
+  }
+  .table_header li:last-child {
+    padding: 45px 0;
+  }
+  .table_listWrap {
+    grid-template-columns: 20% 28.5% 27.5% 10.5% 1fr;
+  }
+  .table_listWrap:not(:last-child) {
+    border-bottom: 5px solid #0076c0;
+  }
+  .table_listWrap li {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .table_listWrap .table_category.table_category {
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 28px;
+    border-right: 5px solid #0076c0;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .table_categoryImg {
+    width: 40%;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  .underwear .table_categoryImg {
+    width: 40%;
+  }
+  .mask .table_categoryImg {
+    width: 40%;
+  }
+  .roomshoes .table_categoryImg {
+    width: 40%;
+  }
+  .bag .table_categoryImg {
+    width: 40%;
+  }
+  .table_listWrap .table_description {
+    padding: 26px 22px;
+    border-right: 5px solid #0076c0;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .table_listWrap .table_product {
+    padding: 0 25px;
+    border-right: 5px solid #0076c0;
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  .table_productText li {
+    line-height: 17px;
+  }
+  .table_productText li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .table_productText .mens {
+    padding-left:2em;
+    text-indent:-2em;
+  }
+  .table_productText .wowens {
+    padding-left:4em;
+    text-indent:-4em;
+  }
+  .table_productText .kids {
+    padding-left:2em;
+    text-indent:-2em;
+  }
+  .table_listWrap .table_points {
+    font-size: 20px;
+    line-height: 28px;
+    border-right: 5px solid #0076c0;
+    border-bottom: none;
+    grid-row: 1/2;
+    grid-column: 4/5;
+  }
+  .table_listWrap .table_points span {
+    font-size: 30px;
+    line-height: 50px;
+    margin-right: 3px;
+  }
+  .table_listWrap .table_mark {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    height: auto;
+  }
+  .table_markImg {
+    height: 130px ;
+  }
+  .table_markImg.on  {
+    background-size: 80%;
+  }
+}
+
+@media screen and (min-width:1226px) {
+  .table_title{
+    font-size: 110px;
+
+    letter-spacing: 4px; /*EN original*/
+  }
+  .table_header li {
+    font-size: 26px; /*EN original*/
+    letter-spacing: 1px; /*EN original*/
+  }
+}

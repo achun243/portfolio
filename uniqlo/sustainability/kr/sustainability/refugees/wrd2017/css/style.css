@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+/* PC contents
+=================================================== */
+
+
+/* 共通
+-------------------------------------------------*/
+
+p{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+ul li:first-child {
+    margin-left: 0;
+}
+
+.Arrow_up {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}
+
+h1{
+    width: 100%;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #f00;
+}
+
+a:hover{
+    text-decoration: underline !important;
+    color: #f00;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #f00;
+}
+
+a:link {
+    text-decoration: none;
+    color: #f00;
+}
+
+
+
+/* header
+-------------------------------------------------*/
+
+.headerTop{
+    background: #fff;
+    max-width: 960px;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+}
+
+#header .hdLogo{
+    width: 60.416667%;
+}
+
+#header .hdLogo li{
+    float: left;
+    margin-right: 3.44827586206897%;
+
+}
+
+#header .hdLogo .mt01 {
+    margin-top: 7%;
+}
+
+#header .hdLogo .mt02 {
+    margin-top: 5%;
+}
+
+#header .hdLogo .mt03 {
+    margin-top: -5%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px){
+    #header .pc-hdTit{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    #header .tabletOnly{
+        display: none;
+    }
+}
+
+/* nav
+-------------------------------------------------*/
+
+#nav_menu li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+#nav_menu li a{
+    display: block;
+}
+
+
+/* content area
+-------------------------------------------------*/
+
+#content{
+    margin-top: 20px;
+    color: #1b1b1b;
+}
+
+#main {
+
+}
+
+#sec01{
+    position: relative;
+}
+
+#sec01 h2{
+    margin-top: 160px;
+}
+
+#sec01 .display_pc p{
+    margin-top: 40px;
+}
+
+#sec01 .display_pc p span{
+    font-size: smaller;
+}
+
+#sec01 .display_sp{
+    display: none;
+}
+
+#sec01 .youtube{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    margin-top: 20px;
+}
+
+#sec01 .youtube iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#sec02{
+    margin-bottom: 240px;
+    position: relative;
+}
+
+#sec02 h2{
+    margin-top: 160px;
+}
+
+#sec02 p{
+    margin-top: 30px;
+}
+
+#sec03{
+    margin-top: 120px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#sec03 h2{
+    margin-top: 160px;
+}
+
+#sec03 .display_pc fieldset.item{
+    border: 3px dashed #ccc;
+    padding: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#sec03 .display_pc legend{
+    color: #f95486;
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+
+#sec03 .display_pc fieldset.item ul li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+#sec03 .display_pc fieldset.item-top{
+    margin-top: 50px;
+}
+
+#sec03 .display_sp{
+    display: none;
+}
+
+.moziao a{
+    color: #0071be;
+    font-weight: bold; 
+}
+
+#sec04{
+    margin: 0 0.5%;
+    position: relative;
+}
+
+#sec04 p{
+    margin-top: 30px;
+}
+
+#sec04 h2{
+    margin-top: 160px;
+}
+
+#sec04 ul li img{
+    margin: 0 auto;
+}
+
+#pc_point02, #pc_point03, #pc_point04{
+    margin-top: 60px;
+}
+
+
+/* footer
+-------------------------------------------------*/
+
+.copyright {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: UniqloProLight;
+    color: #666;
+    letter-spacing: 0.1em;
+}
+
+
+/* slide
+-------------------------------------------------*/
+
+.bx-wrapper img {
+	padding: 10px 0;
+}
+
+.bx-wrapper p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+/* SP contents
+=================================================== */
+
+
+/* 共通
+-------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+
+body.sp p{
+    font-size: 12px;
+    line-height: 24px;
+}
+    
+body.sp ul li:first-child {
+    margin-left: 0;
+}    
+
+body.sp .Arrow_up {
+    position: absolute;
+    right: 2%;
+    bottom: -60px;
+    width: 10%;
+}
+    
+body.sp h1{
+    width: 100%;
+}
+
+body.sp h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+body.sp h3{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+    
+
+/* header
+-------------------------------------------------*/
+
+body.sp #header.fixed {
+    position: fixed;
+    top: 0;
+}
+
+body.sp #header .hdLogo{
+    padding-left: 3.125%;
+    width: 95%;
+}
+
+body.sp #header .hdLogo li{
+    float: left;
+    width: 30px;
+    margin-right: 3.125%;
+}
+    
+body.sp #header .hdLogo .mt02 {
+    margin-top: 20%;
+    width: 530% !important;
+}
+    
+body.sp #header .hdLogo .fr {
+    float: right;
+}
+    
+body.sp .pc-hdTit{
+    display: none;
+}
+
+body.sp .tabletOnly{
+    display: none;
+}
+
+body.sp .headerTop{
+    background: #fff;
+    padding: 0;
+}
+
+body.sp .sp-hdTit{
+    background: #fff;
+    text-align: center;
+    padding: 3.125% 25% 3.125% 25%;
+    display: block;
+}
+
+body.sp .sp-hdTit img{
+    display: inline-block;
+}
+
+
+/* content area
+-------------------------------------------------*/    
+    
+body.sp #content{
+    margin-top: 54px;
+    color: #1b1b1b;
+}
+
+body.sp #main{
+    
+}
+
+body.sp #sec01{
+    margin: 0 7%;
+    position: relative;
+}
+    
+body.sp #sec01 h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+    
+body.sp #sec01 .display_pc{
+    display: none;
+}
+    
+body.sp #sec01 .display_sp{
+    display: block;
+}
+
+body.sp #sec01 .display_sp p{
+    margin-top: 20px;
+}
+
+#sec01 .display_sp p span{
+    font-size: smaller;
+}
+    
+body.sp #sec02{
+    margin: 0 7% 140px;
+    position: relative;
+}
+    
+body.sp #sec02 h2{
+     margin-top: 90px;
+     margin-bottom: 10px;
+}
+
+body.sp #sec02 p{
+    margin-top: 20px;
+}
+
+body.sp #sec03{
+    margin-top: 70px;
+    margin: 0 7%;
+    position: relative;
+}
+    
+body.sp #sec03 h2{
+     margin-top: 90px;
+     margin-bottom: 10px;
+}
+   
+body.sp #sec03 .display_pc{
+    display: none;
+}
+    
+body.sp #sec03 .display_sp{
+    margin-top: 20px;
+    display: block;
+}
+
+#sec03 .display_sp legend{
+    color: #f95486;
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#sec03 .display_sp fieldset.item{
+    border: 3px dashed #ccc;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#sec03 .display_sp fieldset.item ul li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+#sec03 .display_sp fieldset.item-top{
+    margin-top: 30px;
+}
+
+
+body.sp #sec04{
+    margin: 0 7%;
+    position: relative;
+}
+    
+body.sp #sec04 h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+body.sp #sec04 p{
+    margin-top: 20px;
+}
+
+body.sp #sec04 ul li img{
+    margin: 0 auto;
+}
+      
+    
+/* footer
+-------------------------------------------------*/
+    
+body.sp .copyright {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 11px;
+    text-align: center;
+    font-family: UniqloProLight;
+    color: #666;
+    letter-spacing: 0.1em;
+}
+    
+    
+/* slide
+-------------------------------------------------*/
+
+body.sp .bx-wrapper img {
+	padding: 10px 0;
+}
+
+body.sp .bx-wrapper p {
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+
+/* TB contents
+=================================================== */
+
+@media only screen and (max-width: 768px) and (min-width: 641px){
+
+p{
+    font-size: 17px;
+}
+
+#sec01, #sec04, #sec02 p{
+    margin-left: 50px;
+    line-height: 2em;
+}
+ 
+#sec03 .display_pc fieldset.item{
+    margin-left: 130px
+}
+
+img{
+    width: 100%;
+}
+
+}

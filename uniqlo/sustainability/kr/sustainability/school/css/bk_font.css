@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*
+Theme Name: UNIQLO Sustainability
+Theme URI: 
+Description: UNIQLO Sustainability
+Version: 1
+*/
+
+
+/*
+---------------------------------------------------------------------
+	font.css [Feb.2011] 
+---------------------------------------------------------------------
+
+	01:Font Size
+	
+*/
+
+
+/* 01:Font Size
+--------------------------------------------------*/
+
+body {
+	font-size: 13px; 
+	font-family: Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+	line-height: 2; 
+	*font-family: "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif !important;
+	*font-size: small; /* for IE */
+	*font: x-small; /* for IE in quirks mode */
+}
+
+html>/**/body { font-size /*\**/: small\9; }
+
+#header #langNav li { font-size: 90% !important; }
+#header #langNav li.en,
+#header #langNav li.fr { line-height: 1.3 !important; }
+
+body #wrapper { font-size: 92%; }
+
+.f38 { font-size: 294%; }
+/*IE8▼*/
+html>/**/.f38 {
+letter-spacing/***/: -1px¥9;
+}
+
+/*IE7▼*/
+*+html .f38 {
+letter-spacing: -1px;
+}
+
+/*IE9▼*/
+.f38:not(:target) {
+letter-spacing: -1px¥9;
+}
+
+/*IE10▼*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.f38 {
+letter-spacing: -1px !important;　/*上記と同時に使う場合!importantが必要*/
+}
+}
+
+.f36 { font-size: 274%; }
+/*IE8▼*/
+html>/**/.f36 {
+letter-spacing/***/: -1px¥9;
+}
+
+/*IE7▼*/
+*+html .f36 {
+letter-spacing: -1px;
+}
+
+/*IE9▼*/
+.f36:not(:target) {
+letter-spacing: -1px¥9;
+}
+
+/*IE10▼*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.f36 {
+letter-spacing: -1px !important;　/*上記と同時に使う場合!importantが必要*/
+}
+}
+
+.f26 { font-size: 222%; }
+.f24 { font-size: 197%; }
+.f23 { font-size: 189%; }
+.f22 { font-size: 182%; }
+.f21 { font-size: 174%; }
+.f20 { font-size: 167%; }
+.f19 { font-size: 161.6%; }
+.f18 { font-size: 146.5%; }
+.f17 { font-size: 138.5%; }
+.f16 { font-size: 131%; }
+.f15 { font-size: 123.1%; }
+.f14 { font-size: 116%; }
+.f13 { font-size: 108%; }
+.f12 { font-size: 100%; }
+.f11 { font-size: 92%; }
+.f10 { font-size: 84%; }
+.f09 { font-size: 77%; }
+
+.bold { font-weight:bold; }
+
+.imgLink_text{
+	font-size: 22px;
+	color: #ffa10e;
+	margin-bottom: -20px;
+
+}

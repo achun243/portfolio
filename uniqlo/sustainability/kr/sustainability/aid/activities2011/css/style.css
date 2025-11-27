@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------------------
+	aid activities2011 style.css [January.2013] 
+---------------------------------------------------------------------
+*/
+
+div#mainCont div.inner div.txtArea{
+	width: 510px;
+	float: left;
+}
+
+div#mainCont div.inner div.imgArea{
+	width: 140px;
+	float: right;
+	margin-top: 8px;
+}
+
+div#mainCont div.inner_last div.txtArea{
+	width: 510px;
+	float: left;
+}
+
+div#mainCont div.inner_last div.imgArea{
+	width: 140px;
+	float: right;
+	margin-top: 8px;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+#photoReport #contTitle {
+	border-bottom: 1px solid #DCDCDC;
+	display: block;
+	height: 70px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0 19px;
+	width: 691px;
+}
+
+#photoReport #contTitle h1 {
+	border: medium none;
+	display: table-cell;
+	height: 70px;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	width: 235px;
+}
+
+#photoReport #contTitle p {
+	border: medium none;
+	color: #333333;
+	display: table-cell;
+	font-size: 92%;
+	font-weight: normal;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+	width: 456px;
+}
+
+* html #photoReport #contTitle h1 {
+	display: inline;
+	font-size: 14px;
+	line-height: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+* html #photoReport #contTitle p {
+	display: inline;
+	font-size: 11px;
+	height: 3em;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+:first-child + html #photoReport #contTitle h1 {
+	display: inline;
+	font-size: 14px;
+	line-height: 70px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+:first-child + html #photoReport #contTitle p {
+	display: inline;
+	font-size: 11px;
+	height: 3em;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+div .bannerTit {
+	margin-top: 15px;
+	width: 729px;
+	border-bottom: 1px solid #DCDCDC;
+	padding-bottom: 15px;
+}
+
+div .bannerTit p {
+	margin-top: 15px;
+	width: 699px;
+	padding: 0 15px;
+	color: green;
+}
+
+div .imagesArea{
+	width: 744px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+div .photoArea{
+	width: 167px;
+	float: left;
+	margin-right: 15px;
+}
+
+div .photoArea img{
+	border: 2px #DCDCDC solid;
+}
+
+div .photoArea .textArea{
+	margin: 0;
+	padding-top: 5px;
+	line-height: 1.5em;
+}
+
+a:hover img {
+	opacity: 0.5;
+	filter: alpha(opacity=50) !important;/*IE*/
+}
+
+.indent_1em{
+	padding-left: 1em;
+}

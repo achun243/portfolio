@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.sub {
+    font-size: smaller;
+}
+.clothess_contents .clothess_wrapper {
+    display: flex;
+    align-items: center;
+}
+.clothess_contents .clothess_ttl {
+    /* margin-top: calc((80/750)*100vw); */
+    font-size: calc((36/750)*100vw);
+    line-height: calc((50/750)*100vw);
+    letter-spacing: .063em;
+}
+.clothess_contents .clothess_img {
+    width: calc((60/750)*100vw);
+    margin-top: calc((60/750)*100vw);
+    margin-left: calc((28/750)*100vw);
+}
+.clothess_contents .clothess_lead {
+    margin-top: calc((50/750)*100vw);
+    font-size: calc((30/750)*100vw);
+    line-height: calc((38/750)*100vw);
+    letter-spacing: .08em;
+    font-weight: 700;
+}
+.clothess_contents .clothess_lead.-leadTtl {
+    font-size: calc((30/750)*100vw);
+    line-height: calc((48/750)*100vw);
+    letter-spacing: .03em;
+}
+.clothess_contents .clothess_sublead {
+    margin-top: calc((50/750)*100vw);
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    margin-bottom: calc((50/750)*100vw);
+}
+.clothess_contents .clothess_inner{
+    margin-top: calc((80/750)*100vw);
+    width: 100%;
+}
+.clothess_inner:nth-child(2n) {
+    margin-top: 0;
+}
+.clothess_contents .clothess_innerImg {
+    margin-top: calc((50/750)*100vw);
+    width: 100%;
+}
+.clothess_contents .clothess_products .clothess_innerImg {
+    margin-top: 0;
+    width: 100%;
+}
+.clothess_attention .attention_list {
+    font-size: 10px;
+}
+.clothess_contents .colorTxt {
+    margin-top: calc((22/750)*100vw);
+    font-size: calc((20/750)*100vw);
+    line-height: calc((30/750)*100vw);
+    letter-spacing: .078em;
+    text-align: center;
+}
+.clothess_products {
+    margin-top: calc((50/750)*100vw);
+    display: flex;
+    flex-wrap: wrap;
+}
+.clothess_contents .clothess_sublead.-productTtl {
+    font-weight: 700;
+    font-size: calc((30/750)*100vw);
+}
+.clothess_product {
+    margin-top: 0;
+    margin-right: auto;
+    width: calc((100% - 25px)/2);
+}
+.productTxt {
+    margin-top: calc((30/750)*100vw);
+    font-size: calc((22/750)*100vw);
+    letter-spacing: 0.1em
+}
+.percent-attention{
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* 以下SPレイアウト */
+@media screen and (max-width: 812px) {
+    .clothess_product:nth-child(2n){
+        margin-right: 0
+    }
+    .clothess_product:nth-child(n+3){
+        margin-top: 20px;
+    }
+}
+
+/* 以下PCレイアウト */
+@media screen and (min-width: 813px) {
+    .clothess_contents .clothess_ttl {
+        /* margin-top: 110px; */
+        font-size: 52px;
+        line-height: 75px;
+        letter-spacing: .138em;
+    }
+    .clothess_contents .clothess_img {
+        width: 60px;
+        margin-top: 110px;
+        margin-left: 24px;
+    }
+    .clothess_contents .clothess_lead {
+        margin-top: 64px;
+        font-size: 23px;
+        line-height: 1.5;
+        letter-spacing: .135em;
+    }
+    .clothess_contents .clothess_lead.-leadTtl {
+        margin-top: 64px;
+        font-size: 37px;
+        line-height: 1.6;
+        letter-spacing: .118em;
+    }
+    .clothess_contents .clothess_sublead {
+        margin-top: 41px;
+        font-size: 23px;
+        line-height: 45px;
+        letter-spacing: .095em;
+        margin-bottom: 0;
+    }
+    .clothess_contents .clothess_inner{
+        margin-top: 110px
+    }
+    .clothess_inner:nth-child(2n) {
+        margin-top: 0;
+    }
+    .clothess_contents .clothess_innerImg {
+        margin-top: 64px;
+        width: auto;
+    }
+    .clothess_attention {
+        margin-top: 29px;
+    }
+    .clothess_attention .attention_list {
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: .141em;
+    }
+    .clothess_contents .clothess_sublead.-productTtl {
+        margin-top: 64px;
+        font-size: 23px;
+    }
+    .clothess_products {
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+    .clothess_product {
+        width: calc((100% - 44px)/3);
+        margin-right: 22px;
+        margin-top: 41px;
+        display: flex;
+        flex-direction: column;
+    }
+    .clothess_product:nth-child(3n) {
+        margin-right: 0;
+    }
+    .productTxt {
+        margin: 30px 0 0 0;
+        line-height: 1.7;
+        letter-spacing: 0.078em;
+        display: inline-block;
+        font-size: 18px;
+    }
+    .clothess_product:last-child{
+        margin-right: 0
+    }
+}

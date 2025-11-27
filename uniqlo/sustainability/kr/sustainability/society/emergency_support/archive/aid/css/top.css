@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+---------------------------------------------------------------------
+	aid top.css [January.2013] 
+---------------------------------------------------------------------
+*/
+
+div.topMainImg{
+	width: 663px;
+	padding: 30px 0 20px 20px;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+div#mainCont div.inner div.txtArea{
+	width: 510px;
+	float: left;
+}
+
+div#mainCont div.inner div.imgArea{
+	width: 140px;
+	float: right;
+	margin-top: 5px;
+}
+
+div#mainCont div.inner_last div.txtArea{
+	width: 510px;
+	float: left;
+}
+
+div#mainCont div.inner_last div.imgArea{
+	width: 140px;
+	float: right;
+	margin-top: 5px;
+}

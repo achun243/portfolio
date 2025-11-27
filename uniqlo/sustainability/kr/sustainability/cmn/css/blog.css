@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*
+Theme Name: UNIQLO Sustainability
+Theme URI: 
+Description: UNIQLO Sustainability
+Version: 1
+*/
+
+/*
+---------------------------------------------------------------------
+	blog.css [Feb.2011] 
+---------------------------------------------------------------------
+*/
+
+#blog #mainCont .section { margin: 35px 0 0; }
+
+#blog #mainCont .section h2 { margin: 0; }
+
+#blog #mainCont .section .date {
+	float: left;
+	width: 162px;
+	color: #999;
+	font-size: 167%;
+	line-height: 1.4;
+}
+
+#blog #mainCont .section .article {
+	float: right;
+	width: 509px;
+}
+
+#blog #mainCont .section .img { margin: 30px 0 -10px; }
+
+#blog #mainCont .sep { margin: 35px 0 0; }
+
+#blog #mainCont #pageNav {
+	margin: 50px 0 0;
+	padding: 16px 0 0;
+	background: url(../img/border_dotH.gif) repeat-x left top;
+	line-height: 1.1;
+}
+
+
+#blog #mainCont #pageNav .listLink {
+	float: left;
+	padding: 2px 0;
+}
+#blog #mainCont #pageNav .listLink a {
+	padding: 1px 0 1px 20px;
+	background: url(../img/anchor_left.gif) no-repeat left 42%;
+}
+
+#blog #mainCont #pageNav .neighborLink {
+	float: right;
+	background: url(../img/border_dotV.gif) repeat-y left top;
+}
+
+#blog #mainCont #pageNav .neighborLink li {
+	float: left;
+	padding: 2px 30px 2px 31px;
+	background: url(../img/border_dotV.gif) repeat-y right top;
+}
+
+#blog #mainCont #pageNav .neighborLink li.prev a {
+	padding: 1px 0 1px 20px;
+	background: url(../img/anchor_left.gif) no-repeat left 42%;
+}
+
+#blog #mainCont #pageNav .neighborLink li.next a {
+	padding: 1px 20px 1px 0;
+	background: url(../img/anchor_right.gif) no-repeat right 42%;
+}
+
+
+
+/* -:ClearFix
+--------------------------------------------------*/
+
+
+#pageNav:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+  
+#pageNav {
+	zoom:1;
+}
+
+
+
+
+

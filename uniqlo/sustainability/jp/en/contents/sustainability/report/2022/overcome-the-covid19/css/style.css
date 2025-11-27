@@ -1,0 +1,185 @@
+#sustainability-report .report-wrap .title_01 {
+    color: #379e49;
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+.small_txt{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+.mainContents.layer3 .country_section{
+    margin-top: 15px;
+}
+.mainContents.layer3 .country_name{
+    display: flex;
+    flex-direction: row;
+}
+.mainContents.layer3 .country_name_en{
+    font-weight: bold;
+    color: #379e49;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    line-height: 1.8em;
+}
+.mainContents.layer3 .country_name_jp{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+}
+.mainContents.layer3 .country_lead{
+    font-size: 11px;
+    margin-top: 5px;
+    line-height: 1.8em;
+    letter-spacing: 0.05em;
+}
+.mainContents.layer3 .support_img {
+    width: 52%;
+    margin-top: 35px;
+}
+.mainContents.layer3 .support_img img{
+    width: 100%;
+}
+.mainContents.layer3 .mainLead_section{
+    margin-top: 35px;
+}
+.mainContents.layer3 .mainLead_ttl{
+    color: #379e49;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8em;
+    letter-spacing: 0.045em;
+}
+.mainContents.layer3 .mainLead_txt{
+    font-size: 11px;
+    line-height: 1.8em;
+    margin-top: 18px;
+    letter-spacing: 0.05em;
+}
+.mainContents.layer3 .contentsLink {
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+    background-color: #379e49;
+}
+.mainContents.layer3 .contentsLink .contentsLink_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: .110em;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0;
+}
+.mainContents.layer3 .contentsLink .arrow_right {
+    position: relative;
+    margin-top: 5px;
+    margin-left: -52px;
+}
+.mainContents.layer3 .contentsLink .arrow_right::after {
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.mainContents.layer3 .contentsLink .arrow_right::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: calc(50% + 88px);
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+}
+@media screen and (min-width:813px) {
+    .mainContents.layer3 .img_flex_pc{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-top: 80px;
+    }
+    .small_txt_innner{
+        display: inline;
+    }
+    .mainContents.layer3 .small_txt{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #sustainability-report .report-wrap section .cover_img{
+        margin-top: 0;
+        width: calc((700/1176)*100%);
+    }
+    #sustainability-report .report-wrap section .cover_img img{
+        width: 100%;
+    }
+    .mainContents.layer3 .support_img{
+        width: 275px;
+        margin-left: 65px;
+    }
+    .mainContents.layer3 .country_sections {
+        margin-top: 60px;
+    }
+    .mainContents.layer3 .country_section:not(:first-child) {
+        margin-top: 15px;
+    }
+    .mainContents.layer3 .country_name {
+        white-space: nowrap;
+    }
+    .mainContents.layer3 .country_name_en {
+        font-size: 30px;
+    }
+    .mainContents.layer3 .country_name_jp {
+        margin-left: 15px;
+        font-size: 18px;
+        line-height: 58px;
+    }
+    .mainContents.layer3 .country_lead {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-left: 25px;
+        line-height: 1.8;
+    }
+    .country_section{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .mainContents.layer3 .mainLead_section {
+        margin-top: 60px;
+    }
+    .mainContents.layer3 .mainLead_ttl {
+        font-size: 26px;
+    }
+    .mainContents.layer3 .mainLead_txt {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .mainContents.layer3 .contentsLink{
+        margin-top: 70px;
+        max-width: 588px;
+        height: 100px;
+    }
+    .mainContents.layer3 .contentsLink .contentsLink_txt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mainContents.layer3 .contentsLink .arrow_right {
+        margin-left: -51px;
+    }
+    .mainContents.layer3 .contentsLink .arrow_right::after{
+        top: 25%;
+        left: calc(50% + 159px);
+        width: 16px;
+        height: 16px;
+    }
+}

@@ -1,0 +1,622 @@
+@charset 'utf-8';
+/* CSS Document */
+
+#wrapper{
+  overflow-x: initial;
+}
+
+header.header .menuTrigger {
+    display: none;
+}
+
+#re-uniqlo .section p { word-break: keep-all; letter-spacing: -0.02em;}
+
+/* container */
+
+@media screen and (max-width: 1370px) and (min-width: 768px){
+  #wrapper .container .mainContents{
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1240px){
+  #wrapper .container .mainContents{
+    width: 100%;
+    max-width: 1240px;
+    /*padding-bottom: 120px;*/
+  }
+}
+@media screen and (max-width: 1239px) and (min-width: 768px){
+  #wrapper .container .mainContents{
+    padding: 0 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px){
+  #wrapper .container .mainContents{
+    padding-bottom: 8vw;
+  }
+  .subImg_lead_small{
+    font-size: calc((20/750)*100vw);
+    margin-top: calc((22/750)*100vw);
+}
+}
+@media screen and (min-width: 768px){
+  #wrapper .container{
+    max-width: 1240px;
+    min-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+/* breads */
+.breads{
+  margin-bottom: 0;
+}
+.breads ul .item.noHomeIcon a{
+  width: auto;
+  height: auto;
+  background: none;
+}
+.breads ul .item.noHomeIcon a span{
+  display: block;
+}
+
+
+/* section */
+#re-uniqlo div.section{
+    margin-top: 75px;
+}
+#re-uniqlo .inlineblock{
+    display: inline-block;
+}
+
+
+/* shareIcons */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+.shareIcons a img{
+    transition: .3s linear;
+}
+
+
+/* parts */
+.responsive_img{
+  width: 100%;
+}
+.color_blue{
+  color: #0f75bc !important;
+}
+#re-uniqlo .text_left{
+    text-align-last: left;
+}
+#re-uniqlo .text_right{
+    text-align: right;
+}
+#re-uniqlo .text_center{
+    text-align: center;
+}
+#re-uniqlo .block_center{
+    display: block;
+    margin: auto;
+}
+#re-uniqlo .note{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+#re-uniqlo .movie_area:hover{
+    opacity: 0.7;
+}
+
+#re-uniqlo .project_more_box {
+  position: relative;
+  text-align: center;
+  border: solid 3px #0f75bc;
+  padding: 9px 20px 7px;
+  font-size: 26px;
+  margin: 90px 0 0;
+  color: #0f75bc;
+  letter-spacing: 0.2em;
+}
+#re-uniqlo .project_more_box::after {
+  content: "";
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  top: 0;
+  margin-left: 15px;
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#re-uniqlo sup{
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+#re-uniqlo .text_small{
+  font-size: 80%;
+  vertical-align: baseline;
+}
+
+#re-uniqlo .project_more_box_blue {
+  position: relative;
+  text-align: center;
+  width: 41%;
+  background: #0f75bc;
+  padding: 9px 5px 8px;
+  font-size: 17.35px;
+  margin: 46px auto 0;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-family: UniqloProLight, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ",Meiryo,sans-serif;
+}
+#re-uniqlo .project_more_box_blue::after {
+  content: "";
+  background-image: url(../img/arrow_white.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 15px;
+  top: 0;
+  margin-left: 6px;
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* page_top */
+footer.footer .pagetop{
+  display: none;
+}
+#page_top {
+  position: fixed;
+  width: 1072px;
+  margin-left: 50%;
+  height: 0;
+  bottom: 0;
+  left: -530px;
+}
+#page_top a {
+  opacity: 0;
+  transition: 0.5s;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+#page_top img {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+#page_top .page_top_inner {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  display: flex;
+}
+#page_top.fixd {
+  width: 100%;
+  margin: 0;
+  left: 0;
+  position: relative;
+}
+#page_top.fixd .page_top_inner {
+  bottom: -60px;
+}
+#page_top .re_uniqlo_top{
+  display: block;
+  width: 109px;
+  height: 30px;
+  margin-right: 30px;
+  background: #fff;
+  border: solid 2px #379e49;
+  overflow: hidden;
+}
+#page_top .re_uniqlo_top img{
+  display: block;
+  line-height: 0;
+  width: auto;
+  height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1167px) {
+  #page_top {
+    right: 0;
+    left: auto;
+  }
+  .subImg_lead_small{
+    font-size: 12px;
+    margin-top: 13px;
+}
+}
+
+@media (min-width: 768px){
+    #re-uniqlo a.hover_link:hover,
+    #re-uniqlo a.hover_link:hover > *,.shareIcons a img:hover{
+      opacity: 0.7;
+      transition: .3s linear;
+    }
+    #re-uniqlo .sp_display{
+        display: none;
+    }
+    #wrapper .container {
+      padding: 0 78px 120px;
+    }
+
+    #re-uniqlo .section{
+      font-size: 15px;
+      color: #0f75bc;
+      line-height: 1.8;
+    }
+    #re-uniqlo .section p{
+
+    }
+
+    #re-uniqlo .pc_mt-40{
+      margin-top: 40px;
+    }
+
+    /* flex */
+    #re-uniqlo .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    #re-uniqlo .flex--reverse {
+      flex-direction: row-reverse;
+    }
+    #re-uniqlo .flex--aligncenter {
+      align-items: center;
+    }
+    #re-uniqlo .flex--alignend {
+      align-items: end;
+    }
+    #re-uniqlo .flex--contentcenter {
+      justify-content: center;
+    }
+    #re-uniqlo .flex--contentstart {
+      justify-content: flex-start;
+    }
+    #re-uniqlo .flex--wrap {
+      flex-wrap: wrap;
+    }
+
+
+    /* breads */
+    .breads ul .item::before{
+      background: none;
+      margin-left: 5px;
+      width: 8px;
+      height: 8px;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      transform: rotate(45deg);
+    }
+
+
+    /* cover */
+    #re-uniqlo .cover{
+      padding-top: 0;
+      margin-bottom: 90px;
+    }
+    #re-uniqlo .cover .cover__img{
+      margin-top: 40px;
+      margin-bottom: 42px;
+      width: 105%;
+      margin-left: -2.5%;
+    }
+    #re-uniqlo .cover__txt{
+      margin-bottom: 58px;
+    }
+
+    /* h2 */
+    #re-uniqlo h2{
+      padding-top: 14px;
+      margin-bottom: 9px;
+    }
+    #re-uniqlo h2 p{
+      margin-bottom: 10px;
+      margin-top: 50px;
+      font-size: 48px;
+      color: #000;
+      line-height: 1.4166666;
+      font-feature-settings: "palt";
+      letter-spacing: 0.03em;
+      /* font-family: UniqloProLight, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ",Meiryo,sans-serif; */
+    }
+
+
+    /* h3 */
+    #re-uniqlo div.section h3{
+      font-size: 22px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    #re-uniqlo div.section p + h3{
+      margin-top: 18px;
+    }
+
+    #re-uniqlo .lead-txt{
+      margin-top: 40px;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }
+
+    /* movie_block */
+    #re-uniqlo .movie_block{
+      margin-top: 53px;
+    }
+    #re-uniqlo .movie_block .item{
+      margin-right: 23px;
+      font-size: 22px;
+      letter-spacing: 0.18em;
+      line-height: 1.5754;
+      font-weight: bold;
+    }
+    #re-uniqlo .movie_block .item .title{
+      font-family: UniqloProRegular;
+      font-size: 36px;
+      margin-top: 17px;
+      margin-bottom: 10px;
+      line-height: 1.1858;
+    }
+
+
+    /* floatImg */
+    .mainContents.layer3 .main .floatImg .img{
+      width: 192px;
+    }
+    .mainContents.layer3 .main .floatImg .img img{
+      width: 100%;
+      height: auto;
+    }
+    .mainContents.layer3 .main .floatImg .text{
+      width: 720px!important;
+      text-align: justify;
+    }
+
+
+}
+
+@media (max-width: 767px){
+
+
+    #re-uniqlo .pc_display{
+        display: none;
+    }
+    #re-uniqlo div.section{
+        margin-top: 10vw;
+        width: 94vw;
+        padding-right: 3vw;
+        padding-left: 3vw;
+        color: #0f75bc;
+        font-size: 10px;
+        line-height: 1.7;
+    }
+    #re-uniqlo div.section p{
+      margin-top: 2.6vw;
+    }
+    #re-uniqlo div.section p.note{
+      margin-top: 0.9vw;
+      font-size: 7px;
+      line-height: 1.5;
+    }
+    #re-uniqlo div.section img{
+        width: 100%;
+    }
+
+    /* parts */
+    #re-uniqlo div.section .linkBtn {
+        width: 100%;
+        margin: 15px auto 1px;
+        padding: 0;
+        clear: both;
+        line-height:1.4;
+    }
+    #re-uniqlo sup {
+      font-size: 10px;
+      line-height: 1.6;
+    }
+
+
+    /* flex */
+    #re-uniqlo .flex--sp.flex {
+      display: flex;
+      justify-content: space-between;
+    }
+    #re-uniqlo .flex--sp.flex--reverse {
+      flex-direction: row-reverse;
+    }
+    #re-uniqlo .flex--sp.flex--aligncenter {
+      align-items: center;
+    }
+    #re-uniqlo .flex--sp.flex--alignend {
+      align-items: end;
+    }
+    #re-uniqlo .flex--sp.flex--contentcenter {
+      justify-content: center;
+    }
+    #re-uniqlo .flex--sp.flex--contentstart {
+      justify-content: flex-start;
+    }
+    #re-uniqlo .flex--sp.flex--wrap {
+      flex-wrap: wrap;
+    }
+
+
+    /* breads */
+    .breads ul .item::before{
+      background: none;
+      margin-left: 0;
+      margin-right: 2.5vw;
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #000;
+      border-right: 1px solid #000;
+      transform: rotate(45deg);
+    }
+    .breads ul .item a {
+      letter-spacing: 0.5px;
+    }
+
+    /* cover */
+    #wrapper .container .mainContents .cover{
+      width: 94vw;
+      padding-right: 3vw;
+      padding-left: 3vw;
+    }
+    #re-uniqlo .cover {
+      /* margin-bottom: 6vw; */
+      padding-top: 0;
+    }
+    #re-uniqlo .cover img{
+      max-width: 100%;
+    }
+    #re-uniqlo .cover .cover__img{
+      margin-top: 10px;
+      margin-bottom: 4vw;
+      width: 105%;
+      margin-left: -2.5%;
+    }
+    #re-uniqlo .cover .cover__txt{
+      margin-bottom: 6.3vw;
+    }
+
+    /* h2 */
+    #re-uniqlo h2{
+      margin-top: 35px;
+    }
+    #re-uniqlo div.section h2 p{
+      color: #000;
+      margin-bottom: 7px;
+      margin-top: 18px;
+      font-size: 4.34vw;
+      line-height: 1.4;
+    }
+
+    /* h3 */
+    #re-uniqlo div.section h3{
+      font-size: 11px;
+      margin-top: 3vw;
+      line-height: 1;
+    }
+    #re-uniqlo div.section h3 + p{
+      margin-top: 1.5vw;
+    }
+
+    #re-uniqlo .lead-txt{
+      font-size: 11px;
+      font-weight: bold;
+      margin-top: 4vw;
+      line-height: 1.5;
+    }
+
+    /* movie_block */
+    #re-uniqlo .movie_block{
+      margin-top: 6.7vw;
+      justify-content: space-around!important;
+    }
+    #re-uniqlo .movie_block .item{
+      width: 48%;
+      font-weight: bold;
+    }
+    #re-uniqlo .movie_block .item p{
+      margin-top: 0;
+      margin-top: 2.4vw;
+      line-height: 1.4545454;
+    }
+    #re-uniqlo .movie_block .item .title{
+      font-family: UniqloProRegular;
+      font-size: 17px;
+      margin-top: 2.8vw;
+      line-height: 1.11764;
+    }
+
+    #re-uniqlo .project_more_box {
+      margin-top: 0;
+      font-size: 15px;
+      padding: 16px 18px 16px 0;
+}
+    #re-uniqlo .project_more_box::after {
+      height: 16px;
+      margin-left: 8px;
+    }
+    #re-uniqlo .project_more_box_blue {
+      width: 100%;
+      margin-top: 35px;
+      font-size: 13px;
+      padding-right: 15px;
+      letter-spacing: 0.12em;
+    }
+    #re-uniqlo .project_more_box_blue::after {
+      height: 12px;
+      margin-left: 0;
+      width: 18px;
+    }
+
+    /* page_top */
+    #page_top {
+      left: -3vw;
+      right: -3vw;
+      margin-left: 6vw;
+      width: 94%;
+    }
+    #page_top .page_top_inner{
+      width: 100%;
+      /*justify-content: space-between;*/
+      justify-content: flex-end;
+    }
+    #page_top a {
+      width: 8.4vw;
+      height: 8.4vw;
+    }
+    #page_top.fixd {
+      position: absolute;
+      bottom: -13.6vw;
+      margin-bottom: 60px;
+    }
+    #page_top.fixd .page_top_inner{
+      /* bottom: 0; */
+    }
+
+    #re_uniqlo_top{
+      width: 33.6vw;
+      height: 8.4vw;
+      bottom: -13.6vw;
+      right: auto;
+      left: 0;
+    }
+
+    #re_uniqlo_top a img{
+      border: solid 2px #379e49;
+    }
+}
+
+footer.footer .inner .item a,
+footer.footer .inner .copyright small{
+    word-break: keep-all;
+}

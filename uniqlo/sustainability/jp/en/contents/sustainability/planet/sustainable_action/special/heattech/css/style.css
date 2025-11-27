@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.htIcon {
+  margin-top: calc((80/750)*100vw);
+  width: calc((460/750)*100vw);
+  max-width: 460px;
+}
+.htIcon_img {
+  width: 100%;
+}
+@media screen and (max-width: 812px){
+  .L3_cover .cover_lead{
+    margin-top: calc((80/750)*100vw);
+  }
+}
+@media screen and (min-width: 813px){
+  .htIcon {
+    width: calc((300/1176)*100vw);
+    max-width: 300px;
+    margin-top: 64px;
+  }
+}

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.canopy_innerImg {
+    width: calc((566/750)*100vw);
+    margin-top: calc((50/750)*100vw);
+}
+
+.rayon_business_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: calc((40/750)*100vw);
+}
+
+.rayon_business_lead {
+    font-size: calc((30/750)*100vw);
+    line-height: calc((48/750)*100vw);
+    letter-spacing: .030em;
+}
+
+.rayon_business_logo1 {
+    width: calc((60/750)*100vw);
+    margin-left: calc((20/750)*100vw);
+}
+
+.rayon_business_logo2 {
+    width: calc((120/750)*100vw);
+    margin-left: calc((20/750)*100vw);
+}
+
+.rayon_business_body {
+    margin-top: calc((15/750)*100vw);
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    letter-spacing: 0.1em;
+}
+
+.rayon_business_annotation {
+    margin-top: calc((22/750)*100vw);
+    font-size: calc((18/750)*100vw);
+    line-height: calc((28/750)*100vw);
+    letter-spacing: 0.1em;
+}
+
+.subImg_container_large .canopy_lead {
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    margin-top: calc((50/750)*100vw);
+    letter-spacing: 0.1em;
+}
+
+@media screen and (min-width:813px) {
+    .subImg_container_large .canopy_lead {
+        font-size: 23px;
+        line-height: 45px;
+        margin-top: 41px;
+        letter-spacing: 0.1em;
+    }
+    .canopy_innerImg {
+        width: 605px;
+        margin-top: 64px;
+    }
+    .rayon_business_lead {
+        font-size: 43px;
+        line-height: 60px;
+        letter-spacing: .08em;
+    }
+    .rayon_business_wrapper{
+        margin-top: 64px;
+    }
+    .rayon_business_logo1 {
+        width: 100px;
+        margin-left: 30px;
+    }
+    .rayon_business_logo2{
+        width: 160px;
+        margin-left: 35px;
+    }
+    .rayon_business_body {
+        margin-top: 18px;
+        font-size: 23px;
+        line-height: 45px;
+        letter-spacing: 0.095em;
+    }
+    .rayon_business_annotation {
+        margin-top: 16px;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.141em;
+    }
+    .contentsLink.pc-mt-32{
+        margin-top: 32px;
+    }
+}

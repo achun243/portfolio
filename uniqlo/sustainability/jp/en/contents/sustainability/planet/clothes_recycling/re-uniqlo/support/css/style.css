@@ -1,0 +1,95 @@
+@charset "UTF-8";
+img{
+    width: 100%;
+}
+@media (max-width: 812px){
+    .contents .cover_catch2{
+        font-size: calc((28/750)*100vw);
+        line-height: calc((44/750)*100vw);
+        letter-spacing: .09em;
+        margin-top: calc((80/750)*100vw);
+    }    
+    .map{
+        margin-top: calc((50/750)*100vw);
+    }
+    .map_text{
+        margin-top: calc((22/750)*100vw);
+        font-size: calc((16/750)*100vw);
+        line-height: calc((22/750)*100vw);
+    }
+    span.small_text {
+        font-size: calc((20/750)*100vw);
+    }
+    .contents .cover_mainTtl{
+        border-top: 1.5px solid #379e49;
+        margin-top: calc((50/750)*100vw);
+        padding-top: calc((80/750)*100vw);
+    }
+    .unhcr .logo{
+        width: calc((537/750)*100vw);
+        margin-top: calc((80/750)*100vw);
+    }
+    .unhcr .explanation .title{
+        margin-top: calc((50/750)*100vw);
+        font-size: calc((24/750)*100vw);
+        line-height: calc((40/750)*100vw);
+        font-weight: bold;
+    }
+    .unhcr .explanation .text,.explanation a{
+        margin-top: calc((22/750)*100vw);
+        font-size: calc((20/750)*100vw);
+        line-height: calc((36/750)*100vw);
+        letter-spacing: 0.078em;
+        display: block;
+    }
+    a.color_green {
+        line-height: calc((15.75/750)*100vw);
+    }
+
+    .cnt_link {
+        margin-top: calc((22/750)*100vw);
+        font-size: calc((20/750)*100vw);
+        line-height: calc((15.75/750)*100vw);
+    }
+}
+
+@media (min-width: 813px){
+    .contents .cover_catch2{
+        font-size: 37px;
+        line-height: 60px;
+        letter-spacing: .118em;
+        margin-top: 110px;
+    }
+    .map{
+        margin-top: 41px;
+    }
+    .map_text{
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 20px
+    }
+    span.small_text {
+        font-size: 20px;
+    }
+    .contents .cover_mainTtl{
+        margin-top: 110px;
+        padding-top: 110px;
+        border-top: 2px solid #379e49;
+    }
+    .unhcr .logo{
+        width: 433px;
+        margin-top: 110px;
+    }
+    .unhcr .explanation .title{
+        margin-top: 64px;
+        font-size: 30px;
+        line-height: 41px;
+        font-weight: bold;
+    }
+    .unhcr .explanation .text,.explanation a{
+        margin-top: 29px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 78;
+    }
+}

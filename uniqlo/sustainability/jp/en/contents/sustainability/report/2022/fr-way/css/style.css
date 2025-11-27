@@ -1,0 +1,134 @@
+.photoby{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.contents_wrap ul{
+    font-weight: bold;
+}
+
+.contents_wrap ul li:first-child{
+    margin-top: 0!important;
+}
+.btnColor_red {
+    background-color: #ff0000;
+}
+/* contentsLink*/
+.mainContents.layer3 .contentsLink {
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+    background-color:#ff0000;
+}
+.mainContents.layer3 .contentsLink .contentsLink_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.mainContents.layer3 .contentsLink .arrow_right {
+    position: relative;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: .110em;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt:nth-of-type(2){
+    margin-top: 5px;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt:first-child{
+    margin-left: -2px;
+}
+.btnColor_green{
+    background-color: #379e49;
+}
+.mainContents.layer3 .contentsLink .arrow_transition {
+    width: 13px;
+    margin: auto 0;
+    margin-left: 8px;
+}
+#sustainability-report .report-wrap .lead{
+    font-weight: bold;
+}
+
+.contents_wrap ul{
+    margin-top: 10px !important;
+}
+.contents_wrap ul li{
+    margin-top: 5px !important;
+    font-size: 12px;
+}
+h3 + .explanation-text{
+    margin-top: 10px !important;
+}
+.explanation-text{
+    margin-top: 5px !important;
+    font-size: 11px;
+}
+.green_bold{
+    font-weight: bold;
+    color: #379e49 !important;
+}
+.logo_img{
+    margin-top: 40px !important;
+}
+.logo_img img{
+    width: 100%;
+}
+
+
+@media (min-width: 813px){
+    .photoby{
+        margin-top: 18px;
+        font-size: 13px;
+    }
+
+    .contents_wrap ul{
+        margin-top: 20px !important;
+    }
+    .contents_wrap ul li{
+        margin-top: 10px !important;
+        font-size: 20px;
+    }
+
+      /* contentsLink*/
+      .mainContents.layer3 .contentsLink {
+        margin-top: 70px;
+        max-width: 588px;
+        height: 60px;
+    }
+    .mainContents.layer3 .contentsLink .contentsLink_txt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mainContents.layer3 .contentsLink .arrow_transition {
+        width: 24px;
+        margin-left: 15px;
+    }
+    .mainContents.layer3 .contentsLink .contentsLink_txt:first-child{
+        margin-left: -3px;
+    }
+
+    h3 + .explanation-text{
+        margin-top: 20px !important;
+    }
+    .explanation-text{
+        margin-top: 10px !important;
+        font-size: 15px;
+    }
+    .logo_img{
+        margin-top: 64px !important;
+    }
+    .logo_img img{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

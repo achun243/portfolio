@@ -1,0 +1,44 @@
+@charset 'utf-8';
+/* CSS Document */
+
+.breads{
+  font-family: UniqloProRegular, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+  .toen{
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .toen a{
+    font-size: 14px;
+  }
+  .breads {
+    margin-bottom: 0;
+  }
+  .breads,
+  .breads ul .item a{
+    font-size: 14px;
+  }
+  #wrapper .container .toen+#re-uniqlo_l2{
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 767px){
+  .breads {
+    height: 8.33333vw;
+    overflow: hidden;
+    font-size: 3.2vw;
+  }
+  .breads ul .item a {
+    font-size: 2.4vw;
+  }
+  .toen {
+    margin: 0;
+    padding: 9px 4px 7px;
+    font-size: 2.4vw;
+    font-family: UniqloProRegular, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+  }
+}

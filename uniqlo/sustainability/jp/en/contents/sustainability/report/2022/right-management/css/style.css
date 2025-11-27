@@ -1,0 +1,131 @@
+.photoby{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.contents_wrap ul{
+    font-weight: bold;
+}
+
+.contents_wrap ul li:first-child{
+    margin-top: 0!important;
+}
+.btnColor_red {
+    background-color: #ff0000;
+}
+/* contentsLink*/
+.contentsLink {
+    width: 100%;
+    height: calc((71/750)*100vw);
+    margin-top:40px !important;
+}
+.contentsLink .contentsLink_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contentsLink .contentsLink_txt {
+    color: #fff;
+    font-size: calc((10/750)*100vw);
+    letter-spacing: .110em;
+    font-weight: 600;
+    line-height: calc((30/750)*100vw);
+    margin: auto 0!important;
+}
+
+.contentsLink .arrow_transition {
+    width: calc((21/750)*100vw);
+    margin: auto 0;
+    margin-left: calc((19/750)*100vw);
+}
+#sustainability-report .report-wrap .lead{
+    font-weight: bold;
+}
+
+.contents_wrap ul{
+    margin-top: 10px !important;
+}
+.contents_wrap ul li{
+    margin-top: 5px !important;
+    font-size: 12px;
+}
+h3 + .explanation-text{
+    margin-top: 10px !important;
+}
+.explanation-text{
+    margin-top: 5px !important;
+    font-size: 11px;
+}
+.green_bold{
+    font-weight: bold;
+    color: #379e49 !important;
+}
+.logo_img{
+    margin-top: 40px !important;
+}
+.logo_img img{
+    width: 100%;
+}
+
+
+@media (min-width: 813px){
+    .photoby{
+        margin-top: 18px;
+        font-size: 13px;
+    }
+
+    .contents_wrap ul{
+        margin-top: 20px !important;
+    }
+    .contents_wrap ul li{
+        margin-top: 10px !important;
+        font-size: 20px;
+    }
+
+      /* contentsLink*/
+      .contentsLink {
+        width: calc((810/1176)*100%);
+        height: calc((60/1176)*100vw);
+        max-height: 60px;
+        margin-top: 64px!important;
+    }
+    .contentsLink .contentsLink_btn {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .contentsLink .contentsLink_txt {
+        font-size: 17px;
+        line-height: calc((19/1226)*100vw);
+        letter-spacing: .068em;
+        font-weight: 600;
+        margin: auto 0;
+    }
+    .contentsLink .arrow_transition {
+        width: calc((21/1226)*100vw);
+        max-width: 21px;
+        margin: auto 0;
+        margin-left: calc((19/1226)*100vw);
+    }
+
+    h3 + .explanation-text{
+        margin-top: 20px !important;
+    }
+    .explanation-text{
+        margin-top: 10px !important;
+        font-size: 15px;
+    }
+    .logo_img{
+        margin-top: 64px !important;
+    }
+    .logo_img img{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

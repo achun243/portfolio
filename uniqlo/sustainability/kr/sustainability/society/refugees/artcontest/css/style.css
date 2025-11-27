@@ -1,0 +1,243 @@
+.title {
+    font-size: calc((28/750)*100vw);
+    line-height: calc((44/750)*100vw);
+    letter-spacing: .2em;
+    margin-top: calc((80/750)*100vw);
+}
+.title_underLine {
+    border-bottom: 2px solid #1b1b1b;
+}
+.lead {
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    font-weight: 500;
+    margin-top: calc((50/750)*100vw);
+    letter-spacing: 1px;
+}
+img {
+    width: 100%;
+}
+.cover_logo_wrapper {
+    margin-top: calc((40/750)*100vw);
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+h2.cover_subTtl.color_blue {
+    margin-top: 0 !important;
+    margin-bottom: calc((10/750)*100vw) !important;
+    letter-spacing: 0.14em;
+}
+.cover_logo_inner {
+    height: calc((50/750)*100vw);
+    margin-top: calc((15/750)*100vw);
+    margin-bottom: 0;
+}
+.cover_logo_uniqlo img {
+    width: calc((50/750)*100vw);
+    height: calc((50/750)*100vw);
+    margin-right: calc((8/750)*100vw);
+}
+.cover_logo_unhcr img {
+    width: calc((50/750)*100vw);
+    height: calc((50/750)*100vw);
+    margin-left: calc((8/750)*100vw);
+}
+.cover_logo_unhcr {
+    border-left: solid 1px #0076c0;
+    display: inline-block;
+}
+.color_box .only_for-future-generation_page {
+    width: calc((315*1.2/750)*100vw);
+}
+.logoImg_container {
+    margin-top: calc((50/750)*100vw);
+}
+.logoImg {
+    width: 100%;
+}
+.contents_title{
+    margin-top: calc((20/750)*100vw) !important;
+    font-size: calc((24/750)*100vw);
+    line-height: calc((38/750)*100vw);
+    letter-spacing: 0.1em;
+}
+.contents_title:first-of-type {
+    margin-top: calc((30/750)*100vw) !important;
+}
+.list_item{
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    letter-spacing: .06em;;
+    font-weight: 500;
+    margin-top: calc((23/750)*100vw) !important;
+} 
+.artcontest_subContents_text {
+    font-size: calc((24/750)*100vw);
+    line-height: calc((38/750)*100vw);
+    letter-spacing: 0.08rem;
+    font-weight: bold;
+    margin-top: calc((50/750)*100vw);
+}
+.artcontest_subContents_subText{
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    letter-spacing: .06em;;
+    font-weight: 500;
+    margin-top: calc((30/750)*100vw);
+}
+.annotation {
+    font-size: calc((9/750)*100vw);
+    line-height: calc((14/750)*100vw);
+}
+.contentsLink {
+    margin-top: calc((8/750)*100vw);
+}
+.list_block.btn_attached{
+    margin-top: calc((37/750)*100vw);
+}
+.arrow_transition_blue:after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    background: url(/jp/ja/contents/sustainability/society/cmn/img/arrow_transition_blue.png) no-repeat;
+    background-size: contain;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+.updated_trail_relative {
+    position: relative;
+    padding-top: calc((106/750)*(100vw));
+}
+
+.updated_trail {
+    font-size: calc((17/750)*100vw);
+    border: 1px solid;
+    letter-spacing: 0.1em;
+    padding: 0px 3px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.color_box .container_inner .updated_trail {
+    top: calc((20/750)*(100vw));
+}
+
+@media screen and (min-width: 813px) {
+    .color_box .container_tab {
+        width: calc((390/1176)*100%);
+    }
+    .title {
+        font-size: 37px;
+        line-height: 60px;
+        letter-spacing: 0.21em;
+        margin-top: 110px;
+    }
+    .lead {
+        font-size: 23px;
+        line-height: 45px;
+        margin-top: 41px;
+    }
+    .cover_mainTtl {
+        letter-spacing: 0.01em;
+    }
+    .cover_logo_wrapper {
+        margin-top: 50px;
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
+    h2.cover_subTtl.color_blue {
+        margin: 0 !important;
+        letter-spacing: 5.7px;
+    }
+    .cover_logo_inner {
+        height: 52px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-right: 67px;
+    }
+    .cover_logo_uniqlo img {
+        width: 52px;
+        height: 52px;
+        margin-right: 8px;
+    }
+    .cover_logo_unhcr img {
+        width: 52px;
+        height: 52px;
+        margin-left: 8px;
+    }
+    .cover_logo_unhcr {
+        border-left: solid 1px #0076c0;
+        display: inline-block;
+    }
+    .mainImg_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .cover_catch {
+        margin-top: 40px !important;
+        letter-spacing: 6.7px !important;
+    }
+    .cover_lead {
+        margin-top: 35px !important;
+    }
+    .mainImg_container .mainImg {
+        margin-bottom: auto;
+    }
+    .logoImg_container {
+        margin-top: 41px;
+    }
+    .logoImg {
+        width: calc((697/1058)*100%);
+    }
+    .contentsLink {
+        margin-top: 8px;
+    }
+    .list_block.btn_attached{
+        margin-top: 50px;
+    }
+    .contents_title {
+        font-size: 30px;
+        line-height: 41px;
+        margin-top: 27px !important;
+    }
+    .contents_title:first-of-type {
+        margin-top: 43px !important;
+    }
+    .list_item{
+        margin-top: 24px !important;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 500;
+        letter-spacing: .14em;
+    }
+    .artcontest_subContents_area {
+        width: calc((425/1058)*100%);
+        margin-top: 0;
+    }
+    .artcontest_subContents_text {
+        font-size: 23px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        margin-top: 0;
+    }
+    .artcontest_subContents_subText {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .annotation {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .color_box .container_inner .updated_trail {
+        top: 61px;
+    }
+}

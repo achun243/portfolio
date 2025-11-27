@@ -1,0 +1,92 @@
+/* CSS Document */
+
+#sustainability-report .report-wrap section .border_h3 span {
+    display: inline;
+    position: relative;
+    border-bottom: solid 3px #379e49;
+}
+
+#sustainability-report .report-wrap .caption{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#wrapper .container .mainContents{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#sustainability-report .report-wrap .title_01 {
+    color: #379e49;
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+
+#sustainability-report .report-wrap .lead{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+    
+}
+
+#sustainability-report .report-wrap .h3 {
+    color: #379e49;
+    font-family: 'UniqloProRegular';
+    line-height: 1.5;
+}
+
+#sustainability-report .report-wrap .img_wrap .img_mw {
+    width: 100%;
+}
+
+#sustainability-report .report-wrap .annotation {
+    font-size: 8px;
+    line-height: 1.6;
+    margin-top: 8px;
+    line-height: 1.7;
+    letter-spacing: 0.13em;
+    font-family: UniqloProLight;
+}
+
+#sustainability-report .report-wrap .contents_wrap .cover_img {
+    margin-top: 16px;
+}
+
+#sustainability-report .contents_wrap .contents_wrap_text {
+    font-size: 11px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    margin-top: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.13em;
+    font-family: UniqloProLight;
+}
+
+@media (min-width: 768px) {
+    #sustainability-report .report-wrap .lead {
+        font-size: 20px;
+    }
+
+    #sustainability-report .report-wrap .annotation {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+
+    #sustainability-report .contents_wrap .contents_wrap_text {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    #sustainability-report .report-wrap section .cover_img img {
+        width: 100%;
+    }
+
+    #sustainability-report .report-wrap section::before {
+        height: 2px;
+        width: 91%;
+    }
+
+    #sustainability-report .report-wrap .h3 {
+        font-size: 18px;
+    }
+    
+}

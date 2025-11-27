@@ -1,0 +1,366 @@
+ @charset "utf-8";
+/*
+---------------------------------------------------------------------
+	aid    cmn.css [January.2013] 
+---------------------------------------------------------------------
+*/
+
+body {
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #f00;
+}
+a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+a:active {
+  color: #f00;
+}
+a.em {
+  text-decoration: underline;
+}
+#wrapper {
+  position: relative;
+  width: 950px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 1px;
+  background: url(/jp/sustainability/aid/img/wrapper_bg.gif) repeat-y left top #fff;
+}
+#header {
+  height: 59px;
+  padding: 10px 10px 0 0;
+  position: relative;
+  border-bottom: 1px solid #dcdcdc;
+  background: #fff;
+}
+#header #siteID {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+}
+#header #siteTitle {
+  width: 290px;
+  height: 43px;
+  position: absolute;
+  top: 15px;
+  left: 89px;
+}
+#header #headerLangNav {
+  float: right;
+  margin: 0 -10px 0 0;
+}
+#header #headerLangNav li {
+  float: left;
+  margin: 0 10px 0 0;
+  line-height: 1.5;
+  font-size: 80%;
+}
+#header #headerLangNav li.tw {
+  margin: 0 5px 0 0;
+}
+#header #headerLangNav li a {
+  color: #f00;
+  vertical-align: top;
+}
+div#langNav {
+  height: 15px;
+  padding: 15px 10px;
+  position: relative;
+  border-bottom: 1px solid #dcdcdc;
+}
+div#langNav li {
+  float: left;
+  margin: 0 10px 0 0;
+  line-height: 1.5;
+  font-size: 12px;
+}
+div#langNav li.tw {
+  margin: 0 5px 0 0;
+}
+div#langNav li a {
+  color: #f00;
+  vertical-align: top;
+}
+div#langNav #funcNav {
+  position: absolute;
+  top: 13px;
+  right: 5px;
+  overflow: hidden;
+}
+div#langNav #funcNav li {
+  float: left;
+  margin: 0 10px 0 0;
+}
+div#langNav #funcNav li#twt {
+  font-size: 0;
+}
+div#langNav #funcNav li#fb {
+  width: 125px;
+  overflow: hidden;
+}
+div#topicPath {
+  padding: 15px 10px;
+  line-height: 1.1;
+  font-size: 12px;
+  border-bottom: 1px solid #dcdcdc;
+}
+div#topicPath li {
+  float: left;
+}
+div#topicPath li a {
+  display: block;
+  padding: 0 12px 0 0;
+  margin: 0 9px 0 0;
+  background: url(/jp/sustainability/aid/img/arrow_right.gif) no-repeat right 45%;
+  color: #f00;
+}
+div#mainCont {
+  float: right;
+  /* width: 749px; 2015.03.16*/
+  width: 750px;
+  border-left: 1px solid #dcdcdc;
+}
+div#mainCont h1 {
+  width: 683px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 20px;
+}
+div#mainCont .inner {
+  margin: 0 0 20px 20px;
+  padding-bottom: 20px;
+  width: 663px;
+  background: url(/jp/sustainability/cmn/img/border_dotH.gif) repeat-x scroll left bottom transparent;
+}
+div#mainCont .inner h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 160%;
+}
+div#mainCont .inner span.indent {
+  padding-left: 1em;
+}
+div#mainCont .inner_last {
+  margin: 0 0 20px 20px;
+  padding-bottom: 20px;
+  width: 663px;
+}
+div#mainCont .inner_last h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 160%;
+}
+div#leftNav {
+  float: left;
+  width: 199px;
+}
+div#leftNav li {
+  border-bottom: 1px solid #dcdcdc;
+}
+.bkDot {
+  background: url(/jp/sustainability/aid/img/bg_blackdot.gif) no-repeat left 1px;
+  padding-left: 14px;
+}
+.txtRed {
+  color: red;
+}
+.mT15 {
+  margin-top: 15px;
+}
+.mT30 {
+  margin-top: 30px;
+}
+.links {
+  line-height: 1.1;
+}
+.links a {
+  color: #333;
+}
+.links a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+.links {
+  padding: 1px 0;
+  line-height: 1.1;
+}
+.links a {
+  padding: 1px 0 1px 18px;
+  background: url(/jp/sustainability/aid/img/anchor_black_right.gif) no-repeat left 1px;
+}
+.pageLink, .mailLink, .blankLink {
+  line-height: 1.1;
+}
+.pageLink a, .mailLink a, .blankLink a {
+  color: #333;
+}
+.pageLink a:hover, .blankLink a:hover, .mailLink a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+.pageLink {
+  margin: 20px 0 0;
+  padding: 1px 0;
+  line-height: 1.1;
+}
+.pageLink a {
+  padding: 1px 0 1px 20px;
+  background: url(/jp/sustainability/cmn/img/anchor_right.gif) no-repeat left 42%;
+}
+.mailLink a {
+  padding: 1px 0 1px 20px;
+  background: url(/jp/sustainability/cmn/img/anchor_mail.gif) no-repeat left 42%;
+}
+.blankLink a {
+  padding-right: 15px;
+  background: url(/jp/sustainability/cmn/img/anchor_blank.gif) no-repeat right 42%;
+}
+* html .mailLink a, * html .pageLink a {
+  background-position: left 36%;
+}
+*:first-child+html .mailLink a, *:first-child+html .pageLink a {
+  background-position: left 36%;
+}
+.returnTop {
+  width: 683px;
+}
+#pageTop {
+  clear: both;
+  padding: 9px 19px 8px 19px;
+  background: url(/jp/sustainability/cmn/img/border_dotH.gif) repeat-x left top;
+  font-size: 84%;
+  line-height: 14px;
+}
+* html #pageTop {
+  line-height: 1.4;
+}
+*:first-child+html #pageTop {
+  line-height: 1.4;
+}
+#pageTop a {
+  display: block;
+  float: right;
+  padding: 0 0 0 20px;
+  background: url(/jp/sustainability/cmn/img/anchor_top.gif) no-repeat left 36%;
+  color: #333;
+}
+#pageTop a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+#bottomNav {
+  width: 691px;
+  margin: 0 0 10px;
+  padding: 25px 19px 0;
+  overflow: hidden;
+}
+* html #bottomNav {
+  margin: 0 0 25px;
+}
+*:first-child+html #bottomNav {
+  margin: 0 0 25px;
+}
+#bottomNav li {
+  float: left;
+  margin: 0 25px 15px 0;
+  padding: 0 26px 0 0;
+  background: url(/jp/sustainability/cmn/img/border_dotV.gif) repeat-y right top;
+  line-height: 1.5;
+}
+#bottomNav li.break, #footerNav li.break {
+  clear: left;
+}
+#bottomNav li.end, #footerNav li.end {
+  background-image: none;
+  border: none;
+}
+#bottomNav li a {
+  display: block;
+  color: #f00;
+  white-space: nowrap;
+}
+* html #bottomNav li a {
+  width: 1px;
+}
+#bottomNav li span {
+  color: #666;
+  white-space: nowrap;
+}
+#footer {
+  clear: both;
+  border-top: 1px solid #dcdcdc;
+}
+#footer .inner {
+  position: relative;
+  bottom: 0;
+  left: -1px;
+  width: 911px;
+  padding: 15px 20px;
+  background: #999;
+  line-height: 1.1;
+  color: #fff;
+}
+#footerNav {
+  float: left;
+  font-size: 84%;
+}
+#footerNav li {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0 10px 0 0;
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+#footerNav li a {
+  color: #fff;
+}
+#footerNav li a:hover {
+  text-decoration: underline;
+}
+#copyright {
+  float: right;
+  font-size: 77%;
+}
+/* -:ClearFix
+--------------------------------------------------*/
+
+.clrfix:after, #wrapper:after, .inner:after, #topicPath:after, #headCont:after, #pageTop:after, .section:after, .article:after, .contNav:after, #bottomNav:after, #footerNav:after, #footer:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clrfix, #wrapper, .inner, #topicPath, #headCont, #pageTop, .section, .article, .contNav, #bottomNav, #footerNav, #footer {
+  zoom: 1;
+}
+/* 180928 add */
+body #wrapper {
+}
+body #wrapper .container {
+  padding: 0 84px 0;
+  min-width: auto;
+  width: 952px;
+  overflow: hidden;
+  padding-left: 1px;
+  padding-right: 1px;
+  background: url(/jp/sustainability/aid/img/wrapper_bg.gif) repeat-y left top #fff;
+  margin: 0 auto;
+}
+body #wrapper .container div#mainCont {
+  padding-bottom: 20px;
+}
+footer.footer > div.contentBottom > div.pagetop {
+  display: none;
+}
+div#langNav {
+  border-top: 1px solid #dcdcdc;
+}
+body #wrapper {
+  font-size: 100%;
+}

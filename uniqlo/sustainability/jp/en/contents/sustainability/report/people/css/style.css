@@ -1,0 +1,112 @@
+/* CSS Document */
+
+#wrapper .container .mainContents{
+  font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#sustainability-report .report-wrap .title_01 {
+  color: #379e49;
+  font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+  font-weight: 600;
+}
+
+#sustainability-report .report-wrap .lead{
+  font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+  font-weight: 600;
+}
+
+#sustainability-report .report-wrap .h3 {
+    color: #379e49;
+}
+
+#sustainability-report .contents_wrap {
+  margin-top: 80px;
+}
+
+#sustainability-report .contents_wrap .contents_item:not(:first-child) {
+  margin-top: 80px;
+}
+
+#sustainability-report .contents_wrap .col_wrap {
+  display: flex;
+  align-self: flex-start;
+}
+
+#sustainability-report .contents_question-number {
+  font-size: 73px;
+  line-height: 0.8;
+  color: #379e49;
+  padding-right: 32px;
+  border-right: 2px solid #1b1b1b;
+  font-family: "UniqloProRegular";
+}
+
+#sustainability-report .contents_question-session {
+  margin-left: 32px;
+}
+
+#sustainability-report .question_text {
+  font-size: 28px;
+  color: #379e49;
+  letter-spacing: 1px;
+}
+#sustainability-report .answer_text {
+  font-size: 16px;
+  line-height: 2.1;
+  letter-spacing: 1px;
+  margin-top: 24px;
+}
+@media (min-width: 813px) {
+  #sustainability-report .question_text {
+    line-height: 1.2;
+  }
+
+  #sustainability-report .question_text.multiple-lines {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 812px) {
+    #sustainability-report .contents_wrap {
+      margin-top: 40px;
+    }
+
+    #sustainability-report .report-wrap section .cover_img img {
+        width: 100%;
+    }
+
+    #sustainability-report .report-wrap section::before {
+        height: 2px;
+        width: 91%;
+    }
+
+    #sustainability-report .contents_wrap .contents_item:not(:first-child) {
+      margin-top: 40px;
+    }
+
+    #sustainability-report .contents_wrap .col_wrap {
+      align-items: center;
+      align-self: flex-start;
+    }
+
+    #sustainability-report .contents_question-number {
+      font-size: 36px;
+      line-height: 1.5;
+      padding-right: 16px;
+    }
+
+    #sustainability-report .contents_question-session {
+      margin-left: 16px;
+    }
+
+    #sustainability-report .question_text {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    #sustainability-report .answer_text {
+      font-size: 11px;
+      margin-top: 16px;
+    }
+
+}

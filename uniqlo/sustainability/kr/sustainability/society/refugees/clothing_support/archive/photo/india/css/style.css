@@ -1,0 +1,473 @@
+@charset "utf-8";
+
+/* PC contents
+=================================================== */
+
+
+/* 共通
+-------------------------------------------------*/
+#wrapper {
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+p{
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+ul li:first-child {
+    margin-left: 0;
+}
+
+.Arrow_up {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+#content .red {
+    text-decoration: none;
+    color: #f00;
+}
+
+footer.footer .pagetop {
+    display: none;
+}
+
+/* header
+-------------------------------------------------*/
+
+#header.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.headerTop{
+    background: #fff;
+    max-width: 960px;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+}
+
+#header .hdLogo{
+    width: 60.416667%;
+}
+
+#header .hdLogo li{
+    float: left;
+    margin-right: 3.44827586206897%;
+
+}
+
+#header .hdLogo .mt01 {
+    margin-top: 7%;
+}
+
+#header .hdLogo .mt02 {
+    margin-top: 5%;
+}
+
+header.header .copy a:hover {
+  text-decoration: none!important;
+}
+
+/* nav
+-------------------------------------------------*/
+
+#nav_menu li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+#nav_menu li a{
+    display: block;
+}
+
+
+/* content area
+-------------------------------------------------*/
+
+#content{
+    margin-top: 20px;
+    color: #1b1b1b;
+}
+
+#main{
+    position: relative;
+}
+
+#sec01{
+    position: relative;
+}
+
+#sec01 h2{
+    padding-top: 60px;
+}
+
+#sec01 .display_sp{
+    display: none;
+}
+
+#sec02{
+    margin-bottom: 240px;
+    position: relative;
+}
+
+#sec02 h2{
+    padding-top: 160px;
+}
+
+#sec03{
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#sec03 h2{
+    padding-top: 160px;
+}
+
+#sec03 .display_sp{
+    display: none;
+}
+
+#sec03 .mb{
+    margin-bottom: 70px;
+}
+
+#sec03 ul{
+    margin-bottom: 70px;
+}
+
+#sec03 ul li.img_l{
+    width: 46%;
+    margin-right: 8%;
+    float: left;
+}
+
+#sec03 ul li.img_r{
+    width: 50%;
+    margin-left: 4%;
+    float: right;
+}
+
+
+#sec04{
+    margin: 0 0.5%;
+    position: relative;
+}
+
+#sec04 h2{
+    padding-top: 100px;
+}
+
+#sec04 ul li img{
+    margin: 0 auto;
+}
+
+/* slide
+-------------------------------------------------*/
+
+.bx-wrapper img {
+	padding: 10px 0;
+}
+
+.bx-wrapper p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.archive_flag{
+    max-width: 200px;
+}
+/* SP contents
+=================================================== */
+
+
+/* 共通
+-------------------------------------------------*/
+
+@media only screen and (max-width: 812px) {
+header.header .copy {
+    display: none;
+}
+
+body.sp p{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+body.sp ul li:first-child {
+    margin-left: 0;
+}
+
+body.sp .Arrow_up {
+    position: absolute;
+    right: 2%;
+    bottom: -90px;
+    width: 10%;
+}
+
+body.sp h1{
+    width: 100%;
+}
+
+body.sp h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+body.sp h3{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+
+/* header
+-------------------------------------------------*/
+
+body.sp #header.fixed {
+    position: fixed;
+    top: 0;
+}
+
+body.sp #header .hdLogo{
+    padding-left: 3.125%;
+    width: 95%;
+}
+
+body.sp #header .hdLogo li{
+    float: left;
+    width: 30px;
+    margin-right: 3.125%;
+}
+
+body.sp #header .hdLogo .mt02 {
+    margin-top: 20%;
+    width: 530% !important;
+}
+
+body.sp #header .hdLogo .fr {
+    float: right;
+}
+
+body.sp .pc-hdTit{
+    display: none;
+}
+
+body.sp .headerTop{
+    background: #fff;
+    padding: 0;
+}
+
+body.sp .sp-hdTit{
+    background: #fff;
+    text-align: center;
+    padding: 3.125% 25% 3.125% 25%;
+    display: block;
+}
+
+body.sp .sp-hdTit img{
+    display: inline-block;
+}
+
+
+/* content area
+-------------------------------------------------*/
+
+body.sp #content{
+    margin-top: 54px;
+    color: #1b1b1b;
+}
+
+body.sp #main{
+
+}
+
+body.sp #sec01{
+    margin: 0 7%;
+    position: relative;
+}
+
+body.sp #sec01 h2{
+    padding-top: 60px;
+}
+
+body.sp #sec01 .display_pc{
+    display: none;
+}
+
+body.sp #sec01 .display_sp{
+    display: block;
+}
+
+body.sp #sec01 .mb {
+    bottom: -60px;
+}
+
+body.sp #sec02{
+    margin: 0 7% 140px;
+    position: relative;
+}
+
+body.sp #sec02 h2{
+     padding-top: 80px;
+}
+
+body.sp #sec03{
+    margin: 0 7%;
+    position: relative;
+}
+
+body.sp #sec03 h2{
+     padding-top: 60px;
+}
+
+body.sp #sec03 .display_pc{
+    display: none;
+}
+
+body.sp #sec03 .display_sp{
+    display: block;
+}
+
+body.sp #sec03 img{
+    margin-bottom: 20px;
+}
+
+body.sp #sec03 p{
+    margin-bottom: 40px;
+}
+
+body.sp #sec04{
+    margin: 0 7%;
+    position: relative;
+}
+
+body.sp #sec04 h2{
+    padding-top: 80px;
+}
+
+body.sp #sec04 ul li img{
+    margin: 0 auto;
+}
+
+
+/* footer
+-------------------------------------------------*/
+
+body.sp .copyright {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 11px;
+    text-align: center;
+    font-family: UniqloProLight;
+    color: #666;
+    letter-spacing: 0.1em;
+}
+
+
+/* slide
+-------------------------------------------------*/
+
+body.sp .bx-wrapper img {
+	padding: 10px 0;
+}
+
+body.sp .bx-wrapper p {
+    font-size: 16px !important;
+    text-align: left;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+
+/* headerCopy
+-------------------------------------------------*/
+.copy {
+    display: none !important;
+}
+}
+
+@media only screen and (min-width: 813px) {
+    .flag_box.zanbia{
+        margin: 0;
+    }
+}
+
+
+/* pagetop-btn
+-------------------------------------------------*/
+#pageTop.fixd {
+  position: relative;
+  bottom: calc((-150/750)*100vw);
+  width: 100%;
+  margin: 0;
+  right: 4vw;
+  left: 0;
+
+  bottom: 0px !important;
+}
+@media screen and (min-width: 813px){
+  #pageTop.fixd {
+    position: relative;
+    bottom: -120px;
+    left: 0;
+  }
+  #pageTop.fixd .pageTop_inner {
+    bottom: 0px;
+    padding: 0;
+  }
+  .archive_flag{
+    max-width: 270px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  #pageTop.fixd {
+    padding-right: 25px;
+  }
+}

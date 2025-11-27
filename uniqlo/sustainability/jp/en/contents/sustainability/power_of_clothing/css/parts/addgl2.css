@@ -1,0 +1,673 @@
+/* order status msg */
+span.orderStatusMsg{
+    color:#FF3300;
+    width:189px;
+    font-size:1.1em;
+    font-weight:bold;
+    text-align:right;
+}
+
+/* buttons */
+div.contOrderHistoryTotalAmount div.linkMore { padding: 15px 10px; }
+
+div.contOrderHistoryTotalAmount p.navBtns {
+    margin-left: -25px;
+    padding: 0 15px 70px 0;
+    text-align: right;
+}
+
+div.contOrderHistoryTotalAmount p.navBtns a, div.contOrderHistoryTotalAmount p.navBtns input {
+    margin: 0 0 0 25px;
+    vertical-align: top;
+}
+
+div.orderHistoryListBtn div.clearfix {
+    margin: 80px 0 0 0 ;
+}
+
+div.orderHistoryListBtn p.navBtns {
+    margin: 15px 10px 5px 0;
+    float:right;
+}
+
+div.blkOrderStatusList {
+    border-bottom: 0px solid #DCDCDC;
+    font-size: 85%;
+    padding: 35px 15px 20px;
+}
+
+/* ------------------------------------------------------------
+    L3 Block
+   ------------------------------------------------------------ */
+
+div.utilItemList div.utility dl dt,
+div.utilItemList div.utility dl dd {
+    position: absolute;
+    top: 4px !important;
+}
+
+/* for L3 oldprice*/
+div.unit dl.info dd.oldprice {
+    position: absolute;
+    font-size: 84.6%;
+    bottom: 25px;
+    left: auto;
+    right: 12px;
+    width: 48px;
+    text-align: right;
+    text-decoration:line-through;
+}
+
+
+
+/* for quick view */
+div.blkUnitSize01 div.unit dl.info dd.quickview {
+    position: absolute;
+    left:70px;
+    top: 235px;
+    display:none;
+}
+
+
+div.blkUnitSize01 div.unit dl.info dd.quickview img{
+    position: absolute;
+    left:7px;
+    top: 6px;
+    cursor: pointer;
+}
+
+div.blkUnitSize02 div.unit dl.info dd.quickview {
+    position: absolute;
+    left:185px;
+    top: 400px;
+    display:none;
+}
+
+
+div.blkUnitSize02 div.unit dl.info dd.quickview img{
+    position: absolute;
+    left:7px;
+    top: 6px;
+}
+
+/** 20120726 MEM ADD START **/
+div.blkUnitSize03 div.unit dl.info dd.quickview {
+    position: absolute;
+    left:46px;
+    top: 180px;
+    display:none;
+}
+
+div.blkUnitSize03 div.unit dl.info dd.quickview img{
+    position: absolute;
+    left:7px;
+    top: 6px;
+    cursor: pointer;
+}
+
+div.blkUnitSizeUT div.unit dl.info dd.quickview {
+    position: absolute;
+    left:80px;
+    top: 235px;
+    display:none;
+}
+
+div.blkUnitSizeUT div.unit dl.info dd.quickview img{
+    position: absolute;
+    left:7px;
+    top: 6px;
+    cursor: pointer;
+}
+/** 20120726 MEM ADD END **/
+
+
+
+/* for brand icon */
+div.unit dl.info dd.brand img{
+    position: absolute;
+    left:7px;
+    top: 6px;
+}
+
+
+
+div.blkItemList dd.with_brand_tag {
+    position: absolute;
+    font-size: 0%;
+    line-height: 100%;
+    right: 7px;
+    top: 6px;
+    left:27px;
+    text-align: right;
+}
+
+div.blkItemList dd.with_brand_tag img{
+    margin: 0 0 3px 6px;
+}
+
+/* ------------------------------------------------------------
+    L4 Block
+   ------------------------------------------------------------ */
+
+
+
+/* for L4 old price */
+div#prodInfo ul.basic li.oldprice {
+    font-size: 95%;
+    text-decoration:line-through;
+}
+
+div#prodInfo ul.basic li.price {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 116%;
+}
+
+div#prodInfo ul.basic li.price span.tax {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+div#prodInfo ul.basic li.approx {
+    font-size: 116%;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+ul#sns {
+    position: relative;
+    margin : 18px 0 18px 15px;
+}
+
+ul#sns li {
+    text-align: left;
+    margin: 0 0 2px;
+}
+
+ul#sns table tr td {
+    text-align: left;
+    width: 30px;
+}
+
+
+/* ------------------------------------------------------------
+    Product Search
+   ------------------------------------------------------------ */
+
+table.blkPaginationTop td.prev a,
+table.blkPaginationTop td.prev span {
+    width: 45px !important;
+}
+
+table.blkPaginationTop td.next a,
+table.blkPaginationTop td.next span {
+    width: 45px !important;
+}
+
+/* for category list */
+select#L25 {
+    width: 225px;
+}
+
+select#L3 {
+    width: 225px;
+}
+
+/* ------------------------------------------------------------
+    Error Message Block
+   ------------------------------------------------------------ */
+div.blkErrorMsg {
+    padding: 15px;
+    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    background: #ffe6e6;
+    color: #ff3939;
+    font-size: 93%;
+    font-weight: bold;
+}
+
+td.error {
+    background: #ffe6e6;
+    color: #ff3939;
+}
+
+p.error {
+    padding-top: 10px;
+    color: #ff3939;
+}
+
+/* --- message under ttlgif --- */
+p.msgError {
+    padding: 20px 15px 70px;
+    border-bottom : 1px solid #dcdcdc;
+    color: #ff0000;
+    font-size: 85%;
+    zoom: 1; /* For IE Print */
+}
+
+div#main.reviewInput {
+    /* padding-bottom: 0px;*/ 
+    /* 20120215@xie */
+}
+
+div.reviewInputBottomWithLine {
+    border-right: 1px solid #DCDCDC;
+    width: 759px;
+    height: 99px;
+    margin-top: -2px;
+}
+
+/* ------------------------------------------------------------
+    start 20111017@creditcard info inputAorder detail, xie
+   ------------------------------------------------------------ */
+
+
+
+
+
+/*  2-4. Cart Total Amount History Detail
+   ------------------------------------------------- */
+div.blkOrderHistoryTotalAmount {
+    margin: -1px 0 0;
+    text-align: right;
+}
+
+/* --- Table ---History Detail */
+div.contOrderHistoryTotalAmount {
+    float: right;
+    width: 380px;
+    font-size: 85%;
+}
+
+div.contOrderHistoryTotalAmount table.tblOrderHistoryTotalAmount {
+    width: 379px;
+    margin-bottom: 15px;
+    border-left: 1px solid #dcdcdc;
+}
+
+table.tblOrderHistoryTotalAmount th,
+table.tblOrderHistoryTotalAmount td {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+table.tblOrderHistoryTotalAmount th {
+    width: 190px;
+    border-right: 1px solid #dcdcdc;
+}
+
+table.tblOrderHistoryTotalAmount tr.rowResize th,
+table.tblOrderHistoryTotalAmount tr.rowResize td,
+table.tblOrderHistoryTotalAmount tr.rowGift th,
+table.tblOrderHistoryTotalAmount tr.rowGift td,
+table.tblOrderHistoryTotalAmount tr.rowCarriage th,
+table.tblOrderHistoryTotalAmount tr.rowCarriage td {
+    padding-top: 0;
+    border-bottom: 0px solid #dcdcdc;
+}
+
+table.tblOrderHistoryTotalAmount tr.rowTotal th,
+table.tblOrderHistoryTotalAmount tr.rowTotal td {
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 0px solid #dcdcdc;
+}
+
+table.tblOrderHistoryTotalAmount tr.rowTax th,
+table.tblOrderHistoryTotalAmount tr.rowTax td {
+    border-bottom: 0px solid #dcdcdc;
+}
+
+table.tblOrderHistoryTotalAmount tr.rowCoupon th,
+table.tblOrderHistoryTotalAmount tr.rowCoupon td { padding-top: 0; }
+table.tblOrderHistoryTotalAmount tr.rowCoupon td { color: #ff2800; }
+table.tblOrderHistoryTotalAmount tr.rowUnderline th,
+table.tblOrderHistoryTotalAmount tr.rowUnderline td {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+
+
+
+/* --- Table ---Cart Amount */
+/* --- Table --- */
+div#contCartTotalAmount {
+    float: right;
+    width: 380px;
+    font-size: 85%;
+    overflow: hidden; /* For IE6 */
+}
+
+table#tblCartTotalAmount { width: 380px; }
+
+table#tblCartTotalAmount th,
+table#tblCartTotalAmount td {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+table#tblCartTotalAmount th {
+    width: 190px;
+    border-right: 1px solid #dcdcdc;
+}
+
+/* ------------------------------------------------------------
+    start 20111031@cart xie
+   ------------------------------------------------------------ */
+table#tblCartTotalAmount tr.rowGift th,/* rowGift rowResize rowCarriage redefined, rowTax added  */
+table#tblCartTotalAmount tr.rowGift td,
+table#tblCartTotalAmount tr.rowResize th,
+table#tblCartTotalAmount tr.rowResize td,
+table#tblCartTotalAmount tr.rowCarriage th,
+table#tblCartTotalAmount tr.rowCarriage td,
+table#tblCartTotalAmount tr.rowTaxDisc th {
+    padding-top: 0;
+    border-bottom: 0px solid #dcdcdc;
+}
+table#tblCartTotalAmount tr.rowTax th,
+table#tblCartTotalAmount tr.rowTax td {
+    padding-top: 15px;
+    border-bottom: 0px solid #dcdcdc;
+}
+table#tblCartTotalAmount tr.rowTaxDisc td {
+    padding-top: 0;
+    border-bottom: 0px solid #dcdcdc;
+    color: #ff2800;
+}
+
+/* rowCoupon redefined  */
+table#tblCartTotalAmount tr.rowCoupon th{
+    padding-top: 0;
+    border-bottom: 0px solid #dcdcdc;
+}
+
+table#tblCartTotalAmount tr.rowCoupon td{
+    padding-top: 0;
+    border-bottom: 0px solid #dcdcdc;
+    color: #ff2800;
+}
+
+table#tblCartTotalAmount tr.rowTotal th,
+table#tblCartTotalAmount tr.rowTotal td { 
+    padding-top: 0;
+    font-weight: bold; 
+}
+table#tblCartTotalAmount tr.rowLast th,
+table#tblCartTotalAmount tr.rowLast td {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+table#tblCartTotalAmount tr.rowUnderline th, /* rowUnderline added */
+table#tblCartTotalAmount tr.rowUnderline td {
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* ------------------------------------------------------------
+    end 20111031 cart@xie
+   ------------------------------------------------------------ */
+
+
+/* buttons */
+div.contOrderHistoryTotalAmount div.linkMore { padding: 15px 10px; }
+
+div.contOrderHistoryTotalAmount p.navBtns {
+    margin-left: -25px;
+    padding: 0 15px 70px 0;
+    text-align: right;
+}
+
+div.contOrderHistoryTotalAmount p.navBtns a,
+div.contOrderHistoryTotalAmount p.navBtns input {
+    margin: 0 0 0 25px;
+    vertical-align: top;
+}
+
+div.orderHistoryListBtn div.clearfix {
+    margin: 80px 0 0 0 ;
+}
+
+div.orderHistoryListBtn p.navBtns {
+    margin: 15px 15px 0 0;
+    float:right;
+}
+
+div.blkOrderStatusList {
+    border-bottom: 0px solid #DCDCDC;
+    font-size: 85%;
+    padding: 35px 15px 20px;
+}
+
+/* current card */
+table.currentCard { 
+    margin: -7px 0 0; 
+    width:100%;
+}
+
+table.currentCard th {
+    text-align: left;
+    vertical-align: middle;
+    width:50%;
+    padding:10px 0 10px 0;
+}
+
+table.currentCard td {
+    text-align: right;
+    vertical-align: middle;
+    padding : 0 15px 0 0;
+    width:50%;
+    padding:10px 2px 10px 0;
+}
+
+/* ------------------------------------------------------------
+    end 20111017@creditcard info inputAorder detail, xie
+   ------------------------------------------------------------ */
+   
+/* ------------------------------------------------------------
+    start 20111028   for the brand icon in  the ITEM NAME colume
+ ------------------------------------------------------------ */
+
+table#tblCartItemList td.cellName img.ico {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+table#tblCartItemList td a {
+    display: block;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+    end 20111028@order history detail xie
+   ------------------------------------------------------------ */
+/* ------------------------------------------------------------
+    start 20111102 gift@xie(from dm2)
+   ------------------------------------------------------------ */
+
+div.blkGiftOptionList {
+    clear: both;
+}
+
+ul.unitGiftOption {
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    width: 240px;
+    height : 110px;
+}
+
+ul.unitGiftOption li.thumb, ul.unitGiftOption li.radio {
+    padding-bottom: 7px;
+}
+
+ul.unitGiftOption li.thumb label {
+    display: block;
+}
+
+:first-child + html ul.unitGiftOption li.thumb label {
+    cursor: default;
+}
+
+* html ul.unitGiftOption li.thumb label {
+    cursor: default;
+}
+
+ul.unitGiftOption li.thumb img {
+    border: 1px solid #DCDCDC;
+    padding: 3px;
+}
+
+ul.unitGiftOption li.radio input {
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+ul.unitGiftOption li.radio label {
+    line-height: 1.2;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+ul.unitGiftOption li.thumb img.enlarge {
+    padding: 3px;
+    margin: 0 0 0 5px
+}
+
+ul.unitGiftOption span.giftPrice{
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+/* ------------------------------------------------------------
+    end 20111102 gift@xie(from dm2)
+   ------------------------------------------------------------ */
+   
+/* zipcode search */
+table.zipcodeResult {
+    width:530px;
+}
+
+table.zipcodeResult th {
+    width:40px;
+    padding: 5px 5px;
+}
+
+table.zipcodeResult td {
+    padding: 5px 5px;
+}
+
+table.zipcodeResult td.zipcode {
+    width:55px;
+    padding: 5px 5px;
+}
+
+/* nominated day and time-zone */
+span.deliveryOptionInputs {
+    padding: 5px;
+}
+/* ------------------------------------------------------------
+    start 20111208 userreview xie
+   ------------------------------------------------------------ */
+
+div.ttlPage05 {
+    background: url("http://im.uniqlo.com/images/jp/pc/img/material/bg-grid-1.gif") repeat-y scroll 189px 0 transparent;
+    border-bottom: 1px solid #DCDCDC;
+}
+div.ttlPage05 h1 {
+    float: left;
+    width: 180px;
+    padding: 5px;
+}
+div.ttlPage05 h2 {
+    float: left;
+    font-size: 85%;
+    line-height: 1.6;
+    padding: 25px;
+    width: 500px;
+}
+
+
+
+
+/* ------------------------------------------------------------
+    end 20111208 userreview xie
+   ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------
+    start 20120124 userreview L4 xie
+   ------------------------------------------------------------ */
+dl.overAllReview{
+font-size: 100%;
+line-height: 180%;
+padding: 0 0 0px 0;
+margin: 0 0 0px 0;
+}
+
+dl.overAllReview dt{
+float: left;
+padding: 10px 0 0px 0px;
+}
+
+dl.overAllReview dd{
+float: right;
+}
+}
+
+/* ------------------------------------------------------------
+    end 20120124 userreview L4 xie
+   ------------------------------------------------------------ */
+
+
+/* newCardInputs */
+/* ----for payment method----- */
+
+
+
+table.tblWordAndDetail table.newCardInputs { margin: -7px 0 0; }
+
+table.tblWordAndDetail table.newCardInputs th,
+table.tblWordAndDetail table.newCardInputs td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.tblWordAndDetail table.newCardInputs th{
+    padding: 10px 20px 0 0;
+    width: 120px;
+}
+
+table.tblWordAndDetail table.newCardInputs label { font-weight: bold; }
+
+table.tblWordAndDetail table.newCardInputs td { padding: 6px 3px 1px; }
+
+table.tblWordAndDetail table.newCardInputs td.input { width:220px; }
+
+/* for IE7 */
+*:first-child+html table.tblWordAndDetail table.newCardInputs span {
+    position: relative;
+    bottom: -2px;
+}
+
+table.tblWordAndDetail table.newCardInputs span.example { padding: 0 0 0 15px; }
+
+table.tblWordAndDetail table.newCardInputs tr.brand { }
+table.tblWordAndDetail table.newCardInputs tr.brand select { width: 210px; }
+table.tblWordAndDetail table.newCardInputs tr.brand img { position: relative; float: right; top: -4px; }
+
+table.tblWordAndDetail table.newCardInputs tr.number { }
+table.tblWordAndDetail table.newCardInputs tr.number input { width: 200px; }
+table.tblWordAndDetail table.newCardInputs tr.number img { position: relative; float: right; top: -4px; }
+
+table.tblWordAndDetail table.newCardInputs tr.expire { }
+table.tblWordAndDetail table.newCardInputs tr.expire img { position: relative; float: right; top: -4px; }
+
+table.tblWordAndDetail table.newCardInputs tr.owner { }
+table.tblWordAndDetail table.newCardInputs tr.owner input { width: 200px; }
+table.tblWordAndDetail table.newCardInputs tr.owner img { position: relative; float: right; top: -4px; }
+
+span.review_tandc a { padding: 5px; font-size:85%;}

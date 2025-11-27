@@ -1,0 +1,544 @@
+@charset 'utf-8';
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#unwomen .section{
+    margin-top: 90px;
+}
+#unwomen .title_2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+#unwomen .red {
+    color: #f00;
+}
+#unwomen .blue {
+    color: #049fdd;
+}
+#unwomen .inlineblock{
+    display: inline-block;
+}
+@media (min-width: 768px){
+    #unwomen .sp_display{
+        display: none;
+    }
+}
+#unwomen a.hover_link:hover > *{
+    opacity: 0.7;
+}
+#unwomen .text_left{
+    text-align-last: left;
+}
+#unwomen .text_right{
+    text-align: right;
+}
+#unwomen .pd_10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* cover */
+
+#unwomen .cover .cover_img{
+    position: relative;
+    background-color: transparent;
+    width: 960px;
+    height: 480px;
+    overflow: hidden;
+}
+#unwomen .cover .cover_img .title{
+    position: absolute;
+    top: 93px;
+    left: 546px;
+}
+#unwomen .cover .cover_line::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: #d2d2d2;
+	z-index: 1;
+	animation: fAnmTB 0.25s 1.5s ease forwards;
+}
+#unwomen .cover .cover_line::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background: #d2d2d2;
+	animation: fAnmTB 0.25s 1.75s ease forwards;
+}
+#unwomen .cover .cover_img::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 0;
+	width: 2px;
+	background: #d2d2d2;
+	z-index: 1;
+	animation: fAnmRL 0.25s 1.5s ease forwards;
+}
+#unwomen .cover .cover_img::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: 0;
+    top: 0;
+    height: 0;
+	width: 2px;
+	background: #d2d2d2;
+	z-index: 1;
+	animation: fAnmRL 0.25s 1.75s ease forwards;
+}
+#unwomen .cover .cover_img .cover_img_left{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#unwomen .cover .cover_img .cover_img_left::before {
+    content: "";
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    background-image: url("../img/190801_cover_img.jpg");
+    background-repeat: no-repeat;
+}
+#unwomen .cover .lead{
+    border-bottom: solid 2px #d2d2d2;
+    padding: 45px 0;
+    position: relative;
+    text-align: center;
+}
+#unwomen .cover .lead::before{
+    content: "";
+    position: absolute;
+    display: block;
+    border: solid 25px #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    top: -49px;
+    left: 200px;
+}
+#unwomen .cover .lead .lead_message{
+    position: relative;
+    width: 420px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 45px 20px;
+    color: #666666;
+}
+#unwomen .cover .lead .lead_message .name{
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#unwomen .cover .lead .lead_message::before{
+    content: url("../img/190801_cover_quotation.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#unwomen .cover .lead .lead_message::after{
+    content: url("../img/190801_cover_quotation.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-180deg);
+}
+
+@media (min-width: 768px){
+    #unwomen .cover .cover_img_left::before{
+        margin-left: 480px;
+        background-position-x: -480px;
+        animation: cover_img_anime 0.5s cubic-bezier(0, 0, 0.7, 1) 2s forwards;
+    }
+
+    #unwomen .cover .lead,#unwomen .cover .cover_img .title{
+        opacity: 0;
+        animation: cover_lead_anime 0.6s cubic-bezier(0, 0, 0.7, 1) 2.6s forwards;
+    }
+}
+
+@keyframes fAnmTB {
+  100%{
+	width: 100%;
+  }
+}
+@keyframes fAnmRL {
+  100%{
+	height: 100%;
+  }
+}
+@keyframes cover_anime {
+    100%{
+        width: 960px;
+        height: 480px;
+    }
+}
+@keyframes cover_img_anime {
+    100%{
+        width: 480px;
+        height: 480px;
+        background-position-x: 0;
+        margin-left: 0px;
+    }
+}
+@keyframes cover_lead_anime {
+    100%{
+        opacity: 1;
+        max-height: 99999px;
+    }
+}
+
+/* block */
+
+#unwomen .block{
+    position: relative;
+    text-align: center;
+}
+#unwomen .block .block_item{
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 45px 30px;
+}
+#unwomen .block .block_item p{
+    text-align: left;
+    margin-top: 30px;
+}
+#unwomen .block .block_item img{
+    width: 200px;
+    height: auto;
+}
+
+/* about_UNWOMEN */
+
+#unwomen .about_UNWOMEN{
+    background-color: #f5f9fb;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#unwomen .about_UNWOMEN h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#unwomen .about_UNWOMEN .UNWOMEN_img{
+    float: left;
+    padding-right: 35px;
+}
+
+/* chronology */
+
+#unwomen .chronology{
+    width: 750px;
+    margin: 90px auto 0;
+}
+
+#unwomen .chronology table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#unwomen .chronology th{
+    position: relative;
+    width: 75px;
+    font-size: 25px;
+    vertical-align: top;
+    font-weight: normal;
+    border-right: solid 5px #f00;
+    padding-top: 30px;
+}
+#unwomen .chronology th::after{
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: solid 2px #f00;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-45deg) skew(5deg,5deg);
+    top: 62px;
+    left: 25px;
+}
+#unwomen .chronology td{
+    padding: 30px 0 0 30px;
+}
+
+#unwomen .chronology .none_icon{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+}
+#unwomen .chronology .none_icon::before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: solid 1px #1b1b1b;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+        top: 7px;
+    left: -20px;
+}
+#unwomen .chronology .fr_icon,#unwomen .chronology .uq_icon,#unwomen .chronology .sewing_icon{
+    position: relative;
+    display: inline-block;
+    margin-left: 76px;
+    line-height: 2;
+    text-align: left;
+}
+#unwomen .chronology td .fr_icon,#unwomen .chronology td .uq_icon,#unwomen .chronology td .sewing_icon{
+    display: block;
+}
+#unwomen .chronology .fr_icon::before,#unwomen .chronology .uq_icon::before,#unwomen .chronology .sewing_icon::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -46px;
+    height: 23px;
+    width: 41px;
+    margin: 2px 0 0 0;
+    background-size: contain;
+}
+#unwomen .chronology table .sewing_icon::after{
+    left: -90px;
+}
+#unwomen .chronology .fr_icon::before{
+    background-image: url("../img/190801_icon_fr.png");
+}
+#unwomen .chronology .uq_icon::before{
+    background-image: url("../img/190801_icon_uq.png");
+}
+#unwomen .chronology .sewing_icon::after{
+    background-image: url("../img/190801_icon_sewing.png");
+}
+#unwomen .chronology td span:last-child{
+    padding-bottom: 30px;
+    border-bottom: dashed 2px #666;
+}
+#unwomen .chronology tr:last-child span:last-child{
+    border-bottom: none;
+}
+
+
+@media (max-width: 767px){
+
+    #unwomen .pc_display{
+        display: none;
+    }
+    #unwomen .section{
+        margin-top: 45px;
+        width: 86.66667vw;
+    }
+    #unwomen .title_2{
+        font-size: 25px;
+
+        margin-bottom: 30px;
+    }
+
+    /* cover */
+
+    #unwomen .cover{
+        width: 86.66667vw;
+    }
+    #unwomen .cover .cover_img{
+        width: 100%;
+        height: auto;
+    }
+    #unwomen .cover .cover_img .title{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #unwomen .cover .cover_img img{
+        padding: 2px;
+    }
+    #unwomen .cover .cover_img .cover_img_left::before {
+        width: 100%;
+        height: auto;
+        background-image: none;
+    }
+    #unwomen .cover .cover_img_left::after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        width: 100%;
+        height: auto;
+        background: #fff;
+        animation: cover_anime_sp 0.5s cubic-bezier(0, 0, 0.7, 1) 2s forwards;
+    }
+    #unwomen .cover .lead{
+        padding: 15px 0;
+        opacity: 0;
+        animation: cover_lead_anime 0.5s cubic-bezier(0, 0, 0.7, 1) 2.5s forwards;
+    }
+    #unwomen .cover .lead::before{
+        left: 50%;
+        margin-left: -25px;
+    }
+    #unwomen .cover .lead .lead_message{
+        width: 100%;
+        font-size: 13px;
+        line-height: 1.6;
+        padding: 30px 15px;
+    }
+    #unwomen .cover .lead .lead_message .name{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    #unwomen .cover .lead .lead_message::before{
+        content: "";
+        width: 30px;
+        height: 26px;
+        left: 10px;
+        background-image: url("../img/190801_cover_quotation.png");
+        background-size: contain;
+    }
+    #unwomen .cover .lead .lead_message::after{
+        content: "";
+        width: 30px;
+        height: 26px;
+        right: 10px;
+        background-image: url("../img/190801_cover_quotation.png");
+        background-size: contain;
+    }
+
+    /* block */
+
+    #unwomen .block .block_item{
+        width: 100%;
+        display: block;
+        padding: 15px 30px;
+    }
+    #unwomen .block .block_item p{
+        margin-top: 15px;
+    }
+    #unwomen .block .block_item img{
+        width: 56%;
+        height: auto;
+    }
+
+    /* about_UNWOMEN */
+
+    #unwomen .about_UNWOMEN{
+        padding: 30px 15px;
+        border-right: solid 10px #fff;
+        border-left: solid 10px #fff;
+    }
+    #unwomen .about_UNWOMEN h3{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    #unwomen .about_UNWOMEN .UNWOMEN_img{
+        width: 50%;
+        padding: 0 15px 10px 0;
+    }
+    #unwomen .about_UNWOMEN .btn_link{
+        text-align: center;
+    }
+    #unwomen .about_UNWOMEN .btn_link{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #unwomen .about_UNWOMEN .btn_link::after{
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border: solid 1px #1b1b1b;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        transform: rotate(45deg);
+    }
+
+    /* chronology */
+
+
+    #unwomen .chronology th{
+        width: 47px;
+        font-size: 15px;
+        border-right: solid 4px #f00;
+        padding-top: 35px;
+    }
+    #unwomen .chronology th::after{
+        width: 12px;
+        height: 12px;
+        top: 60px;
+        left: 14px;
+    }
+    #unwomen .chronology td{
+        padding: 30px 15px 0 10px;
+    }
+    #unwomen .chronology td .fr_icon,#unwomen .chronology td .uq_icon{
+        margin-left: 66px;
+    }
+    #unwomen .chronology table .sewing_icon::after{
+        left: -77px;
+        top: 2px;
+    }
+    #unwomen .chronology td .fr_icon::before,#unwomen .chronology td .uq_icon::before{
+        left: -36px;
+        top: 5px;
+        height: 18px;
+        width: 32px;
+    }
+    #unwomen .section.relatedLinks{
+        width: 78.66667vw;
+    }
+
+}
+
+@keyframes cover_anime_sp {
+    100%{
+        width: 0;
+        max-height: 99999px;
+    }
+}
+
+@keyframes cover_lead_anime {
+    100%{
+        opacity: 1;
+        max-height: 99999px;
+    }
+}
+
+.shareIcons{
+    text-align: right;
+}
+.shareIcons li{
+    display: inline-block;
+    padding: 10px 5px !important;
+}

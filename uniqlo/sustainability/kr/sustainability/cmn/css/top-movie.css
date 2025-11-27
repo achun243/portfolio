@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.layerTop .archive ul li a .dotsFrame {
+	position: relative;
+}
+
+.layerTop .archive ul li a .dotsFrame img+img {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+}

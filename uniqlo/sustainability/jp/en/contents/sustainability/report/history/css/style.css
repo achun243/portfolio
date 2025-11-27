@@ -1,0 +1,299 @@
+/* CSS Document */
+#sustainability-report {
+    font-family: 'UniqloProRegular','ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+
+#sustainability-report .report-wrap section .border_h3 span {
+    display: inline;
+    position: relative;
+    border-bottom: solid 3px #379e49;
+}
+
+#wrapper .container .mainContents{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+}
+
+#sustainability-report .report-wrap .title_01 {
+    color: #379e49;
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+
+#sustainability-report .report-wrap .lead{
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+
+#sustainability-report .report-wrap .tab_block {
+    margin-top: 42px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+#sustainability-report .tab_block .list_item {
+    width: 50%;
+}
+
+#sustainability-report .tab_block .list_item:first-child {
+    margin-right: 10px;
+}
+
+#sustainability-report .tab_block .list_item img {
+    width: 100%;
+}
+
+#sustainability-report .contents_wrap {
+    position: relative;
+    margin-top: 17px;
+}
+
+#sustainability-report .contents_wrap:before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 32px;
+    height: 92%;
+    width: 1px;
+    background: #379e49; 
+    z-index: -1;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+	-ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap:not(:first-of-type) {
+    margin-top: 22px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap {
+    margin-left: 13px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap.five-multiple {
+    margin-left: 0;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap img {
+    width: 84px;
+    margin: 10px 0 0 66px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_year {
+    position: relative;
+    color: #379e49;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #379e49;
+    width: 38px;
+    height: 38px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap.five-multiple .ivent_year{
+    color: #fff;
+    font-size: 17px;
+    background: #379e49;
+    border: none;
+    width: 65px;
+    height: 65px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_year .inline_text {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    letter-spacing: 1.5px;
+    transform: translate(-50%, -50%);
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_list {
+    padding-left: 27px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap.five-multiple .ivent_list {
+    padding-left: 14px;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item {
+    font-size: 9px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 3px 0;
+    padding-left: 2em;
+    text-indent: -2em;
+    vertical-align: middle;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item:before {
+    content: "●";
+    font-size: 9px;
+    margin-right: 0.8em;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+#sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item.fr,
+#sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item.fr:before {
+    color: #379e49;
+    font-weight: 700;
+}
+
+#sustainability-report .contents_wrap .col_wrap {
+    margin-top: 16px;
+}
+
+#sustainability-report .contents_wrap .col_block .img_person {
+    max-width: 24%;
+    margin-top: 16px;
+}
+
+#sustainability-report .contents_wrap .col_block .img_person img {
+    width: 100%;
+}
+
+#sustainability-report .contents_wrap .col_wrap .col_block .col_text {
+    color: #000000;
+    font-size: 11px;
+    margin-top: 24px;
+    text-align: justify;
+    line-height: 2.1;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 813px) {
+    #sustainability-report .report-wrap .tab_block {
+        margin-top: 84px;
+        margin-left: 30%;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    #sustainability-report .contents_wrap {
+        margin-top: 0;
+    }
+
+    #sustainability-report .contents_wrap:before {
+        top: 130px;
+        left: 65px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap:not(:first-of-type) {
+        margin-top: 65px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap img {
+        width: 100px;
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    #sustainability-report .tab_block .list_item {
+        width: 30%;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap {
+        margin-left: 26px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_year {
+        font-size: 20px;
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_year .inline_text {
+        left: 51%;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap.five-multiple .ivent_year {
+        font-size: 34px;
+        width: 130px;
+        height: 130px;
+        line-height: 130px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list {
+        font-size: 16px;
+        padding-left: 97px;
+        position: relative;
+        max-width: 950px;
+        width: 70%;
+    }
+    #sustainability-report .contents_wrap .ivent_wrap.five-multiple .ivent_list {
+        padding-left: 70px;
+    }
+    
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list:before {
+        content: "";
+        display: inline-block;
+        background-image: url(/jp/en/contents/sustainability/report/history/img/line_dotted.svg);
+        background-size: cover;
+        height: 1px;
+        width: 77px;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+    }
+    
+    #sustainability-report .contents_wrap .ivent_wrap.five-multiple .ivent_list:before {
+        width: 53px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item {
+        font-size: 14px;
+        padding-left: 1.2em;
+        text-indent: -1.2em;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item:before{
+        font-size: 10px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item.fr {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 812px) {
+    #sustainability-report .report-wrap section .cover_img img {
+        width: 100%;
+    }
+
+    #sustainability-report .report-wrap section::before {
+        height: 2px;
+        width: 91%;
+    }
+
+    #sustainability-report .report-wrap .img_wrap {
+        margin-top: 24px;
+    }
+
+    #sustainability-report .contents_wrap .ivent_wrap .ivent_list .ivent_item {
+        line-height: 1.5;
+    }
+
+}

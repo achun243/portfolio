@@ -1,0 +1,126 @@
+@charset "utf-8";
+#emergency {
+  padding: 80px 0 0 0;
+}
+#emergency > h1 {
+  text-align: center;
+  line-height: 1.2;
+  margin: 0 0 40px 0;
+}
+#emergency > p {
+  margin: 0 0 20px 0;
+}
+#emergency > h2 {
+  margin: 40px 0 10px 0;
+}
+#emergency > div.borderBox {
+  text-align: center;
+  margin: 40px 0 40px 0;
+}
+#emergency > div.borderBox > dl {
+  border: #FF0000 4px solid;
+  padding: 20px;
+  display: inline-block;
+}
+#emergency > div.borderBox > dl > dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FF0000;
+}
+#emergency > div.borderBox dl > dd {
+  color: #FF0000;
+}
+#emergency > div.borderBox dl > dd > a{
+  color: #FF0000;
+}
+#emergency > ul {
+  padding: 0 0 0 20px;
+}
+#emergency > ul >li {
+  list-style: disc;
+}
+#emergency > ul >li>a {
+  text-decoration: underline;
+}
+#emergency > ul.annotationList {
+  margin: 0 0 40px 1em;
+  padding: 0;
+}
+#emergency > ul.annotationList > li {
+  text-indent: -1em;
+  list-style: none;
+}
+#emergency > ul.annotationList > li:before {
+  content: '※';
+}
+#emergency > ul.annotationList > li >a {
+}
+#emergency > ul.iconList {
+  padding: 0;
+}
+#emergency > ul.iconList > li {
+  background-image: url('../img/anchor_right.gif');
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 0 0 0 20px;
+  line-height: 25px;
+  list-style: none;
+}
+#emergency > ul.iconList > li >a {
+  text-decoration: none;
+  color: #FF0000;
+}
+
+@media (max-width: 767px) {
+.mainContents.layer3 .main .shareIcons {
+  top: 4vw;
+}
+#emergency {
+  padding: 12vw 0 0 0;
+}
+#emergency > h1 {
+  margin: 0 0 6vw 0;
+}
+#emergency > p {
+  margin: 0 0 2.5vw 0;
+}
+#emergency > h2 {
+  margin: 6vw 0 3vw 0;
+}
+#emergency > div.borderBox {
+  margin: 6vw 0 6vw 0;
+}
+#emergency > div.borderBox > dl {
+  padding: 4vw;
+}
+#emergency > div.borderBox > dl > dt {
+}
+#emergency > div.borderBox dl > dd {
+}
+#emergency > ul {
+}
+#emergency > ul >li {
+  margin: 0 0 5px 0;
+}
+#emergency > ul >li>a {
+}
+#emergency > ul.annotationList {
+  margin: 0 0 4vw 1em;
+}
+#emergency > ul.annotationList > li {
+  margin: 0 0 1vw 0;
+}
+#emergency > ul.annotationList > li:before {
+}
+#emergency > ul.annotationList > li >a {
+}
+#emergency > ul.iconList {
+}
+#emergency > ul.iconList > li {
+  line-height: 16px;
+  background-size: auto 15px;
+  padding: 0 0 0 1em;
+}
+#emergency > ul.iconList > li >a {
+}
+}

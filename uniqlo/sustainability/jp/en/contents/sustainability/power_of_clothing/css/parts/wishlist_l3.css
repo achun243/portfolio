@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.wishlist_heart_icon{
+	position: absolute;
+	bottom: 72px !important;
+	left: 6px;
+	z-index: 99;
+}
+.wishlist_heart_icon a{
+	display: block;
+	background-image: url(//im.uniqlo.com/images/jp/pc/img/feature/wishlist/wishlist_heart_small_off.png);
+	background-repeat: no-repeat;
+	width:26px;
+	height:26px;
+}
+.wishlist_heart_icon .active {
+	display: block;
+	width:26px;
+	height:26px;
+	background-image: url(//im.uniqlo.com/images/jp/pc/img/feature/wishlist/wishlist_heart_small_on.png);
+}
+.wishlist_heart_icon .gu {
+	display: block;
+	width:1px;
+	height:1px;
+	background-image: url(null.png);
+}
+.wishlist_heart_icon .ines1{
+	position: absolute;
+	bottom: 144px !important;
+	left: 6px;
+	z-index: 99;
+}
+.wishlist_heart_icon .ines2{
+	position: absolute;
+	bottom: 72px !important;
+	left: 36px;
+	z-index: 99;
+}
+.wishlist_heart_icon .ines3{
+	position: absolute;
+	bottom: 144px !important;
+	left: 36px;
+	z-index: 99;
+}

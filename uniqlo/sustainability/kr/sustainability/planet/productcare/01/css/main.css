@@ -1,0 +1,1651 @@
+@charset "UTF-8";
+/* line 1, ../scss/partials/common/_global.scss */
+html .mainContents.layer3 {
+  font-size: 62.5%;
+}
+
+/* line 6, ../scss/partials/common/_global.scss */
+body .mainContents.layer3 {
+  /* font-family: "Yu Gothic", YuGothic, Quicksand, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, sans-serif; */
+  font-size: 14px;
+  line-height: 2;
+}
+
+.mainContents.layer3 {
+  /* line 12, ../scss/partials/common/_global.scss */
+  /* line 16, ../scss/partials/common/_global.scss */
+  /* line 21, ../scss/partials/common/_global.scss */
+  /* line 23, ../scss/partials/common/_global.scss */
+  /* line 2, ../scss/partials/layouts/_header.scss */
+  /* line 6, ../scss/partials/layouts/_header.scss */
+  /* line 9, ../scss/partials/layouts/_header.scss */
+  /* line 14, ../scss/partials/layouts/_header.scss */
+  /* line 18, ../scss/partials/layouts/_header.scss */
+  /* line 24, ../scss/partials/layouts/_header.scss */
+  /* line 28, ../scss/partials/layouts/_header.scss */
+  /* line 32, ../scss/partials/layouts/_header.scss */
+  /* line 40, ../scss/partials/layouts/_header.scss */
+  /* line 42, ../scss/partials/layouts/_header.scss */
+  /* line 48, ../scss/partials/layouts/_header.scss */
+  /* line 55, ../scss/partials/layouts/_header.scss */
+  /* line 59, ../scss/partials/layouts/_header.scss */
+  /* line 15, ../scss/partials/pages/_top.scss */
+  /* line 21, ../scss/partials/pages/_top.scss */
+  /* line 23, ../scss/partials/pages/_top.scss */
+  /* line 29, ../scss/partials/pages/_top.scss */
+  /* line 35, ../scss/partials/pages/_top.scss */
+  /* line 47, ../scss/partials/pages/_top.scss */
+  /* line 50, ../scss/partials/pages/_top.scss */
+  /* line 55, ../scss/partials/pages/_top.scss */
+  /* line 62, ../scss/partials/pages/_top.scss */
+  /* line 68, ../scss/partials/pages/_top.scss */
+  /* line 70, ../scss/partials/pages/_top.scss */
+  /* line 73, ../scss/partials/pages/_top.scss */
+  /* line 80, ../scss/partials/pages/_top.scss */
+  /* line 85, ../scss/partials/pages/_top.scss */
+  /* line 89, ../scss/partials/pages/_top.scss */
+  /* line 92, ../scss/partials/pages/_top.scss */
+  /* line 99, ../scss/partials/pages/_top.scss */
+  /* line 104, ../scss/partials/pages/_top.scss */
+  /* line 111, ../scss/partials/pages/_top.scss */
+  /* line 116, ../scss/partials/pages/_top.scss */
+  /* line 120, ../scss/partials/pages/_top.scss */
+  /* line 131, ../scss/partials/pages/_top.scss */
+  /* line 138, ../scss/partials/pages/_top.scss */
+  /* line 143, ../scss/partials/pages/_top.scss */
+  /* line 150, ../scss/partials/pages/_top.scss */
+  /* line 154, ../scss/partials/pages/_top.scss */
+  /* line 157, ../scss/partials/pages/_top.scss */
+  /* line 163, ../scss/partials/pages/_top.scss */
+  /* line 167, ../scss/partials/pages/_top.scss */
+  /* line 170, ../scss/partials/pages/_top.scss */
+  /* line 178, ../scss/partials/pages/_top.scss */
+  /* line 181, ../scss/partials/pages/_top.scss */
+  /* line 185, ../scss/partials/pages/_top.scss */
+  /* line 190, ../scss/partials/pages/_top.scss */
+  /* line 197, ../scss/partials/pages/_top.scss */
+  /* line 206, ../scss/partials/pages/_top.scss */
+  /* line 210, ../scss/partials/pages/_top.scss */
+  /* line 215, ../scss/partials/pages/_top.scss */
+  /* line 219, ../scss/partials/pages/_top.scss */
+  /* line 223, ../scss/partials/pages/_top.scss */
+  /* line 228, ../scss/partials/pages/_top.scss */
+  /* line 233, ../scss/partials/pages/_top.scss */
+  /* line 236, ../scss/partials/pages/_top.scss */
+  /* line 239, ../scss/partials/pages/_top.scss */
+  /* line 256, ../scss/partials/pages/_top.scss */
+  /* line 258, ../scss/partials/pages/_top.scss */
+  /* line 266, ../scss/partials/pages/_top.scss */
+  /* line 269, ../scss/partials/pages/_top.scss */
+  /* line 282, ../scss/partials/pages/_top.scss */
+  /* line 288, ../scss/partials/pages/_top.scss */
+  /* line 293, ../scss/partials/pages/_top.scss */
+  /* line 295, ../scss/partials/pages/_top.scss */
+  /* line 309, ../scss/partials/pages/_top.scss */
+  /* line 312, ../scss/partials/pages/_top.scss */
+  /* line 318, ../scss/partials/pages/_top.scss */
+  /* line 322, ../scss/partials/pages/_top.scss */
+  /* line 329, ../scss/partials/pages/_top.scss */
+  /* line 335, ../scss/partials/pages/_top.scss */
+  /* line 343, ../scss/partials/pages/_top.scss */
+  /* line 346, ../scss/partials/pages/_top.scss */
+  /* line 352, ../scss/partials/pages/_top.scss */
+  /* line 357, ../scss/partials/pages/_top.scss */
+  /* line 360, ../scss/partials/pages/_top.scss */
+  /* line 364, ../scss/partials/pages/_top.scss */
+  /* line 369, ../scss/partials/pages/_top.scss */
+  /* line 373, ../scss/partials/pages/_top.scss */
+}
+
+.mainContents.layer3 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.mainContents.layer3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.mainContents.layer3 ul {
+  padding: 0;
+}
+
+.mainContents.layer3 ul li {
+  list-style: none;
+}
+
+.mainContents.layer3 .header__inner {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.mainContents.layer3 .header__homelink {
+  display: block;
+  width: 65px;
+}
+
+.mainContents.layer3 .header__homelink img {
+  display: block;
+}
+
+.mainContents.layer3 .header__title img {
+  display: block;
+}
+
+.mainContents.layer3 .header__menuBtn {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 65px;
+  justify-content: center;
+  width: 65px;
+}
+
+.mainContents.layer3 .header__menuBtn__inner span {
+  background: #000;
+  display: block;
+  height: 2px;
+}
+
+.mainContents.layer3 .header__menuBtn__inner span:first-child {
+  margin-bottom: 8px;
+  width: 36px;
+}
+
+.mainContents.layer3 .header__menuBtn__inner span:last-child {
+  margin-left: auto;
+  margin-right: 0;
+  width: 24px;
+}
+
+.mainContents.layer3 .header__breadcrumbs {
+  padding: 25px 80px;
+}
+
+.mainContents.layer3 .header__breadcrumbs__inner {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.mainContents.layer3 .header__breadcrumbs__itemArrow {
+  background: url(../images/breadcrumb_arrow.svg) no-repeat center;
+  display: block;
+  height: 19px;
+  margin: 0 10px;
+  width: 7px;
+}
+
+.mainContents.layer3 .header__breadcrumbs__itemLink {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mainContents.layer3 .header__breadcrumbs__itemLink--home {
+  background: url(../images/home-icon.svg) no-repeat center;
+  height: 26px;
+  width: 26px;
+}
+
+@media (min-width: 768px) {
+  .mainContents.layer3 {
+    /* line 4, ../scss/partials/pages/_top.scss */
+    /* line 6, ../scss/partials/pages/_top.scss */
+  }
+  .mainContents.layer3 #wrapper .container {
+    min-width: 0;
+  }
+  .mainContents.layer3 #wrapper .container .mainContents {
+    margin: 0 auto;
+  }
+}
+
+.mainContents.layer3 .main {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-feature-settings: "palt" 1;
+  font-feature-settings: "palt" 1;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.mainContents.layer3 .main .mv {
+  margin-bottom: 50px;
+}
+
+.mainContents.layer3 .main .mv img {
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .mv.on img {
+  -webkit-animation: mvShow 2s ease both;
+  animation: mvShow 2s ease both;
+}
+
+.mainContents.layer3 .main .catchphrase {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mainContents.layer3 .main .step {
+  margin-bottom: 50px;
+}
+
+.mainContents.layer3 .main .step--1__number {
+  background: url(../images/content_1_icon.png) no-repeat center;
+  background-size: contain;
+}
+
+.mainContents.layer3 .main .step--2__number {
+  background: url(../images/content_2_icon.png) no-repeat center;
+  background-size: contain;
+}
+
+.mainContents.layer3 .main .step__picture #lottie1,
+.mainContents.layer3 .main .step__picture #lottie2 {
+  height: 240px;
+  width: 240px;
+}
+
+.mainContents.layer3 .main .step__picture #lottie1 svg,
+.mainContents.layer3 .main .step__picture #lottie2 svg {
+  width: 100%;
+}
+
+.mainContents.layer3 .main .step__picture #lottie1 svg g,
+.mainContents.layer3 .main .step__picture #lottie2 svg g {
+  background: none;
+}
+
+.mainContents.layer3 .main .step__picture #lottie1 svg rect,
+.mainContents.layer3 .main .step__picture #lottie2 svg rect {
+  fill: none;
+}
+
+.mainContents.layer3 .main .step__heading {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 1;
+}
+
+.mainContents.layer3 .main .step__heading__text {
+  max-width: 620px;
+  margin-top: 20px;
+}
+
+.mainContents.layer3 .main .step__heading__text.on .step__title {
+  -webkit-animation: stepHeadingTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepHeadingTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__heading__text.on .step__description {
+  -webkit-animation: stepHeadingTextShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepHeadingTextShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__number {
+  height: 66px;
+  margin-top: 30px;
+  width: 66px;
+}
+
+.mainContents.layer3 .main .step__title {
+  color: #0DA43B;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+  line-height: 1.5;
+}
+
+.mainContents.layer3 .main .step__description {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__wrap {
+  background: #F4F4F4;
+  border-radius: 30px;
+  padding: 50px 80px;
+}
+
+.mainContents.layer3 .main .step__wrap:before {
+  background: url(../images/arrow_icon.svg) no-repeat center;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 30px;
+  margin: 0 auto 40px;
+  width: 30px;
+}
+
+.mainContents.layer3 .main .step__subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  opacity: 0;
+  text-align: center;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__subtitle.on {
+  -webkit-animation: stepSubtitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepSubtitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__items {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 -8px 20px;
+}
+
+.mainContents.layer3 .main .step__items.on .step__item .step__item__img {
+  -webkit-animation: stepItemShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepItemShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__items.on .step__item .step__item__text h4 {
+  -webkit-animation: stepItemShow 2s 0.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepItemShow 2s 0.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__items.on .step__item .step__item__text p {
+  -webkit-animation: stepItemShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepItemShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+
+  .mainContents.layer3 .main .step__items.on .step__item:last-child .step__item__img {
+    -webkit-animation: stepItemShow 2s 0.9s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepItemShow 2s 0.9s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+
+  .mainContents.layer3 .main .step__items.on .step__item:last-child .step__item__text h4 {
+    -webkit-animation: stepItemShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepItemShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+
+  .mainContents.layer3 .main .step__items.on .step__item:last-child .step__item__text p {
+    -webkit-animation: stepItemShow 2s 1.5s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepItemShow 2s 1.5s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+
+
+
+.mainContents.layer3 .main .step__item {
+  padding: 8px;
+  width: 50%;
+}
+
+.mainContents.layer3 .main .step__item__img {
+  margin-bottom: 30px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__item__img img {
+  max-width: 100%;
+}
+
+.mainContents.layer3 .main .step__item__text h4 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0;
+  visibility: hidden;
+  letter-spacing: 1px;
+}
+
+.mainContents.layer3 .main .step__item__text p {
+  font-size: 14px;
+  line-height: 2;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__detail {
+  border-top: 2px solid #000;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.mainContents.layer3 .main .step__detail__title {
+  color: #0DA43B;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.mainContents.layer3 .main .step__detail__description {
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__detail__description.on {
+  -webkit-animation: stepDetailDescriptionShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepDetailDescriptionShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__detail__img {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__detail__img.on {
+  -webkit-animation: stepDetailImgShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepDetailImgShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__boxTxt {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mainContents.layer3 .main .step__boxTxt p {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainContents.layer3 .main .step__boxTxt p a {
+  -webkit-transition: all 0.6s ease;
+  background: #0DA43B;
+  border: 2px solid #0DA43B;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0;
+  padding: 15px 30px;
+  transition: all 0.6s ease;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__boxTxt.on p a {
+  -webkit-animation: stepBtnShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepBtnShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__boxTxt.on p a:hover {
+  background: #fff;
+  color: #0DA43B;
+}
+
+.mainContents.layer3 .main .step__btn {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainContents.layer3 .main .step__btn a {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  -webkit-transition: all 0.6s ease;
+  align-content: center;
+  align-items: center;
+  background: #0DA43B;
+  border: 2px solid #0DA43B;
+  border-radius: 10px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: center;
+  opacity: 0;
+  padding: 15px 30px;
+  transition: all 0.6s ease;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .step__btn a:hover {
+  background: #fff;
+  color: #0DA43B;
+}
+
+.mainContents.layer3 .main .step__btn.on a {
+  -webkit-animation: stepBtnShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: stepBtnShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .step__btn--arrow a {
+  font-size: 20px;
+}
+
+.mainContents.layer3 .main .step__btn--arrow a:after {
+  background: url(../images/btn_arrow_icon.svg) no-repeat center;
+  content: "";
+  display: block;
+  height: 35px;
+  margin-left: 6px;
+  width: 35px;
+}
+
+.mainContents.layer3 .main .environmental {
+  text-align: center;
+}
+
+.mainContents.layer3 .main .environmental__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .environmental__title.on {
+  -webkit-animation: environmentalTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: environmentalTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .environmental__points {
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto 120px;
+  max-width: 740px;
+}
+
+.mainContents.layer3 .main .environmental__points.on .environmental__point:first-child p,
+.mainContents.layer3 .main .environmental__points.on .environmental__point:first-child .environmental__point__img {
+  -webkit-animation: environmentalPointShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: environmentalPointShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .environmental__points.on .environmental__point:last-child p,
+.mainContents.layer3 .main .environmental__points.on .environmental__point:last-child .environmental__point__img {
+  -webkit-animation: environmentalPointShow 2s 1s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: environmentalPointShow 2s 1s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .environmental__point {
+  padding: 30px 60px;
+  width: 50%;
+}
+
+.mainContents.layer3 .main .environmental__point p {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .environmental__point__img {
+  margin-bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .environmental__point:first-child {
+  border-right: 1px solid #000;
+}
+
+.mainContents.layer3 .main .environmental__point:last-child {
+  border-left: 1px solid #000;
+}
+
+.mainContents.layer3 .main .environmental__picture {
+  margin: 0 auto 60px;
+  max-width: 340px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mainContents.layer3 .main .environmental__picture.on {
+  -webkit-animation: environmentalPictureShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  animation: environmentalPictureShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+}
+
+.mainContents.layer3 .main .environmental__text {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.9;
+}
+
+@media only screen and (min-width: 768px) {
+  .mainContents.layer3 {
+    /* line 383, ../scss/partials/pages/_top.scss */
+    /* line 386, ../scss/partials/pages/_top.scss */
+    /* line 394, ../scss/partials/pages/_top.scss */
+    /* line 398, ../scss/partials/pages/_top.scss */
+    /* line 408, ../scss/partials/pages/_top.scss */
+    /* line 411, ../scss/partials/pages/_top.scss */
+    /* line 420, ../scss/partials/pages/_top.scss */
+    /* line 425, ../scss/partials/pages/_top.scss */
+    /* line 430, ../scss/partials/pages/_top.scss */
+    /* line 441, ../scss/partials/pages/_top.scss */
+    /* line 444, ../scss/partials/pages/_top.scss */
+    /* line 453, ../scss/partials/pages/_top.scss */
+    /* line 458, ../scss/partials/pages/_top.scss */
+    /* line 463, ../scss/partials/pages/_top.scss */
+    /* line 468, ../scss/partials/pages/_top.scss */
+    /* line 473, ../scss/partials/pages/_top.scss */
+    /* line 478, ../scss/partials/pages/_top.scss */
+  }
+  .mainContents.layer3 .main .catchphrase .pc_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .catchphrase .pc_animate .pc_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate .pc_animate__inner {
+    -webkit-animation: catchphraseShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate:last-child .pc_animate__inner {
+    -webkit-animation: catchphraseShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title .pc_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__title .pc_animate .pc_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(1) .pc_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(2) .pc_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(3) .pc_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text .pc_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .environmental__text .pc_animate .pc_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(1) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(2) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(3) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(4) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(5) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(6) .pc_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+
+  .mainContents.layer3 .pc_animate__inner.ls01{
+    letter-spacing: 1.6px;
+  }
+  .mainContents.layer3 .pc_animate__inner.ls03{
+    letter-spacing: 3.4px;
+  }
+}
+
+@keyframes mvShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes mvShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes catchphraseShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes catchphraseShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes stepHeadingTextShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepHeadingTextShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes stepSubtitleShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepSubtitleShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes stepItemShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepItemShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes stepDetailTitleShow {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepDetailTitleShow {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes stepDetailDescriptionShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepDetailDescriptionShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes stepDetailImgShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepDetailImgShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes stepBtnShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes stepBtnShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes environmentalTitleShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes environmentalTitleShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes environmentalPointShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes environmentalPointShow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes environmentalPictureShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes environmentalPictureShow {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+    transform: translateY(50%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes environmentalTextShow {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes environmentalTextShow {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(100%);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContents.layer3 {
+    /* line 635, ../scss/partials/pages/_top.scss */
+    /* line 637, ../scss/partials/pages/_top.scss */
+    /* line 639, ../scss/partials/pages/_top.scss */
+    /* line 644, ../scss/partials/pages/_top.scss */
+    /* line 647, ../scss/partials/pages/_top.scss */
+    /* line 650, ../scss/partials/pages/_top.scss */
+    /* line 660, ../scss/partials/pages/_top.scss */
+    /* line 664, ../scss/partials/pages/_top.scss */
+    /* line 672, ../scss/partials/pages/_top.scss */
+    /* line 676, ../scss/partials/pages/_top.scss */
+    /* line 688, ../scss/partials/pages/_top.scss */
+    /* line 695, ../scss/partials/pages/_top.scss */
+    /* line 698, ../scss/partials/pages/_top.scss */
+    /* line 700, ../scss/partials/pages/_top.scss */
+    /* line 703, ../scss/partials/pages/_top.scss */
+    /* line 708, ../scss/partials/pages/_top.scss */
+    /* line 714, ../scss/partials/pages/_top.scss */
+    /* line 720, ../scss/partials/pages/_top.scss */
+    /* line 723, ../scss/partials/pages/_top.scss */
+    /* line 726, ../scss/partials/pages/_top.scss */
+    /* line 730, ../scss/partials/pages/_top.scss */
+    /* line 734, ../scss/partials/pages/_top.scss */
+    /* line 739, ../scss/partials/pages/_top.scss */
+    /* line 743, ../scss/partials/pages/_top.scss */
+    /* line 746, ../scss/partials/pages/_top.scss */
+    /* line 757, ../scss/partials/pages/_top.scss */
+    /* line 762, ../scss/partials/pages/_top.scss */
+    /* line 771, ../scss/partials/pages/_top.scss */
+    /* line 776, ../scss/partials/pages/_top.scss */
+    /* line 781, ../scss/partials/pages/_top.scss */
+    /* line 790, ../scss/partials/pages/_top.scss */
+    /* line 795, ../scss/partials/pages/_top.scss */
+    /* line 805, ../scss/partials/pages/_top.scss */
+    /* line 810, ../scss/partials/pages/_top.scss */
+    /* line 813, ../scss/partials/pages/_top.scss */
+    /* line 824, ../scss/partials/pages/_top.scss */
+    /* line 829, ../scss/partials/pages/_top.scss */
+    /* line 838, ../scss/partials/pages/_top.scss */
+    /* line 843, ../scss/partials/pages/_top.scss */
+    /* line 848, ../scss/partials/pages/_top.scss */
+    /* line 857, ../scss/partials/pages/_top.scss */
+    /* line 862, ../scss/partials/pages/_top.scss */
+    /* line 873, ../scss/partials/pages/_top.scss */
+    /* line 880, ../scss/partials/pages/_top.scss */
+    /* line 886, ../scss/partials/pages/_top.scss */
+    /* line 888, ../scss/partials/pages/_top.scss */
+    /* line 897, ../scss/partials/pages/_top.scss */
+    /* line 900, ../scss/partials/pages/_top.scss */
+    /* line 904, ../scss/partials/pages/_top.scss */
+    /* line 907, ../scss/partials/pages/_top.scss */
+    /* line 911, ../scss/partials/pages/_top.scss */
+    /* line 915, ../scss/partials/pages/_top.scss */
+    /* line 917, ../scss/partials/pages/_top.scss */
+    /* line 920, ../scss/partials/pages/_top.scss */
+    /* line 931, ../scss/partials/pages/_top.scss */
+    /* line 936, ../scss/partials/pages/_top.scss */
+    /* line 945, ../scss/partials/pages/_top.scss */
+    /* line 950, ../scss/partials/pages/_top.scss */
+    /* line 959, ../scss/partials/pages/_top.scss */
+    /* line 964, ../scss/partials/pages/_top.scss */
+    /* line 969, ../scss/partials/pages/_top.scss */
+    /* line 978, ../scss/partials/pages/_top.scss */
+    /* line 983, ../scss/partials/pages/_top.scss */
+    /* line 992, ../scss/partials/pages/_top.scss */
+    /* line 1000, ../scss/partials/pages/_top.scss */
+  }
+  .mainContents.layer3 .main {
+    padding: 0;
+  }
+  .mainContents.layer3 .main .mv {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mainContents.layer3 .main .mv img {
+    max-width: 100%;
+  }
+  .mainContents.layer3 .main .catchphrase {
+    font-size: 21px;
+    margin-bottom: 30px;
+  }
+  .mainContents.layer3 .main .catchphrase .sp_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .catchphrase .sp_animate .sp_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate:first-child .sp_animate .sp_animate__inner {
+    -webkit-animation: catchphraseShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate:first-child .sp_animate:last-child .sp_animate__inner {
+    -webkit-animation: catchphraseShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate:last-child .sp_animate .sp_animate__inner {
+    -webkit-animation: catchphraseShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .catchphrase.on .pc_animate:last-child .sp_animate:last-child .sp_animate__inner {
+    -webkit-animation: catchphraseShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: catchphraseShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__heading {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .mainContents.layer3 .main .step__number {
+    margin: 0 auto 20px;
+  }
+  .mainContents.layer3 .main .step__picture {
+    margin: 0 auto 20px;
+  }
+  .mainContents.layer3 .main .step__picture img {
+    width: 100%;
+  }
+  .mainContents.layer3 .main .step__picture #lottie1,
+  .mainContents.layer3 .main .step__picture #lottie2 {
+    margin: 0 auto;
+  }
+  .mainContents.layer3 .main .step__title {
+    font-size: 21px;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+  }
+  .mainContents.layer3 .main .step__description {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+  }
+  .mainContents.layer3 .main .step__wrap {
+    padding: 50px 10px;
+  }
+  .mainContents.layer3 .main .step__subtitle {
+    font-size: 18px;
+  }
+  .mainContents.layer3 .main .step__items {
+    display: block;
+    margin: 0;
+  }
+  .mainContents.layer3 .main .step__item {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+  }
+  .mainContents.layer3 .main .step__item__img {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .mainContents.layer3 .main .step__detail__title {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .mainContents.layer3 .main .step__detail__title .sp_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__title .sp_animate .sp_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 0.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 1.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 1.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(3) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__title.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 3.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 3.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__img img {
+    max-width: 100%;
+  }
+  .mainContents.layer3 .main .step__detail__description .sp_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__description .sp_animate .sp_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(3) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__detail__description.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: stepDetailTitleShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: stepDetailTitleShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .step__boxTxt p {
+    -webkit-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+  .mainContents.layer3 .main .step__btn{
+    display: block;
+  }
+  .mainContents.layer3 .main .step__btn a {
+    -webkit-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px 10px;
+    width: 100%;
+  }
+  .mainContents.layer3 .main .step__btn--arrow a {
+    font-size: 16px;
+  }
+  .mainContents.layer3 .main .step__btn--arrow a:after {
+    background-size: contain;
+  }
+  .mainContents.layer3 .main .environmental__title {
+    font-size: 21px;
+  }
+  .mainContents.layer3 .main .environmental__points {
+    display: block;
+    padding: 10px;
+  }
+  .mainContents.layer3 .main .environmental__point {
+    padding: 40px 20px;
+    width: 100%;
+  }
+  .mainContents.layer3 .main .environmental__point:first-child {
+    border: none;
+    border-bottom: 2px solid #000;
+  }
+  .mainContents.layer3 .main .environmental__point:last-child {
+    border: none;
+  }
+  .mainContents.layer3 .main .environmental__text {
+    font-size: 21px;
+  }
+  .mainContents.layer3 .main .environmental__text .sp_animate {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .mainContents.layer3 .main .environmental__text .sp_animate .sp_animate__inner {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(1) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 0.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 0.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(2) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 1.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 1.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(3) .sp_animate:nth-of-type(3) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 2.4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(4) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 2.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 2.8s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(4) .sp_animate:nth-of-type(2) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 3.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 3.2s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(5) .sp_animate:nth-of-type(1) .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 3.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 3.6s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+  .mainContents.layer3 .main .environmental__text.on .pc_animate:nth-of-type(6) .sp_animate .sp_animate__inner {
+    -webkit-animation: environmentalTextShow 2s 4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+    animation: environmentalTextShow 2s 4s cubic-bezier(0.04, 0.5, 0.29, 1) both;
+  }
+
+  .mainContents.layer3 .main .step__item__text{
+    max-width: 392px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  body .mainContents.layer3 {
+    font-size: 12px;
+  }
+  .mainContents.layer3 .main .step__description,.mainContents.layer3 .main .step__item__text p{
+    font-size: 3.7vw;
+  }
+  .mainContents.layer3 .main .step__detail__title{
+    font-size: 5vw
+  }
+  .mainContents.layer3 .main .environmental__text ,.mainContents.layer3 .main .catchphrase{
+    font-size: 5.6vw;
+}
+}

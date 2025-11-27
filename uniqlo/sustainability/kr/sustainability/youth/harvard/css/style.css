@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:13px;
+}
+
+.detail h4{
+	font-size:15px;
+	font-weight:bold;
+}
+
+.titarea{
+	height:380px;
+}
+
+.titimg,
+.txtimg{
+	margin-bottom:40px;
+}
+
+.anc{
+	width:715px;
+	height:60px;
+	margin-bottom:40px;
+}
+
+.anc a:hover img {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.anc .ancbutton1{
+	float:left;
+}
+
+.anc .ancbutton2{
+	float:right;
+}
+
+#top #mainCont .blankLink {
+margin: 5px 0 10px;
+}
+
+#business,
+#design{
+	border:#dcdcdc 5px solid;
+	margin-bottom:30px;
+	width:705px;
+}
+
+.sectit{
+	margin-bottom:30px;
+}
+
+.logo{
+	margin-top:30px;
+	margin-left:30px;
+}
+
+.coltit{
+	margin-top:25px;
+	margin-left:114px;
+	margin-bottom:15px;
+}
+
+.detail{
+	width:623px;
+	margin-left:30px;
+}
+
+.detail .heading{
+	margin-bottom:25px;
+	text-align:left;
+	width:80px;
+}
+
+.detail .heading-b{
+	margin-bottom:25px;
+	margin-left:80px;
+	text-align:left;
+}
+
+.detail .heading-c{
+	margin-bottom:0px;
+	margin-left:80px;
+	text-align:left;
+}
+
+.detail .heading-d{
+	margin-bottom:0px;
+	margin-left:29px;
+	text-align:left;
+}
+
+
+.detail .blankLink{
+	margin-left:80px;
+	text-align:left;
+	width:543px;
+	margin-bottom:20px;
+	clear:both;
+	margin-top:0px;
+}
+
+.detail .schedule{
+	margin-bottom:15px;
+}
+
+.detail .schedule2{
+	margin-bottom:0px;
+}
+
+.detail ul{
+	list-style:disc;
+	list-style-position:inside;
+}
+
+.announce{
+	margin-top:35px;
+}
+
+.announce ul{
+	margin-bottom:20px;
+	list-style:disc;
+	list-style-position:inside;
+}
+
+.sectit{
+	margin-bottom:25px;
+}
+
+
+.mouse_o1{
+    background: url(../img/141031_harvard_img_P3-4_o.png) no-repeat;
+    width: 390px;
+
+}
+.mouse_o2{
+    background: url(../img/141031_harvard_img_P4-3_o.png) no-repeat;
+    width: 565px;
+
+}
+.mouse_o3{
+    background: url(../img/141031_harvard_img_P4-4_o.png) no-repeat;
+    width: 565px;
+
+}
+.mouse_o4{
+    background: url(../img/141031_harvard_img_P4-7_o.png) no-repeat;
+    width: 474px;
+
+}
+
+.mouse_o1 a,
+.mouse_o2 a,
+.mouse_o3 a,
+.mouse_o4 a{
+    display: block;
+}
+
+.mouse_o1 img,
+.mouse_o2 img,
+.mouse_o3 img,
+.mouse_o4 img{
+    border: none;
+}
+.mouse_o1 a:hover
+.mouse_o2 a:hover,
+.mouse_o3 a:hover,
+.mouse_o4 a:hover{
+    background: none;
+}
+.mouse_o1 a:hover img,
+.mouse_o2 a:hover img,
+.mouse_o3 a:hover img,
+.mouse_o4 a:hover img{
+    visibility: hidden;
+}

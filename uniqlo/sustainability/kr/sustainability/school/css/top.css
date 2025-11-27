@@ -1,0 +1,247 @@
+.topMainImg{
+	width: 664px;
+	padding: 30px 0 0 0px;
+}
+
+.keyArea{
+	padding:0 0 0 20px;
+}
+
+.applyH2Img,
+.commentH3{
+	padding: 30px 0 10px 0px;
+}
+
+
+.clrfix{
+	clear:both;
+}
+
+.floatl{
+	float:left;
+}
+
+.floatr{
+	float:right;
+}
+
+.center{
+	text-align:center;
+}
+
+.inner ul li,
+.inner_ul ul li{
+	list-style:none;
+	float:left;
+}
+
+.detail{
+	background-image:url("/jp/sustainability/school/img/school_bnr_bg_01.jpg");
+}
+
+.detail img{
+	margin:10px 20px 10px 10px;
+}
+
+.inner h2 img,
+.inner_ul h2 img{
+	margin-bottom:10px;
+}
+
+.box01{
+	padding:10px 0px 20px 0px;
+}
+
+.box01 ul li{
+	padding-bottom:20px;
+}
+
+.box02 img{
+	margin:10px 20px 10px 10px;
+}
+
+.box03{
+	padding:10px 10px 10px 10px;
+	margin-bottom:20px;
+	height:171px;
+}
+
+.box03 h3 {
+	margin-top:48px;
+}
+
+.box04{
+	margin-bottom:20px;
+}
+
+.box04 dt{
+	position:absolute;
+}
+
+.box04 dd{
+	padding-left:9em;
+}
+
+.box04 img{
+	margin-right:60px;
+}
+
+.box05{
+	margin-bottom:40px;
+}
+
+.box06{
+	margin:40px 0px 10px 0px;
+}
+
+.box07{
+	background-color:#ffffff;
+	border:solid 1px #00aa4e;
+	padding:20px 18px 18px 40px;
+	margin:20px 0px 10px 0px;
+}
+
+.box08 {
+	margin-bottom:5px;
+}
+
+
+.lh150{
+	line-height:150%;
+}
+
+.fcgreen{
+	color:#07913a;
+}
+
+.lp20 {
+	position: relative;
+	left: 20px;
+}
+
+.w560{
+	width:560px;
+	display:block;
+}
+
+.w110 {
+	width:110px;
+	display:block;	
+}
+
+.w100 {
+	width:100px;
+	display:block;	
+}
+
+.t30{
+	margin:30px 0px 0px 0px;
+}
+
+.t20{
+	margin:20px 0px 0px 0px;
+}
+
+.t10{
+	margin:10px 0px 0px 0px;
+}
+
+.u70{
+	margin:0px 0px 70px 0px;
+}
+
+.u50{
+	margin:0px 0px 50px 0px;
+}
+
+.u30{
+	margin:0px 0px 30px 0px;
+}
+
+.r20{
+	margin:0px 20px 0px 0px;
+}
+
+.r50{
+	margin:0px 50px 0px 0px;
+}
+
+.u20{
+	margin:0px 0px 20px 0px;
+}
+
+.u15{
+	margin:0px 0px 15px 0px;
+}
+
+.u10{
+	margin:0px 0px 10px 0px;
+}
+
+.r18{
+	margin:0px 18px 0px 0px;
+}
+
+.list_on{
+	list-style:disc;
+	padding-left:20px;
+}
+
+.list_on li{
+	margin-bottom:30px;
+}
+
+.border{
+	width: 663px;
+	background-image:(/jp/sustainability/school/apply/img/line.gif) repeat-x scroll left bottom transparent;
+}
+
+.Indent1{
+  text-indent:-1em;
+  padding-left:1em;
+}
+
+.endCommentCenter{
+	margin-top:30px;
+	border:3px solid #ccc;
+	padding:15px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.grayBox{
+	margin:15px 15px 0 45px;
+	padding: 12px;
+	color:#fff;
+	background:#ccc;
+	float:left;
+}
+
+.endCommentCenter dl{
+	margin-top:10px;
+	line-height:1.9;
+	text-align:left;
+}
+
+.endCommentCenter dd{
+	font-weight:normal;
+}
+
+.endCommentCenter .tel {
+	padding-right: 3.3em;
+}
+
+.notesBox {
+	position: relative;
+}
+
+.notes {
+	position: absolute;
+	top: 31px;
+	left: 279px;
+	color: #f00;
+	line-height: 1.5;
+	text-indent:-1em;
+	padding-left:1em;
+}
+

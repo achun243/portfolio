@@ -1,0 +1,175 @@
+#sustainability-report .report-wrap .title_01 {
+    color: #379e49;
+    font-family: 'UniqloProRegular', 'Hiragino Kaku Gothic Pro', "Hiragino Sans", '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', メイリオ, Meiryo, sans-serif;
+    font-weight: 600;
+}
+.small_txt{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+.mainContents.layer3 .product_section{
+    margin-top: 35px;
+}
+.mainContents.layer3 .product_ttl{
+    color: #379e49;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8em;
+    letter-spacing: 0.045em;
+}
+.mainContents.layer3 .product_name{
+    font-size: 11px;
+    line-height: 1.8em;
+    margin-top: 18px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    margin-top: 14px;
+}
+.mainContents.layer3 .product_lead{
+    font-size: 11px;
+    line-height: 1.8em;
+    margin-top: 18px;
+    letter-spacing: 0.05em;
+    margin-top: 6px;
+}
+
+.mainContents.layer3 .mainLead_section{
+    margin-top: 35px;
+}
+.mainContents.layer3 .mainLead_ttl{
+    color: #379e49;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.8em;
+    letter-spacing: 0.045em;
+}
+.mainContents.layer3 .mainLead_txt{
+    font-size: 11px;
+    line-height: 1.8em;
+    margin-top: 18px;
+    letter-spacing: 0.05em;
+}
+.mainContents.layer3 .support_img{
+    width: 55%;
+    margin-top: 20px;
+}
+.mainContents.layer3 .support_img img{
+    width: 100%;
+}
+.mainContents.layer3 .support_img_txt{
+    margin-top: 15px;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+}
+.mainContents.layer3 .contentsLink {
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+    background-color:#ff0000;
+}
+.mainContents.layer3 .contentsLink .contentsLink_btn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.mainContents.layer3 .contentsLink .arrow_right {
+    position: relative;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: .110em;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0;
+}
+.mainContents.layer3 .contentsLink .contentsLink_txt:nth-of-type(2){
+    margin-top: 5px;
+}
+
+.btnColor_green{
+    background-color: #379e49;
+}
+.mainContents.layer3 .contentsLink .arrow_transition {
+    width: 13px;
+    margin: auto 0;
+    margin-left: 8px;
+}
+.contentsLink_txt .arrow_right{
+    position: relative;
+}
+@media screen and (min-width:813px) {
+    .contentsLink_txt .arrow_right{
+        position: relative;
+    }
+    .small_txt_innner{
+        display: inline;
+    }
+    .mainContents.layer3 .small_txt{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    #sustainability-report .report-wrap section .cover_img{
+        margin-top: 70px;
+        width: 700px;
+    }
+    #sustainability-report .report-wrap section .cover_img img{
+        width: 100%;
+    }
+    .mainContents.layer3 .product_section {
+        margin-top: 70px;
+    }
+    .mainContents.layer3 .product_ttl {
+        font-size: 28px;
+    }
+    .mainContents.layer3 .product_name {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    .mainContents.layer3 .product_lead {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .mainContents.layer3 .product_container{
+        margin-top: 35px;
+    }
+    .imgTxt_flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .mainContents.layer3 .support_img{
+        width: 275px;
+        margin-left: 40px;
+    }
+    .mainContents.layer3 .support_img_txt{
+        font-size: 12px;
+    }
+    .mainContents.layer3 .mainLead_section {
+        margin-top: 60px;
+    }
+    .mainContents.layer3 .mainLead_ttl {
+        font-size: 26px;
+    }
+    .mainContents.layer3 .mainLead_txt {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .mainContents.layer3 .contentsLink {
+        margin-top: 70px;
+        max-width: 588px;
+        height: 100px;
+    }
+    .mainContents.layer3 .contentsLink .contentsLink_txt {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mainContents.layer3 .contentsLink .arrow_transition {
+        width: 24px;
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,295 @@
+@charset 'utf-8';
+/* CSS Document */
+.mainContents .main .shareIcons {
+  z-index: 1;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#plastic .section{
+    margin-top: 90px;
+}
+#plastic .title_2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #005b7d;
+}
+#plastic .inlineblock{
+    display: inline-block;
+}
+@media (min-width: 768px){
+    #plastic .sp_display{
+        display: none;
+    }
+}
+#plastic a.hover_link:hover,
+#plastic a.hover_link:hover > *{
+    opacity: 0.7;
+}
+#plastic .text_left{
+    text-align-last: left;
+}
+#plastic .text_right{
+    text-align: right;
+}
+#plastic .text_center{
+    text-align: center;
+}
+#plastic .pd_10{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#plastic .pd_30{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#plastic .pd_t_20{
+    padding-top: 20px;
+}
+#plastic .pd_t_30{
+    padding-top: 30px;
+}
+#plastic .pd_t_60{
+    padding-top: 60px;
+}
+#plastic .pd_b_20{
+    padding-bottom: 20px;
+}
+#plastic .pd_b_30{
+    padding-bottom: 30px;
+}
+#plastic .pd_b_60{
+    padding-bottom: 60px;
+}
+#plastic .pd_text{
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#plastic .block_center{
+    display: block;
+    margin: auto;
+}
+#plastic .note_text{
+    font-size: 80%;
+    color: #333;
+}
+
+/* cover */
+
+#plastic .cover .cover_img{
+    position: relative;
+    width: 960px;
+    height: 480px;
+}
+
+/* reduce */
+#plastic .reduce .flow{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#plastic .reduce .flow{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+#plastic .reduce .flow::before{
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    display: block;
+    width: 40px;
+    top: 0;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -20px;
+    z-index: 0;
+}
+#plastic .reduce .flow::after{
+    content: "";
+    position: absolute;
+    display: block;
+    border: solid 50px #eee;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    left: 50%;
+    bottom: -50px;
+    margin-left: -50px;
+    z-index: 1;
+}
+#plastic .reduce .flow .block{
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+#plastic .reduce .flow .block.img_left{
+    flex-direction: row-reverse;
+}
+#plastic .reduce .flow .block .col_text{
+    display: block;
+    background: #ecfaff;
+    border: solid 4px #fff;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+#plastic .reduce .flow .block .btn{
+    display: block;
+    width: 230px;
+    padding: 8px;
+    color: #fff;
+    background: #005b7d;
+    text-align: center;
+    margin-top: 10px;
+}
+#plastic .reduce .flow .block .col_text h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #1b8eae;
+}
+#plastic .reduce .flow .block .col_text .icon_block{
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+#plastic .reduce .flow .block .col_text .icon_block{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    #plastic .reduce .lead{
+        text-align: center;
+    }
+    #plastic .reduce .flow .block .col_img{
+        display: block;
+        margin-left: 30px;
+    }
+    #plastic .reduce .flow .block.img_left .col_img{
+        margin-right: 30px;
+        margin-left: 0;
+    }
+    #plastic .reduce .flow .block .col_text .icon_block img{
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    #plastic .pc_display{
+        display: none;
+    }
+    #plastic .section{
+        margin-top: 45px;
+        width: 94vw;
+    }
+    #plastic .title_2{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #plastic .section img{
+        width: 100%;
+    }
+    #plastic .pd_text{
+        margin-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* cover */
+
+    #plastic .cover{
+        width: 94vw;
+    }
+    #plastic .cover .cover_img, #plastic .cover .cover_img img{
+        width: 100%;
+        height: auto;
+    }
+    #plastic .cover .lead{
+        color: #6a6a6a;
+        letter-spacing: 2;
+        line-height: 1.6;
+        padding-top: 30px;
+    }
+
+    /* garbage */
+    #plastic .garbage {
+        margin-top: 30px;
+    }
+
+    /* reduce */
+    #plastic .reduce .flow{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 30px;
+    }
+    #plastic .reduce .flow .block{
+        display: block;
+        margin-bottom: 20px;
+    }
+    #plastic .reduce .flow::before{
+        width: 20px;
+        bottom: 20px;
+        margin-left: -10px;
+    }
+    #plastic .reduce .flow::after{
+        border: solid 25px #eee;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        bottom: -25px;
+        margin-left: -25px;
+    }
+    #plastic .reduce .flow .block .col_img{
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding-top: 10px;
+    }
+    #plastic .reduce .flow .block .btn{
+        width: 100%;
+    }
+    #plastic .reduce .flow .block .col_text{
+        padding: 15px;
+    }
+    #plastic .reduce .flow .block .col_text h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #plastic .reduce .flow .block .col_text .icon_block{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #plastic .reduce .flow .block .col_text .icon_block{
+        display: flex;
+        align-items: center;
+    }
+    #plastic .reduce .flow .block .col_text .icon_block img{
+        margin-right: 10px;
+        height: 50px;
+        width: auto;
+    }
+
+}
+
+.shareIcons{
+    text-align: right;
+}
+.shareIcons li{
+    display: inline-block;
+    padding: 10px 5px !important;
+}

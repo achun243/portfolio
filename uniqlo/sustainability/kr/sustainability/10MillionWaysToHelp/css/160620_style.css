@@ -1,0 +1,898 @@
+@charset "utf-8";
+
+/* --------------------------
+    共通
+-------------------------- */
+
+
+.clearfix:after {
+    content: "."; 
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+html>/**/body .clearfix { display /*\**/: block\9 }
+
+
+/*statementArea*/
+.statementArea{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+
+.statementArea ul li img{
+    border: 1px solid #FFFFFF;
+}
+
+
+/*aboutArea*/
+.aboutArea{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/* add 151117 // */
+
+/*movieArea*/
+.movieArea{
+    background: #eeeeee;
+    padding:  9.375% 10.41666666666667% 10.41666666666667% 10.41666666666667%;
+    position: relative;
+    color: #000000;
+}
+
+.movieArea h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.movieArea h2 span{
+    font-size: 36px;
+}
+
+
+
+/*supportersArea*/
+.supportersArea{
+    background: #ffffff;
+    padding:  9.375% 10.41666666666667% 10.41666666666667% 10.41666666666667%;
+    position: relative;
+    color: #000000;
+}
+.supportersArea p{
+	font-size: 13.5px;
+}
+
+.supportersArea h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.supportersArea h2 span{
+    font-size: 36px;
+}
+
+
+.supportersArea .imageSet{
+    margin-top: 40px;
+}
+
+.supportersArea .imageSet .image{
+    float: left;
+    width: 36.84210526315789%;
+    margin-right: 5.26315789473684%;
+}
+
+.supportersArea .imageSet .profile{
+    float: left;
+    width: 57.89473684210526%;
+}
+
+.supportersArea .imageSet .profile h3{
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.supportersArea .imageSet .profile h3 span.player{
+    font-size: 14px;
+}
+
+.supportersArea .imageList{
+    margin-left: -5%;
+}
+
+.supportersArea .imageList li{
+    float: left;
+    margin-left: 5%;
+    margin-top: 40px;
+    width: 20%;
+}
+
+/*sponsorArea*/
+.sponsorArea{
+    background: #f9b28a;
+    padding:  9.375% 10.41666666666667% 10.41666666666667% 10.41666666666667%;
+    position: relative;
+    color: #000000;
+}
+
+.sponsorArea h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.sponsorArea h2 span.attention{
+    font-size: 16px;
+}
+
+.sponsorArea .sponsorList{
+    margin-left: -5%;
+    margin-bottom: 40px;
+}
+
+.sponsorArea .sponsorList li{
+    float: left;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 20%;
+    height: 190px;
+}
+
+.sponsorArea .sponsorList li a{
+    display: block;
+    color: #000;
+}
+
+.sponsorArea .sponsorList li a .sponsorThumb{
+    margin-bottom: 15px;
+}
+
+.sponsorArea .schoolList{
+    margin-top: 40px;
+}
+
+.sponsorArea .schoolList li{
+    margin-bottom: 10px;
+}
+.sponsorArea .schoolList li span{
+    font-weight: bold;
+}
+.sponsorArea .sponsorList li p{
+    font-size: 15px;
+}
+
+.downArrow{
+    position:absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 4.16666666666667%;
+}
+
+/* // add 151117 */
+
+
+.catList li{    
+    cursor: pointer;
+    list-style: none;
+    border: 2px solid #bebebe;
+    height: 8px;
+    width: 8px;
+    margin: 5px 0px;
+    background: #bebebe;
+}
+
+
+.catList .on{
+    cursor: pointer;
+    list-style: none;
+    border: 2px solid #bebebe;
+    height: 8px;
+    width: 8px;
+    margin: 5px 0px;
+    background: transparent;
+}
+
+
+
+
+p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#navBox{
+    top: 0;
+    bottom: 0;
+    height: 0;
+    position: fixed;
+    width: 80px;
+    z-index: 100;
+}
+
+
+#navBox .catListBox{
+    position: fixed;
+    top: 50%;
+    margin-left: 2%;
+}
+
+
+.wrapper {
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+ul.localnav {
+    width: 102.038735983%;
+}
+
+.contents {
+    overflow: hidden;
+}
+
+
+.brand-logo{
+    width: 278px;
+    margin:0 auto 20px; 
+}
+
+.brand-logo img{
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*header*/
+
+
+.headerTop{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    max-width: 960px;
+    width: 100%;
+    padding: 20px 0 1px;
+    height: auto;
+}
+
+
+.hdLogo li{
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+
+}
+
+.hdLogo li img{
+    padding-right: 20px
+}
+
+.pc-hdTit img{
+    width: 100%;
+    height: auto;
+}
+
+.sp-hdTit {
+    display: none;
+}
+
+/*statementArea*/
+
+.statementArea{
+    padding:  9.375% 10.41666666666667% 10.41666666666667% 10.41666666666667%;
+    position: relative;
+}
+
+
+
+.statementArea h2 span{
+    font-size: 40px;
+}
+
+.statementArea p{
+    margin-top: 4.166666%;
+}
+
+.statementArea ul{
+    text-align: right;
+    margin-top: 60px;
+}
+
+.statementArea ul li{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*aboutArea*/
+.aboutArea{
+    padding:  9.375% 10.41666666666667% 10.41666666666667% 10.41666666666667%;
+}
+
+.aboutArea p{
+    margin-top: 4.166666%;
+}
+
+.aboutArea h2 span{
+    font-size: 40px;
+}
+
+.pc-aboutAreaBox{
+    margin-top: 6.25%;
+    padding-right: 8.55263157894737%;
+    padding-left: 8.55263157894737%;
+}
+
+.pc-aboutAreaBox li{
+    width: 44%;
+    box-sizing :border-box;
+    -webkit-box-sizing :border-box;
+}
+
+.pc-aboutAreaBox .tit{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.pc-aboutAreaBox a{
+    color: #000000;
+} 
+
+
+.pc-aboutAreaBox a .link:hover{
+    text-decoration: underline;
+}
+
+.pc-aboutAreaBox img{
+    border: solid 1px #efefef;
+}
+
+.aboutAreaRe{
+    float: left;
+}
+
+.aboutAreaPs{
+    float: right;
+}
+
+
+.aboutAreaRe span, .aboutAreaPs span{
+    display: block;
+}
+
+
+.aboutAreaPs .link, .aboutAreaRe .link{
+    background: url(../images/link-icon.png) left no-repeat;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+/* add 151117 // */
+.listArrow{
+    background: url(../images/link-icon.png) left 4px no-repeat;
+    padding-left: 18px;
+    margin-top: 20px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.listArrow a{
+    color: #000;
+}
+
+/* // add 151117 */
+
+.aboutArea .sp-aboutAreaBox{
+    display: none;
+}
+
+.sp-copyright{
+    display: none;
+}
+
+
+/* --------------------------
+    SP
+-------------------------- */
+@media only screen and (max-width: 640px) {
+
+
+
+
+body.sp p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+body.sp #navBox{
+    display: none;
+}
+
+body.sp .wrapper{
+    padding-top: 0;
+}
+
+
+body.sp .contents{
+    padding-top: 50px;
+}
+
+/*header*/
+
+body.sp .pc-hdTit{
+    display: none;
+}
+
+body.sp .hdLogo{
+    padding-left: 3.125%;
+}
+
+body.sp .hdLogo li img{
+    height: auto;
+    width: 100%;
+}
+
+body.sp .hdLogo li{
+    float: left;
+    width: 30px;
+    margin-right: 3.125%;
+
+}
+
+body.sp .headerTop{
+    background: #fff;
+    padding: 0;
+}
+
+body.sp .section img{
+    height: auto;
+    width: 100%;
+}
+
+body.sp .section p{
+    word-wrap: break-word;
+}
+
+
+/*body.sp .section{
+    padding: 0 3.125% 0 3.125%;
+} */
+
+body.sp .sp-hdTit{
+    background: #FFF;
+    text-align: center;
+    padding: 3.125% 25% 3.125% 25%;
+    display: block;
+}
+
+body.sp .sp-hdTit img{
+    display: inline-block;
+}
+
+
+body.sp h2{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+/*statementArea*/
+
+body.sp .statementArea{
+    padding: 12.5% 9.375% 12.5% 9.375%;
+}
+
+body.sp .statementArea h2 span, body.sp .aboutArea h2 span{
+    font-size: 21px;
+}
+
+body.sp .statementArea p{
+    margin-top: 4.166666%;
+}
+
+
+body.sp .statementArea ul li{
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+body.sp .statementArea .logoNav ul{
+    margin-top: 6.25%;
+    text-align: right;
+
+}
+
+
+
+
+
+
+
+/* add 151117 // */
+
+/*movieArea*/
+body.sp .movieArea{
+    padding:  9.375%;
+}
+
+body.sp .movieArea h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+body.sp .movieArea h2 span{
+    font-size: 18px;
+}
+
+
+
+/*supportersArea*/
+body.sp .supportersArea{
+    padding:  9.375%;
+}
+
+body.sp .supportersArea h2{
+    font-size: 16px;
+    margin-bottom: 5.26315789473684%;
+}
+
+body.sp .supportersArea h2 span{
+    font-size: 18px;
+}
+
+
+body.sp .supportersArea .imageSet{
+    margin-top: 5.26315789473684%;
+}
+
+body.sp .supportersArea .imageSet .image{
+    width: 45%;
+    margin-right: 5%;
+}
+
+body.sp .supportersArea .imageSet .profile{
+    width: 50%;
+}
+
+body.sp .supportersArea .imageSet .profile h3{
+    font-size: 14px;
+    margin-bottom: 5.26315789473684%;
+}
+
+body.sp .supportersArea .imageSet .profile h3 span.player{
+    font-size: 10px;
+}
+
+body.sp .supportersArea .imageList{
+    margin-left: -5%;
+}
+
+body.sp .supportersArea .imageList li{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 45%;
+}
+
+/*sponsorArea*/
+body.sp .sponsorArea{
+    padding:  9.375%;
+}
+
+body.sp .sponsorArea h2{
+    font-size: 16px;
+    margin-bottom: 5.26315789473684%;
+}
+
+body.sp .sponsorArea h2 span.attention{
+    font-size: 10px;
+}
+
+body.sp .sponsorArea .sponsorList{
+    margin-left: 0;
+    margin-bottom: 15%;
+}
+
+body.sp .sponsorArea .sponsorList li{
+    clear: both;
+    height: auto;
+    width: 100%;
+    margin-top: 5.26315789473684%;
+    margin-left: 0;
+    display: table;
+}
+
+body.sp .sponsorArea .sponsorList li a{
+    background: url(../images/listArrow.png)no-repeat right 45%;
+    background-size: 8px;
+}
+
+body.sp .sponsorArea .sponsorList li a .sponsorThumb{
+    width: 26.31578947368421%;
+    display: table-cell;
+    padding: 0 5.26315789473684% 0 0;
+}
+
+body.sp .sponsorArea .sponsorList li a .listArrow{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body.sp .sponsorArea .sponsorList li p{
+    font-size: 12px;
+}
+
+body.sp .sponsorArea .sponsorList li p.listArrow{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 5%;
+    line-height: 1.2;
+    background: none;
+    font-size: 14px;
+}
+
+body.sp .sponsorArea .sponsorList li p br.none{
+    display: none;
+}
+
+body.sp .sponsorArea .schoolList{
+    margin-top: 5.26315789473684%;
+}
+
+body.sp .sponsorArea .schoolList li{
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+body.sp p.listArrow{
+    font-size: 14px;
+    background: url(../images/listArrow.png)no-repeat right 45%;
+    background-size: 8px;
+    padding-left: 0;
+}
+
+body.sp p.listArrow a{
+    display: block;
+}
+
+body.sp .downArrow{
+    display: none;
+}
+
+/* // add 151117 */
+
+
+
+
+
+
+/*aboutArea*/
+
+body.sp .aboutArea{
+    padding: 12.5% 9.375% 12.5% 9.375%;
+}
+
+body.sp .aboutArea p{
+    margin-top: 4.166666%;
+}
+
+body.sp .sp-aboutAreaBox{
+    margin-top: 9.375%;
+    display: block;
+}
+
+body.sp .sp-aboutAreaBox a{
+    display: block;
+    background: url(../images/arrow.png) no-repeat right;
+}
+
+body.sp .sp-aboutAreaBox span{
+    display: block;
+}
+
+body.sp .sp-aboutAreaBox .tit{
+    font-size: 15px;
+    color: #000000;
+    height: 72px;
+    padding-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+body.sp .sp-aboutAreaBox li:nth-child(2){
+    margin-top: 6.25%;
+}
+
+
+body.sp .pc-aboutAreaBox{
+    display: none;
+}
+
+body.sp .aboutAreaIn .img{
+    width: 25%;
+    float: left;
+}
+
+body.sp .aboutAreaIn img{
+    width: 72px;
+    height: 72px;
+    border: solid 1px #efefef;
+}
+
+
+body.sp .sp-copyright{
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-family: Uniqlo;
+    color: #666;
+    letter-spacing: 0.1em;
+    position: fixed;
+    display: block;
+}
+
+
+} 	
+	
+body.sp .movie,
+body.sp .movie2 { 	
+width: 100%; 	
+float: none; 	
+} 
+
+/* add 160304 */
+body.sp{
+	overflow-x:hidden;
+}
+.slidearea1 {
+    padding-top: 50px;
+}
+.slidearea1, slidearea2{
+    margin-top: 40px;
+}
+.aboutsection{
+    overflow: hidden;
+}
+.aboutsection p.movie_note{
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.aboutsection .movie{
+    float: left;
+    width: 48%;
+}
+.aboutsection .movie2 {
+    margin-bottom: 30px;
+}
+body.sp .aboutsection .movie2 {
+    margin-bottom: 10px;
+}
+.slidearea2{
+	margin-top:40px;
+}
+#anc_stu{
+	padding-top: 90px;
+}
+body.sp #anc_stu{
+	padding-top: 0%;
+} 
+body.sp .slidearea1 {
+    padding-top: 15px;
+}
+body.sp .slidearea2{
+	margin-top:20px;
+} 
+.eventArea h2{
+	font-size: 30px;
+    margin-bottom: 30px;
+}
+body.sp .eventArea{
+    background: #FFF;
+    padding: 9.375% 9.375% 0 9.375%;
+    display: block;
+}
+body.sp .eventArea ul.list li p,
+body.sp .eventArea ul.list li a,
+body.sp .movie_note{
+	font-size: 10px;
+    line-height: 1.8;
+}
+body.sp .aboutsection p.movie_note{
+    margin-top: 2%;
+}
+
+body.sp .sp-event img{
+    display: none;
+}
+.supportersArea .bx-wrapper{
+	position: relative;
+}
+#slider img{
+	width:100%;
+}
+.bx-wrapper .bx-viewport {
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+border:none;
+background-color:transparent;
+}
+/* //add 160304 */
+
+
+.comsection{
+    overflow: hidden;
+	margin-bottom: 30px;
+}
+.comsection h3{
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.comsection p.company_note{
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.comsection .company{
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+}
+.comsection .company_txt{
+	clear: both;
+}
+body.sp .comsection{
+    margin-bottom: 10px;
+}
+body.sp .company_note{
+	font-size: 10px;
+    line-height: 1.8;
+}
+body.sp .comsection h3{
+	font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+body.sp .company{
+    margin-bottom: 10px;
+}
+body.sp .comsection p.company_note{
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+

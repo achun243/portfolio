@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/* header
+-------------------------------------------------*/
+
+#header.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+.headerTop{
+    background: #fff;
+    max-width: 960px;
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+}
+
+#header .hdLogo{
+    width: 100%;
+}
+
+#header .hdLogo li{
+    float: left;
+    margin-right: 2.08%;
+
+}
+
+#header .hdLogo .mt01 {
+    margin-top: 7%;
+}
+
+#header .hdLogo .mt02 {
+    margin-top: 5%;
+}
+
+#header {
+    zoom: 1;
+    z-index: 100;
+}
+
+#header:before,#header:after {
+    content: "";
+    display: table;
+}
+
+#header:after {
+    clear: both;
+}
+
+#header #siteID {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 65px;
+    position: relative;
+}
+
+#header #siteID a {
+    color: #000;
+    display: block;
+    white-space: nowrap;
+}
+
+#header #siteID .left a img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#header #siteID a span {
+    padding-left: 15px;
+    font-family: UniqloBoldRegular;
+    font-size: 40px;
+    line-height: 60px;
+    position: relative;
+}
+
+#header .uni_logo {
+    float: left;
+}
+
+#header .gu_logo {
+    float: left;
+}
+
+#header .right {
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#header .right img {
+    width: 75%;
+}
+
+#header .nav_wrapper {
+    float: right;
+    width: 37.29166666666667%;
+}
+
+#header .nav_wrapper .current {
+    background-color: #51a033!important;
+}
+
+#header .nav_wrapper #hdNav01 {
+  zoom: 1;
+}
+
+#header .nav_wrapper #hdNav01 img {
+    display: none;
+}
+
+#header .nav_wrapper #hdNav01:before,#header .nav_wrapper #hdNav01:after {
+    content: "";
+    display: table;
+}
+
+#header .nav_wrapper #hdNav01:after {
+    clear: both;
+}
+
+#header .nav_wrapper #hdNav01 li {
+    float: left;
+    background: #bebebe;
+    text-align: center;
+}
+
+#header .nav_wrapper #hdNav01 li .on,#header .nav_wrapper #hdNav01 li:hover {
+    background: #51a033;
+}
+
+#header .nav_wrapper #hdNav01 li a {
+    width: 70px;
+    padding: 20px;
+    display: block;
+    color: #fff;
+}
+
+#header .headertext{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 14px;
+    left: 145px;
+}
+
+@media only screen and (max-width: 840px) {
+    #header #siteID a span {
+        font-size: 36px;
+    }
+    #header .nav_wrapper #hdNav01 li a {
+        padding: 20px 10px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #header #siteID a span {
+        font-size: 1.5em;
+        line-height: 1em;
+        padding-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #header #siteID {
+        float: left;
+        /*  width: 30%;*/
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #header {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        background: #fff;
+    }
+    #header .nav_wrapper {
+        width: 100%;
+        background: #fff;
+        position: absolute;
+    }
+    #header #siteID {
+        width: 80%;
+        padding: 10px 0;
+        float: left;
+    }
+    #header #siteID .left a img {
+        width: 25%;
+        top: 10px;
+        left: 7%;
+    }
+    #header #siteID .right a img{
+        width: 40%;
+    }
+
+    #header .gu_logo{
+        margin-left: -20px;
+    }
+    #header .right{
+        top: 10px;
+        right: -15%;
+    }
+    #header .sp_menu_btn {
+        float: right;
+        line-height: 0.5em;
+        width: 20%;
+        display: block;
+        font-size: 0.9em;
+        font-family: UniqloProLight;
+        text-align: center;
+        color: #e60013;
+    }
+    #header .sp_menu_btn:before {
+        content: " ";
+        background: url("../img/menu_open.jpg") no-repeat;
+        background-position: 50%;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+        display: block;
+        width: 100%;
+        height: 34px;
+    }
+    #header .sp_menu_btn.close:before {
+        background: url("../img/menu_close.jpg") no-repeat;
+        background-position: 50%;
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        background-size: auto 100%;
+    }
+    #header .nav_wrapper {
+        display: none;
+        top: 50px;
+        z-index: 20;
+        background: #eeeeee;
+    }
+    #header .nav_wrapper #hdNav01 {
+        float: none;
+        width: 100%;
+        background: #fff;
+    }
+    #header .nav_wrapper #hdNav01 >li {
+        width: 100%;
+        background: #51a033;
+        text-align: left;
+        margin-top: 1px;
+        white-space: nowrap;
+    }
+    #header .nav_wrapper #hdNav01 >li a {
+        padding: 0;
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+    #header .nav_wrapper .ft_inner {
+        display: block;
+    }
+}

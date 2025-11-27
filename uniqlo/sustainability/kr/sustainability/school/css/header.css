@@ -1,0 +1,29 @@
+#header {
+    height: 70px;
+    padding: 10px 10px 0 0;
+    position: relative;
+    border-bottom: 1px solid #dcdcdc;
+    background: #fff;
+}
+
+.uni_logo{
+	float: left;
+	margin-right: 20px;
+}
+
+.gu_logo{
+	float: left;
+	margin-right: 15px;
+}
+}
+
+.siteTitle{
+	float: left;
+}
+
+.siteTitle p{
+	font-family: normal;
+	font-size: 27px;
+	font-weight: bold;
+	line-height: 1.2;
+}

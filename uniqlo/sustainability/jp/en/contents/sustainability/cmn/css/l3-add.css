@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/******************************
+common
+*******************************/
+.dots.sp.hidden {
+    visibility: hidden;
+}
+
+.mainContents.layer3 .main .body .lead .red {
+    color: #ff0000;
+}
+.mainContents.layer3 .main .body .head a,
+.mainContents.layer3 .main .body .lead a,
+.mainContents.layer3 .main .floatImg ul.linkList li a {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1px;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+.mainContents.layer3 .main .body .head a {
+    padding-bottom: 0;
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+.mainContents.layer3 .main .body .head a:hover,
+.mainContents.layer3 .main .body .lead a:hover,
+.mainContents.layer3 .main .floatImg ul.linkList li a:hover {
+    opacity: 0.7;
+}
+
+.mainContents.layer3 .main .subSection .red {
+    color: #ff0000;
+    font-weight: normal;
+    border-bottom: 1px solid #ff0000;
+}
+
+.mainContents.layer3 .main .subSection ul.disclist {
+    padding-left: 1.4em;
+}
+
+.mainContents.layer3 .main .subSection ul.disclist li {
+    list-style-type: disc;
+}
+
+.mainContents .section.recommended .recommendedItems .recommendedItem a .thumb.dotsFrame > img.movie {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+}
+
+@media (min-width: 813px) {
+.mainContents .smallsection {
+    margin-top: 40px;
+}
+
+.mainContents.layer3 .main .subSection h4.smallTitle {
+    font-size: 16px;
+    margin: 20px 0 10px;
+}
+
+.mainContents.layer3 .main .floatImg {
+    width: 100%;
+}
+
+.mainContents.layer3 .main .floatImg .text {
+    width: 100%;
+}
+
+.mainContents.layer3 .main .subSection .fullImg {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 812px) {
+.mainContents .smallsection {
+    margin-top: 6vw;
+}
+
+.mainContents.layer3 .main .subSection h4.smallTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 4vw 0 2vw;
+}
+
+.mainContents.layer3 .main .subSection .fullImg {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mainContents.layer3 .main .subSection .fullImg img {
+    width: 80vw;
+}
+
+}
+/******************************
+clothing_donation
+*******************************/
+.mainContents.layer3 .main .floatImg ul.linkList li {
+    margin-bottom: 10px;
+}
+
+/******************************
+leadImg
+*******************************/
+.mainContents.layer3 .main .body .leadItems .leadImg img {
+    width: 100%;
+}
+
+.mainContents.layer3 .main .body .leadItems {
+    margin-top: 6px;
+}
+
+@media (min-width: 813px) {
+.mainContents.layer3 .main .body .leadItems .leadImg {
+    margin-right: 2%;
+}
+
+.mainContents.layer3 .main .body .leadItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 812px) {
+.mainContents.layer3 .main .body .leadItems .leadImg  {
+    width: 20vw;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    }
+
+.mainContents.layer3 .main .body .leadItems .leadTxt {
+    margin-left: 2vw;
+}
+
+.mainContents.layer3 .main .body .leadItems,
+.mainContents.layer3 .main .body .leadItems .leadTxt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+}
+
+/******************************
+recycle
+*******************************/
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dd.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (min-width: 813px){
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dt {
+    width: 22%;
+}
+
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dd {
+    width: 76%;
+}
+
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dt,
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dd {
+    display: inline-block;
+}
+
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dd {
+    margin-left: 2%;
+}
+
+}
+
+@media (max-width: 812px){
+
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dt {
+    margin-top: 1em;
+}
+
+.mainContents.layer3 .main .floatImg .text dl.recycleResulte dd.logo {
+    -ms-flex-wrap : wrap;
+    -webkit-flex-wrap : wrap;
+    flex-wrap : wrap;
+}
+.mainContents.layer3 .main .recycle_bnr{
+    padding: 0 20px;
+}
+}
+.mainContents.layer3 .main .recycle_bnr{
+    margin: 120px auto 0;
+    display: block;
+    max-width: 715px;
+}
+
+
+/******************************
+specialolympics
+*******************************/
+.mainContents.layer3 .main h4.year {
+    font-size: 20px;
+    border-left: 3px solid #ff0000;
+    padding-left: 10px;
+    margin: 40px 0 20px;
+
+}
+
+@media (min-width: 813px) {
+.mainContents.layer3 .main .floatImg.imgLeft {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.mainContents.layer3 .main .sportsImg {
+    float: left;
+    margin-right: 20px;
+}
+
+.mainContents.layer3 .main .sportsImg img {
+    width: 170px;
+    height: 115px;
+}
+
+.mainContents.layer3 .main .sportsCopy .sportsTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+}
+
+@media (max-width: 812px){
+.mainContents.layer3 .main .floatImg.imgLeft {
+    margin-bottom: 20px;
+}
+
+.mainContents.layer3 .main .floatImg.imgLeft .sportsImg {
+    width: 45.66667vw;
+    margin: 0 auto 10px;
+}
+.mainContents.layer3 .main .sportsCopy .sportsTitle {
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+}
+
+/******************************
+harvard
+*******************************/
+.mainContents.layer3 .main .subSection dl.requirements dt:after {
+    content: "：";
+}
+
+@media (min-width: 813px) {
+.mainContents.layer3 .main .subSection dl.requirements {
+    margin-bottom: 30px;
+}
+
+.mainContents.layer3 .main .subSection dl.requirements dt,
+.mainContents.layer3 .main .subSection dl.requirements dd {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.mainContents.layer3 .main .subSection dl.requirements dt {
+    width: 10%;
+}
+
+.mainContents.layer3 .main .subSection dl.requirements dd {
+    width: 90%;
+}
+
+.mainContents.layer3 .main .subSection dl.requirements dl.schedull dt,
+.mainContents.layer3 .main .subSection dl.requirements dl.schedull dd, {
+    margin-bottom: 5px;
+}
+.mainContents.layer3 .main .subSection p.txt {
+    margin: 20px 0 10px 0;
+}
+
+.mainContents.layer3 .main .subSection p.adress {
+    margin-top: 40px;
+}
+
+
+.mainContents.layer3 .main .subSection dl.requirementsdocuments dt {
+    width: 14%;
+}
+
+.mainContents.layer3 .main .subSection dl.requirementsdocuments dd {
+    width: 86%;
+}
+}
+
+
+@media (max-width: 812px){
+.mainContents.layer3 .main .subSection dl.requirements dd {
+    margin-bottom: 2.4vw;
+}
+
+.mainContents.layer3 .main .subSection p.txt {
+    margin: 2vw 0 1vw 0;
+}
+
+.mainContents.layer3 .main .subSection dl.requirementsdocuments {
+    margin-top: 2.4vw;
+}
+
+}
+
+
+/******************************
+employment
+*******************************/
+.mainContents.layer3 .main .body .companyList {
+    margin-top: 8px;
+}
+
+@media (min-width: 813px) {
+.mainContents.layer3 .main .body .companyList a img {
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+}
+
+@media (max-width: 812px) {
+.mainContents.layer3 .main .body .companyList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mainContents.layer3 .main .body .companyList a {
+    width: 50%;
+    text-align: center;
+}
+
+.mainContents.layer3 .main .body .companyList a img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: baseline;
+
+}
+}
+
+/******************************
+heattech
+*******************************/
+.mainContents.layer3 .main .body .htIcon {
+    margin: 16px 0;
+}
+
+@media (max-width: 812px) {
+.mainContents.layer3 .main .body .htIcon { 
+    margin: 3.2vw auto 0;
+    width: 50vw;
+}
+.mainContents.layer3 .main .body .htIcon img {
+    width: 100%;
+}
+}

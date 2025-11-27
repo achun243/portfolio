@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.header{
+  z-index: 1;
+}
+
+.weight_down{
+    font-weight: normal;
+}
+
+.cover{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding-top: calc((80/750)*100vw);
+    padding-bottom: calc((190/750)*100vw);
+    margin-bottom: 0;
+}
+.container_color_box{
+    width: 100%;
+    background-color: #f9f6ef;
+}
+
+.main_container{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.main_container .main_ttl{
+    display: block;
+    text-indent: -9999px;
+    background-image: url(/jp/en/contents/sustainability/sustainability_mode/img/230420_lead_bgImage_sp.svg);
+    background-size: 100%;
+    width: 100%;
+    height: calc((550/750)*100vw); /* EN original number */
+    position: absolute;
+    top: 0;
+}
+
+.main_container .main_lead{
+    font-size: calc((24/750)*100vw);
+    line-height: calc((50/750)*100vw);
+    letter-spacing: 0.07em;
+    text-align: center;
+    padding-top: calc((150/750)*100vw);
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.section_list{
+    margin-top: calc((120/750)*100vw);
+}
+
+.section_container{
+    margin-top: calc((80/750)*100vw);
+}
+
+.section_subTtl{
+    font-size: calc((30/750)*100vw);
+    line-height: calc((48/750)*100vw);
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+
+.section_mainTtl{
+    font-size: calc((36/750)*100vw);
+    line-height: calc((50/750)*100vw);
+    letter-spacing: 0.063em;
+    font-weight: bold;
+    margin-top: calc((20/750)*100vw);
+}
+
+.section_lead{
+    text-align: justify;
+    font-size: calc((22/750)*100vw);
+    line-height: calc((36/750)*100vw);
+    letter-spacing: 0.1em;
+    margin-top: calc((50/750)*100vw);
+    font-weight: 500;
+}
+
+.section_movie{
+    margin-top: calc((50/750)*100vw);
+    width: 100%;
+    cursor: pointer;
+}
+
+.section_movie:hover{
+    opacity: 0.7;
+}
+
+.otherNavigation{
+    margin-top: 0;
+}
+
+@media screen and (max-width:812px){
+    .breadcrumbs{
+        margin-bottom: calc((30/750)*100vw);
+    }
+    #pageTop.fixd{
+        bottom: calc((-210/750)*100vw);
+    }
+    .pt15_pc_only{
+      padding-top: 0;
+    }
+    .sp_only{
+      display: block;
+    }
+}
+
+@media screen and (min-width:813px){
+    .cover{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        max-width: none;
+    }
+    .container{
+        padding-top: 80px;
+        padding-bottom: 186px;
+        margin-bottom: 0;
+    }
+    .main_container{
+        height: calc((520/1176)*(100vw - 50px));
+        max-height: 520px;
+    }
+    .main_container .main_ttl{
+        background-image: url(/jp/en/contents/sustainability/sustainability_mode/img/230420_lead_bgImage_pc.svg);
+        height: 560px;
+        width: 84%;
+        margin: 0 auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+    .main_container .main_lead{
+        font-size: calc((17/1176)*(100vw - 50px));
+        line-height: calc((43/1176)*(100vw - 50px));
+        padding-top: calc((168/1176)*(100vw - 50px));
+    }
+    .section_list{
+        margin: 0 auto;
+        max-width: 1056px;
+        margin-top: 120px;
+    }
+    .section_subTtl{
+        font-size: 30px;
+        line-height: 46px;
+        letter-spacing: 0.057em;
+    }
+
+    .section_mainTtl{
+        font-size: 37px;
+        line-height: 46px;
+        letter-spacing: 0.057em;
+        margin-top: 10px;
+    }
+
+    .section_lead{
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.098em;
+        margin-top: 29px;
+    }
+    .section_container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 64px;
+    }
+    .section_description{
+        width: calc((649/1056)*100%);
+    }
+    .section_movie{
+        margin-top: 0;
+        width: calc((355/1056)*100%);
+        margin-right: calc((52/1056)*100%);
+    }
+    .section_movie .fr-video{
+        margin: 0;
+    }
+    .pt15_pc_only{
+      padding-top: 15px;
+    }
+    .sp_only{
+      display: none;
+    }
+}
+
+@media screen and (min-width:1226px){
+    .main_container .main_lead{
+        font-size: 17px;
+        line-height: 43px;
+        padding-top: 180px;
+    }
+}
+
+/*EN original*/
+@media screen and (max-width:300px){
+    .main_container{
+        height: calc((1000/750)*100vw);
+    }
+}

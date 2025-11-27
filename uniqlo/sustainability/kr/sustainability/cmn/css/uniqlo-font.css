@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*
+ *ユニクロフォント
+ */
+@font-face {
+	font-family: 'Uniqlo Pro Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url("/jp/sustainability/fonts/uniqloproregular-webfont.eot");
+	src: url("/jp/sustainability/fonts/uniqloproregular-webfont.eot?#iefix") format("embedded-opentype"), url("/jp/sustainability/fonts/uniqloproregular-webfont.woff") format("woff"), url("/jp/sustainability/fonts/uniqloproregular-webfont.ttf") format("truetype"), url("/jp/sustainability/fonts/uniqloproregular-webfont.svg#uniqlo_proregular") format("svg");
+}

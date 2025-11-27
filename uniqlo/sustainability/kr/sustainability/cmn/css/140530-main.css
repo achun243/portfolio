@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/*
+Theme Name: UNIQLO Sustainability
+Theme URI: 
+Description: UNIQLO Sustainability
+Version: 1
+*/
+
+/*
+---------------------------------------------------------------------
+	main.css [Feb.2011] 
+---------------------------------------------------------------------
+
+	00: top
+	01: olive
+	02: recycle
+	03: olympics
+	04: report
+	05: employee
+	06: charity
+	07: social
+	
+*/
+
+
+/* 00:top
+--------------------------------------------------*/
+
+#top #mainCont .inner {
+	padding: 0;
+	background: url(../img/border_solid.gif) repeat-y 364px top;
+}
+
+#top #mainCont .innerBanner {
+	padding: 0;
+	background: url(../img/border_solid.gif) repeat-y 364px bottom;
+}
+
+#top #mainCont .contL { width: 364px; }
+#top #mainCont .contR { width: 364px; }
+
+#top #mainCont .section {
+	margin: 0;
+	padding: 24px 19px 39px;
+	border-bottom: 1px solid #dcdcdc;
+}
+#top #mainCont .bannerArea {
+	padding: 24px 19px 24px;
+}
+
+#top #mainCont .pgh { margin: 20px 0 0; }
+#top #mainCont .pageLink { margin: 18px 0 0; }
+#top #mainCont #charity { border-bottom: 0; }
+#top #mainCont #socialBusiness .blankLink { margin: 18px 0 0; }
+#top #mainCont #charity .blankLink { margin: 18px 0 0; }
+
+#top #mainCont .section h2 {
+	margin: 0;
+	font-size: 116%;
+	font-weight: bold;
+	color: #f00;
+}
+
+#top #mainCont .section h3 {
+	margin: 12px 0 0;
+	line-height: 1.65;
+	font-size: 146.5%;
+}
+
+#top #mainCont #powerOfClothes { background: #fff; }
+#top #mainCont #powerOfClothes .contL { width: 326px; }
+#top #mainCont #powerOfClothes .contR { width: 336px; }
+#top #mainCont #powerOfClothes .contR h2 { margin: 30px 0 0; }
+#top #mainCont #powerOfClothes .pgh { margin: 15px 0 0; }
+
+#top #mainCont #powerOfClothes .pageLink span {
+	font-size: 84%;
+}
+
+#top #mainCont #powerOfClothes .pageLink span.pdf {
+	margin: 0 0 0 10px;
+	padding: 2px 0 1px 15px;
+	color: #f00;
+	background: url(../img/anchor_pdf.gif) no-repeat left 36%;
+}
+
+
+#top #mainCont #socialBusiness h3 {
+	padding-right: 90px;
+	min-height: 75px;
+	height: auto !important;
+	height: 75px;
+	background: url(../../img/logo_grameenUniqlo.gif) no-repeat right top;
+}
+
+#top #mainCont #recycle2 h3 {
+	padding-right: 90px;
+	min-height: 75px;
+	height: auto !important;
+	height: 75px;
+	background: url(../../img/uniqloRecycle_img.gif) no-repeat right 0.4em;
+}
+
+#top #mainCont .recycle2 h3 {
+	padding-right: 90px;
+	min-height: 75px;
+	height: auto !important;
+	height: 75px;
+	background: url(../../img/uniqloRecycle_img.gif) no-repeat right 0.4em;
+}
+
+#top #mainCont #recycle2 h3 span {
+	display: block;
+	margin: 0.5em 0 0 2px;
+}
+
+#top #mainCont .recycle2 .contL span {
+	display: block;
+	margin: 0.5em 0 0 2px;
+}
+
+#top #mainCont #photoReport {
+	margin: -30px 0 0;
+	padding: 0 19px 39px;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 1.7;
+}
+
+#top #mainCont #photoReport .section {
+	padding: 0;
+	border: none;
+}
+
+#top #mainCont #photoReport dt {
+	margin-bottom: 9px;
+	line-height: 1.5;
+}
+
+#top #mainCont #report .img,
+#top #mainCont #report ul {
+	display: table-cell;
+	width: 157px;
+	vertical-align: top;
+}
+
+#top #mainCont #photoReport .img,
+#top #mainCont #photoReport dl {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#top #mainCont #photoReport .img,
+#top #mainCont #report .img { padding: 0 29px 0 0; }
+
+* html #top #mainCont #photoReport p.img,
+* html #top #mainCont #photoReport dl,
+* html #top #mainCont #report p.img,
+* html #top #mainCont #report ul {
+	display: inline;
+	zoom: 1;
+	padding-bottom: 2px;
+}
+
+* html #top #mainCont #report ul li { text-indent: -1.2em; list-style: none; padding: 0; }
+
+*:first-child+html #top #mainCont #photoReport p.img,
+*:first-child+html #top #mainCont #photoReport dl,
+*:first-child+html #top #mainCont #report p.img,
+*:first-child+html #top #mainCont #report ul {
+	display: inline;
+	zoom: 1;
+	padding-bottom: 2px;
+}
+
+*:first-child+html #top #mainCont #report ul li { text-indent: -1.2em; list-style: none; padding: 0; }
+
+#top #mainCont #photoReport dl dt {
+	font-weight: bold;
+	color: #f00;
+}
+
+#top #mainCont #employee { border: none; }
+#top #mainCont #recycle { border: none; padding: 0; }
+
+#top #mainCont #photoReport { 
+clear: both;
+padding-top: 30px;
+ }
+/* 01:olive
+--------------------------------------------------*/
+
+#olive #mainCont #imgDsp01 .imgArea { height: 286px; }
+#olive #mainCont #imgDsp02 .imgArea { height: 428px; }
+
+#olive #mainCont table {
+	margin: 30px 0 0;
+	line-height: 1.5;
+}
+
+#olive #mainCont table th {
+	padding: 10px 5px;
+	background: #ccc;
+	border-right: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#olive #mainCont table td {
+	padding: 10px 20px;
+	vertical-align: middle;
+}
+
+#olive #mainCont table tr.line1 td { border-top: none; }
+#olive #mainCont table .pref { white-space: nowrap; }
+#olive #mainCont table th.num { border-right: 1px solid #ccc; }
+#olive #mainCont table td.num { text-align: right; }
+#olive #mainCont table td {
+	border: 1px solid #e9e9e9;
+	font-size: 92%;
+}
+
+#olive #mainCont .bottomCont { margin: 40px 0 0; }
+
+
+/* 02:recycle
+--------------------------------------------------*/
+
+#recycle .section {
+	margin-top: 45px;
+	color: #00913a;
+}
+
+#recycle #mainCont { border: none; }
+#recycle #mainCont .inner { padding-bottom: 80px; }
+#recycle #mainCont h2 { margin: 0; }
+#recycle #mainCont h3 {
+	margin-bottom: -10px;
+	line-height: 1.2;
+	font-size: 167%;
+}
+
+#recycle #mainCont .sep { margin-top: 60px; }
+#recycle #headCont { margin-top: 31px; }
+#recycle #headCont p { margin-top: 45px; }
+#recycle .section .img {
+	margin-top: 25px;
+	text-align: center;
+}
+#recycle #headCont .img { margin-top: 55px; }
+#recycle #movCont { margin-top: 50px; }
+
+#recycle #movCont #ytMov {
+	position: relative;
+	margin: 25px auto 0;
+	width: 640px;
+	height: 360px;
+	border: 1px solid #eee;
+}
+
+#recycle .section dl.pgh { margin-top: 25px; }
+
+#recycle .section dl.pgh dt {
+	float: left;
+	font-weight: bold;
+}
+
+#recycle #subCont { border-left: 1px solid #dcdcdc; }
+#recycle #subCont .inner {
+	margin-bottom: -11px;
+	padding-bottom: 0;
+}
+
+#recycle #subCont .imgLink { margin-bottom: 30px; }
+
+#recycle .section dl.pgh #partner {
+	display: block;
+	float: none;
+}
+#recycle .section dl.pgh #partnerList {
+	display: block;
+	margin: 5px 0 0 15px;
+}
+#recycle .section dl.pgh #partnerList img {
+	margin: 0 0 5px 25px;
+}
+#recycle .section .emphasis {
+	font-size: 85%;
+	width: 638px;
+	margin: 13px auto 0;
+	border: 1px solid #00913a;
+	text-align: center;
+	line-height: 2;
+}
+
+#recycle #headCont .pgh2{ margin-top: 15px; }
+#recycle #headCont .img2{ margin-top: 0px; }
+#recycle #headCont .tiTrecycle{ margin-top: 30px; }
+
+/* 03:olympics
+--------------------------------------------------*/
+
+#olympics #mainCont #imgDsp01 .imgArea { height: 487px; }
+
+#olympics #mainCont #headCont h2 {
+	padding: 0 0 0 95px;
+	background: url(../../olympics/img/logo_specialOlympics.gif) no-repeat left top;
+	min-height: 100px;
+	height: auto !important;
+	height: 100px;
+}
+
+#olympics #mainCont table.contL {
+	width: 511px;
+}
+
+#olympics #mainCont table.contL th,
+#olympics #mainCont table.contL td {
+	padding: 10px 19px;
+	border: 1px solid #e9e9e9;
+}
+
+#olympics #mainCont table.contL th { width: 100px; }
+#olympics #mainCont table.contL th,
+#olympics #mainCont table.contL h3 { font-weight: bold; }
+
+#olympics #mainCont ul.contR {
+	width: 170px;
+}
+
+#olympics #mainCont ul.contR li { margin: 0 0 10px; }
+
+/* 04:report
+--------------------------------------------------*/
+
+#report #mainCont .contR h2 {
+	margin: 0;
+	line-height: 1.3;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#report #mainCont .contR h3 {
+	margin: 25px 0 30px;
+
+	line-height: 1.1;
+	font-size: 167%;
+}
+
+#report #mainCont ul .all { margin-bottom: 1em; }
+#report #mainCont ul li a { text-decoration: underline; }
+#report #mainCont #bottomNav li a { text-decoration: none; }
+#report #mainCont #bottomNav li a:hover { text-decoration: underline; }
+
+#report #mainCont ul li span { font-size: 84%; }
+#report #mainCont #bottomNav span { font-size: 100%; }
+
+#report #mainCont ul li span.pdf {
+	margin: 0 0 0 10px;
+	padding: 2px 0 1px 15px;
+	color: #f00;
+	background: url(../img/anchor_pdf.gif) no-repeat left 36%;
+}
+
+/* 05:employee
+--------------------------------------------------*/
+
+#employee #mainCont .contL #imgDsp01 .imgArea { height: 320px; }
+#employee #mainCont .contL #imgExp01 { margin: 60px 0 0; }
+#employee #mainCont .contL #imgExp02 { margin: 35px 0 0; }
+
+#employee #mainCont .contL .imgExp .btnExp { margin: 0 0 5px; }
+
+#employee #mainCont .contR h3 { font-weight: bold; }
+
+
+/* 06: charity
+--------------------------------------------------*/
+
+#charity #mainCont .pgh { color: #5b8096; }
+#charity #mainCont h2 { color: #eb4977; }
+#charity #mainCont h3 {
+	font-size: 116%;
+	font-weight: bold;
+}
+
+#charity #mainCont #projectReport {
+	padding: 20px 25px;
+	border: 1px solid #f4dfe2;
+	background: url(../../charity/img/bg01.gif) no-repeat left top;
+}
+
+#charity #mainCont #projectReport h2 {
+	margin: 0 0 -15px;
+	font-size: 146.5%;
+	font-weight: bold;
+}
+
+#charity #mainCont #projectReport .contRow { margin: 30px 0 0; }
+#charity #mainCont #projectReport .contL,
+#charity #mainCont #projectReport .contR {
+	float: none;
+	display: table-cell;
+	width: 314px;
+	vertical-align: middle;
+	text-align: center;
+	overflow: hidden;
+}
+
+#charity #mainCont #projectReport .contL { padding: 0 11px 0 0; }
+
+#charity #mainCont #projectReport .contL .txt,
+#charity #mainCont #projectReport .contR .txt {
+	width: 304px;
+	text-align: left;
+}
+
+* html #charity #mainCont #projectReport .contL,
+* html #charity #mainCont #projectReport .contR {
+	display: inline;
+	zoom: 1;
+}
+
+*:first-child+html #charity #mainCont #projectReport .contL,
+*:first-child+html #charity #mainCont #projectReport .contR {
+	display: inline;
+	zoom: 1;
+}
+
+#charity #mainCont #projectReport p {
+	margin: 10px 0 0;
+	padding: 0 5px;
+	line-height: 1.7;
+	font-size: 92%;
+	color: #666;
+}
+
+#charity #mainCont #projectReport p.img {
+	margin: 0;
+	padding: 0;
+}
+
+#charity .copy{
+	text-align:right;
+	font-size:72%;
+}
+
+
+/* 07: social
+--------------------------------------------------*/
+
+
+
+/* -:ClearFix
+--------------------------------------------------*/
+
+
+.contRow:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+.contRow {
+	zoom:1;
+}

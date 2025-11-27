@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+img{
+    width: 100%;
+}
+.flex_AIcenter{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -ms-align-items: center;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.green_text{
+  color: #379e49;
+}
+.mt0{
+  margin-top: 0 !important;
+}
+.flex_wrapper{
+  display: flex;
+  align-items: center;
+}
+.fw_bold{
+  font-weight: bold;
+}
+
+.subImg_container_small{
+  width: 100%;
+  margin-top: calc((50/750)*100vw);
+}
+
+.subImg_container_small .subImg{
+  width: calc((332/750)*100vw);
+}
+
+.subImg_container_small .subImg_ttl{
+  margin-top: calc((30/750)*100vw);
+  font-size: calc((24/750)*100vw);
+  line-height: calc((48/750)*100vw);
+  letter-spacing: .03em;
+}
+
+.subImg_container_small .subImg_lead{
+  margin-top: calc((30/750)*100vw);
+  font-size: calc((22/750)*100vw);
+  line-height: calc((36/750)*100vw);
+  font-weight: 500;
+}
+.subImg_container_small .subImg_lead + .subImg_ttl{
+  margin-top: calc((50/750)*100vw);
+}
+
+.trademark {
+  font-size: 0.6em;
+	vertical-align: super;
+}
+
+
+@media (max-width: 812px){
+    .sp_ls-003{
+        letter-spacing: -0.03em;
+    }
+    .pc_display{
+        display: none;
+    }
+    .sp_display{
+        display: block;
+    }
+    .right{
+        margin-top: calc((50/750)*100vw);
+    }
+    .mb_pc-20_sp35{
+        margin-bottom: calc((35/750)*100vw);
+    }
+    .contents .cover_catch{
+        font-size: calc((28/750)*100vw);
+        line-height: calc((44/750)*100vw);
+        letter-spacing: .09em;
+        margin-top: calc((80/750)*100vw)
+    }
+    .contents .cover_lead{
+        font-size: calc((22/750)*100vw);
+        line-height: calc((36/750)*100vw);
+        font-weight: 500;
+        margin-top: calc((34/750)*100vw);
+    }
+    .contents .cover_catch + .contents .cover_lead {
+        margin-top: calc((30/750)*100vw);
+    }
+    .recycle_img{
+        margin-top: calc((50/750)*100vw);
+    }
+    .green_border_top{
+      margin-top: calc((80/750)*100vw);
+      padding-top: calc((80/750)*100vw);
+      border-top: 2px solid #379e49;
+    }
+    .pc_only{
+      display: none;
+    }
+    .pc_only_for_inline{
+      display: none;
+    }
+    .sp_only{
+      display: block;
+    }
+    .reuniqlo_logo{
+      width: 30%;
+    }
+    .reuniqlo_logo img{
+      width: 100%;
+    }
+    .hearing_annotation{
+    -webkit-text-size-adjust: 100%;
+    font-size: calc((17/750)*100vw);
+    line-height: calc((23/750)*100vw);
+    }
+    .green_text{
+      font-size: calc((33/750)*100vw);
+      line-height: calc((48/750)*100vw);
+    }
+    .under_green_text{
+      font-size: calc((18/750)*100vw);
+      line-height: calc((30/750)*100vw);
+      padding-top: 0;
+      padding-bottom: calc((9/750)*100vw);
+      padding-right: 0;
+    }
+    .mr20{
+      margin-right: calc((20/750)*100vw);
+    }
+    .mt_pc-41_sp-50{
+      margin-top: calc((50/750)*100vw);
+    }
+    .w_pc-48per_sp-100per{
+      width: 100%;
+    }
+    .mt15{
+      margin-top: calc((15/750)*100vw);
+    }
+    .mt30{
+      margin-top: calc((30/750)*100vw);
+    }
+    .fz24{
+      font-size: calc((24/750)*100vw);
+    }
+    .fz40_sp35{
+      font-size: calc((35/750)*100vw);
+    }
+    .lh55{
+      line-height: calc((55/750)*100vw);
+    }
+    .ls1_only_pc{
+      letter-spacing: 0;
+    }
+    .mt50{
+      margin-top: calc((50/750)*100vw);
+    }
+    .pt10{
+      padding-top: calc((10/750)*100vw);
+    }
+    .pl30{
+      padding-left: calc((30/750)*100vw);
+    }
+    .ls3{
+      letter-spacing: calc((3/750)*100vw);
+    }
+    .mr3{
+      margin-right: calc((2/750)*100vw);
+    }
+
+
+    .uniqlo_boxes{
+      width: 100%;
+      max-width: 250px;
+    }
+
+
+    .friday_icon_before_it:before {
+      content: '';
+      display: inline-block;
+      width: calc((23/750)*100vw);
+      height: calc((23/750)*100vw);
+      background-image: url(../img/fri.png);
+      background-size: contain;
+      vertical-align: middle;
+    }
+
+    .flex_wrapper img{
+      width: calc((23.5/750)*100vw)
+    }
+    .scroll_point {
+      margin-top: calc((50/750)*-100vw);
+      padding-top: calc((50/750)*100vw);
+    }
+}
+
+@media (min-width: 813px){
+    .pc_display{
+        display: block;
+    }
+    .sp_display{
+        display: none;
+    }
+    .mainImg_container{
+        display: flex;
+        align-items: flex-end;
+    }
+    .right{
+        width: calc((400/1058)*100%);
+        margin-left: calc((60/1058)*100%);
+    }
+    .mb_pc-20_sp35{
+        margin-bottom: calc((20/750)*100vw)
+    }
+    .contents{
+        margin-top: 110px;
+    }
+    .contents .cover_catch{
+        font-size: 37px;
+        line-height: 60px;
+        letter-spacing: .118em;
+        margin-top: 0;
+    }
+    .contents .cover_lead{
+        font-size: 23px;
+        line-height: 45px;
+        font-weight: 500;
+    }
+    .contents .cover_catch + .contents .cover_lead {
+        margin-top: 30px;
+    }
+    .recycle_img{
+        max-width: 880px;
+        margin-top: 64px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .green_border_top{
+      margin-top: 110px;
+      padding-top: 110px;
+      border-top: 3px solid #379e49;
+    }
+    .pc_only{
+      display: block;
+    }
+    .pc_only_for_inline{
+      display: inline;
+    }
+    .sp_only{
+      display: none;
+    }
+    .reuniqlo_logo img{
+      width: auto;
+    }
+    .hearing_annotation{
+    font-size: 12px;
+    line-height: 18px;
+    }
+    .contents .hearing_annotation{
+    display: inline-block;
+    }
+    .green_text{
+      font-size: 28px;
+      line-height: 42px;
+    }
+    .under_green_text{
+      font-size: 18px;
+      line-height: 30px;
+      padding-top: 12px;
+      padding-right: 50px;
+    }
+    .mr20{
+      margin-right: 20px;
+    }
+    .mt_pc-41_sp-50{
+      margin-top: 31px;/*画像上部の隙間を考慮して*/
+    }
+    .w_pc-48per_sp-100per{
+      width: 48%;
+    }
+    .mt15{
+      margin-top: 15px;
+    }
+    .mt30{
+      margin-top: 30px;
+    }
+    .fz24{
+      font-size: 24px;
+    }
+    .fz40_sp35{
+      font-size: 40px;
+    }
+    .lh55{
+      line-height: 55px;
+    }
+    .ls1_only_pc{
+      letter-spacing: 1px;
+    }
+    .mt50{
+      margin-top: 50px;
+    }
+    .pt10{
+      padding-top: 10px;
+    }
+    .pl30{
+      padding-left: 30px;
+    }
+    .ls3{
+      letter-spacing: 3px;
+    }
+    .mr3{
+      margin-right: 3px;
+    }
+
+
+    .uniqlo_boxes{
+      width: 30%;
+      float: right;
+      margin-top: -5px;
+    }
+
+
+    .friday_icon_before_it:before {
+      content: '';
+      display: inline-block;
+      width: 23px;
+      height: 23px;
+      background-image: url(../img/fri.png);
+      background-size: contain;
+      vertical-align: middle;
+    }
+
+    .flex_wrapper img{
+      width: 23.5px;
+    }
+    
+    .subImg_container_small{
+      margin-top: 64px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .subImg_container_small .subImg_wrap{
+      width: calc((355/1058)*100%);
+      margin-right: calc((55/1058)*100%);
+    }
+
+    .subImg_container_small .subImg{
+      width: 100%;
+    }
+
+    .subImg_container_small .subImg_cnt{
+      width: calc((648/1058)*100%);
+    }
+
+    .subImg_container_small .subImg_ttl{
+      margin-top: 0;
+      font-size: 30px;
+      line-height: 41px;
+      letter-spacing: .1em;
+    }
+
+    .subImg_container_small .subImg_lead{
+      margin-top: 29px;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: .098em;
+      font-weight: 500;
+    }
+
+    .subImg_container_small .subImg_lead + .subImg_ttl{
+      margin-top: 40px;
+    }
+
+    .subImg_container_small .contentsLink {
+      width: calc((561/648)*100%);
+    }
+}
+

@@ -1,0 +1,237 @@
+#sustainability-report .fast_retailing_logo {
+    margin-top: 32px;
+    width: 24%;
+    max-width: 190px;
+}
+
+#sustainability-report .fast_retailing_logo img {
+    width: 100%;
+}
+
+#sustainability-report .title_h1 {
+    margin-top: 16px;
+}
+
+#sustainability-report .title_h1 img {
+    width: 100%;
+}
+
+#sustainability-report .report-wrap .contents_title {
+    color: #379e49;
+    font-size: 23px;
+    font-family: 'UniqloProRegular', 'ヒラギノ角ゴ Pro W6';
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 32px;
+}
+
+#sustainability-report .report-wrap .lead {
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.9;
+    letter-spacing: 0.09em;
+    margin-top: 16px;
+}
+
+#sustainability-report .report-wrap .contents_wrap {
+    margin-top: 40px;
+}
+
+#sustainability-report .report-wrap .contents_wrap:last-child {
+    margin-top: 8px;
+}
+
+.contents_wrap .article_block:hover {
+    opacity: 0.7;
+    transition: .3s linear;
+}
+
+.contents_wrap .article_block .article_thumb {
+    width: 100%;
+}
+
+.contents_wrap .article_block .article_thumb img {
+    width: 100%;
+}
+
+.contents_wrap .article_block .article_bottom {
+    background-color: #E8E8E8;
+    position: relative;
+}
+
+.contents_wrap .article_block .article_title {
+    color: #379e49;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+}
+
+.contents_wrap .article_block .article_text {
+    color: #000;
+    font-size: 13px;
+    font-family: 'UniqloProRegular';
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+}
+
+.contents_wrap .article_block.article_block_main {
+    width: 100%;
+}
+
+.contents_wrap .article_block.article_block_main .article_bottom {
+    padding: 15px 17px 48px ;
+}
+
+.contents_wrap .article_block.article_block_main .article_title {
+    font-size: 22px;
+    letter-spacing: 0.06em;
+}
+
+.contents_wrap .article_block.article_block_main .article_title span {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.4;
+}
+
+.contents_wrap .article_block.article_block_main .article_text {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.contents_wrap .article_block.article_block_main .article_text span {
+    font-size: 13px;
+    display: block;
+    line-height: 1.4;
+}
+
+#sustainability-report .contents_wrap .col_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.contents_wrap .col_wrap .article_block {
+    width: 50%;
+}
+
+.contents_wrap .col_wrap .article_block .article_bottom {
+    padding: 9px 8px;
+    letter-spacing: 0;
+    height: 117px;
+}
+
+#page_top a {
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    #sustainability-report .fast_retailing_logo {
+        margin-top: 64px;
+    }
+
+    #sustainability-report .title_h1 {
+        margin-top: 32px;
+    }
+
+    #sustainability-report .report-wrap .contents_title {
+        font-size: 34px;
+        margin-top: 24px;
+    }
+
+    #sustainability-report .report-wrap .lead {
+        font-size: 20px;
+        margin-top: 32px;
+    }
+
+    #sustainability-report .report-wrap .contents_wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 80px;
+    }
+
+    #sustainability-report .report-wrap .contents_wrap:last-child{
+        margin-top: 10px;
+    }
+
+    .contents_wrap .article_block .article_title {
+        font-size: 16px;
+    }
+
+    .contents_wrap .article_block .article_text {
+        font-size: 16px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
+
+    .contents_wrap .article_block.article_block_main {
+        max-width: 420px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_bottom {
+        padding: 20px;
+        height: 290px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_title {
+        font-size: 28px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_title span {
+        font-size: 22px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_text {
+        font-size: 22px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_text span {
+        font-size: 16px;
+    }
+
+    .contents_wrap .col_wrap {
+        max-width: 660px;
+    }
+
+    .contents_wrap .col_wrap .article_block {
+        width: calc(100% / 3);
+        padding-left: 10px;
+    }
+
+    .contents_wrap .col_wrap .article_block:nth-of-type( n + 4 ) {
+        margin-top: 10px;
+    }
+
+    .contents_wrap .col_wrap .article_block .article_bottom {
+        padding: 12px 12px 33px;
+        height: 140px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .contents_wrap .col_wrap .article_block {
+        margin-top: 8px;
+    }
+
+    .contents_wrap .col_wrap .article_block:nth-of-type(odd) {
+        padding-right: 4px;
+    }
+
+    .contents_wrap .col_wrap .article_block:nth-of-type(even) {
+        padding-left: 4px;
+    }
+
+    .contents_wrap .article_block.article_block_main .article_title {
+        min-height: 72px;
+    }
+
+}

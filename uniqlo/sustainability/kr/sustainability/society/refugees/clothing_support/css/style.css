@@ -1,0 +1,116 @@
+@charset "utf-8";
+.color_black{
+    color: #000000;
+}
+
+.mainImg_container .mainImg_logo{
+    width: calc((332/750)*100vw);
+    margin-top: calc((50/750)*100vw);
+}
+
+.subImg_container_large .subImg_ttl{
+    font-weight: 600;
+}
+
+.subImg_container_large .subImg{
+    width: 100%;
+}
+
+.countries{
+    margin-top: calc((22/750)*100vw);
+    font-size: calc((16/750)*100vw);
+    line-height: calc((22/750)*100vw);
+    letter-spacing: 0.09em;
+    font-weight: 500;
+}
+
+.logo_text{
+    width: calc((332/750)*100vw);
+    text-align: center;
+    margin-top: calc((27/750)*100vw);
+    font-size: calc((22/750)*100vw);
+    line-height: calc((30/750)*100vw);
+    letter-spacing: 0.11em;
+    font-weight: bold;
+    position: relative;
+}
+.logo_text::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: calc((14/750)*100vw);
+    height: calc((14/750)*100vw);
+    border-top: 2px solid #379e49;
+    border-right: 2px solid #379e49;
+    transform: rotate(45deg);
+}
+.L3_cover .cover_lead {
+    margin-top: calc((80/750)*100vw);
+}
+.local_container {
+    margin-top: calc((40/750)*100vw);
+}
+
+.map_text{
+    margin-top: 14px;
+}
+
+@media screen and (min-width: 813px){
+    .mainImg_container{
+        display: flex;
+    }
+    .mainImg_container .mainImg_logo{
+        width: calc((356/1226)*100vw);
+        margin-left: 133px;
+        max-width: 356px;
+    }
+    .logo_text{
+        margin-left: 133px;
+        width: calc((356/1226)*100vw);
+        max-width: 356px;
+        text-align: center;
+        margin-top: 27px;
+        font-size: calc((22/1226)*100vw);
+        line-height: 19px;
+        letter-spacing: 0.148em;
+        position: relative;
+    }
+    .logo_text::after {
+        top: 20%;
+        right: 10%;
+        width: calc((12/1226)*100vw);
+        height: calc((12/1226)*100vw);
+        max-width: 12px;
+        max-height: 12px;
+        border-top: 3px solid #379e49;
+        border-right: 3px solid #379e49;
+    }
+    .countries{
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.078em;
+        margin-top: 15px;
+    }
+    .subImg_container_large .subImg_lead {
+        margin-top: 30px;
+    }
+    .subImg_container_large .small_txt {
+        font-size: 23px;
+    }
+    .L3_cover .cover_lead{
+        margin-top: 90px;
+    }
+    .local_container{
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 1226px){
+    .mainImg_container .mainImg_logo{
+        margin-top: 82px;
+    }
+    .logo_text{
+        font-size: 22px;
+    }
+}

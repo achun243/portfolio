@@ -1,0 +1,1862 @@
+@charset "utf-8";
+
+/**  style.css Menu *********************************************
+
+  L4
+  Search
+  New items
+  Narrow Search
+  Live Banner
+
+*******************************************************************/
+
+/*-----------------------------------------------------------------
+
+  L4
+
+------------------------------------------------------------------*/
+
+/* Box
+--------------------------------------*/
+#primary{
+background: #ffffff;
+width: 180px;
+float: left;
+padding: 0 0 20px 0;
+}
+
+#secondary{
+width: 570px;
+float: left;
+margin: 0 0 0 15px;
+}
+
+#tertiary{
+background: #ffffff;
+width: 180px;
+float: right;
+padding: 18px 0 0 0;
+}
+
+#prodInfo{
+padding: 15px 15px 0 15px;
+margin: 0 0 20px 0;
+}
+
+.selectAttr{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_side_top.gif) no-repeat left bottom;
+padding: 0 15px 20px 15px;
+margin: 0 0 20px 0;
+}
+
+div.content{
+background: #ffffff;
+padding: 18px;
+margin: 15px 0 0 0;
+}
+
+div.contProd{
+position: relative;
+margin: 15px 0 0 0;
+}
+
+div.contProd ul.linkMore{
+font-size: 0%;
+line-height: 100%;
+position: absolute;
+top: 15px;
+right: 35px;
+}
+
+div.contProd ul.linkMore li{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_black_vertical.gif) repeat-y right 1px;
+padding: 0 15px 0 0;
+margin: 0 15px 0 0;
+float: right;
+}
+
+/* Path
+--------------------------------------*/
+p.pathdetail{
+width: 150px;
+font-size: 76.9%;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+p.pathdetail a:link{ text-decoration:none; color:#000000; }
+p.pathdetail a:visited{ text-decoration:none; color:#000000; }
+p.pathdetail a:hover{ text-decoration:underline; color:#000000; }
+p.pathdetail a:active{ text-decoration:underline; color:#000000; }
+
+/* Product Info
+--------------------------------------*/
+#prodInfo ul.basic {
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_side_top.gif) no-repeat -20px top;
+padding: 20px 0 0 0;
+margin: 20px 0 0 0;
+}
+
+#prodInfo h1#goodsNmArea {
+font-size: 123.1%;
+line-height: 150%;
+font-weight: bold;
+word-wrap: break-word;
+}
+
+.l4_breadcrumbs {
+    width: 960px;
+    margin : 15px auto 0;
+}
+.l4_breadcrumbs li {
+    display: inline;
+}
+.l4_breadcrumbs a {
+    color: #000;
+}
+.l4_breadcrumbs {
+    margin-bottom: 15px!important;
+}
+
+#shortComment {
+color: #ff0000;
+margin: 10px 0 0 0;
+line-height: 180%;
+font-size: 85%;
+word-wrap: break-word;
+}
+
+/* Basic
+--------------------------------------*/
+ul.basic{
+margin: 13px 0 0 0;
+}
+
+ul.basic li.number {
+font-size: 76.9%;
+}
+
+
+div#prodInfo ul.basic li.price {
+font-size: 123.1%;
+}
+
+/* Special
+--------------------------------------*/
+ul.special{
+margin: 13px 0 0 0;
+}
+
+ul.special li{
+margin: 0 0 10px 0;
+font-size: 0%;
+line-height: 100%;
+font-weight: bold;
+}
+
+ul.special li span{
+font-size: 10px;
+line-height: 140%;
+display: block;
+margin: 10px 0 0 0;
+}
+
+/* Image list
+--------------------------------------*/
+ul.listimage{
+font-size: 0%;
+line-height: 100%;
+margin: 0 -10px -10px 0;
+*margin: 0 -10px 0 0;
+}
+
+ul.listimage li{
+position: relative;
+float: left;
+width: 68px;
+height: 68px;
+margin: 0 10px 10px 0;
+border: 1px solid #cccccc;
+}
+
+ul.listimage li.selected img.select{
+display: block;
+}
+
+ul.listimage li img.select{
+position: absolute;
+top: -3px;
+left: -3px;
+display: none;
+}
+
+/* Anchor list
+--------------------------------------*/
+ul.listanchor{
+font-size: 0%;
+line-height: 100%;
+margin: 0 0 -10px 0;
+}
+
+ul.listanchor li{
+padding: 0 0 10px 0;
+}
+
+/* Main image
+--------------------------------------*/
+#prodMainImg{
+background: #ffffff;
+position: relative;
+width: 570px;
+height: 570px;
+}
+
+#prodMainImg #msgProdStockOut{
+position: absolute;
+top: 238px;
+left: 115px;
+}
+
+#prodMainImg #prodImgZOOMBack{
+position: absolute;
+top: 14px;
+right: 14px;
+}
+
+#prodMainImg #prodImgZOOMTooltip{
+position: absolute;
+top: 268px;
+left: 220px;
+}
+
+#prodImgZOOM{
+position: absolute;
+top: 0px;
+width: 570px;
+height: 570px;
+overflow: hidden;
+cursor: pointer;
+display: none;
+}
+
+#prodImgZOOMInner{
+position: absolute;
+top: -430px;
+left: -430px;
+width: 1430px;
+height: 1430px;
+background: #fff;
+}
+
+#prodImgZOOMInner img.draggable{
+position: absolute;
+top: 430px;
+left: 215px;
+width: 1000px;
+height: 1000px;
+}
+
+#prodImgZOOMCursorOpen, #prodImgZOOMCursorClose{
+position: absolute;
+display: none;
+cursor: none;
+}
+
+#prodImgZOOMTooltip{
+display: none;
+}
+
+#prodImgDefault a,
+#prodImgZOOMBack{
+outline:none;
+}
+
+/* Title
+--------------------------------------*/
+dl.selectAttr dt{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_list01.gif) no-repeat 0px 4px;
+padding: 0 0 0 13px;
+margin: 0 0 18px 0;
+position: relative;
+z-index: 10;
+font-size: 0%;
+line-height: 100%;
+}
+
+dl.selectAttr dd{
+position: relative;
+z-index: 5;
+}
+
+/* Link more
+--------------------------------------*/
+dl.selectAttr dd div.linkMore{
+margin: 10px 0 20px 0;
+text-align: right;
+}
+
+#selectInseamDetail div.linkMore {
+  margin: 14px 0px 0px;
+}
+
+
+/* Error message
+--------------------------------------*/
+dl.selectAttr div.msgError {
+position: absolute;
+top: -35px;
+left: 0;
+margin-left: -181px;
+z-index: 20;
+}
+
+/* Current text
+--------------------------------------*/
+p.current{
+font-size: 76.9%;
+margin: -4px 0 0 0;
+}
+
+p#chipColorName.current{
+height: 30px;
+}
+
+
+p#inseamPrice.current {
+margin-top: 14px;
+}
+
+p#inseamPrice.current span:first-child {
+font-size: 16px;
+font-weight: bold;
+}
+
+p#inseamPrice.current span.tax {
+font-size: 11px;
+}
+
+/* Chip
+--------------------------------------*/
+ul.listChip {
+position: relative;
+margin: 13px -10px -6px -2px;
+*margin: 13px -10px 0 -2px;
+}
+
+ul.listChip li a, 
+ul.listChip li:hover a, 
+ul.listChip li a:visited {
+color: #000;
+}
+
+ul.listChip li {
+position: relative;
+float: left;
+margin: 0 6px 6px 0;
+text-align: center;
+z-index: 1;
+}
+
+ul.listChip li .chipCover {
+position: absolute;
+width: 34px;
+height: 34px;
+cursor: pointer;
+z-index: 1000;
+opacity: 0;
+}
+
+ul.listChip li.disable .chipCover,
+ul.listChip li.disable:hover .chipCover {
+cursor: default;
+}
+
+ul.listChip li a {
+display: block;
+position: relative;
+width: 34px;
+height: 34px;
+text-decoration: none;
+outline: none;
+z-index: 10;
+}
+
+#prodSelectSize #listChipInseam li a {
+display: block;
+position: relative;
+width: 70px;
+height: 38px;
+text-decoration: none;
+outline: none;
+z-index: 10;
+}
+
+
+ul.listChip li:hover a, 
+ul.listChip li a:visited { text-decoration: none; }
+
+ul.listChip li:hover a, 
+ul.listChip li.selected a { background-position: -34px 0; }
+
+ul.listChip li.disable a,
+ul.listChip li.disable:hover a { background-position: -68px 0; cursor:default; }
+
+ul.listChip li.selectedSoldOut a,
+ul.listChip li.selectedSoldOut:hover a { background-position: -102px 0; }
+
+/* chip image */
+ul.listChip li img {
+position: absolute;
+top: 6px;
+left: 6px;
+z-index: 20;
+}
+
+/* for size/length value only[without unit(inch,cm..)] */
+ul.listChip li em {
+display: block;
+margin-bottom: 1px;
+padding-top: 12px;
+font-size: 9px;
+line-height: 1.1;
+font-style: normal;
+z-index: 20;
+}
+
+/* for size/length value with unit(inch,em..) */
+ul.listChip li em.cValue { padding-top: 9px; }
+
+ul.listChip li span { display: none; }
+
+ul.listChip li span.cUnit {
+display: block;
+font-size: 8px;
+line-height: 100%;
+z-index: 20;
+}
+
+/* Color chip
+--------------------------------------*/
+/* for color chip default empty span */
+#listChipColor li span { display: none; }
+
+#listChipColor.listChip li {
+background-image: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_listchip_s_JP.gif);
+}
+
+#listChipColor.listChip li.provisional,
+#listChipColor.listChip li.selected {
+background-position: -34px 0;
+}
+
+/* for color chip disable */
+#listChipColor li span.disable {
+background: url(//im.uniqlo.com/images/jp/pc/img/material/chip/ico_disable.gif) no-repeat 10px 10px;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 34px;
+height: 34px;
+z-index: 50;
+}
+
+/* Size chip, Length chip
+--------------------------------------*/
+#prodSelectSize ul.listChip li {
+background-image: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_listchip_w_JP.gif);
+}
+
+#prodSelectSize ul.listChip li, #prodSelectSize ul.listChip li a, #prodSelectSize ul.listChip li .chipCover {
+width: 47px;
+}
+
+#prodSelectSize ul.listChip li em {
+font-size: 14px;
+font-weight: bold;
+padding-top: 10px;
+}
+
+#prodSelectSize ul.listChip li.provisional,
+#prodSelectSize ul.listChip li.selected {
+background-position: -47px 0;
+}
+
+#prodSelectSize ul.listChip li.disable {
+background-position: 0 0;
+cursor:default;
+}
+
+#prodSelectSize ul.listChip li.provisional,
+#prodSelectSize ul.listChip li.selectedSoldOut {
+background-position: -47px 0;
+}
+
+#prodSelectSize ul.listChip li.disable a,
+#prodSelectSize ul.listChip li.selectedSoldOut a {
+color: #ccc;
+}
+
+/* Alteration chip
+--------------------------------------*/
+#prodSelectSize #listChipInseam li {
+background-image: url(//im.uniqlo.com/images/jp/pc/img/l4/bgr_alteration_chip_L4_JP.gif);
+}
+
+#prodSelectSize #listChipInseam li,
+#prodSelectSize #listChipInseam li a,
+#prodSelectSize #listChipInseam li .chipCover {
+width: 70px;
+}
+
+#prodSelectSize #listChipInseam li em {
+font-size: 14px;
+font-weight: bold;
+padding-top: 12px;
+}
+
+#prodSelectSize #listChipInseam li.provisional,
+#prodSelectSize #listChipInseam li.selected {
+background-position: -70px 0;
+}
+
+#prodSelectSize #listChipInseam li.disable {
+background-position: 0 0;
+cursor:default;
+}
+
+#prodSelectSize #listChipInseam li.provisional,
+#prodSelectSize #listChipInseam li.selectedSoldOut {
+background-position: -70px 0;
+}
+
+#prodSelectSize #listChipInseam li.disable a,
+#prodSelectSize #listChipInseam li.selectedSoldOut a {
+color: #ccc;
+}
+
+/* Quantity
+--------------------------------------*/
+#prodSelectQuantity dt {
+display: inline-block;
+width: 60px;
+}
+
+#prodSelectQuantity dd {
+display: inline-block;
+width: 72px;
+}
+
+#prodSelectQuantity dd,
+dl.selectAttr dd.inseam {
+text-align: right;
+}
+
+/* Select
+--------------------------------------*/
+dl.selectAttr dd .selectbox01{
+border: 1px solid #cccccc;
+padding: 3px 3px 3px 3px;
+font-size: 84.6%;
+}
+
+#selectInseam {
+background-color: #d4d0c8;
+margin-right: 8px;
+}
+
+/* Error Message
+--------------------------------------*/
+dl.selectAttr p.msg{
+color: #ff0000;
+font-weight: bold;
+font-size: 84.6%;
+margin: 10px 0 0 0;
+text-align: right;
+}
+
+dl.selectAttr p.msg em{
+font-style: normal;
+}
+
+/* Stock text
+--------------------------------------*/
+p.txtstock{
+font-size: 92.3%;
+font-weight: bold;
+line-height: 140%;
+color: #ff0000;
+text-align: right;
+}
+
+/* Payment & Return
+--------------------------------------*/
+div.linkViewPaymentGuide{
+padding: 0 15px 12px 15px;
+font-size: 0%;
+line-height: 100%;
+}
+
+div.linkViewPaymentGuide ul li{
+margin: 0 0 8px 0;
+text-align: right;
+}
+
+/* Cart button
+--------------------------------------*/
+#intoCartOn,
+#intoCartOff{
+font-size: 0%;
+line-height: 100%;
+height: 75px;
+}
+
+/* Text
+--------------------------------------*/
+p.about{
+font-size: 84.6%;
+line-height: 180%;
+margin: 0 0 18px 0;
+}
+
+/* Multibuy
+--------------------------------------*/
+#matomeNm{
+font-size: 84.6%;
+font-weight: bold;
+}
+
+#matomePrice{
+font-size: 84.6%;
+}
+
+ul.listNote01{
+font-size: 84.6%;
+font-weight: bold;
+margin: 18px 0 0 1em;
+text-indent: -1em;
+}
+
+ul.listNote01 li{
+list-style: none outside none;
+}
+
+/* Spec
+--------------------------------------*/
+dl.spec {
+font-size: 84.6%;
+line-height: 180%;
+}
+
+dl.spec dt{
+width: 115px;
+float: left;
+margin: 0 0 3px 0;
+clear: both
+}
+
+dl.spec dd{
+width: 410px;
+float: right;
+margin: 0 0 3px 0;
+}
+
+/* Comment
+--------------------------------------*/
+dl.listReview{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_black_side.gif) repeat-x left bottom;
+font-size: 84.6%;
+line-height: 180%;
+padding: 0 0 18px 0;
+margin: 0 0 17px 0;
+}
+
+dl.listReview dt{
+background: url(//im.uniqlo.com/images/jp/pc/img/l4/ico_comment.gif) no-repeat 0px 0px;
+width: 127px;
+float: left;
+padding: 1px 0 4px 38px;
+}
+
+dl.listReview dd{
+width: 355px;
+float: right;
+}
+
+p.txtGuide{
+font-size: 84.6%;
+line-height: 180%;
+}
+
+/*-----------------------------------------------------------------
+
+  Search
+
+------------------------------------------------------------------*/
+
+/* Title area
+--------------------------------------*/
+div.ttlPage04{
+background: #ffffff;
+padding: 18px;
+}
+
+div.ttlPage04 h1{
+font-size: 0%;
+line-height: 100%;
+float: left;
+}
+
+div.ttlPage04 ul{
+width: 462px;
+font-size: 84.6%;
+line-height: 180%;
+float: right;
+margin: 0 0 -18px 0;
+}
+
+div.ttlPage04 ul li{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_list01.gif) no-repeat 0px 6px;
+padding: 0 0 0 13px;
+margin: 0 0 18px 0;
+}
+
+/* Error area
+--------------------------------------*/
+div.blkErrorMsg{
+background: #ffeded;
+position: relative;
+margin: 15px auto 0 auto;
+padding: 15px 18px 10px 18px;
+}
+
+div.blkErrorMsg p{
+//font-size: 92.3%;
+//line-height: 180%;
+//font-weight: bold;
+//color: #ff0000;
+//margin: 0 0 4px 0;
+padding-top: 0
+}
+
+/* Tab
+--------------------------------------*/
+ul.tabProdSearch{
+font-size: 0%;
+line-height: 100%;
+margin: 15px 0 -15px 0;
+height: 50px;
+}
+
+ul.tabProdSearch li{
+float: left;
+}
+
+/* Box
+--------------------------------------*/
+div.blkProdSearchOptions{
+background: #ffffff;
+position: relative;
+padding: 18px;
+margin: 15px 0 0 0;
+}
+
+div.inrProdSearchOptions{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_black_vertical.gif) repeat-y right top;
+width: 744px;
+}
+
+/* Text
+--------------------------------------*/
+p.guide{
+font-size: 84.6%;
+line-height: 180%;
+margin: 0 0 20px 0;
+}
+
+/* Table
+--------------------------------------*/
+table.options{
+width: 100%;
+font-size: 84.6%;
+line-height: 140%;
+}
+
+table.options th.ttl{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_list01.gif) no-repeat 0px 6px;
+width: 183px;
+padding: 2px 0 20px 13px;
+text-align: left;
+vertical-align: top;
+}
+
+table.options th.ttl strong{
+float: right;
+margin: -3px 0 0 0;
+}
+
+table.options td{
+text-align: left;
+vertical-align: top;
+padding: 0 0 20px 20px;
+}
+
+/* Select Input
+--------------------------------------*/
+table.options td .selectbox{
+border: 1px solid #cccccc;
+padding: 3px 3px 3px 3px;
+margin: 0 10px 0 0;
+}
+
+table.options td .inputField{
+width: 250px;
+border: 1px solid #cccccc;
+padding: 4px;
+margin: 0 10px 0 0;
+}
+
+/* reset bottun
+--------------------------------------*/
+
+table.options td.detail {
+	position: relative;
+}
+table.options tr:nth-child(1) td.detail {
+	display: block;
+}
+#keyWord ~ span.btn_reset{
+	background: url(//im.uniqlo.com/images/jp/pc/img/material/btn_reset.png) no-repeat;
+	position:absolute;
+	top:5px;
+	left:255px;
+	display:block;
+	color:#fff;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+	text-indent:-10000px;
+}
+
+
+/* List
+--------------------------------------*/
+table.options td ul{
+}
+
+table.options td ul li{
+width: 230px;
+float: left;
+margin: 0 10px 0 0;
+}
+
+table.options td ul li th{
+padding: 0 5px 7px 0;
+}
+
+*+html table.options td ul li th{
+padding: 0 5px 2px 0;
+}
+
+table.options td ul li th input{
+margin: 0;
+padding: 0;
+vertical-align: top;
+}
+
+table.options td ul li td{
+padding: 0 0 7px 0;
+}
+
+*+html table.options td ul li td{
+padding: 0 0 2px 0;
+}
+
+/* Search btn
+--------------------------------------*/
+div.blkProdSearchOptions p.btnSearch{
+position: absolute;
+top: 42%;
+right: 18px;
+font-size: 0%;
+line-height: 100%;
+}
+
+/* Page link
+--------------------------------------*/
+table.blkPaginationTop{
+background: #ffffff;
+height: 50px;
+margin: 15px 0 0 0;
+width: 100%;
+}
+
+table.blkPaginationTop img{
+vertical-align: middle;
+}
+
+table.blkPaginationTop th{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_search_paging.gif) no-repeat right top;
+padding: 4px 0 0 18px;
+font-weight: normal;
+line-height: 140%;
+text-align: left;
+width: 100%;
+}
+
+table.blkPaginationTop td.sort{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_search_paging.gif) no-repeat right top;
+width: 156px;
+padding: 0 18px 0 18px;
+white-space: nowrap;
+line-height: 100%;
+}
+
+table.blkPaginationTop td.sort span{
+white-space: nowrap;
+}
+
+table.blkPaginationTop td.sort img{
+display: inline;
+}
+
+table.blkPaginationTop td.prev{
+padding: 0 8px 0 18px;
+}
+
+table.blkPaginationTop td.next{
+padding: 0 18px 0 8px;
+}
+
+table.blkPaginationTop td.prev span{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/btn_prev_disabled_JP.gif) no-repeat;
+display: block;
+width: 42px;
+height: 15px;
+overflow: hidden;
+text-indent: -9999px;
+}
+
+table.blkPaginationTop td.prev a{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/btn_prev_JP.gif) no-repeat;
+display: block;
+width: 42px;
+height: 15px;
+overflow: hidden;
+text-indent: -9999px;
+}
+
+table.blkPaginationTop td.next span{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/btn_next_disabled_JP.gif) no-repeat;
+display: block;
+width: 43px;
+height: 15px;
+overflow: hidden;
+text-indent: -9999px;
+}
+
+table.blkPaginationTop td.next a{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/btn_next_JP.gif) no-repeat;
+display: block;
+width: 42px;
+height: 15px;
+overflow: hidden;
+text-indent: -9999px;
+}
+
+table.blkPaginationTop td.num{
+padding: 2px 0 0 0;
+}
+
+table.blkPaginationTop td.num strong,
+table.blkPaginationTop td.num a{
+padding: 5px;
+display: block;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+  New items
+
+------------------------------------------------------------------*/
+
+/* Title area
+--------------------------------------*/
+div.ttlPage03{
+background: #ffffff;
+}
+
+div.ttlPage03 div.ttl{
+padding: 18px 0 18px 18px;
+float: left;
+font-size: 0%;
+line-height: 100%;
+}
+
+div.ttlPage03 div.ttl p.tagline{
+margin: 80px 0 0 0;
+}
+
+div.ttlPage03 ul#navSpecialCategory{
+float: right;
+font-size: 0%;
+line-height: 100%;
+margin: 8px 18px 8px 0;
+overflow: hidden;
+}
+
+div.ttlPage03 ul#navSpecialCategory li{
+margin: -1px 0 0 0;
+}
+
+div.ttlPage03 ul#navSpecialCategory li a{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_black_side.gif) repeat-x left top;
+display: block;
+height: 36px;
+padding: 1px 0 0 0;
+}
+
+/* Page link
+--------------------------------------*/
+ul.internalPageLinkUnit{
+background: #ffffff;
+padding: 18px 0 0 18px;
+font-size: 0%;
+line-height: 100%;
+}
+
+ul.internalPageLinkUnit li{
+float: left;
+padding: 0 18px 18px 0;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+  Set items
+
+------------------------------------------------------------------*/
+
+/* Top
+--------------------------------------*/
+div.blkMultibuyItemList{
+margin: 0 -16px 0 0;
+}
+
+div.blkMultibuyItemList div.unitMultibuy{
+background: #ffffff;
+width: 472px;
+height: 330px;
+position: relative;
+margin: 15px 16px 0 0;
+float: left;
+}
+
+div.blkMultibuyItemList p.img{
+font-size: 0%;
+line-height: 100%;
+}
+
+div.blkMultibuyItemList h2{
+font-size: 0%;
+line-height: 100%;
+margin: 15px 10px 10px 10px;
+text-align: right;
+}
+
+div.blkMultibuyItemList p.price{
+font-size: 84.6%;
+line-height: 180%;
+margin: 0 10px 10px 10px;
+text-align: right;
+}
+
+div.blkMultibuyItemList p.price span{
+background: #ff0000;
+font-size: 109.1%;
+font-weight: bold;
+color: #ffffff;
+padding: 3px 8px;
+margin: 0 0 0 8px;
+}
+
+div.blkMultibuyItemList ul.tag{
+position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 0%;
+line-height: 100%;
+width: 452px;
+}
+
+div.blkMultibuyItemList ul.tag li{
+float: right;
+margin: 0 0 0 6px;
+}
+
+div.blkMultibuyItemList ul.tag li.store{
+float: left;
+margin: 0 6px 0 0;
+}
+
+/* List
+--------------------------------------*/
+div.blkMultibuyIntro{
+background: #ffffff;
+}
+
+div.blkMultibuyIntro div.content{
+width: 444px;
+margin: 0;
+padding: 18px;
+float: left;
+}
+
+div.blkMultibuyIntro div.content h4{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_list01.gif) no-repeat 0px 6px;
+padding: 0 0 0 13px;
+font-size: 92.3%;
+font-weight: bold;
+}
+
+div.blkMultibuyIntro div.content li{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_arrow_black.gif) no-repeat 1px 6px;
+padding: 0 0 0 13px;
+font-size: 84.6%;
+margin: 8px 0 0 0;
+}
+
+h4.ttl01{
+background: #ffffff;
+padding: 16px 18px;
+line-height: 130%;
+font-weight: normal;
+}
+
+h4.ttl01 em{
+display: block;
+color: #ff0000;
+font-size: 84.6%;
+margin: 2px 0 0 0;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+  Narrow Search
+
+------------------------------------------------------------------*/
+
+/* Layout
+--------------------------------------*/
+
+#boxSearchPlusNarrow #blkMainItemList{
+float:right;
+width:716px;
+*width:732px;
+width:732px\9;
+}
+
+/* Unit size 01
+--------------------------------------*/
+
+#boxSearchPlusNarrow div.blkUnitSize01 div.unit:nth-of-type(4n){
+margin: 15px 16px 0 0;
+}
+
+#boxSearchPlusNarrow div.blkUnitSize01 div.unit:nth-of-type(3n){
+margin: 15px 0 0 0;
+}
+
+/* Narrow Search
+--------------------------------------*/
+
+#blkNarrowSearch{
+float:left;
+width:192px;
+background:#fff;
+margin-top:15px;
+padding:0 18px 23px;
+word-wrap:break-word;
+font-size:84.6%;
+line-height:130%;
+}
+
+#blkNarrowSearch h2.tit{
+background:#000;
+padding:18px;
+text-align:center;
+margin:0 -18px -19px;
+}
+
+#blkNarrowSearch dl{
+
+}
+
+#blkNarrowSearch dt{
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_black_side.gif) repeat-x 0px 0px;
+margin-top:18px;
+padding-top:18px;
+}
+
+#blkNarrowSearch dt span{
+display:block;
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_dot_list01.gif) no-repeat 0px 0.4em;
+padding: 0 0 0 13px;
+font-weight:bold;
+}
+
+#blkNarrowSearch li{
+margin-top:10px;
+*margin-top:6px;
+background: url(//im.uniqlo.com/images/jp/pc/img/material/bgr_arrow_black.gif) no-repeat 0px 0.4em;
+padding: 0 0 0 13px;
+}
+
+#blkNarrowSearch li a{
+color:#000;
+}
+
+#blkNarrowSearch li:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+#blkNarrowSearch li{ display:inline-block; }
+/*\*/
+* html #blkNarrowSearch li { height:1%; }
+#blkNarrowSearch li { display:block; }
+/**/
+
+#blkNarrowSearch li.selected{
+color:#ff0000;
+font-weight:bold;
+background:none;
+padding:0;
+}
+
+#blkNarrowSearch li.selected a{
+float:right;
+padding-left:10px;
+color:#016699;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+  Live Banner
+
+------------------------------------------------------------------*/
+#l3_content_banner {overflow: hidden;}
+#l3_content_banner>div.l3banner_banner>.btnLivebanMenu {display:none;}
+#l3_content_banner>div.l3banner_banner>div.l3banner_layers>div {display:none;}
+
+/* relative
+--------------------------------------*/
+#l3_content_banner{
+position:relative;
+height:540px;
+}
+
+#l3_content_banner div.boxCover,
+#l3_content_banner div.boxDetail,
+#l3_content_banner div.boxCoordinate,
+#l3_content_banner div.boxVoice,
+#l3_content_banner div.boxCm{
+position:absolute;
+}
+
+/* Menu
+--------------------------------------*/
+#l3_content_banner p.btnLivebanMenu,
+#l3_content_banner ul.btnLivebanMenu{
+position:absolute;
+top:10px;
+right:10px;
+}
+
+#l3_content_banner ul.btnLivebanMenu li{
+line-height:0%;
+font-size:0%;
+}
+
+#l3_content_banner ul.btnLivebanMenu li img{
+vertical-align:top; 
+}
+
+/* List Detail
+--------------------------------------*/
+#l3_content_banner ul.listDetail li{
+float:left;
+line-height:0%;
+font-size:0%;
+}
+
+#l3_content_banner ul.listDetail li img{
+vertical-align:top; 
+}
+
+/* Img Detail
+--------------------------------------*/
+#l3_content_banner div.boxDetail div.imgDetail{
+position:relative;
+}
+
+/* Option
+--------------------------------------*/
+#l3_content_banner ul.btnOption{
+position:absolute;
+bottom:10px;
+right:10px;
+}
+
+#l3_content_banner ul.btnOption li{
+margin-top:5px;
+line-height:0%;
+font-size:0%;
+}
+
+/* Coordinate
+--------------------------------------*/
+#l3_content_banner div.boxCoordinate{
+margin-bottom:-15px;
+}
+
+*+html #l3_content_banner div.boxCoordinate{
+margin-right:-15px;
+margin-bottom:0px;
+}
+
+#l3_content_banner div.boxCoordinate{
+margin-right:-15px\9;
+}
+
+#l3_content_banner dl.listCoordinate{
+width:310px;
+float:left;
+margin: 0 15px 15px 0;
+}
+
+#l3_content_banner dl.listCoordinate:nth-of-type(3n){
+margin: 0 0 15px 0;
+}
+
+#l3_content_banner dl.listCoordinate dt{
+line-height:0%;
+font-size:0%;
+}
+
+#l3_content_banner dl.listCoordinate dd{
+background:#000;
+padding:4px 12px 12px 12px;
+font-size: 84.6%;
+}
+
+#l3_content_banner dl.listCoordinate li{
+background: url(//im.uniqlo.com/images/jp/pc/img/l3/liveban/obj_liveban_coordinatearrow.gif) 0 0.5em no-repeat;
+padding-left:12px;
+margin-top:8px;
+color:#fff;
+}
+
+#l3_content_banner dl.listCoordinate a{
+background: url(//im.uniqlo.com/images/jp/pc/img/l3/liveban/obj_liveban_coordinatedot.gif) 0 bottom repeat-x;
+color:#fff;
+*background:0;
+*line-height:170%;
+*border-bottom:1px dotted #8f8f8f;
+}
+
+#l3_content_banner dl.listCoordinate a:hover{
+color:#ff0000;
+text-decoration:none;
+}
+
+/* User's Voice
+--------------------------------------*/
+
+#l3_content_banner div.boxVoice{
+background:#fff;
+padding:0 15px 15px;
+width:930px;
+}
+
+#l3_content_banner div.boxVoice h2.titVoice{
+background:#333333;
+padding:20px 0 0 12px;
+margin:0 -15px;
+height:60px;
+}
+
+#l3_content_banner div.boxVoice div.scroll{
+height:415px;
+overflow:auto;
+padding-right:15px;
+margin-top:30px;
+scrollbar-3dlight-color:#666;
+scrollbar-arrow-color:#fff;
+scrollbar-darkshadow-color:#fff;
+scrollbar-face-color:#666;
+scrollbar-highlight-color:#666;
+scrollbar-shadow-color:#666;
+scrollbar-track-color:#fff;
+}
+
+#l3_content_banner div.killspace{
+margin-top:-56px;
+}
+
+#l3_content_banner dl.listVoice{
+background: url(//im.uniqlo.com/images/jp/pc/img/l3/liveban/obj_liveban_voicedot.gif) 0 top repeat-x;
+margin-top:28px;
+padding-top:28px;
+}
+
+#l3_content_banner dl.listVoice dt{
+width:201px;
+float:left;
+padding-top:5px;
+}
+
+#l3_content_banner dl.listVoice dd{
+width:672px;
+float:right;
+}
+
+#l3_content_banner dl.listVoice ul{
+margin-top:-20px;
+}
+
+#l3_content_banner dl.listVoice li{
+margin-top:20px;
+border:1px solid #ccc;
+}
+
+#l3_content_banner dl.listVoice li p{
+background: url(//im.uniqlo.com/images/jp/pc/img/l3/liveban/bgr_liveban_uprush.gif) 0 12px no-repeat;
+padding:20px 22px 20px 36px;
+margin-left:-15px;
+font-size:107.7%;
+color:#333;
+}
+
+#l3_content_banner dl.listVoice li span{
+display:block;
+font-size:85.7%;
+}
+
+#l3_content_banner dl.listVoice li strong{
+color:#ff0000;
+}
+
+p.msgNoResult{
+background: #ffeded;
+font-size: 92.3%;
+line-height: 180%;
+font-weight: bold;
+color: #ff0000;
+margin: 15px auto 0 auto;
+padding: 15px 18px 15px 18px;
+}
+
+#l3_content_banner div.boxConcept,
+#l3_content_banner div.boxCampaign{
+position:absolute;
+}
+
+#l3_content_banner div.boxConcept div.imgConcept{
+position:relative;
+}
+
+#l3_content_banner div.boxCampaign div.imgCampaign{
+position:relative;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------
+
+  UT
+
+------------------------------------------------------------------*/
+
+/* sub area
+--------------------------------------*/
+div.blkUtSub{
+width: 183px;
+float: left;
+margin: 15px 0 0 0;
+}
+
+div.blkUtSubTop{
+margin: 0;
+}
+
+div.blkUtSub h4.titLine{
+font-size: 0;
+line-height: 1;
+}
+
+div.blkUtSub div.boxCom{
+background: #ffffff;
+margin: 15px 0 0 0;
+padding: 0 10px 10px 10px;
+}
+
+div.blkUtSub div.first{
+margin: 0;
+}
+
+div.blkUtSub p.btnMore{
+font-size: 0;
+line-height: 1;
+text-align: right;
+margin: 40px 0 0 0;
+}
+
+div.blkUtSub ul.menuUt{
+font-size: 10px;
+line-height: 120%;
+padding: 12px 0 0 0;
+margin: 0 0 12px 0;
+}
+
+div.blkUtSub ul.menuUt li a{
+background: url(//im.uniqlo.com/images/jp/pc/img/feature/uq/ut/material/bgr_ut_menu.gif) no-repeat 0px 8px;
+padding: 10px 0 2px 23px;
+display: block;
+}
+
+div.blkUtSub ul.menuUt a:link{ text-decoration:none; color:#000000; }
+div.blkUtSub ul.menuUt a:visited{ text-decoration:none; color:#000000; }
+div.blkUtSub ul.menuUt a:hover{ text-decoration:none; color:#000000;
+background-position: -173px 8px; }
+div.blkUtSub ul.menuUt a:active{ text-decoration:none; color:#000000; }
+
+div.blkUtSub p.btnBan{
+font-size: 0;
+line-height: 1;
+margin: 15px 0 0 0;
+}
+
+div.blkUtSub h4.titCom{
+font-size: 0;
+line-height: 1;
+padding: 15px 0 0 0;
+}
+
+div.blkUtSub p.txtCom{
+font-size: 0;
+line-height: 1;
+padding: 15px 0 0 0;
+}
+
+/* main area
+--------------------------------------*/
+div.blkUtMain{
+width: 759px;
+float: right;
+margin: 0;
+}
+
+div.blkUtMain p.titDate{
+font-size: 0;
+line-height: 1;
+margin: 15px 0 0 0;
+}
+
+div.blkUtMain p.txtStore{
+font-size: 0;
+line-height: 1;
+margin: 15px 0 0 0;
+}
+
+div.blkUtMain p.txtDate{
+font-size: 0;
+line-height: 1;
+margin: 15px 0 0 0;
+}
+
+div.blkUtMain ul.alias{
+font-size: 0;
+line-height: 1;
+margin: 15px 0 0 0;
+}
+
+div.blkUtMain ul.alias li{
+float: left;
+}
+
+div.blkUtMain h3.titUt{
+background: #ffffff url(//im.uniqlo.com/images/jp/pc/img/feature/uq/ut/material/bgr_ut_alias.gif) repeat-y;
+font-size: 0;
+line-height: 1;
+position: relative;
+margin: 15px 0 0 0;
+padding: 16px 0 16px 42px;
+}
+
+div.blkUtMain h3.titUt a{
+position: absolute;
+top: 14px;
+right: 14px;
+}
+
+div.blkUtMain h4.titUt{
+background: #ffffff repeat-y;
+font-size: 0;
+line-height: 1;
+position: relative;
+margin: 15px 0 0 0;
+padding: 16px 0 16px 10px;
+}
+
+div.blkUtMain h4.titUt a{
+position: absolute;
+top: 14px;
+right: 14px;
+}
+
+div.blkUtMain h4.titUt{
+background: #ffffff repeat-y;
+font-size: 0;
+line-height: 1;
+position: relative;
+margin: 15px 0 0 0;
+padding: 16px 0 16px 10px;
+}
+
+div.blkUtMain h4.titUt a{
+position: absolute;
+top: 14px;
+right: 14px;
+}
+
+/* main top area
+--------------------------------------*/
+h1.titUtLogo{
+font-size: 0;
+line-height: 1;
+margin: 0 0 15px 0;
+}
+
+div.blkUtMainTop{
+width: 774px;
+float: right;
+margin: -15px 0 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_default{
+background: #ffffff;
+width: 213px;
+height: 380px;
+font-size: 0;
+line-height: 1;
+float: left;
+margin: 15px 0 0 15px;
+padding: 15px;
+position: relative;
+}
+
+div.blkUtMainTop div.uttop_item_default h3,
+div.blkUtMainTop div.uttop_item_default p.txt{
+margin: 15px 0 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_default ul.top{
+position: absolute;
+bottom: 45px;
+left: 15px;
+}
+
+div.blkUtMainTop div.uttop_item_default ul.bottom{
+position: absolute;
+bottom: 15px;
+left: 15px;
+}
+
+div.blkUtMainTop div.uttop_item_default ul li.tag01{
+float: left;
+margin: 0 12px 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_default ul li.tag02{
+float: left;
+margin: 0 11px 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_rollover{
+background: #ff0000;
+width: 243px;
+height: 410px;
+float: left;
+margin: 15px 0 0 15px;
+overflow: hidden;
+}
+
+div.blkUtMainTop div.uttop_item_rollover h3 a:link{ text-decoration:none; color:#ffffff; }
+div.blkUtMainTop div.uttop_item_rollover h3 a:visited{ text-decoration:none; color:#ffffff; }
+div.blkUtMainTop div.uttop_item_rollover h3 a:hover{ text-decoration:none; color:#ffffff; }
+div.blkUtMainTop div.uttop_item_rollover h3 a:active{ text-decoration:none; color:#ffffff; }
+
+div.blkUtMainTop div.uttop_item_detail{
+width: 774px;
+font-size: 0;
+line-height: 1;
+float: left;
+}
+
+div.blkUtMainTop div.uttop_item_detail li{
+float: left;
+margin: 15px 0 0 15px;
+
+}
+
+/*no-model ver*/
+
+div.blkUtMainTop div.uttop_item_default02{
+background: #ffffff;
+width: 213px;
+height: 380px;
+font-size: 0;
+line-height: 1;
+float: left;
+margin: 15px 0 0 15px;
+padding: 15px;
+position: relative;
+}
+
+div.blkUtMainTop div.uttop_item_default02 h3,
+div.blkUtMainTop div.uttop_item_default02 p.txt{
+margin: 15px 0 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_default02 ul.top{
+position: absolute;
+bottom: 45px;
+left: 15px;
+}
+
+div.blkUtMainTop div.uttop_item_default02 ul.bottom{
+position: absolute;
+bottom: 15px;
+left: 15px;
+}
+
+div.blkUtMainTop div.uttop_item_default02 ul li.tag01{
+float: left;
+margin: 0 12px 0 0;
+}
+
+div.blkUtMainTop div.uttop_item_default02 ul li.tag02{
+float: left;
+margin: 0 11px 0 0;
+}
+
+/* Unit size UT
+
+--------------------------------------*/
+
+div.blkUnitSizeUT div.unit{
+
+width: 243px;
+
+height: 362px;
+
+margin: 15px 15px 0 0;
+_margin: 15px 10px 0 0;
+_display:inline;
+overflow: hiddwn;
+}
+
+
+
+div.blkUnitSizeUT div.unit:nth-of-type(3n){
+
+margin: 15px 0 0 0;
+_display:inline;
+}
+
+
+
+div.blkUnitSizeUT div.unit dt.name{
+
+width: 135px;
+_display:inline;
+}
+
+
+
+div.blkUnitSizeUT div.unit dd.thumb{
+
+top: 36px;
+_display:inline;
+}
+
+/* Product Detail
+--------------------------------------*/
+.L4_tittype02{
+  background-color: #ffffff;
+  position: relative;
+  height: 50px;
+  margin: 15px 0 0 0;
+}
+.L4_tittype02 img.tit{
+  position: absolute;
+  top: 16px;
+  left: 17px;
+}
+
+.L4_tittype02 img.pagetop{
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+.L4_tittype02 span{
+  font-size: 138.5%;
+  line-height: 110%;
+  padding: 15px 0 0 16px;
+  font-weight: normal;
+  color: #ffffff;
+  display: block;
+}
+
+/* Product Detail
+--------------------------------------*/
+
+#prodInfo a.btnOpen,
+#prodInfo a.btnClose{
+	display: inline-block;
+	width: 150px;
+	height: 34px;
+}
+#prodInfo a.btnOpen{
+	background: url(//im.uniqlo.com/images/jp/pc/img/l4/btn_open_close.png) no-repeat left top;
+}
+#prodInfo a.btnOpen:hover{
+	background-position: left -34px;
+}
+#prodInfo a.btnClose{
+	background: url(//im.uniqlo.com/images/jp/pc/img/l4/btn_open_close.png) no-repeat left -68px;
+}
+#prodInfo a.btnClose:hover{
+	background-position: left -102px;
+}
+#prodInfo a.btnOpen span,
+#prodInfo a.btnClose span{
+	display: none;
+}

@@ -1,0 +1,109 @@
+img{
+    width: 100%;
+}
+.archive{
+    width: 100%;
+}
+.text-area{
+    background-color: #e9e9e9;
+    padding: 20px 10px 60px 10px !important;
+}
+.text-area .annual{
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 1.1;
+}
+.text-area .jp-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.text-area .en-title{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.big-text{
+    font-size: 17px;
+}
+.archive .archive-contents:nth-child(2){
+    margin-top: 20px !important;
+}
+
+#wrapper .container .mainContents{
+    max-width: 1176px;
+}
+.archive-contents{
+    width: 100%;
+}
+
+
+@media (min-width: 813px){
+    .archive .archive-contents:nth-child(2){
+        margin-top: 0px !important;
+    }
+    .archive{
+        display: flex;
+    }
+    .archive-contents{
+        width: 83%;
+    }
+    .archive-contents .flex{
+        display: flex;
+        width: 100%;
+    }
+    .text-area{
+        width: 50%;
+    }
+    .image-area{
+        width: 50%;
+    }
+    .archive .archive-contents:nth-child(2){
+        margin-left: 10px !important;
+    }
+    .text-area{
+        padding: 20px 20px 0px 20px !important;
+    }
+    .text-area .annual{
+        font-size: calc((27/1176)*(100vw - 50px));
+        line-height: 1.1;
+    }
+    .text-area .jp-title{
+        margin-top: calc((10/1176)*(100vw - 50px));
+        font-size: calc((19/1176)*(100vw - 50px));
+        line-height: 1.5;
+    }
+    .text-area .en-title{
+        margin-top: calc((10/1176)*(100vw - 50px));
+        font-size: calc((10/1176)*(100vw - 50px));
+        line-height: 1.5;
+    }
+    .big-text{
+        font-size: calc((11/1176)*(100vw - 50px));
+    }
+    #wrapper .container{
+        max-width: 100%!important;
+    }
+    .contentsSmall_fuuterwrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1226px){
+    .text-area .annual{
+        font-size: 27px;
+    }
+    .text-area .jp-title{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .text-area .en-title{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .big-text{
+        font-size: 11px;
+    }
+}

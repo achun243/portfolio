@@ -1,0 +1,450 @@
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+body{
+	font-family: Uniqlo Pro light,Helvetica, Arial, "A-OTF 新ゴ R", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+}
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#wrapper{
+	overflow: visible;
+	width: 100%;
+	max-width: 960px;
+	position: relative;
+}
+
+img{
+	width: 100%;
+}
+
+a.underline {
+	text-decoration: underline;
+}
+
+.underline:hover {
+	opacity: 0.7;
+}
+
+#wrapper .content{
+	width: 100%;
+}
+
+#wrapper .content section{
+	margin-bottom: 120px;
+	clear: both;
+}
+
+#wrapper .content .top_bunner{
+	margin-top: 22px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+#wrapper .content .top_bunner img.sp_bunner{
+	display: none;
+}
+
+#wrapper .content .top_bunner .small_font{
+	font-size: 12px;
+	margin: 5px 0;
+	text-align: right;
+}
+
+#wrapper .content .top_bunner .small_font_sp{
+	display: none;
+}
+
+#wrapper .content h4{
+	font-size: 22px;
+    color: #E96DA0;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#wrapper .content .h4_txt{
+	font-size: 20px;
+    color: #f00;
+    font-weight: bold;
+}
+
+#wrapper .content .livelihood_box{
+	padding: 10px 0;
+	width: 100%;
+	background-color: #009C3F;
+	margin: 40px 0 30px;
+}
+
+#wrapper .content h3{
+	font-size: 2.6em;
+	font-weight: bold;
+	line-height: 2;
+	color: #E96DA0;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+#wrapper .content .bnr_img{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#wrapper .content .bnr_img img:first-child{
+	margin-bottom: 30px;
+}
+
+#wrapper .content h4.work_label{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #E96DA0;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#wrapper .content .campaign_title{
+	width: 165px;
+    background: #E96DA0;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#wrapper .content .campaign_title p{
+	color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#wrapper .content dl.campaign_box{
+	width: 100%;
+	margin: 10px 0;
+}
+
+#wrapper .content dl.campaign_box dt{
+	width: 15%;
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+}
+
+#wrapper .content dl.campaign_box dd{
+	width: 80%;
+	padding: 2px 10px;
+	float: left;
+	font-size: 18px;
+}
+
+#wrapper .content .campaign{
+	margin-top: 30px;
+}
+
+#wrapper .content .campaign_left{
+	width: 63%;
+	float: left;
+	padding-top: 10px;
+}
+
+#wrapper .content .campaign_right{
+	width: 35%;
+	float: right;
+}
+
+#wrapper .content ul.list_style{
+	list-style: disc;
+	padding-left: 15px;
+}
+
+#wrapper .content .campaign_right img{
+	margin-top: 15px;
+}
+
+#wrapper .content p.report{
+	margin-top: 30px;
+}
+
+#wrapper .content .laduree{
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#wrapper .content .collab_text{
+	margin-bottom: 30px;
+}
+
+#wrapper .content .left_col{
+    width: 50%;
+    float: left;
+}
+
+#wrapper .content .left_col img{
+	width: 100%;
+}
+
+#wrapper .content .right_col{
+	display: table;
+	padding:0 0 0 5%;
+	box-sizing: border-box;
+}
+
+#wrapper .content .right_col div{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#wrapper .content .right_col h4.about_laduree{
+	color: #7b6c46;
+	font-size: 1.8em;
+}
+
+#wrapper .content .right_col p.about_laduree{
+	font-size: 16px;
+}
+
+#wrapper .content .logo{
+	width: 262px;
+	margin: 40px auto 50px;
+}
+
+#wrapper .content .recycle_logo{
+	width: 417px;
+	margin: 0 auto;
+}
+
+
+#wrapper .content .present{
+	margin-bottom: 30px;
+}
+
+#wrapper .content .sp_link{
+	display: none;
+}
+
+@media screen and (max-width: 1080px){
+
+#wrapper{
+	overflow: hidden;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 990px){
+header.header .copy {
+	display: none;
+}
+
+}
+@media screen and (max-width: 768px){
+
+#wrapper .content section{
+	padding-bottom: 0px;
+}
+
+.bx-prev{
+	left: 0!important;
+}
+
+.bx-next{
+	right: 0!important;
+}
+
+#wrapper .content dl.campaign_box dd{
+	font-size: 16px;
+}
+
+#wrapper .content dl.campaign_box dt{
+	font-size: 16px;
+}
+
+#wrapper .content section#anchor04_sp {
+	margin-bottom: 120px;
+}
+}
+
+@media screen and (max-width: 640px){
+p{
+	font-size: medium;
+	line-height: 24px;
+}
+
+#wrapper .content .top_bunner img.pc_bunner{
+	display: none;
+}
+
+#wrapper .content .top_bunner img.sp_bunner{
+	display: inline-block;
+}
+
+#wrapper .content .pc_link{
+	display: none;
+}
+
+#wrapper .content .sp_link{
+	display: inline-block;
+}
+
+#wrapper .content dl.campaign_box dt{
+	width: 21%;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+#wrapper .content dl.campaign_box dd{
+	width: 78%;
+	padding: 2px 0px;
+	font-size: 17px;
+}
+
+#wrapper .content .laduree{
+	padding-bottom: 12px;
+    height: auto;
+}
+
+#wrapper .content .left_col{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+#wrapper .content .right_col{
+	width: 100%;
+	float: none;
+	margin-top: 20px;
+}
+
+#topicPath{
+	line-height: 1.5;
+    font-size: 70%;
+}
+
+#wrapper .content h3{
+	font-size: 1.7em;
+	line-height: 1.5;
+	padding-top: 60px;
+	margin-bottom: 30px;
+}
+
+#wrapper .content h4.work_label{
+	font-size: 1.6em;
+}
+
+#wrapper .content .present{
+	margin: 10px 0;
+}
+
+#wrapper .content{
+	padding-top: 60px;
+}
+
+#wrapper .content section{
+	margin-bottom: 0;
+}
+
+#wrapper .content .top_bunner{
+	margin-bottom: -40px;
+
+}
+
+#wrapper .content #anchor01_sp p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#wrapper .content .right_col{
+	padding: 0;
+}
+
+#wrapper .content .top_bunner .small_font{
+	font-size: 8px;
+}
+
+#wrapper .content .top_bunner .small_font_pc{
+	display: none;
+}
+
+#wrapper .content .top_bunner .small_font_sp{
+	display: block;
+	text-align: right;
+}
+
+#wrapper .content .campaign_left{
+	width: 100%;
+	float: none;
+	padding-top: 0;
+}
+
+#wrapper .content .campaign_right{
+	width: 80%;
+	float: none;
+	margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 375px){
+
+.livelihood_box h3{
+    padding: 0 10%;
+}
+
+}
+
+/*トップボタン*/
+.pcOnly {
+	display:block !important;
+}
+.spOnly {
+	display:none !important;
+}
+
+
+@media screen and (max-width: 767px){
+
+.pcOnly {
+    display: none !important;
+	}
+.spOnly {
+	display:block !important;
+	}
+
+
+#wrapper .content .recycle_logo{
+	width: 100%;
+	margin: 40px auto 50px;
+}
+
+}
+
+@media screen and (max-width: 360px){
+	#wrapper .content .recycle_logo {
+		padding-top: 60px;
+	}
+
+	#wrapper .content .laduree {
+		padding-bottom: 0;
+	}
+}
+
+
+.pageTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 90;
+    cursor: pointer;
+    width: 50px;
+}
+
+#wrapper .content .collab_text .red{
+	color: #f00;
+}
